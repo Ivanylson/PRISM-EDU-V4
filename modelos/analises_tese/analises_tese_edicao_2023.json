@@ -1,0 +1,513 @@
+{
+  "E1_equidade": {
+    "analise": "E1_equidade",
+    "status": "ok",
+    "ano": 2023,
+    "coluna_nota": "NT_DIS_CE",
+    "n": 346557,
+    "regiao": {
+      "maior": {
+        "CO_REGIAO_CURSO": 2.0,
+        "mean": 41.15469436793061,
+        "count": 68252.0
+      },
+      "menor": {
+        "CO_REGIAO_CURSO": 4.0,
+        "mean": 35.9636763808583,
+        "count": 68834.0
+      },
+      "gap": 5.191017987072307,
+      "tabela": [
+        {
+          "CO_REGIAO_CURSO": 2.0,
+          "mean": 41.15469436793061,
+          "count": 68252
+        },
+        {
+          "CO_REGIAO_CURSO": 5.0,
+          "mean": 39.45574346661099,
+          "count": 28737
+        },
+        {
+          "CO_REGIAO_CURSO": 3.0,
+          "mean": 37.04662770694192,
+          "count": 158112
+        },
+        {
+          "CO_REGIAO_CURSO": 1.0,
+          "mean": 36.4837017063036,
+          "count": 22622
+        },
+        {
+          "CO_REGIAO_CURSO": 4.0,
+          "mean": 35.9636763808583,
+          "count": 68834
+        }
+      ]
+    },
+    "categoria": {
+      "maior": {
+        "CO_CATEGAD": 1.0,
+        "mean": 44.860557224391705,
+        "count": 66580.0
+      },
+      "menor": {
+        "CO_CATEGAD": 4.0,
+        "mean": 33.21645365392604,
+        "count": 166109.0
+      },
+      "gap": 11.644103570465667,
+      "tabela": [
+        {
+          "CO_CATEGAD": 1.0,
+          "mean": 44.860557224391705,
+          "count": 66580
+        },
+        {
+          "CO_CATEGAD": 7.0,
+          "mean": 44.132828282828285,
+          "count": 1980
+        },
+        {
+          "CO_CATEGAD": 3.0,
+          "mean": 43.69659039928219,
+          "count": 2229
+        },
+        {
+          "CO_CATEGAD": 2.0,
+          "mean": 43.692681125006594,
+          "count": 18951
+        },
+        {
+          "CO_CATEGAD": 8.0,
+          "mean": 41.22230481936364,
+          "count": 27846
+        },
+        {
+          "CO_CATEGAD": 5.0,
+          "mean": 38.75246571855811,
+          "count": 62862
+        },
+        {
+          "CO_CATEGAD": 4.0,
+          "mean": 33.21645365392604,
+          "count": 166109
+        }
+      ]
+    },
+    "sexo": {
+      "maior": {
+        "TP_SEXO": "M",
+        "mean": 39.47831089031246,
+        "count": 152980
+      },
+      "menor": {
+        "TP_SEXO": "F",
+        "mean": 36.480120572175416,
+        "count": 193577
+      },
+      "gap": 2.9981903181370413,
+      "tabela": [
+        {
+          "TP_SEXO": "M",
+          "mean": 39.47831089031246,
+          "count": 152980
+        },
+        {
+          "TP_SEXO": "F",
+          "mean": 36.480120572175416,
+          "count": 193577
+        }
+      ]
+    },
+    "modalidade": {
+      "maior": {
+        "CO_MODALIDADE": 1.0,
+        "mean": 40.76869832199456,
+        "count": 300297.0
+      },
+      "menor": {
+        "CO_MODALIDADE": 0.0,
+        "mean": 18.55569606571552,
+        "count": 46260.0
+      },
+      "gap": 22.213002256279044,
+      "tabela": [
+        {
+          "CO_MODALIDADE": 1.0,
+          "mean": 40.76869832199456,
+          "count": 300297
+        },
+        {
+          "CO_MODALIDADE": 0.0,
+          "mean": 18.55569606571552,
+          "count": 46260
+        }
+      ]
+    }
+  },
+  "E2_valor_agregado": {
+    "analise": "E2_valor_agregado",
+    "status": "ok",
+    "ano": 2023,
+    "r2_controle": 0.045001399119041996,
+    "controles": [
+      "QE_I01",
+      "QE_I02",
+      "QE_I03",
+      "NU_IDADE",
+      "TP_SEXO"
+    ],
+    "top_ies": [
+      {
+        "CO_IES": 475.0,
+        "valor_agregado": 35.771514262996135,
+        "count": 158
+      },
+      {
+        "CO_IES": 149.0,
+        "valor_agregado": 34.97805367855142,
+        "count": 129
+      },
+      {
+        "CO_IES": 14892.0,
+        "valor_agregado": 33.068256805974514,
+        "count": 95
+      },
+      {
+        "CO_IES": 5318.0,
+        "valor_agregado": 32.40918094362899,
+        "count": 39
+      },
+      {
+        "CO_IES": 3223.0,
+        "valor_agregado": 32.28294833946341,
+        "count": 146
+      },
+      {
+        "CO_IES": 633.0,
+        "valor_agregado": 31.422068202087846,
+        "count": 41
+      },
+      {
+        "CO_IES": 22194.0,
+        "valor_agregado": 31.09833786276753,
+        "count": 47
+      },
+      {
+        "CO_IES": 11860.0,
+        "valor_agregado": 30.919952018504176,
+        "count": 76
+      },
+      {
+        "CO_IES": 3163.0,
+        "valor_agregado": 30.904367798020314,
+        "count": 145
+      },
+      {
+        "CO_IES": 3533.0,
+        "valor_agregado": 30.74443955534662,
+        "count": 86
+      }
+    ],
+    "bottom_ies": [
+      {
+        "CO_IES": 1780.0,
+        "valor_agregado": -33.5588925268195,
+        "count": 70
+      },
+      {
+        "CO_IES": 3529.0,
+        "valor_agregado": -33.65667067667203,
+        "count": 37
+      },
+      {
+        "CO_IES": 728.0,
+        "valor_agregado": -33.87950416799441,
+        "count": 34
+      },
+      {
+        "CO_IES": 2408.0,
+        "valor_agregado": -34.00450192519357,
+        "count": 84
+      },
+      {
+        "CO_IES": 15135.0,
+        "valor_agregado": -34.44423404785896,
+        "count": 39
+      },
+      {
+        "CO_IES": 19786.0,
+        "valor_agregado": -34.6782681784925,
+        "count": 37
+      },
+      {
+        "CO_IES": 231.0,
+        "valor_agregado": -34.8693863387787,
+        "count": 46
+      },
+      {
+        "CO_IES": 17224.0,
+        "valor_agregado": -34.90514563503842,
+        "count": 46
+      },
+      {
+        "CO_IES": 1400.0,
+        "valor_agregado": -35.43942964267442,
+        "count": 56
+      },
+      {
+        "CO_IES": 13133.0,
+        "valor_agregado": -39.37078939298096,
+        "count": 30
+      }
+    ],
+    "n_ies": 1022,
+    "n": 346557
+  },
+  "E5_formacao": {
+    "analise": "E5_formacao",
+    "status": "ok",
+    "ano": 2023,
+    "n": 346557,
+    "por_modalidade": {
+      "0.0": {
+        "mean": 18.55569606571552,
+        "count": 46260
+      },
+      "1.0": {
+        "mean": 40.76869832199456,
+        "count": 300297
+      }
+    },
+    "por_ano_curso": {}
+  },
+  "E6_eficiencia": {
+    "analise": "E6_eficiencia",
+    "status": "ok",
+    "ano": 2023,
+    "top_ies": [
+      {
+        "CO_IES": 4867.0,
+        "mean": 61.987096774193546,
+        "count": 31,
+        "size": 31,
+        "eficiencia": 26272.531113423513
+      },
+      {
+        "CO_IES": 11841.0,
+        "mean": 60.96774193548387,
+        "count": 31,
+        "size": 31,
+        "eficiencia": 25840.48907388137
+      },
+      {
+        "CO_IES": 1486.0,
+        "mean": 60.76129032258064,
+        "count": 31,
+        "size": 31,
+        "eficiencia": 25752.986888657644
+      },
+      {
+        "CO_IES": 2041.0,
+        "mean": 61.565625,
+        "count": 32,
+        "size": 32,
+        "eficiencia": 25278.46083984375
+      },
+      {
+        "CO_IES": 633.0,
+        "mean": 70.60975609756098,
+        "count": 41,
+        "size": 41,
+        "eficiencia": 22627.843545508626
+      },
+      {
+        "CO_IES": 5318.0,
+        "mean": 66.50769230769231,
+        "count": 39,
+        "size": 39,
+        "eficiencia": 22406.271005917162
+      },
+      {
+        "CO_IES": 1359.0,
+        "mean": 72.46363636363637,
+        "count": 44,
+        "size": 44,
+        "eficiencia": 21638.629958677688
+      },
+      {
+        "CO_IES": 19325.0,
+        "mean": 54.705882352941174,
+        "count": 34,
+        "size": 34,
+        "eficiencia": 21140.60553633218
+      },
+      {
+        "CO_IES": 2469.0,
+        "mean": 47.94666666666667,
+        "count": 30,
+        "size": 30,
+        "eficiencia": 20999.041777777784
+      },
+      {
+        "CO_IES": 1828.0,
+        "mean": 55.375,
+        "count": 36,
+        "size": 36,
+        "eficiencia": 20210.336805555555
+      }
+    ],
+    "n_ies": 1022
+  },
+  "E9_sensibilidade": {
+    "analise": "E9_sensibilidade",
+    "status": "ok",
+    "ano": 2023,
+    "tau_kendall_peso": 1.0,
+    "limiar_excelencia": 62.5,
+    "tabela": {
+      "5.0": {
+        "simples": 44.37,
+        "ponderada": 44.37,
+        "taxa_excelencia": 0.285
+      },
+      "6.0": {
+        "simples": 51.826,
+        "ponderada": 51.826,
+        "taxa_excelencia": 0.357
+      },
+      "12.0": {
+        "simples": 60.011,
+        "ponderada": 60.011,
+        "taxa_excelencia": 0.476
+      },
+      "17.0": {
+        "simples": 50.333,
+        "ponderada": 50.333,
+        "taxa_excelencia": 0.412
+      },
+      "19.0": {
+        "simples": 49.575,
+        "ponderada": 49.575,
+        "taxa_excelencia": 0.318
+      },
+      "21.0": {
+        "simples": 43.226,
+        "ponderada": 43.226,
+        "taxa_excelencia": 0.285
+      },
+      "23.0": {
+        "simples": 35.735,
+        "ponderada": 35.735,
+        "taxa_excelencia": 0.198
+      },
+      "27.0": {
+        "simples": 35.976,
+        "ponderada": 35.976,
+        "taxa_excelencia": 0.188
+      },
+      "28.0": {
+        "simples": 27.525,
+        "ponderada": 27.525,
+        "taxa_excelencia": 0.088
+      },
+      "36.0": {
+        "simples": 64.236,
+        "ponderada": 64.236,
+        "taxa_excelencia": 0.569
+      },
+      "51.0": {
+        "simples": 62.376,
+        "ponderada": 62.376,
+        "taxa_excelencia": 0.467
+      },
+      "55.0": {
+        "simples": 28.741,
+        "ponderada": 28.741,
+        "taxa_excelencia": 0.093
+      },
+      "69.0": {
+        "simples": 30.365,
+        "ponderada": 30.365,
+        "taxa_excelencia": 0.076
+      },
+      "90.0": {
+        "simples": 24.104,
+        "ponderada": 24.104,
+        "taxa_excelencia": 0.026
+      },
+      "91.0": {
+        "simples": 24.547,
+        "ponderada": 24.547,
+        "taxa_excelencia": 0.077
+      },
+      "92.0": {
+        "simples": 42.899,
+        "ponderada": 42.899,
+        "taxa_excelencia": 0.251
+      },
+      "95.0": {
+        "simples": 5.824,
+        "ponderada": 5.824,
+        "taxa_excelencia": 0.002
+      },
+      "5710.0": {
+        "simples": 36.672,
+        "ponderada": 36.672,
+        "taxa_excelencia": 0.35
+      },
+      "5806.0": {
+        "simples": 11.49,
+        "ponderada": 11.49,
+        "taxa_excelencia": 0.075
+      },
+      "5814.0": {
+        "simples": 10.768,
+        "ponderada": 10.768,
+        "taxa_excelencia": 0.061
+      },
+      "5902.0": {
+        "simples": 9.55,
+        "ponderada": 9.55,
+        "taxa_excelencia": 0.047
+      },
+      "6002.0": {
+        "simples": 25.97,
+        "ponderada": 25.97,
+        "taxa_excelencia": 0.149
+      },
+      "6008.0": {
+        "simples": 8.391,
+        "ponderada": 8.391,
+        "taxa_excelencia": 0.033
+      },
+      "6208.0": {
+        "simples": 5.349,
+        "ponderada": 5.349,
+        "taxa_excelencia": 0.014
+      },
+      "6307.0": {
+        "simples": 40.412,
+        "ponderada": 40.412,
+        "taxa_excelencia": 0.221
+      },
+      "6405.0": {
+        "simples": 18.155,
+        "ponderada": 18.155,
+        "taxa_excelencia": 0.092
+      },
+      "6410.0": {
+        "simples": 47.78,
+        "ponderada": 47.78,
+        "taxa_excelencia": 0.336
+      },
+      "6411.0": {
+        "simples": 16.869,
+        "ponderada": 16.869,
+        "taxa_excelencia": 0.002
+      }
+    },
+    "n_cursos": 28
+  }
+}

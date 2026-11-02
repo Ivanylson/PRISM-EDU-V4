@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.0786;0.4261;0.6796;0.7612
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.1223;0.3127;0.4132;0.3558;0.3557
+Q3;II - Estado, sociedade e trabalho;0.4371;0.1828;0.1417;0.491;0.5215
+Q4;II - Estado, sociedade e trabalho;0.3085;0.3101;0.1417;0.3626;0.393
+Q5;XIII - Acessibilidade e inclusão social;0.2029;0.1992;0.5018;0.5029;0.5029
+Q6;IV - Cultura, arte e comunicação;0.1261;0.5;0.4261;0.2854;0.2344
+Q7;II - Estado, sociedade e trabalho;0.4507;0.1804;0.1417;0.503;0.5326
+Q8;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0.0875;0.3987;0.3644;0.2747;0.2745
+Q9;II - Estado, sociedade e trabalho;0.0006;0.5;0.1417;0.0714;0.0004
+Q10;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.3736;0.1636;0.1167;0.4276;0.4393
+Q11;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.2516;0.5;0.1167;0.2806;0.2729
+Q12;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.0516;0.5;0.1167;0.1039;0.0967
+Q13;I - Morfofisiologia, genética, bioquímica, biofísica,;0.2761;0.3577;0.4261;0.4321;0.429
+Q14;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.3791;0.2863;0.1167;0.4181;0.4266
+Q15;"IV - Administração, economia, agronegócio e empreendedorismo;";0.1819;0.485;0.3805;0.3087;0.3086
+Q16;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.4374;0.1765;0.1167;0.4825;0.4923
+Q17;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.44;0.0902;0.1167;0.4948;0.5068
+Q18;"VIII - Medicina veterinária preventiva e saúde pública;";0.5;0.0519;0.108;0.5484;0.6486
+Q19;"VIII - Medicina veterinária preventiva e saúde pública;";0.1078;0.4288;0.108;0.1579;0.1798
+Q20;"III - Clínica e cirurgia veterinária;";0.4727;0.0902;0.008;0.4763;0.4854
+Q21;"IV - Administração, economia, agronegócio e empreendedorismo;";0.2514;0.2997;0.3805;0.4222;0.4225
+Q22;"VII - Tecnologia e inspeção dos produtos de origem animal;";0.5;0.0177;0.2378;0.6147;0.7741
+Q23;"IX - Etologia e bem- estar animal;";0.1815;0.5;0.4261;0.3172;0.3074
+Q24;"V - Sanidade e produção animal;";0.0004;0.5;0.0002;0.0006;0.0
+Q25;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.3884;0.1949;0.1167;0.437;0.4476
+Q26;"IV - Administração, economia, agronegócio e empreendedorismo;";0.3068;0.3151;0.3805;0.4507;0.4509
+Q27;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.0005;0.5;0.1167;0.0588;0.0
+Q28;"III - Clínica e cirurgia veterinária;";0.1986;0.2319;0.008;0.2031;0.2146
+Q29;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.2237;0.4971;0.1167;0.2563;0.263
+Q30;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0.1679;0.3727;0.1167;0.2216;0.2328
+Q31;"III - Clínica e cirurgia veterinária;";0.0005;0.5;0.008;0.0045;0.0
+Q32;"III - Clínica e cirurgia veterinária;";0.0005;0.5;0.008;0.0045;0.0
+Q33;"V - Sanidade e produção animal;";0.0004;0.5;0.0002;0.0006;0.0
+Q34;"II - Ciências humanas e sociais, ética e legislação veterinária;";0.0004;0.5;0.0039;0.0024;0.0
+Q35;"II - Ciências humanas e sociais, ética e legislação veterinária;";0.0004;0.5;0.0039;0.0024;0.0
+Q36;"VII - Tecnologia e inspeção dos produtos de origem animal;";0.0006;0.5;0.2378;0.1194;0.0
+Q37;"V - Sanidade e produção animal;";0.0004;0.5;0.0002;0.0006;0.0
+Q38;"VIII - Medicina veterinária preventiva e saúde pública;";0.0005;0.5;0.108;0.0545;0.0

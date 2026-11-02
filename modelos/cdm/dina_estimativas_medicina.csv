@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.4408;0.0845;0.6542;0.7513;0.7514
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.024;0.8747;0.9164;0.9165
+Q3;II - Estado, sociedade e trabalho;0.5;0.0462;0.7414;0.8364;0.8495
+Q4;II - Estado, sociedade e trabalho;0.5;0.2179;0.7414;0.7092;0.7116
+Q5;XIII - Acessibilidade e inclusão social;0.2934;0.1454;0.5691;0.6128;0.6128
+Q6;IV - Cultura, arte e comunicação;0.5;0.0138;0.851;0.9138;0.9139
+Q7;II - Estado, sociedade e trabalho;0.3993;0.5;0.7414;0.474;0.471
+Q8;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0.49;0.2839;0.8747;0.6878;0.6878
+Q9;II - Estado, sociedade e trabalho;0.15;0.5;0.7414;0.4095;0.3629
+Q10;"I - Clínica Médica;";0.3468;0.4024;0.644;0.5083;0.5083
+Q11;"I - Clínica Médica;";0.5;0.1641;0.644;0.7163;0.7506
+Q12;"I - Clínica Médica;";0.3063;0.5;0.644;0.431;0.401
+Q13;"I - Clínica Médica;";0.5;0.1377;0.644;0.7333;0.7756
+Q14;"I - Clínica Médica;";0.5;0.0002;0.644;0.8219;0.9592
+Q15;"V - Medicina de Família e Comunidade;";0.5;0.0199;0.8902;0.9274;0.9275
+Q16;"III - Ginecologia e Obstetrícia;";0.2289;0.4465;0.8737;0.5125;0.5125
+Q17;"IV - Pediatria;";0.5;0.1029;0.8049;0.8196;0.8233
+Q18;"VI - Urgência e Emergência;";0.5;0.1242;0.6784;0.7549;0.755
+Q19;"VII - Saúde Mental;";0.3614;0.4225;0.2219;0.4094;0.4094
+Q20;"VII - Saúde Mental;";0.0607;0.5;0.2219;0.1582;0.1581
+Q21;"I - Clínica Médica;";0.0002;0.5;0.644;0.3221;0.0
+Q22;"V - Medicina de Família e Comunidade;";0.5;0.4193;0.8902;0.5718;0.5723
+Q23;"III - Ginecologia e Obstetrícia;";0.4002;0.226;0.8737;0.7268;0.7268
+Q24;"IV - Pediatria;";0.312;0.2954;0.8049;0.628;0.628
+Q25;"IV - Pediatria;";0.5;0.2673;0.8049;0.6873;0.6922
+Q26;"IV - Pediatria;";0.304;0.2298;0.8049;0.6792;0.6792
+Q27;"III - Ginecologia e Obstetrícia;";0.4395;0.3292;0.8737;0.6416;0.6417
+Q28;"VI - Urgência e Emergência;";0.4435;0.4809;0.6784;0.4948;0.4948
+Q29;"II - Cirurgia;";0.0001;0.5;0.2684;0.1343;0.0
+Q30;"III - Ginecologia e Obstetrícia;";0.5;0.1082;0.8737;0.8423;0.8449
+Q31;"III - Ginecologia e Obstetrícia;";0.2583;0.3087;0.8737;0.6366;0.6366
+Q32;"II - Cirurgia;";0.3025;0.5;0.2684;0.3555;0.3508
+Q33;"II - Cirurgia;";0.5;0.0007;0.2684;0.634;0.7402
+Q34;"II - Cirurgia;";0.5;0.0004;0.2684;0.6341;0.8467
+Q35;"III - Ginecologia e Obstetrícia;";0.5;0.1175;0.8737;0.8342;0.8471
+Q36;"I - Clínica Médica;";0.3283;0.3297;0.644;0.5485;0.5485
+Q37;"I - Clínica Médica;";0.5;0.1992;0.644;0.6937;0.704
+Q38;"I - Clínica Médica;";0.5;0.228;0.644;0.6751;0.6759

@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.2267;0.1792;0.5224;0.5371;0.5371
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.4538;0.0722;0.6614;0.7673;0.7677
+Q3;II - Estado, sociedade e trabalho;0.4425;0.1953;0.3301;0.5621;0.5689
+Q4;II - Estado, sociedade e trabalho;0.3167;0.3801;0.3301;0.4168;0.4221
+Q5;XIII - Acessibilidade e inclusão social;0.3271;0.3967;0.3172;0.4148;0.433
+Q6;IV - Cultura, arte e comunicação;0.3961;0.0894;0.6343;0.7224;0.7228
+Q7;II - Estado, sociedade e trabalho;0.2879;0.4447;0.3301;0.3762;0.3807
+Q8;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0.1692;0.2392;0.4672;0.4456;0.4456
+Q9;II - Estado, sociedade e trabalho;0.1527;0.5;0.3301;0.2673;0.2281
+Q10;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0.5;0.1643;0.5318;0.6785;0.699
+Q11;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0.3325;0.3672;0.5318;0.4922;0.4918
+Q12;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0.1839;0.5;0.5318;0.352;0.3293
+Q13;"III - Nutrição e produção de ruminantes;";0.3428;0.1643;0.0009;0.3432;0.346
+Q14;"II - Nutrição e produção de não ruminantes;";0.4405;0.1416;0.0104;0.4449;0.4578
+Q15;"II - Nutrição e produção de não ruminantes;";0.3935;0.19;0.0104;0.3979;0.4105
+Q16;"III - Nutrição e produção de ruminantes;";0.0008;0.5;0.0009;0.0012;0.0
+Q17;"III - Nutrição e produção de ruminantes;";0.0008;0.5;0.0009;0.0012;0.0
+Q18;"III - Nutrição e produção de ruminantes;";0.3119;0.1721;0.0009;0.3123;0.3151
+Q19;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0.0009;0.5;0.0204;0.011;0.0
+Q20;"V - Tecnologia e processamento de produtos de origem animal;";0.4878;0.1493;0.4806;0.6623;0.6643
+Q21;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0.419;0.1081;0.0204;0.4286;0.4491
+Q22;"II - Nutrição e produção de não ruminantes;";0.0008;0.5;0.0104;0.006;0.0
+Q23;"II - Nutrição e produção de não ruminantes;";0.5;0.1051;0.0104;0.5041;0.5551
+Q24;"II - Nutrição e produção de não ruminantes;";0.0008;0.5;0.0104;0.006;0.0
+Q25;"II - Nutrição e produção de não ruminantes;";0.0008;0.5;0.0104;0.006;0.0
+Q26;"III - Nutrição e produção de ruminantes;";0.0008;0.5;0.0009;0.0012;0.0
+Q27;"XII - Estatística, experimentação e matemática aplicadas à Zootecnia;";0.0013;0.5;0.3172;0.1595;0.0
+Q28;"V - Tecnologia e processamento de produtos de origem animal;";0.1373;0.5;0.4806;0.3116;0.3016
+Q29;"II - Nutrição e produção de não ruminantes;";0.381;0.2005;0.0104;0.3853;0.398
+Q30;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0.4043;0.2986;0.5318;0.5623;0.5622
+Q31;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0.0009;0.5;0.0204;0.011;0.0
+Q32;"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência;";0.0011;0.5;0.2132;0.1075;0.0
+Q33;"VII - Ecologia, gestão ambiental, manejo dos resíduos e dos dejetos oriundos da produção animal;";0.5;0.0446;0.3172;0.6445;0.7918
+Q34;XIX - Animais silvestres e exóticos.;0.5;0.1938;0.3172;0.5971;0.6466
+Q35;"XVII - Zootecnia de precisão;";0.3601;0.2928;0.3172;0.4702;0.4934
+Q36;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0.5;0.06;0.0204;0.509;0.6087
+Q37;"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência;";0.5;0.0249;0.2132;0.6013;0.7446
+Q38;"II - Nutrição e produção de não ruminantes;";0.5;0.0455;0.0104;0.5047;0.6242

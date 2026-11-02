@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.2357;0.1689;0.5312;0.552;0.552
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.0558;0.6868;0.805;0.8063
+Q3;II - Estado, sociedade e trabalho;0.4003;0.2378;0.3372;0.5223;0.5289
+Q4;II - Estado, sociedade e trabalho;0.3525;0.2822;0.3372;0.4757;0.4823
+Q5;XIII - Acessibilidade e inclusão social;0.4688;0.156;0.0208;0.4766;0.4923
+Q6;IV - Cultura, arte e comunicação;0.3729;0.0955;0.6223;0.7038;0.7038
+Q7;II - Estado, sociedade e trabalho;0.2706;0.4565;0.3372;0.3627;0.3676
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.1928;0.208;0.4929;0.4881;0.4881
+Q9;II - Estado, sociedade e trabalho;0.1717;0.5;0.3372;0.2824;0.2393
+Q10;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0.1881;0.4565;0.4454;0.3464;0.3465
+Q11;"XIII - Terapêutica medicamentosa;";0.3019;0.3313;0.4424;0.4642;0.4644
+Q12;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.3752;0.3016;0.4463;0.5194;0.5252
+Q13;"XIII - Terapêutica medicamentosa;";0.2338;0.3997;0.4424;0.396;0.3961
+Q14;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.0559;0.5;0.4463;0.2541;0.1717
+Q15;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.5;0.0521;0.4463;0.6999;0.7869
+Q16;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.5;0.0169;0.4463;0.7156;0.8811
+Q17;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.0002;0.5;0.4463;0.2233;0.0
+Q18;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.2756;0.468;0.4463;0.39;0.3945
+Q19;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0.2358;0.4123;0.0724;0.2613;0.2804
+Q20;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0.0001;0.5;0.0724;0.0363;0.0
+Q21;"IX - Atendimento clínico a indivíduos com necessidades especiais;";0.3345;0.2057;0.0208;0.344;0.3631
+Q22;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0.3549;0.2473;0.4454;0.5321;0.5323
+Q23;"XIII - Terapêutica medicamentosa;";0.3128;0.288;0.4424;0.4894;0.4896
+Q24;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0.5;0.1621;0.0724;0.5245;0.5451
+Q25;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0.2576;0.3538;0.0724;0.2857;0.3069
+Q26;"XIV - Urgências odontológicas e emergências médicas em odontologia;";0.0001;0.5;0.0208;0.0105;0.0
+Q27;"V - Propedêutica clínica;";0.2475;0.4116;0.2106;0.3193;0.3288
+Q28;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.3867;0.3882;0.4463;0.4871;0.4912
+Q29;"VI - Clínica odontológica integrada da infância e da adolescência;";0.3129;0.2505;0.5803;0.5663;0.5661
+Q30;"XI - Biossegurança;";0.5;0.0071;0.0208;0.5103;0.8165
+Q31;"V - Propedêutica clínica;";0.4059;0.2643;0.2106;0.4754;0.4846
+Q32;"X - Saúde coletiva;";0.0001;0.5;0.0208;0.0105;0.0
+Q33;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.2716;0.4707;0.4463;0.3866;0.3911
+Q34;"VII - Clínica odontológica integrada do adulto;";0.0001;0.5;0.0208;0.0105;0.0
+Q35;"V - Propedêutica clínica;";0.0537;0.5;0.2106;0.1477;0.1165
+Q36;"VI - Clínica odontológica integrada da infância e da adolescência;";0.3696;0.2098;0.5803;0.6137;0.6135
+Q37;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0.5;0.1131;0.4463;0.6727;0.7663
+Q38;"IV - Aspectos éticos, bioéticos e legais no exercício profissional;";0.5;0.0265;0.0208;0.5099;0.7136

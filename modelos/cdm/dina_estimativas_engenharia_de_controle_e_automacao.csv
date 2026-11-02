@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.3359;0.1123;0.601;0.6676;0.6678
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.0525;0.6976;0.8122;0.8157
+Q3;II - Estado, sociedade e trabalho;0.5;0.1589;0.4341;0.648;0.6597
+Q4;II - Estado, sociedade e trabalho;0.4643;0.1878;0.4341;0.6153;0.621
+Q5;XIII - Acessibilidade e inclusão social;0.183;0.2217;0.4818;0.4698;0.4698
+Q6;IV - Cultura, arte e comunicação;0.5;0.041;0.7249;0.8327;0.8404
+Q7;II - Estado, sociedade e trabalho;0.2475;0.5;0.4341;0.3571;0.3539
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.2291;0.1768;0.5246;0.5407;0.5408
+Q9;II - Estado, sociedade e trabalho;0.1337;0.5;0.4341;0.2927;0.2548
+Q10;"XXIII - Sistemas integrados de manufatura;";0.5;0.0234;0.195;0.5929;0.7043
+Q11;"I - Acionamentos e máquinas elétricas;";0.3111;0.354;0.3166;0.4171;0.4236
+Q12;"XVIII - Microcontroladores, sistemas embarcados e sistemas em tempo real;";0.4188;0.2328;0.195;0.4867;0.4904
+Q13;"XX - Redes industriais de comunicação para automação;";0.0009;0.5;0.195;0.0982;0.0
+Q14;"XXII - Sistemas e dispositivos mecânicos;";0.308;0.5;0.195;0.3454;0.3328
+Q15;"II - Acionamentos pneumáticos e hidráulicos;";0.5;0.0458;0.7647;0.8473;0.8627
+Q16;"XXI - Robótica;";0.2232;0.4064;0.4015;0.3719;0.372
+Q17;"II - Acionamentos pneumáticos e hidráulicos;";0.3935;0.177;0.7647;0.7219;0.7171
+Q18;"XXI - Robótica;";0.2544;0.3595;0.4015;0.4094;0.4096
+Q19;"V - Circuitos elétricos;";0.1956;0.5;0.195;0.2549;0.242
+Q20;"XII - Física, Matemática e Estatística;";0.2068;0.5;0.195;0.2639;0.2492
+Q21;"XIV - Instrumentação e sistemas de aquisição de dados;";0.4684;0.1286;0.1131;0.514;0.543
+Q22;"X - Eletrônica analógica e digital;";0.1941;0.4208;0.195;0.2692;0.2726
+Q23;"XIV - Instrumentação e sistemas de aquisição de dados;";0.0009;0.5;0.1131;0.0573;0.0
+Q24;"I - Acionamentos e máquinas elétricas;";0.1025;0.5;0.3166;0.2284;0.1969
+Q25;"I - Acionamentos e máquinas elétricas;";0.3816;0.234;0.3166;0.5034;0.511
+Q26;"VIII - Controle moderno via variáveis de estado;";0.1723;0.5;0.195;0.2362;0.2275
+Q27;"II - Acionamentos pneumáticos e hidráulicos;";0.2217;0.342;0.7647;0.5554;0.55
+Q28;"VII - Controle analógico e digital de equipamentos e processos;";0.3007;0.3263;0.195;0.3735;0.3771
+Q29;"XIII - Identificação, modelagem, análise e simulação de sistemas dinâmicos;";0.3778;0.1973;0.195;0.4607;0.4651
+Q30;"XI - Fenômenos de transporte;";0.2219;0.2864;0.195;0.3178;0.3225
+Q31;XIII - Identificação, modelagem, análise e simulação de sistemas;0.3234;0.3449;0.195;0.3881;0.3913
+Q32;"VI - Controladores lógico- programáveis e sistemas supervisórios;";0.4199;0.0843;0.11;0.4744;0.5124
+Q33;"VI - Controladores lógico- programáveis e sistemas supervisórios;";0.0009;0.5;0.11;0.0558;0.0
+Q34;"XVI - Mecânica dos sólidos;";0.1619;0.4977;0.195;0.2283;0.2311
+Q35;"IV - Algoritmos, estruturas de dados e interfaces homem-máquina;";0.5;0.1041;0.195;0.5772;0.6859
+Q36;"XIV - Instrumentação e sistemas de aquisição de dados;";0.2871;0.2273;0.1131;0.342;0.3765
+Q37;"III - Administração e Economia;";0.4052;0.3087;0.195;0.461;0.4639
+Q38;"XIX - Química, ciências do ambiente e ciência dos materiais;";0.3087;0.2411;0.195;0.3965;0.401

@@ -1,0 +1,73 @@
+{
+  "n_exemplos_disponiveis": 480,
+  "n_few_shot": 3,
+  "estrategia": "few-shot diversificado (prompt-tuning, sem treino de pesos)",
+  "exemplos": [
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Voce e assistente do PRISM-EDU. Responda com base nos dados fornecidos, cite a fonte e nunca invente valores."
+        },
+        {
+          "role": "user",
+          "content": "No ENADE 2023, qual a taxa de deficiencia na questao Q36 (Arquitetura E Urbanismo) e a qual objetivo de conhecimento se refere?"
+        },
+        {
+          "role": "assistant",
+          "content": "Objetivo de conhecimento: XIV - Gestão e coordenação de projetos;. Taxa de deficiencia: 100.0% (fonte: analise_por_questao_ies_enade_2023.csv)."
+        }
+      ],
+      "meta": {
+        "curso": "Arquitetura E Urbanismo",
+        "ano": "2023",
+        "questao": "Q36",
+        "fonte": "analise_por_questao_ies_enade_2023.csv"
+      }
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Voce e assistente do PRISM-EDU. Responda com base nos dados fornecidos, cite a fonte e nunca invente valores."
+        },
+        {
+          "role": "user",
+          "content": "No ENADE 2023, qual a taxa de deficiencia na questao Q10 (Arquitetura E Urbanismo) e a qual objetivo de conhecimento se refere?"
+        },
+        {
+          "role": "assistant",
+          "content": "Objetivo de conhecimento: I - Estética e História das Artes;. Taxa de deficiencia: 100.0% (fonte: analise_por_questao_ies_enade_2023.csv)."
+        }
+      ],
+      "meta": {
+        "curso": "Arquitetura E Urbanismo",
+        "ano": "2023",
+        "questao": "Q10",
+        "fonte": "analise_por_questao_ies_enade_2023.csv"
+      }
+    },
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "Voce e assistente do PRISM-EDU. Responda com base nos dados fornecidos, cite a fonte e nunca invente valores."
+        },
+        {
+          "role": "user",
+          "content": "No ENADE 2023, qual a taxa de deficiencia na questao Q1 (Enfermagem) e a qual objetivo de conhecimento se refere?"
+        },
+        {
+          "role": "assistant",
+          "content": "Objetivo de conhecimento: I - Ética, democracia e cidadania. Taxa de deficiencia: 100.0% (fonte: analise_por_questao_ies_enade_2023.csv)."
+        }
+      ],
+      "meta": {
+        "curso": "Enfermagem",
+        "ano": "2023",
+        "questao": "Q1",
+        "fonte": "analise_por_questao_ies_enade_2023.csv"
+      }
+    }
+  ]
+}

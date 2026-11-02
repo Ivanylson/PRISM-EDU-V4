@@ -1,0 +1,333 @@
+Curso,CO_GRUPO_ref,CO_GRUPO_prod,Variavel,Tipo,KS_D,KS_p,Wasserstein,Cramer_V,PSI,Status,Rotulo
+Agronomia,17,17,sistemas agroindustriais,discreto,0.8214,0.0,39.2816,0.9539,10.4369,Drift forte,XVII - Sistemas agroindustriais
+Agronomia,17,17,solos,discreto,0.5239,0.0,25.8469,0.9183,12.3122,Drift forte,XVIII - Solos
+Agronomia,17,17,tecnologia e processamento de produtos agropecuarios,discreto,0.2194,0.0,11.2692,0.5735,3.7991,Drift forte,XIX - Tecnologia e processamento de produtos agropecuários
+Agronomia,17,17,zootecnia,discreto,0.324,0.0,16.144,0.944,12.415,Drift forte,XX - Zootecnia.
+Agronomia,17,17,ecologia e manejo ambiental,discreto,0.5627,0.0,31.885,0.795,7.1925,Drift forte,III - Ecologia e manejo ambiental
+Agronomia,17,17,engenharia rural,discreto,0.2924,0.0,10.6682,0.9076,13.3784,Drift forte,V - Engenharia rural
+Agronomia,17,17,fitossanidade,discreto,0.568,0.0,31.0465,0.9706,13.3966,Drift forte,VIII - Fitossanidade
+Agronomia,17,17,fitotecnia,discreto,0.2167,0.0,7.567,0.7711,9.1726,Drift forte,IX - Fitotecnia
+Agronomia,17,17,genetica e melhoramento,discreto,0.2747,0.0,16.2835,0.6554,4.9225,Drift forte,X - Genética e melhoramento
+Agronomia,17,17,legislacao aplicada,discreto,0.2371,0.0,10.1945,0.6061,4.0698,Drift forte,XII - Legislação aplicada
+Agronomia,17,17,metodologia cientifica e experimentacao agricola,discreto,0.5754,0.0,26.3374,0.8689,8.272,Drift forte,XIV - Metodologia científica e experimentação agrícola
+Agronomia,17,17,NT_GER,continuo,0.1016,0.0007,1.7539,,,Drift (KS significativo),NT_GER
+Agronomia,17,17,NT_DIS_CE,continuo,0.2159,0.0,9.4666,,,Drift (KS significativo),NT_DIS_CE
+Arquitetura E Urbanismo,21,21,informatica aplicada a arquitetura e urbanismo,discreto,0.2962,0.0,19.9391,0.6212,4.9361,Drift forte,XIX - Informática aplicada a Arquitetura e Urbanismo
+Arquitetura E Urbanismo,21,21,topografia,discreto,0.5869,0.0,35.0009,0.894,9.5827,Drift forte,XX - Topografia.
+Arquitetura E Urbanismo,21,21,estetica e historia das artes,discreto,0.7484,0.0,38.4156,0.9046,9.7846,Drift forte,I - Estética e História das Artes
+Arquitetura E Urbanismo,21,21,estudos sociais economicos e ambientais,discreto,0.7176,0.0,39.2571,0.8699,9.0345,Drift forte,"II - Estudos sociais, econômicos e ambientais"
+Arquitetura E Urbanismo,21,21,sustentabilidade,discreto,0.5806,0.0,32.3787,0.7504,7.1945,Drift forte,III - Sustentabilidade
+Arquitetura E Urbanismo,21,21,desenho e meios de representacao e expressao,discreto,0.3715,0.0,26.3205,0.6917,6.2261,Drift forte,IV - Desenho e Meios de representação e expressão
+Arquitetura E Urbanismo,21,21,teoria e historia da arquitetura do urbanismo e do paisagismo,discreto,0.3124,0.0,20.5386,0.6082,4.9755,Drift forte,"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo"
+Arquitetura E Urbanismo,21,21,projeto de arquitetura,discreto,0.2766,0.0,19.9365,0.3363,0.489,Drift forte,VI - Projeto de Arquitetura
+Arquitetura E Urbanismo,21,21,planejamento urbano e regional,discreto,0.4991,0.0,29.9346,0.8097,7.9218,Drift forte,VIII - Planejamento urbano e regional
+Arquitetura E Urbanismo,21,21,politicas publicas e habitacionais,discreto,0.2693,0.0,13.4559,0.6884,5.8562,Drift forte,IX - Políticas públicas e habitacionais
+Arquitetura E Urbanismo,21,21,tecnologia da construcao,discreto,0.6571,0.0,32.5926,0.9304,9.825,Drift forte,X - Tecnologia da construção
+Arquitetura E Urbanismo,21,21,infraestrutura urbana,discreto,0.5423,0.0,32.4675,0.9389,10.2625,Drift forte,XI - Infraestrutura urbana
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de projetos,discreto,0.2851,0.0,14.2684,0.6958,5.8588,Drift forte,XII - Gestão e coordenação de projetos
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de obras,discreto,0.6256,0.0,32.3996,0.942,10.0558,Drift forte,XIII - Gestão e coordenação de obras
+Arquitetura E Urbanismo,21,21,sistemas estruturais,discreto,0.6814,0.0,39.1588,0.956,11.0013,Drift forte,XIV - Sistemas estruturais
+Arquitetura E Urbanismo,21,21,NT_GER,continuo,0.0956,0.0,2.3227,,,Drift (KS significativo),NT_GER
+Arquitetura E Urbanismo,21,21,NT_DIS_CE,continuo,0.4068,0.0,21.5739,,,Drift (KS significativo),NT_DIS_CE
+Biomedicina,55,55,NT_GER,continuo,0.2006,0.0,4.6624,,,Drift (KS significativo),NT_GER
+Biomedicina,55,55,NT_DIS_CE,continuo,0.2527,0.0,10.1038,,,Drift (KS significativo),NT_DIS_CE
+Enfermagem,23,23,saude mental e atencao psicossocial,discreto,0.3647,0.0,11.5875,0.9281,12.9233,Drift forte,XV - Saúde mental e atenção psicossocial
+Enfermagem,23,23,cuidados paliativos,discreto,0.6526,0.0,38.6423,0.8979,9.6654,Drift forte,XVI - Cuidados paliativos
+Enfermagem,23,23,sus politicas de saude e redes de atencao,discreto,0.5829,0.0,24.6681,0.9376,12.8514,Drift forte,XVIII - SUS: políticas de saúde e redes de atenção
+Enfermagem,23,23,indicadores de saude,discreto,0.3478,0.0,13.5259,0.7668,9.0574,Drift forte,II - Indicadores de saúde
+Enfermagem,23,23,epidemiologia em saude,discreto,0.2144,0.0,18.2126,0.2478,0.2598,Drift forte,III - Epidemiologia em saúde
+Enfermagem,23,23,diagnostico situacional e territorializacao,discreto,0.4614,0.0,29.3557,0.7289,6.1611,Drift forte,V - Diagnóstico situacional e territorialização
+Enfermagem,23,23,saude ambiental e vigilancia em saude,discreto,0.3471,0.0,31.5193,0.4144,0.8129,Drift forte,VI - Saúde ambiental e vigilância em saúde
+Enfermagem,23,23,bioetica e dilemas eticos,discreto,0.3254,0.0,25.038,0.6127,4.6618,Drift forte,VII - Bioética e dilemas éticos
+Enfermagem,23,23,historia da enfermagem e legislacao,discreto,0.544,0.0,31.3064,0.6236,4.4622,Drift forte,VIII - História da enfermagem e legislação
+Enfermagem,23,23,tecnologias do cuidado,discreto,0.476,0.0,32.6245,0.955,10.0672,Drift forte,XIII - Tecnologias do cuidado
+Enfermagem,23,23,NT_GER,continuo,0.2706,0.0,9.3848,,,Drift (KS significativo),NT_GER
+Enfermagem,23,23,NT_DIS_CE,continuo,0.2736,0.0,12.1368,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Ambiental,6307,6307,recuperacao e remediacao de areas degradadas,discreto,0.651,0.0,30.4073,0.8279,8.6592,Drift forte,XV - Recuperação e remediação de áreas degradadas
+Engenharia Ambiental,6307,6307,energia e fontes renovaveis,discreto,0.7171,0.0,38.8576,0.8948,9.8338,Drift forte,XVI - Energia e fontes renováveis
+Engenharia Ambiental,6307,6307,sistemas de coleta e tratamento de efluentes,discreto,0.2197,0.0,13.6657,0.6788,6.132,Drift forte,XIX - Sistemas de coleta e tratamento de efluentes
+Engenharia Ambiental,6307,6307,planejamento e gestao ambiental nos setores publico e privado,discreto,0.6065,0.0,22.7343,0.9137,13.2216,Drift forte,I - Planejamento e gestão ambiental nos setores público e privado
+Engenharia Ambiental,6307,6307,saude ambiental,discreto,0.5335,0.0,26.3178,0.8296,10.0233,Drift forte,III - Saúde ambiental
+Engenharia Ambiental,6307,6307,climatologia e meteorologia,discreto,0.0915,0.1858,5.5224,0.0921,0.0386,Sem drift,VI - Climatologia e meteorologia
+Engenharia Ambiental,6307,6307,ecologia e microbiologia aplicadas,discreto,0.4182,0.0,20.7083,0.9101,11.9949,Drift forte,VIII - Ecologia e microbiologia aplicadas
+Engenharia Ambiental,6307,6307,geologia e geotecnia ambiental,discreto,0.5838,0.0,30.4021,0.8904,9.4401,Drift forte,IX - Geologia e geotecnia ambiental
+Engenharia Ambiental,6307,6307,gestao de recursos hidricos,discreto,0.6108,0.0,35.255,0.9152,10.0782,Drift forte,XI - Gestão de recursos hídricos
+Engenharia Ambiental,6307,6307,hidrologia,discreto,0.6928,0.0,34.3961,0.9017,9.8201,Drift forte,XIII - Hidrologia
+Engenharia Ambiental,6307,6307,NT_GER,continuo,0.3313,0.0,10.6359,,,Drift (KS significativo),NT_GER
+Engenharia Ambiental,6307,6307,NT_DIS_CE,continuo,0.1953,0.0,12.0776,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Civil,5710,5710,ciencias do ambiente,discreto,0.5885,0.0,29.9659,0.7344,7.1765,Drift forte,I - Ciências do ambiente
+Engenharia Civil,5710,5710,fenomenos de transporte,discreto,0.6843,0.0,35.0299,0.9759,11.4612,Drift forte,III - Fenômenos de transporte
+Engenharia Civil,5710,5710,topografia e geoprocessamento,discreto,0.7137,0.0,40.0582,0.9516,11.1561,Drift forte,IX - Topografia e Geoprocessamento
+Engenharia Civil,5710,5710,construcao civil,discreto,0.3718,0.0,8.5029,0.9542,13.8637,Drift forte,X - Construção civil
+Engenharia Civil,5710,5710,estruturas,discreto,0.336,0.0,12.7616,0.9527,13.6887,Drift forte,XI - Estruturas
+Engenharia Civil,5710,5710,geotecnia,discreto,0.3504,0.0,14.5293,0.9474,13.5631,Drift forte,XII - Geotecnia
+Engenharia Civil,5710,5710,recursos hidricos e saneamento,discreto,0.2597,0.0,7.0639,0.7685,9.2108,Drift forte,XIII - Recursos hídricos e Saneamento
+Engenharia Civil,5710,5710,transportes,discreto,0.2135,0.0,12.0169,0.8799,12.5808,Drift forte,XIV - Transportes.
+Engenharia Civil,5710,5710,NT_GER,continuo,0.0562,0.0053,1.996,,,Drift (KS significativo),NT_GER
+Engenharia Civil,5710,5710,NT_DIS_CE,continuo,0.4115,0.0,19.8112,,,Drift (KS significativo),NT_DIS_CE
+Engenharia De Alimentos,6002,6002,fenomenos de transporte,discreto,0.6226,0.0,26.663,0.8999,11.9251,Drift forte,III - Fenômenos de transporte
+Engenharia De Alimentos,6002,6002,tecnologias limpas e novas tecnologias,discreto,0.7684,0.0,37.2979,0.99,15.2118,Drift forte,XIX - Tecnologias limpas e novas tecnologias
+Engenharia De Alimentos,6002,6002,fisico quimica e termodinamica aplicada,discreto,0.4535,0.0,14.6565,0.9488,14.0657,Drift forte,XX - Físico-química e Termodinâmica aplicada
+Engenharia De Alimentos,6002,6002,analise sensorial,discreto,0.3002,0.0003,27.3196,0.6111,5.1336,Drift forte,V - Análise sensorial
+Engenharia De Alimentos,6002,6002,quimica e bioquimica de alimentos,discreto,0.4883,0.0,16.1505,0.8804,12.3876,Drift forte,VII - Química e Bioquímica de Alimentos
+Engenharia De Alimentos,6002,6002,embalagens,discreto,0.6217,0.0,34.9083,0.9136,9.5146,Drift forte,VIII - Embalagens
+Engenharia De Alimentos,6002,6002,bioengenharia e biotecnologia de alimentos,discreto,0.6022,0.0,30.8356,0.719,6.2576,Drift forte,VI - Bioengenharia e Biotecnologia de Alimentos
+Engenharia De Alimentos,6002,6002,instrumentacao controle e automacao,discreto,0.3276,0.0,16.8399,0.9249,11.7887,Drift forte,"XI - Instrumentação, controle e automação"
+Engenharia De Alimentos,6002,6002,microbiologia de alimentos,discreto,0.4638,0.0,22.5458,0.9516,12.0425,Drift forte,XII - Microbiologia de alimentos
+Engenharia De Alimentos,6002,6002,modelagem analise e simulacao de sistemas,discreto,0.5401,0.0,27.1362,0.8633,9.8219,Drift forte,"XV - Modelagem, análise e simulação de sistemas"
+Engenharia De Alimentos,6002,6002,operacoes unitarias,discreto,0.3489,0.0,14.0794,0.7927,9.3952,Drift forte,XIV - Operações unitárias
+Engenharia De Alimentos,6002,6002,NT_GER,continuo,0.1225,0.4142,2.5375,,,Sem drift,NT_GER
+Engenharia De Alimentos,6002,6002,NT_DIS_CE,continuo,0.4743,0.0,13.4279,,,Drift (KS significativo),NT_DIS_CE
+Engenharia De Controle E Automacao,5814,5814,fenomenos de transporte,discreto,0.5173,0.0,29.0004,0.7539,6.9875,Drift forte,III - Fenômenos de transporte
+Engenharia De Controle E Automacao,5814,5814,mecanica dos solidos,discreto,0.6311,0.0,31.8997,0.7635,7.0151,Drift forte,VII - Mecânica dos sólidos
+Engenharia De Controle E Automacao,5814,5814,administracao e economia,discreto,0.483,0.0,29.6421,0.7648,7.1213,Drift forte,I - Administração e Economia
+Engenharia De Controle E Automacao,5814,5814,circuitos eletricos,discreto,0.5869,0.0,30.4254,0.7652,7.1738,Drift forte,VI - Circuitos elétricos
+Engenharia De Controle E Automacao,5814,5814,controladores logico programaveis e sistemas supervisorios,discreto,0.4753,0.0,30.2787,0.7183,6.2935,Drift forte,XVI - Controladores lógico-programáveis e sistemas supervisórios
+Engenharia De Controle E Automacao,5814,5814,algoritmos estruturas de dados e interfaces homem maquina,discreto,0.6903,0.0,41.2014,0.7982,7.3881,Drift forte,"XVII - Algoritmos, estruturas de dados e interfaces homem-máquina"
+Engenharia De Controle E Automacao,5814,5814,sistemas integrados de manufatura,discreto,0.6988,0.0,44.2496,0.8917,9.6951,Drift forte,XVIII - Sistemas integrados de manufatura
+Engenharia De Controle E Automacao,5814,5814,sistemas e dispositivos mecanicos,discreto,0.6285,0.0,32.392,0.9324,9.8483,Drift forte,XIX - Sistemas e dispositivos mecânicos
+Engenharia De Controle E Automacao,5814,5814,robotica,discreto,0.3855,0.0,21.3932,0.6321,4.7166,Drift forte,XX - Robótica.
+Engenharia De Controle E Automacao,5814,5814,fisica matematica e estatistica,discreto,0.5791,0.0,32.8448,0.7636,7.1208,Drift forte,"III - Física, Matemática e Estatística"
+Engenharia De Controle E Automacao,5814,5814,eletronica analogica e digital,discreto,0.668,0.0,35.0724,0.8939,9.2314,Drift forte,VII - Eletrônica analógica e digital
+Engenharia De Controle E Automacao,5814,5814,instrumentacao e sistemas de aquisicao de dados,discreto,0.291,0.0,17.3005,0.9288,11.8074,Drift forte,VIII - Instrumentação e sistemas de aquisição de dados
+Engenharia De Controle E Automacao,5814,5814,microcontroladores sistemas embarcados e sistemas em tempo real,discreto,0.4846,0.0,32.0131,0.9024,9.3391,Drift forte,"IX - Microcontroladores, sistemas embarcados e sistemas em tempo real"
+Engenharia De Controle E Automacao,5814,5814,acionamentos e maquinas eletricas,discreto,0.45,0.0,12.3894,0.9604,13.9715,Drift forte,X - Acionamentos e máquinas elétricas
+Engenharia De Controle E Automacao,5814,5814,acionamentos pneumaticos e hidraulicos,discreto,0.7237,0.0,32.2176,0.9707,13.5957,Drift forte,XI - Acionamentos pneumáticos e hidráulicos
+Engenharia De Controle E Automacao,5814,5814,controle analogico e digital de equipamentos e processos,discreto,0.644,0.0,32.0685,0.942,10.1943,Drift forte,XII - Controle analógico e digital de equipamentos e processos
+Engenharia De Controle E Automacao,5814,5814,controle moderno via variaveis de estado,discreto,0.7257,0.0,35.2011,0.9456,9.9851,Drift forte,XIII - Controle moderno via variáveis de estado
+Engenharia De Controle E Automacao,5814,5814,identificacao modelagem analise e simulacao de sistemas dinamicos,discreto,0.3358,0.0,16.6895,0.7531,6.4284,Drift forte,"XIV - Identificação, modelagem, análise e simulação de sistemas dinâmicos"
+Engenharia De Controle E Automacao,5814,5814,NT_GER,continuo,0.1379,0.03,3.9866,,,Drift (KS significativo),NT_GER
+Engenharia De Controle E Automacao,5814,5814,NT_DIS_CE,continuo,0.3661,0.0,7.6543,,,Drift (KS significativo),NT_DIS_CE
+Engenharia De Producao,6208,6208,processos de fabricacao,discreto,0.4625,0.0,27.6414,0.7998,7.6982,Drift forte,XVII - Processos de fabricação
+Engenharia De Producao,6208,6208,pesquisa operacional,discreto,0.5048,0.0,28.0063,0.8472,8.4232,Drift forte,XVI - Pesquisa operacional
+Engenharia De Producao,6208,6208,qualidade,discreto,0.4805,0.0,28.3278,0.8041,7.7738,Drift forte,XVIII - Qualidade
+Engenharia De Producao,6208,6208,sistemas de informacao,discreto,0.5891,0.0,29.4301,0.832,8.2143,Drift forte,XIX - Sistemas de informação
+Engenharia De Producao,6208,6208,estrategia e organizacao,discreto,0.7054,0.0,33.8845,0.9524,10.431,Drift forte,X - Estratégia e organização
+Engenharia De Producao,6208,6208,NT_GER,continuo,0.0774,0.0038,1.9326,,,Drift (KS significativo),NT_GER
+Engenharia De Producao,6208,6208,NT_DIS_CE,continuo,0.7644,0.0,37.7075,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Eletrica,5806,5806,ciencias do ambiente,discreto,0.6195,0.0,34.657,0.7667,7.0525,Drift forte,I - Ciências do ambiente
+Engenharia Eletrica,5806,5806,maquinas eletricas,discreto,0.5531,0.0,27.1011,0.8086,7.814,Drift forte,XV - Máquinas elétricas
+Engenharia Eletrica,5806,5806,principios de comunicacoes,discreto,0.3945,0.0,28.4631,0.7681,7.2931,Drift forte,XVII - Princípios de comunicações
+Engenharia Eletrica,5806,5806,redes de comunicacao,discreto,0.334,0.0,19.5594,0.6227,5.0038,Drift forte,XVIII - Redes de comunicação
+Engenharia Eletrica,5806,5806,analise e processamento de sinais,discreto,0.601,0.0,25.0284,0.826,7.8089,Drift forte,XIX - Análise e processamento de sinais
+Engenharia Eletrica,5806,5806,sistemas de controle e automacao,discreto,0.5326,0.0,26.2295,0.8339,7.9127,Drift forte,XX - Sistemas de controle e automação.
+Engenharia Eletrica,5806,5806,administracao e economia,discreto,0.4143,0.0,26.8575,0.7961,7.4836,Drift forte,I - Administração e Economia
+Engenharia Eletrica,5806,5806,sistemas lineares,discreto,0.5042,0.0,26.0625,0.7044,6.3252,Drift forte,IV - Sistemas lineares
+Engenharia Eletrica,5806,5806,circuitos eletricos,discreto,0.2906,0.0,22.4278,0.6556,5.4443,Drift forte,VI - Circuitos elétricos
+Engenharia Eletrica,5806,5806,conversao de energia,discreto,0.4478,0.0,24.4172,0.7399,6.8747,Drift forte,VI - Conversão de energia
+Engenharia Eletrica,5806,5806,eletromagnetismo,discreto,0.3464,0.0,18.2232,0.8474,11.4654,Drift forte,VII - Eletromagnetismo
+Engenharia Eletrica,5806,5806,eletronica de potencia,discreto,0.7413,0.0,35.97,0.9254,9.7084,Drift forte,IX - Eletrônica de potência
+Engenharia Eletrica,5806,5806,fundamentos de sistemas eletricos de potencia,discreto,0.5979,0.0,26.7013,0.8375,8.4106,Drift forte,XI - Fundamentos de sistemas elétricos de potência
+Engenharia Eletrica,5806,5806,eficiencia energetica,discreto,0.809,0.0,50.8572,0.9129,10.975,Drift forte,XII - Eficiência energética
+Engenharia Eletrica,5806,5806,instalacoes eletricas,discreto,0.5376,0.0,30.2375,0.9369,11.9662,Drift forte,XIII - Instalações elétricas
+Engenharia Eletrica,5806,5806,NT_GER,continuo,0.2523,0.0,6.1423,,,Drift (KS significativo),NT_GER
+Engenharia Eletrica,5806,5806,NT_DIS_CE,continuo,0.4199,0.0,13.5442,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Florestal,6405,6405,manejo de bacias hidrograficas,discreto,0.5537,0.0,31.2261,0.947,10.1704,Drift forte,XVII - Manejo de bacias hidrográficas
+Engenharia Florestal,6405,6405,anatomia e propriedades fisicas quimicas e mecanicas da madeira,discreto,0.4559,0.0,23.5965,0.7564,6.6391,Drift forte,"XVIII - Anatomia e propriedades físicas, químicas e mecânicas da madeira"
+Engenharia Florestal,6405,6405,ecologia e ecossistemas florestais,discreto,0.4407,0.0,30.1724,0.8851,8.8935,Drift forte,I - Ecologia e ecossistemas florestais
+Engenharia Florestal,6405,6405,gestao de recursos naturais renovaveis,discreto,0.5422,0.0,31.8674,0.7526,6.776,Drift forte,II - Gestão de recursos naturais renováveis
+Engenharia Florestal,6405,6405,morfologia sistematica e dendrologia,discreto,0.4335,0.0,29.0105,0.8059,7.8509,Drift forte,"IV - Morfologia, Sistemática e Dendrologia"
+Engenharia Florestal,6405,6405,sementes e viveiros florestais,discreto,0.2779,0.0015,15.3798,0.7799,9.6413,Drift forte,V - Sementes e viveiros florestais
+Engenharia Florestal,6405,6405,sistemas e tecnicas silviculturais,discreto,0.3999,0.0,15.5401,0.8041,9.6989,Drift forte,VI - Sistemas e técnicas silviculturais
+Engenharia Florestal,6405,6405,solos e nutricao florestal,discreto,0.5326,0.0,33.6207,0.9681,13.51,Drift forte,VII - Solos e nutrição florestal
+Engenharia Florestal,6405,6405,melhoramento e biotecnologia florestal,discreto,0.7161,0.0,35.7021,0.967,10.845,Drift forte,VIII - Melhoramento e Biotecnologia florestal
+Engenharia Florestal,6405,6405,experimentacao florestal,discreto,0.7021,0.0,30.6513,0.9259,10.3891,Drift forte,IX - Experimentação florestal
+Engenharia Florestal,6405,6405,protecao florestal,discreto,0.3037,0.0004,19.1946,0.7066,5.6416,Drift forte,X - Proteção florestal
+Engenharia Florestal,6405,6405,geoprocessamento aplicado a engenharia florestal,discreto,0.3255,0.0001,16.5209,0.7634,7.2364,Drift forte,XI - Geoprocessamento aplicado à Engenharia Florestal
+Engenharia Florestal,6405,6405,dendrometria e inventario florestal,discreto,0.467,0.0,10.4398,0.9448,13.739,Drift forte,XII - Dendrometria e inventário florestal
+Engenharia Florestal,6405,6405,manejo florestal,discreto,0.4764,0.0,35.0575,0.9349,10.0345,Drift forte,XIII - Manejo florestal
+Engenharia Florestal,6405,6405,NT_GER,continuo,0.0872,0.8427,1.7131,,,Sem drift,NT_GER
+Engenharia Florestal,6405,6405,NT_DIS_CE,continuo,0.6146,0.0,25.1392,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Mecanica,5902,5902,quimica,discreto,0.5073,0.0,28.3865,0.6365,5.5314,Drift forte,V - Química
+Engenharia Mecanica,5902,5902,expressao grafica,discreto,0.5444,0.0,33.5739,0.6186,4.3372,Drift forte,IV - Expressão gráfica
+Engenharia Mecanica,5902,5902,mecanica dos fluidos e sistemas fluidomecanicos,discreto,0.5046,0.0,21.0539,0.9143,11.1343,Drift forte,XVI - Mecânica dos fluidos e sistemas fluidomecânicos
+Engenharia Mecanica,5902,5902,manutencao,discreto,0.7216,0.0,30.6109,0.928,9.9261,Drift forte,XVIII - Manutenção
+Engenharia Mecanica,5902,5902,metrologia,discreto,0.6842,0.0,28.1666,0.8564,8.4963,Drift forte,XIX - Metrologia
+Engenharia Mecanica,5902,5902,transferencia de calor e massa,discreto,0.4222,0.0,28.4092,0.8159,8.8518,Drift forte,XX - Transferência de calor e massa.
+Engenharia Mecanica,5902,5902,eletricidade,discreto,0.4746,0.0,25.6972,0.5848,4.8352,Drift forte,III - Eletricidade
+Engenharia Mecanica,5902,5902,mecanica geral e mecanica dos solidos,discreto,0.3955,0.0,28.8886,0.4193,0.7929,Drift forte,VI - Mecânica geral e mecânica dos sólidos
+Engenharia Mecanica,5902,5902,modelagem matematica e simulacao computacional,discreto,0.4937,0.0,24.858,0.6997,6.2915,Drift forte,VIII - Modelagem matemática e simulação computacional
+Engenharia Mecanica,5902,5902,termodinamica e sistemas termicos,discreto,0.5169,0.0,25.2953,0.9233,11.3319,Drift forte,IX - Termodinâmica e sistemas térmicos
+Engenharia Mecanica,5902,5902,projeto de maquinas e de sistemas mecanicos,discreto,0.4903,0.0,27.4053,0.8276,8.3064,Drift forte,XI - Projeto de máquinas e de sistemas mecânicos
+Engenharia Mecanica,5902,5902,materiais de construcao mecanica,discreto,0.7703,0.0,34.2898,0.9071,9.2697,Drift forte,XIII - Materiais de construção mecânica
+Engenharia Mecanica,5902,5902,processos de fabricacao,discreto,0.1632,0.0,12.3008,0.5665,4.2436,Drift forte,XVII - Processos de fabricação
+Engenharia Mecanica,5902,5902,NT_GER,continuo,0.1238,0.0,3.8544,,,Drift (KS significativo),NT_GER
+Engenharia Mecanica,5902,5902,NT_DIS_CE,continuo,0.6878,0.0,17.5236,,,Drift (KS significativo),NT_DIS_CE
+Engenharia Quimica,6008,6008,quimica,discreto,0.6083,0.0,32.0933,0.9174,11.5731,Drift forte,V - Química
+Engenharia Quimica,6008,6008,mecanica dos solidos,discreto,0.5798,0.0,31.6474,0.8908,9.1284,Drift forte,VII - Mecânica dos sólidos
+Engenharia Quimica,6008,6008,eletricidade aplicada,discreto,0.5902,0.0,24.926,0.8211,7.6469,Drift forte,II - Eletricidade aplicada
+Engenharia Quimica,6008,6008,projeto e seguranca de processos,discreto,0.3346,0.0,15.1687,0.8773,11.0533,Drift forte,XVI - Projeto e segurança de processos
+Engenharia Quimica,6008,6008,termodinamica,discreto,0.7493,0.0,31.4593,0.8999,9.1595,Drift forte,XVII - Termodinâmica
+Engenharia Quimica,6008,6008,metodologia cientifica e tecnologica,discreto,0.4339,0.0,30.2023,0.8659,8.6889,Drift forte,VIII - Metodologia científica e tecnológica
+Engenharia Quimica,6008,6008,balancos de massa e energia,discreto,0.3741,0.0,17.9936,0.938,12.3679,Drift forte,X - Balanços de massa e energia
+Engenharia Quimica,6008,6008,engenharia das reacoes quimicas,discreto,0.7211,0.0,33.4962,0.9305,9.7834,Drift forte,XI - Engenharia das reações químicas
+Engenharia Quimica,6008,6008,engenharia de bioprocessos,discreto,0.2819,0.0,17.925,0.619,4.6572,Drift forte,XII - Engenharia de bioprocessos
+Engenharia Quimica,6008,6008,modelagem simulacao otimizacao e controle de processos,discreto,0.4622,0.0,23.1501,0.9211,11.7873,Drift forte,"XIV - Modelagem, simulação, otimização e controle de processos"
+Engenharia Quimica,6008,6008,NT_GER,continuo,0.1937,0.0,3.9021,,,Drift (KS significativo),NT_GER
+Engenharia Quimica,6008,6008,NT_DIS_CE,continuo,0.5938,0.0,15.2503,,,Drift (KS significativo),NT_DIS_CE
+Farmacia,19,19,seguranca do paciente e biosseguranca,discreto,0.4621,0.0,30.4737,0.9205,9.1724,Drift forte,XVI - Segurança do paciente e biossegurança
+Farmacia,19,19,saude publica epidemiologia e educacao em saude,discreto,0.5385,0.0,26.2869,0.9417,11.5488,Drift forte,"XVII - Saúde pública, epidemiologia e educação em saúde"
+Farmacia,19,19,legislacao sanitaria e profissional,discreto,0.641,0.0,34.3656,0.9585,10.0877,Drift forte,XVIII - Legislação sanitária e profissional
+Farmacia,19,19,farmacoepidemiologia e farmacovigilancia,discreto,0.568,0.0,29.5594,0.9163,9.0192,Drift forte,XIX - Farmacoepidemiologia e farmacovigilância
+Farmacia,19,19,gestao farmaceutica e farmacoeconomia,discreto,0.5233,0.0,31.1574,0.8874,8.5395,Drift forte,XX - Gestão farmacêutica e farmacoeconomia.
+Farmacia,19,19,processos fisiologicos patologicos fisiopatologicos e bioquimicos,discreto,0.6349,0.0,31.3119,0.78,6.7876,Drift forte,"I - Processos fisiológicos, patológicos, fisiopatológicos e bioquímicos"
+Farmacia,19,19,farmacologia,discreto,0.0663,0.017,4.7706,0.1107,0.0542,Drift (KS significativo),III - Farmacologia
+Farmacia,19,19,farmacognosia e fitoterapia,discreto,0.6799,0.0,37.2584,0.8357,7.8487,Drift forte,IV - Farmacognosia e fitoterapia
+Farmacia,19,19,farmacia magistral alopatica e homeopatica,discreto,0.2321,0.0,22.8826,0.2959,0.3913,Drift forte,VI - Farmácia magistral alopática e homeopática
+Farmacia,19,19,analises clinicas,discreto,0.4105,0.0,27.3654,0.7439,6.2467,Drift forte,VII - Análises clínicas
+Farmacia,19,19,toxicologia e analises toxicologicas,discreto,0.6182,0.0,33.7319,0.8626,8.2173,Drift forte,VIII - Toxicologia e análises toxicológicas
+Farmacia,19,19,quimica farmaceutica e medicinal,discreto,0.5549,0.0,29.1913,0.7933,6.9471,Drift forte,IX - Química farmacêutica e medicinal
+Farmacia,19,19,tecnologia de medicamentos cosmeticos e outros produtos para saude,discreto,0.1264,0.0,7.234,0.1755,0.1684,Drift moderado,"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde"
+Farmacia,19,19,controle fisico quimico biologico e microbiologico e garantia da qualidade,discreto,0.5552,0.0,34.8124,0.947,10.5237,Drift forte,"XI - Controle físico-químico, biológico e microbiológico e garantia da qualidade"
+Farmacia,19,19,farmacia hospitalar,discreto,0.4623,0.0,29.4287,0.9089,8.7861,Drift forte,XIII - Farmácia hospitalar
+Farmacia,19,19,farmacia comunitaria,discreto,0.3548,0.0,11.4242,0.9361,12.9118,Drift forte,XIV - Farmácia comunitária
+Farmacia,19,19,farmacia clinica,discreto,0.3345,0.0,15.5827,0.9147,11.7316,Drift forte,XV - Farmácia clínica
+Farmacia,19,19,NT_GER,continuo,0.0743,0.0051,1.9081,,,Drift (KS significativo),NT_GER
+Farmacia,19,19,NT_DIS_CE,continuo,0.4597,0.0,19.3032,,,Drift (KS significativo),NT_DIS_CE
+Fisioterapia,36,36,niveis de atencao a saude,discreto,0.3821,0.0,15.4122,0.9561,13.5628,Drift forte,XV - Níveis de atenção à saúde
+Fisioterapia,36,36,funcionalidade humana,discreto,0.4462,0.0,13.0622,0.9855,14.6121,Drift forte,XVI - Funcionalidade humana.
+Fisioterapia,36,36,anatomia fisiologia e patologia de orgaos e sistemas,discreto,0.3614,0.0,12.4207,0.7935,7.1888,Drift forte,"I - Anatomia, fisiologia e patologia de órgãos e sistemas"
+Fisioterapia,36,36,etica e bioetica,discreto,0.3064,0.0,29.6436,0.4046,0.7416,Drift forte,II - Ética e Bioética
+Fisioterapia,36,36,politicas de saude,discreto,0.4828,0.0,28.5664,0.8575,9.909,Drift forte,IV - Políticas de saúde
+Fisioterapia,36,36,determinantes do processo de saude doenca,discreto,0.4591,0.0,16.9632,0.9569,14.0644,Drift forte,V - Determinantes do processo de saúde-doença
+Fisioterapia,36,36,gestao de servicos de saude,discreto,0.7769,0.0,49.3187,0.8837,10.1633,Drift forte,VI - Gestão de serviços de saúde
+Fisioterapia,36,36,acessibilidade e tecnologia assistiva,discreto,0.5048,0.0,20.7853,0.7525,6.8435,Drift forte,VII - Acessibilidade e tecnologia assistiva
+Fisioterapia,36,36,cinesiologia e biomecanica,discreto,0.2914,0.0,14.9173,0.356,0.5999,Drift forte,X - Cinesiologia e biomecânica
+Fisioterapia,36,36,metodos de avaliacao fisioterapeutica,discreto,0.486,0.0,15.0644,0.9937,14.671,Drift forte,XII - Métodos de avaliação fisioterapêutica
+Fisioterapia,36,36,exames complementares,discreto,0.3059,0.0,13.5025,0.9377,12.7699,Drift forte,XIII - Exames complementares
+Fisioterapia,36,36,NT_GER,continuo,0.4724,0.0,15.267,,,Drift (KS significativo),NT_GER
+Fisioterapia,36,36,NT_DIS_CE,continuo,0.5012,0.0,22.7112,,,Drift (KS significativo),NT_DIS_CE
+Fonoaudiologia,27,27,funcoes e habilidades da fluencia nos ciclos da vida,discreto,0.5289,0.0,22.1545,0.7829,8.0162,Drift forte,V - Funções e habilidades da fluência nos ciclos da vida
+Fonoaudiologia,27,27,funcoes e habilidades da linguagem oral e escrita nos ciclos da vida,discreto,0.2615,0.0002,7.8113,0.9943,15.0548,Drift forte,VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida
+Fonoaudiologia,27,27,funcoes e habilidades da voz nos ciclos da vida,discreto,0.3375,0.0,14.1631,0.9785,13.7107,Drift forte,VII - Funções e habilidades da voz nos ciclos da vida
+Fonoaudiologia,27,27,funcoes e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida,discreto,0.3565,0.0,13.0773,0.993,14.6429,Drift forte,VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida
+Fonoaudiologia,27,27,organizacao principios e niveis de atencao do sistema unico de saude sus,discreto,0.3466,0.0,18.5681,0.9927,14.684,Drift forte,"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS)"
+Fonoaudiologia,27,27,interface das politicas publicas com a atuacao fonoaudiologica,discreto,0.4256,0.0,14.8543,1.0,15.1777,Drift forte,XII - Interface das políticas públicas com a atuação fonoaudiológica
+Fonoaudiologia,27,27,etica e bioetica na pratica fonoaudiologica,discreto,0.202,0.0075,7.9844,0.6156,4.2497,Drift forte,XIII - Ética e bioética na prática fonoaudiológica
+Fonoaudiologia,27,27,funcoes e habilidades da audicao nos ciclos da vida,discreto,0.3101,0.0,15.9778,0.7618,6.9363,Drift forte,III - Funções e habilidades da audição nos ciclos da vida
+Fonoaudiologia,27,27,NT_GER,continuo,0.1669,0.0432,3.6167,,,Drift (KS significativo),NT_GER
+Fonoaudiologia,27,27,NT_DIS_CE,continuo,0.2274,0.0017,7.6248,,,Drift (KS significativo),NT_DIS_CE
+Medicina,12,12,saude mental,continuo,0.5611,0.0,19.7702,,,Drift (KS significativo),VII - Saúde Mental
+Medicina,12,12,saude coletiva,continuo,0.9205,0.0,37.2893,,,Drift (KS significativo),VIII - Saúde Coletiva.
+Medicina,12,12,clinica medica,continuo,0.2548,0.0,6.1283,,,Drift (KS significativo),I - Clínica Médica
+Medicina,12,12,cirurgia,continuo,0.2324,0.0,7.1284,,,Drift (KS significativo),II - Cirurgia
+Medicina,12,12,ginecologia e obstetricia,continuo,0.393,0.0,11.7006,,,Drift (KS significativo),III - Ginecologia e Obstetrícia
+Medicina,12,12,pediatria,continuo,0.3371,0.0,7.2605,,,Drift (KS significativo),IV - Pediatria
+Medicina,12,12,medicina de familia e comunidade,continuo,0.3907,0.0,7.4794,,,Drift (KS significativo),V - Medicina de Família e Comunidade
+Medicina,12,12,urgencia e emergencia,continuo,0.1485,0.0,4.3946,,,Drift (KS significativo),VI - Urgência e Emergência
+Medicina,12,12,NT_GER,continuo,0.2495,0.0,5.814,,,Drift (KS significativo),NT_GER
+Medicina,12,12,NT_DIS_CE,continuo,0.177,0.0,6.109,,,Drift (KS significativo),NT_DIS_CE
+Medicina Veterinaria,5,5,sanidade e producao animal,discreto,0.5094,0.0,15.3491,0.9944,14.4453,Drift forte,V - Sanidade e produção animal
+Medicina Veterinaria,5,5,reproducao animal,discreto,0.5488,0.0,25.8987,0.9885,12.7978,Drift forte,VI - Reprodução animal
+Medicina Veterinaria,5,5,tecnologia e inspecao dos produtos de origem animal,continuo,0.3131,0.0,17.3712,,,Drift (KS significativo),VII - Tecnologia e inspeção dos produtos de origem animal
+Medicina Veterinaria,5,5,medicina veterinaria preventiva e saude publica,continuo,0.2599,0.0,7.6194,,,Drift (KS significativo),VIII - Medicina Veterinária Preventiva e Saúde Pública
+Medicina Veterinaria,5,5,etologia e bem estar animal,discreto,0.4945,0.0,35.6622,0.9871,11.3345,Drift forte,IX - Etologia e bem-estar animal
+Medicina Veterinaria,5,5,morfofisiologia genetica bioquimica biofisica microbiologia imunologia parasitologia e farmacologia,discreto,0.1538,0.0,5.6537,0.9954,14.5604,Drift forte,"I - Morfofisiologia, Genética, Bioquímica, Biofísica, Microbiologia, Imunologia, Parasitologia e Farmacologia"
+Medicina Veterinaria,5,5,clinica e cirurgia veterinaria,discreto,0.1542,0.0,5.5323,0.9858,14.4356,Drift forte,III - Clínica e Cirurgia veterinária
+Medicina Veterinaria,5,5,NT_GER,continuo,0.0878,0.0027,1.978,,,Drift (KS significativo),NT_GER
+Medicina Veterinaria,5,5,NT_DIS_CE,continuo,0.3265,0.0,14.7101,,,Drift (KS significativo),NT_DIS_CE
+Nutricao,28,28,seguranca alimentar e nutricional,discreto,0.5656,0.0,31.2479,0.9352,9.5647,Drift forte,XV - Segurança alimentar e nutricional
+Nutricao,28,28,educacao alimentar e nutricional,discreto,0.5606,0.0,33.5002,0.9582,10.2662,Drift forte,XVII - Educação alimentar e nutricional
+Nutricao,28,28,bioquimica nutricional,discreto,0.6006,0.0,33.9144,0.9231,9.409,Drift forte,XVIII - Bioquímica nutricional
+Nutricao,28,28,fisiopatologia e dietoterapia nas diferentes enfermidades,discreto,0.5099,0.0,28.1281,0.8434,8.0698,Drift forte,XX - Fisiopatologia e dietoterapia nas diferentes enfermidades.
+Nutricao,28,28,biodisponibilidade de nutrientes e propriedades de compostos bioativos,discreto,0.4408,0.0,27.027,0.8316,7.898,Drift forte,I - Biodisponibilidade de nutrientes e propriedades de compostos bioativos
+Nutricao,28,28,tecnica dietetica e analise sensorial,discreto,0.3097,0.0,18.3704,0.3431,0.5096,Drift forte,II - Técnica dietética e análise sensorial
+Nutricao,28,28,controle higienico sanitario dos alimentos,discreto,0.1962,0.0,13.9166,0.2459,0.2546,Drift forte,III - Controle higiênico-sanitário dos alimentos
+Nutricao,28,28,sistemas alimentares e sustentabilidade,discreto,0.0443,0.2425,2.9365,0.0661,0.018,Sem drift,IV - Sistemas alimentares e sustentabilidade
+Nutricao,28,28,planejamento fisico e funcional de servicos de alimentacao,discreto,0.4397,0.0,19.3242,0.7891,6.8545,Drift forte,IX - Planejamento físico e funcional de serviços de alimentação
+Nutricao,28,28,planejamento e avaliacao de cardapios para coletividades sadias e enfermas,discreto,0.6862,0.0,31.7317,0.952,10.1064,Drift forte,X - Planejamento e avaliação de cardápios para coletividades sadias e enfermas
+Nutricao,28,28,indicadores de qualidade na producao de refeicoes,discreto,0.6264,0.0,36.9612,0.949,10.9591,Drift forte,XII - Indicadores de qualidade na produção de refeições
+Nutricao,28,28,epidemiologia e vigilancia alimentar e nutricional,discreto,0.614,0.0,31.9955,0.9171,9.0549,Drift forte,XIII - Epidemiologia e vigilância alimentar e nutricional
+Nutricao,28,28,NT_GER,continuo,0.0766,0.0038,2.0674,,,Drift (KS significativo),NT_GER
+Nutricao,28,28,NT_DIS_CE,continuo,0.5399,0.0,27.7636,,,Drift (KS significativo),NT_DIS_CE
+Odontologia,6,6,propedeutica clinica,discreto,0.6669,0.0,28.1432,0.9845,14.3744,Drift forte,IV - Propedêutica clínica
+Odontologia,6,6,clinica odontologica integrada da infancia e da adolescencia,discreto,0.4362,0.0,18.0763,0.9097,12.5492,Drift forte,V - Clínica odontológica integrada da infância e da adolescência
+Odontologia,6,6,clinica odontologica integrada do adulto,discreto,0.4081,0.0,16.2334,0.6526,4.267,Drift forte,VI - Clínica odontológica integrada do adulto
+Odontologia,6,6,biosseguranca,discreto,0.8165,0.0,34.5189,0.9848,11.0786,Drift forte,XV - Biossegurança.
+Odontologia,6,6,terapeutica medicamentosa,discreto,0.3645,0.0,11.2177,0.982,14.0646,Drift forte,XI - Terapêutica medicamentosa.
+Odontologia,6,6,aspectos eticos bioeticos e legais no exercicio profissional,discreto,0.5229,0.0,16.2122,0.9806,14.228,Drift forte,"III - Aspectos éticos, bioéticos e legais no exercício profissional"
+Odontologia,6,6,NT_GER,continuo,0.0736,0.0064,1.2091,,,Drift (KS significativo),NT_GER
+Odontologia,6,6,NT_DIS_CE,continuo,0.4543,0.0,23.2533,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Agronegocios,90,90,gestao de logistica e cadeia de suprimentos no agronegocio,discreto,0.8049,0.0,39.7648,1.0,16.1049,Drift forte,VIII - Gestão de logística e cadeia de suprimentos no agronegócio
+Tecnologia Em Agronegocios,90,90,gestao da qualidade de processos e produtos do agronegocio,discreto,0.6463,0.0,35.6087,0.9762,13.614,Drift forte,IX - Gestão da qualidade de processos e produtos do agronegócio.
+Tecnologia Em Agronegocios,90,90,cadeias produtivas do agronegocio,discreto,0.7317,0.0,43.4336,0.8954,12.7472,Drift forte,I - Cadeias produtivas do agronegócio
+Tecnologia Em Agronegocios,90,90,gestao de pessoas e seguranca do trabalho no agronegocio,discreto,0.4335,0.0,15.0901,1.0,15.256,Drift forte,II - Gestão de pessoas e segurança do trabalho no agronegócio
+Tecnologia Em Agronegocios,90,90,economia e politicas publicas no agronegocio,discreto,0.4039,0.0,13.544,0.8106,8.3385,Drift forte,III - Economia e políticas públicas no agronegócio
+Tecnologia Em Agronegocios,90,90,comercializacao marketing e acoes empreendedoras no agronegocio,discreto,0.3681,0.0,22.5783,1.0,15.4067,Drift forte,"IV - Comercialização, marketing e ações empreendedoras no agronegócio"
+Tecnologia Em Agronegocios,90,90,gestao financeira no agronegocio,discreto,0.4747,0.0,14.9097,0.8184,7.125,Drift forte,V - Gestão financeira no agronegócio
+Tecnologia Em Agronegocios,90,90,desenvolvimento sustentavel no agronegocio,discreto,0.3991,0.0,19.14,0.8095,7.2276,Drift forte,VI - Desenvolvimento sustentável no agronegócio
+Tecnologia Em Agronegocios,90,90,inovacoes tecnologicas e novos mercados no agronegocio,discreto,0.2041,0.0602,8.3933,0.9905,14.7552,Drift forte,VII - Inovações tecnológicas e novos mercados no agronegócio
+Tecnologia Em Agronegocios,90,90,NT_GER,continuo,0.2811,0.0028,7.3565,,,Drift (KS significativo),NT_GER
+Tecnologia Em Agronegocios,90,90,NT_DIS_CE,continuo,0.2171,0.0384,6.3783,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Estetica E Cosmetica,95,95,NT_GER,continuo,0.1344,0.0048,2.3512,,,Drift (KS significativo),NT_GER
+Tecnologia Em Estetica E Cosmetica,95,95,NT_DIS_CE,continuo,0.7648,0.0,25.1916,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Gestao Ambiental,92,92,valoracao ambiental servicos ambientais e ecossistemicos,discreto,0.4903,0.0,28.8835,0.8332,7.9741,Drift forte,XVII - Valoração ambiental: serviços ambientais e ecossistêmicos
+Tecnologia Em Gestao Ambiental,92,92,desastres ambientais avaliacao de risco e vulnerabilidade,discreto,0.5509,0.0,33.348,0.8946,9.5325,Drift forte,XVIII - Desastres ambientais: avaliação de risco e vulnerabilidade
+Tecnologia Em Gestao Ambiental,92,92,mudancas climaticas e eventos extremos,discreto,0.7112,0.0,30.178,0.9033,9.8035,Drift forte,XIX - Mudanças climáticas e eventos extremos
+Tecnologia Em Gestao Ambiental,92,92,energias renovaveis,discreto,0.4648,0.0,33.2941,0.8889,9.4751,Drift forte,XX - Energias renováveis.
+Tecnologia Em Gestao Ambiental,92,92,gestao de recursos hidricos e de bacias hidrograficas,discreto,0.3446,0.0,17.5431,0.6243,4.9753,Drift forte,I - Gestão de recursos hídricos e de bacias hidrográficas
+Tecnologia Em Gestao Ambiental,92,92,gestao de residuos solidos acondicionamento coleta transporte tratamento e disposicao final,discreto,0.3052,0.0,17.7062,0.794,9.567,Drift forte,"IV - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final"
+Tecnologia Em Gestao Ambiental,92,92,poluicao ambiental,binario,0.2956,0.0,21.4646,0.5265,3.8309,Drift forte,VI - Poluição ambiental
+Tecnologia Em Gestao Ambiental,92,92,recuperacao de areas degradadas,discreto,0.2646,0.0,25.1324,0.3409,0.5041,Drift forte,III - Recuperação de áreas degradadas
+Tecnologia Em Gestao Ambiental,92,92,instrumentos de planejamento ambiental e urbano,discreto,0.233,0.0,9.7102,0.9387,13.6276,Drift forte,VIII - Instrumentos de planejamento ambiental e urbano
+Tecnologia Em Gestao Ambiental,92,92,gestao de unidades de conservacao e areas protegidas,discreto,0.3035,0.0,10.4818,0.916,12.7741,Drift forte,IX - Gestão de unidades de conservação e áreas protegidas
+Tecnologia Em Gestao Ambiental,92,92,geotecnologias uso e aplicacao na gestao ambiental,discreto,0.4551,0.0,30.5825,0.8709,9.0088,Drift forte,X - Geotecnologias: uso e aplicação na gestão ambiental
+Tecnologia Em Gestao Ambiental,92,92,estudo e avaliacao de impactos ambientais,discreto,0.5393,0.0,22.2333,0.6247,4.3988,Drift forte,XII - Estudo e avaliação de impactos ambientais
+Tecnologia Em Gestao Ambiental,92,92,sistemas de gestao ambiental e de qualidade normas certificacao e auditoria,discreto,0.2852,0.0,14.2615,0.6173,4.8475,Drift forte,"XIII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria"
+Tecnologia Em Gestao Ambiental,92,92,mecanismos de producao mais limpa p l,discreto,0.4432,0.0,14.9704,0.9305,12.7991,Drift forte,XIV - Mecanismos de produção mais limpa - P + L
+Tecnologia Em Gestao Ambiental,92,92,educacao ambiental,discreto,0.482,0.0,29.3689,0.8837,8.8868,Drift forte,XV - Educação ambiental
+Tecnologia Em Gestao Ambiental,92,92,licenciamento ambiental,discreto,0.4592,0.0,22.5867,0.6693,5.61,Drift forte,XI - Licenciamento ambiental
+Tecnologia Em Gestao Ambiental,92,92,NT_GER,continuo,0.2814,0.0,7.7904,,,Drift (KS significativo),NT_GER
+Tecnologia Em Gestao Ambiental,92,92,NT_DIS_CE,continuo,0.4573,0.0,23.2878,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Gestao Hospitalar,91,91,responsabilidade social etica e bioetica,discreto,0.4832,0.0,30.3191,0.9409,9.7262,Drift forte,"XV - Responsabilidade social, Ética e Bioética"
+Tecnologia Em Gestao Hospitalar,91,91,gestao ambiental e biosseguranca,discreto,0.2588,0.0171,11.1945,0.8877,11.8781,Drift forte,XVI - Gestão ambiental e Biossegurança
+Tecnologia Em Gestao Hospitalar,91,91,saude e seguranca do trabalhador,discreto,0.6112,0.0,31.2057,0.9418,9.5415,Drift forte,IV - Saúde e segurança do trabalhador
+Tecnologia Em Gestao Hospitalar,91,91,planejamento e gestao estrategica em saude,discreto,0.5557,0.0,28.4124,0.9378,11.3332,Drift forte,I - Planejamento e gestão estratégica em saúde
+Tecnologia Em Gestao Hospitalar,91,91,gestao de pessoas,discreto,0.5146,0.0,34.8836,0.74,5.9588,Drift forte,II - Gestão de pessoas
+Tecnologia Em Gestao Hospitalar,91,91,gestao financeira orcamentaria e de custos,discreto,0.7609,0.0,49.0562,0.9287,9.4549,Drift forte,"III - Gestão financeira, orçamentária e de custos"
+Tecnologia Em Gestao Hospitalar,91,91,gestao de servicos assistenciais,discreto,0.5526,0.0,19.138,0.9364,12.7064,Drift forte,IV - Gestão de serviços assistenciais
+Tecnologia Em Gestao Hospitalar,91,91,auditoria em saude,discreto,0.3812,0.0001,24.1741,0.808,6.8966,Drift forte,VI - Auditoria em Saúde
+Tecnologia Em Gestao Hospitalar,91,91,gestao logistica em saude,discreto,0.3815,0.0001,21.2766,0.5992,3.8917,Drift forte,VII - Gestão logística em Saúde
+Tecnologia Em Gestao Hospitalar,91,91,marketing em saude,discreto,0.5232,0.0,29.2453,0.9697,15.3545,Drift forte,IX - Marketing em saúde
+Tecnologia Em Gestao Hospitalar,91,91,hotelaria hospitalar,discreto,0.6667,0.0,40.0,0.9072,12.7257,Drift forte,X - Hotelaria hospitalar
+Tecnologia Em Gestao Hospitalar,91,91,gestao da qualidade em saude,discreto,0.2277,0.0518,10.0464,0.949,14.4919,Drift forte,XII - Gestão da qualidade em Saúde
+Tecnologia Em Gestao Hospitalar,91,91,politica e legislacao aplicadas ao sistema de saude,discreto,0.3337,0.0008,13.8692,0.7125,4.9701,Drift forte,XIII - Política e Legislação aplicadas ao Sistema de Saúde
+Tecnologia Em Gestao Hospitalar,91,91,humanizacao em saude,discreto,0.4575,0.0,26.6003,0.8402,7.309,Drift forte,XIV - Humanização em Saúde
+Tecnologia Em Gestao Hospitalar,91,91,NT_GER,continuo,0.2448,0.0295,5.6943,,,Drift (KS significativo),NT_GER
+Tecnologia Em Gestao Hospitalar,91,91,NT_DIS_CE,continuo,0.6636,0.0,39.1868,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Radiologia,69,69,fisica das radiacoes,discreto,0.0386,0.9999,2.7005,0.0594,0.0141,Sem drift,II - Física das radiações
+Tecnologia Em Radiologia,69,69,protecao radiologica,discreto,0.3186,0.0,7.9367,0.9792,14.7022,Drift forte,III - Proteção radiológica
+Tecnologia Em Radiologia,69,69,radiologia odontologica,discreto,0.783,0.0,42.2348,0.9777,11.6175,Drift forte,V - Radiologia odontológica
+Tecnologia Em Radiologia,69,69,tomografia computadorizada,discreto,0.4398,0.0,18.5114,0.762,6.8046,Drift forte,VII - Tomografia computadorizada
+Tecnologia Em Radiologia,69,69,ressonancia magnetica,discreto,0.487,0.0,26.1778,0.9928,15.1187,Drift forte,X - Ressonância magnética
+Tecnologia Em Radiologia,69,69,medicina nuclear,discreto,0.7516,0.0,30.8,0.9698,11.2766,Drift forte,XI - Medicina nuclear
+Tecnologia Em Radiologia,69,69,radioterapia,discreto,0.4705,0.0,21.5692,0.7674,6.8704,Drift forte,XII - Radioterapia
+Tecnologia Em Radiologia,69,69,radiologia industrial,discreto,0.5735,0.0,27.4699,0.8279,7.554,Drift forte,XIII - Radiologia industrial
+Tecnologia Em Radiologia,69,69,gestao de servicos radiologicos,discreto,0.039,0.9998,2.591,0.0789,0.025,Sem drift,XIV - Gestão de serviços radiológicos
+Tecnologia Em Radiologia,69,69,NT_GER,continuo,0.0804,0.7553,1.7572,,,Sem drift,NT_GER
+Tecnologia Em Radiologia,69,69,NT_DIS_CE,continuo,0.5906,0.0,25.818,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Seguranca No Trabalho,6410,6410,biosseguranca,discreto,0.4472,0.0002,19.8704,0.9552,13.1896,Drift forte,XV - Biossegurança.
+Tecnologia Em Seguranca No Trabalho,6410,6410,estatistica aplicada,discreto,0.6083,0.0,35.8333,0.9062,8.8573,Drift forte,I - Estatística aplicada
+Tecnologia Em Seguranca No Trabalho,6410,6410,ergonomia,discreto,0.4694,0.0001,21.3333,0.9368,13.2857,Drift forte,II - Ergonomia
+Tecnologia Em Seguranca No Trabalho,6410,6410,higiene do trabalho,discreto,0.5861,0.0,28.5278,0.9809,14.8232,Drift forte,III - Higiene do trabalho
+Tecnologia Em Seguranca No Trabalho,6410,6410,gerenciamento de risco,discreto,0.5944,0.0,35.1389,0.7569,8.4327,Drift forte,IV - Gerenciamento de risco
+Tecnologia Em Seguranca No Trabalho,6410,6410,atendimento pre hospitalar,discreto,0.5139,0.0,29.0278,0.7615,8.9446,Drift forte,V - Atendimento pré-hospitalar
+Tecnologia Em Seguranca No Trabalho,6410,6410,prevencao e combate a incendio,discreto,0.8417,0.0,47.7778,0.9361,9.5933,Drift forte,VI - Prevenção e combate a incêndio
+Tecnologia Em Seguranca No Trabalho,6410,6410,legislacao e normas tecnicas,discreto,0.2583,0.0982,10.3571,0.3188,0.9091,Drift forte,VII - Legislação e normas técnicas
+Tecnologia Em Seguranca No Trabalho,6410,6410,psicologia comunicacao e treinamento,discreto,0.2972,0.0376,14.2593,0.9774,14.1503,Drift forte,"VIII - Psicologia, comunicação e treinamento"
+Tecnologia Em Seguranca No Trabalho,6410,6410,sistema de gestao integrada,discreto,0.5694,0.0,27.3519,0.9491,14.571,Drift forte,XII - Sistema de gestão integrada
+Tecnologia Em Seguranca No Trabalho,6410,6410,empreendedorismo e fundamentos da administracao,discreto,0.5944,0.0,28.8056,0.9301,13.9622,Drift forte,XIII - Empreendedorismo e fundamentos da Administração
+Tecnologia Em Seguranca No Trabalho,6410,6410,etica profissional,discreto,0.6694,0.0,28.5278,0.9491,14.732,Drift forte,XIV - Ética profissional
+Tecnologia Em Seguranca No Trabalho,6410,6410,qualidade de vida do trabalhador,discreto,0.6639,0.0,28.8056,0.8751,12.5702,Drift forte,X - Qualidade de vida do trabalhador
+Tecnologia Em Seguranca No Trabalho,6410,6410,NT_GER,continuo,0.5639,0.0,16.7361,,,Drift (KS significativo),NT_GER
+Tecnologia Em Seguranca No Trabalho,6410,6410,NT_DIS_CE,continuo,0.3694,0.0044,16.0561,,,Drift (KS significativo),NT_DIS_CE
+Zootecnia,51,51,estatistica experimentacao e matematica aplicadas a zootecnia,discreto,0.5516,0.0,30.599,0.9356,9.449,Drift forte,"XV - Estatística, experimentação e matemática aplicadas à Zootecnia"
+Zootecnia,51,51,zootecnia de precisao,discreto,0.3509,0.0,20.3125,0.5734,3.8347,Drift forte,XX - Zootecnia de precisão.
+Zootecnia,51,51,nutricao e producao de nao ruminantes,binario,0.5605,0.0,29.5788,0.8515,8.4416,Drift forte,II - Nutrição e produção de não ruminantes
+Zootecnia,51,51,nutricao e producao de ruminantes,discreto,0.3573,0.0,21.8071,0.6381,5.2207,Drift forte,III - Nutrição e produção de ruminantes
+Zootecnia,51,51,bromatologia e controle de qualidade de alimentos para animais,discreto,0.2459,0.0002,18.1839,0.3237,0.4478,Drift forte,IV - Bromatologia e controle de qualidade de alimentos para animais
+Zootecnia,51,51,tecnologia e processamento de produtos de origem animal,discreto,0.0075,1.0,0.5548,0.0133,0.0007,Sem drift,V - Tecnologia e processamento de produtos de origem animal
+Zootecnia,51,51,construcoes instalacoes equipamentos zootecnicos bioclimatologia animal e ambiencia,discreto,0.1827,0.011,12.3188,0.2411,0.2798,Drift forte,"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência"
+Zootecnia,51,51,ecologia gestao ambiental manejo dos residuos e dos dejetos oriundos da producao animal,discreto,0.6138,0.0,35.2836,0.7076,5.0764,Drift forte,"VII - Ecologia, gestão ambiental, manejo dos resíduos e dos dejetos oriundos da produção animal"
+Zootecnia,51,51,NT_GER,continuo,0.4219,0.0,11.7578,,,Drift (KS significativo),NT_GER
+Zootecnia,51,51,NT_DIS_CE,continuo,0.6756,0.0,39.9577,,,Drift (KS significativo),NT_DIS_CE

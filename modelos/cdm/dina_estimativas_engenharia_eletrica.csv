@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.1366;0.0957;0.5348;0.6338
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.4901;0.0616;0.6762;0.7932;0.7934
+Q3;II - Estado, sociedade e trabalho;0.475;0.1639;0.4167;0.6255;0.6302
+Q4;II - Estado, sociedade e trabalho;0.4131;0.2231;0.4167;0.5647;0.5694
+Q5;XIII - Acessibilidade e inclusão social;0.2063;0.1948;0.5054;0.5089;0.5089
+Q6;IV - Cultura, arte e comunicação;0.4397;0.0743;0.6551;0.7581;0.7582
+Q7;II - Estado, sociedade e trabalho;0.2352;0.4903;0.4167;0.3496;0.353
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.4669;0.2785;0.0957;0.4913;0.5002
+Q9;II - Estado, sociedade e trabalho;0.1545;0.5;0.4167;0.2985;0.2617
+Q10;"VI - Circuitos elétricos;";0.2202;0.1831;0.069;0.2614;0.2908
+Q11;"XVI - Máquinas elétricas;";0.1896;0.4599;0.0957;0.2232;0.2353
+Q12;"II - Ciências do ambiente;";0.5;0.1429;0.0957;0.5342;0.6818
+Q13;"VIII - Eletromagnetismo;";0.4988;0.1036;0.0957;0.5368;0.5508
+Q14;"V - Sistemas lineares;";0.2385;0.5;0.0957;0.2635;0.2644
+Q15;"XV - Sensores e instrumentação eletrônica;";0.1507;0.5;0.0957;0.1841;0.1948
+Q16;"XXI - Sistemas de controle e automação;";0.2793;0.1405;0.0819;0.3268;0.3603
+Q17;"III - Ciências naturais aplicadas à Engenharia Elétrica;";0.3414;0.2804;0.0957;0.3776;0.3908
+Q18;"IX - Dispositivos e circuitos eletrônicos;";0.0002;0.5;0.0957;0.048;0.0
+Q19;"VII - Conversão de energia;";0.0002;0.5;0.0957;0.048;0.0
+Q20;"XX - Análise e processamento de sinais;";0.1617;0.2467;0.0557;0.1947;0.2188
+Q21;"XVII - Materiais elétricos e magnéticos;";0.2952;0.5;0.0957;0.3148;0.3148
+Q22;"XI - Sistemas digitais;";0.2181;0.3522;0.3223;0.3566;0.3581
+Q23;"VI - Circuitos elétricos;";0.0002;0.5;0.069;0.0347;0.0
+Q24;"XII - Fundamentos de sistemas elétricos de potência;";0.191;0.2113;0.0625;0.2283;0.2553
+Q25;"XIII - Eficiência energética;";0.0003;0.5;0.2828;0.1416;0.0
+Q26;"XIII - Eficiência energética;";0.5;0.0099;0.2828;0.6386;0.8224
+Q27;"XIX - Redes de comunicação;";0.2518;0.4865;0.0957;0.2769;0.2859
+Q28;"XVIII - Princípios de comunicações;";0.3738;0.426;0.0957;0.393;0.3999
+Q29;"XX - Análise e processamento de sinais;";0.0002;0.5;0.0557;0.0281;0.0
+Q30;"XXI - Sistemas de controle e automação;";0.0002;0.5;0.0819;0.0412;0.0
+Q31;"XIV - Instalações elétricas;";0.5;0.1311;0.0957;0.5353;0.6001
+Q32;"XII - Fundamentos de sistemas elétricos de potência;";0.0002;0.5;0.0625;0.0314;0.0
+Q33;"IV - Algoritmos e estruturas de dados;";0.3707;0.2041;0.0957;0.4114;0.4262
+Q34;"X - Eletrônica de potência;";0.1758;0.2285;0.059;0.211;0.2365
+Q35;"I - Administração e Economia;";0.3929;0.2946;0.0957;0.4228;0.4337
+Q36;"XI - Sistemas digitais;";0.1392;0.5;0.3223;0.2555;0.2503
+Q37;"X - Eletrônica de potência;";0.0002;0.5;0.059;0.0297;0.0
+Q38;"XXII - Probabilidade e Estatística;";0.3991;0.2583;0.0957;0.4318;0.4438

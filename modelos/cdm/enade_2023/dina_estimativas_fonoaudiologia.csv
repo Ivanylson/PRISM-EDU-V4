@@ -1,0 +1,39 @@
+﻿Questao;area_prova;atributos_requeridos;taxa_acerto_real;guess_g;slip_s;p_domina_atributos;p_acerto_dina;status
+Q1;FG;I - Ética, democracia e cidadania;0,5523648648648649;0,2382294902322388;0,17100611176644961;0,5315880913584948;0,5522728090083062;OK
+Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8006756756756757;0,5;0,06528972043795607;0,5032238651472655;0,71875658710046;OK
+Q3;FG;II - Estado, sociedade e trabalho;0,5869932432432432;0,45534523491157136;0,1789892482354731;0,3380130093480686;0,5789449366778556;OK
+Q4;FG;II - Estado, sociedade e trabalho;0,41765202702702703;0,30073662613789254;0,37264969238403545;0,3380130093480686;0,4111362995085472;OK
+Q5;FG;XIII - Acessibilidade e inclusão social;0,44510135135135137;0,3167744031690538;0,44896218780237224;0,5032238651472655;0,4346613413229876;OK
+Q6;FG;IV - Cultura, arte e comunicação;0,7449324324324325;0,5;0,11151335199202565;0,5032238651472655;0,695495752568678;OK
+Q7;FG;II - Estado, sociedade e trabalho;0,4125844594594595;0,3015017535815523;0,38807124753185457;0,3380130093480686;0,4064301176580991;OK
+Q8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0,5097128378378378;0,3365512250040874;0,3479808797754849;0,5032238651472655;0,4953021985667836;OK
+Q9;FG;II - Estado, sociedade e trabalho;0,22381756756756757;0,15218028667093084;0,5;0,3380130093480686;0,269747874683872;OK
+Q10;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,7795608108108109;0,5;0,03915768599284986;0,26039400488507164;0,6200005757648255;OK
+Q11;CE;XIII - Ética e bioética na prática fonoaudiológica.;0,4066722972972973;0,14882448453030375;0,26966747653642037;0,44369931589887596;0,40683920359469516;OK
+Q12;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,0;0,0015057624413818446;0,5;0,26039400488507164;0,13131067337140073;OK
+Q13;CE;"V - Funções e habilidades da fluência nos ciclos da vida;";0,7918074324324325;0,5;0,08007857050218321;0,5032238651472655;0,7113144848100563;OK
+Q14;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,41638513513513514;0,26063355473650696;0,37289081648467265;0,42502315499539073;0,4163941827090008;OK
+Q15;CE;III - Funções e habilidades da;0,5105574324324325;0,29587234937789847;0,2442466769036938;0,466378077215134;0,510350753648513;OK
+Q16;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0,0;0,0012677226001433792;0,5;0,10005602920303629;0,05116889391216023;OK
+Q17;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,39442567567567566;0,23620220808636377;0,36985090088231376;0,39275008877282913;0,39092488451069574;OK
+Q18;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,19130067567567569;0,10309121891918446;0,5;0,3616810189203059;0,24664559127891045;OK
+Q19;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0,8391047297297297;0,5;0,03910023228343295;0,5225282076720369;0,7408331295413959;OK
+Q20;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,6638513513513513;0,5;0,11462310376250331;0,39275008877282913;0,6513568102082742;OK
+Q21;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,6967905405405406;0,5;0,07429388433860225;0,26039400488507164;0,6108513203611389;OK
+Q22;CE;"IV - Funções e habilidades da fala nos ciclos da vida;";0,0;0,0023298857253353958;0,5;0,5032238651472655;0,25276936419891344;OK
+Q23;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,31967905405405406;0,1194916466171345;0,4087582500818551;0,42502315499539073;0,3199963638915314;OK
+Q24;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,3277027027027027;0,23616622943127694;0,458144516342661;0,26039400488507164;0,31576587858953203;OK
+Q25;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,49197635135135137;0,4441761586269145;0,16401673997158261;0,06979180418841101;0,4715210831275571;OK
+Q26;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,25506756756756754;0,15520070815335812;0,5;0,26039400488507164;0,24498437663884182;OK
+Q27;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,4983108108108108;0,36865496553994026;0,2878714479163484;0,3616810189203059;0,4928828422932816;OK
+Q28;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,2170608108108108;0,08053326197055506;0,5;0,39275008877282913;0,2452788605688686;OK
+Q29;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,0;0,0011975010308072356;0,5;0,06979180418841101;0,036009827367555224;OK
+Q30;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,5696790540540541;0,3794532302886884;0,1746510680087243;0,42502315499539073;0,5689692282252057;OK
+Q31;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,659206081081081;0,5;0,1590489809572506;0,3616810189203059;0,6233155119692982;OK
+Q32;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,3471283783783784;0,3036208833116838;0,33474417602611295;0,06979180418841101;0,3288600382780679;OK
+Q33;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0,45861486486486486;0,36886164257556914;0,10436934465390188;0,10005602920303629;0,42156805830059174;OK
+Q34;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0,18327702702702703;0,04575317257413984;0,5;0,5225282076720369;0,2831099531496836;OK
+Q35;CE;III - Funções e habilidades da;0,41427364864864863;0,206071085938033;0,34706963152889475;0,466378077215134;0,4144764589115415;OK
+Q36;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,34628378378378377;0,248814575829241;0,49127985036275423;0,3616810189203059;0,34281748858718697;OK
+Q37;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,2335304054054054;0,19051003678500786;0,44793220299888004;0,06979180418841101;0,2157438051888112;OK
+Q38;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,44636824324324326;0,32192832905873536;0,3478363283545899;0,3616810189203059;0,44136818424898017;OK

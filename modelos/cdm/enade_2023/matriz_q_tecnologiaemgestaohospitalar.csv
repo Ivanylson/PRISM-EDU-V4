@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;0;0;1
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;0;0;0;1
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"III - Gestão financeira, orçamentária e de custos;";0;0;0;1;0;0;0;0;0;0;0;0
+Q11;11;CE;"X - Gestão de contratos, de convênios e de faturamento;";0;0;0;0;0;0;0;0;0;0;1;0
+Q12;12;CE;"III - Gestão financeira, orçamentária e de custos;";0;0;0;1;0;0;0;0;0;0;0;0
+Q13;13;CE;"IV - Gestão de serviços assistenciais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q14;14;CE;"I - Planejamento e gestão estratégica em saúde;";0;0;0;0;1;0;0;0;0;0;0;0
+Q15;15;CE;"II - Gestão de pessoas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q16;16;CE;"XI - Gestão da qualidade em saúde;";0;0;0;0;0;0;0;0;0;0;0;1
+Q17;17;CE;"V - Auditoria em saúde;";0;0;0;0;0;0;0;0;0;1;0;0
+Q18;18;CE;"IX - Hotelaria hospitalar;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"VII - Sistemas de informação e de documentação médico- hospitalar;";0;0;0;0;0;0;0;0;0;0;0;1
+Q20;20;CE;"VIII - Marketing em saúde;";0;0;0;0;0;1;0;0;0;0;0;0
+Q21;21;CE;"XIII - Humanização em saúde;";0;0;0;0;0;0;0;0;0;0;0;1
+Q22;22;CE;"I - Planejamento e gestão estratégica em saúde;";0;0;0;0;1;0;0;0;0;0;0;0
+Q23;23;CE;"XIV - Responsabilidade social, ética e bioética;";0;0;0;0;0;0;0;0;0;0;0;1
+Q24;24;CE;"XV - Gestão ambiental e biossegurança;";0;0;0;0;0;0;0;0;1;0;0;0
+Q25;25;CE;"XVII - Epidemiologia aplicada aos serviços de saúde;";0;0;0;0;0;0;0;0;0;0;0;1
+Q26;26;CE;XIX - Modelos de gestão em saúde.;0;0;1;0;0;0;0;0;0;0;0;0
+Q27;27;CE;"XII - Política e legislação aplicadas ao sistema de saúde;";0;0;0;0;0;0;0;0;0;0;0;1
+Q28;28;CE;XIX - Modelos de gestão em saúde.;0;0;1;0;0;0;0;0;0;0;0;0
+Q29;29;CE;"VI - Gestão logística em saúde;";0;0;0;0;0;0;1;0;0;0;0;0
+Q30;30;CE;"IV - Gestão de serviços assistenciais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q31;31;CE;"VI - Gestão logística em saúde;";0;0;0;0;0;0;1;0;0;0;0;0
+Q32;32;CE;XIX - Modelos de gestão em saúde.;0;0;1;0;0;0;0;0;0;0;0;0
+Q33;33;CE;"XVIII - Tecnologias em saúde;";0;0;0;0;0;0;0;1;0;0;0;0
+Q34;34;CE;"XVIII - Tecnologias em saúde;";0;0;0;0;0;0;0;1;0;0;0;0
+Q35;35;CE;"IV - Gestão de serviços assistenciais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q36;36;CE;"VIII - Marketing em saúde;";0;0;0;0;0;1;0;0;0;0;0;0
+Q37;37;CE;"V - Auditoria em saúde;";0;0;0;0;0;0;0;0;0;1;0;0
+Q38;38;CE;"XV - Gestão ambiental e biossegurança;";0;0;0;0;0;0;0;0;1;0;0;0

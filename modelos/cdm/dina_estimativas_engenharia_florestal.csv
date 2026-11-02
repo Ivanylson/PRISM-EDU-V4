@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.3203;0.1229;0.5905;0.6491;0.6496
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.0587;0.6903;0.8046;0.8077
+Q3;II - Estado, sociedade e trabalho;0.5;0.2006;0.3779;0.6131;0.6235
+Q4;II - Estado, sociedade e trabalho;0.3604;0.3204;0.3779;0.481;0.488
+Q5;XIII - Acessibilidade e inclusão social;0.1837;0.2261;0.4799;0.4669;0.4668
+Q6;IV - Cultura, arte e comunicação;0.5;0.0536;0.7013;0.813;0.8179
+Q7;II - Estado, sociedade e trabalho;0.3413;0.4192;0.3779;0.4318;0.4367
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.4541;0.3382;0.3604;0.529;0.5387
+Q9;II - Estado, sociedade e trabalho;0.1241;0.5;0.3779;0.2661;0.217
+Q10;"V - Ecologia e ecossistemas florestais;";0.3893;0.4762;0.3604;0.4378;0.4435
+Q11;"X - Gestão de recursos naturais renováveis;";0.442;0.3222;0.3604;0.527;0.538
+Q12;"XXII - Sementes e viveiros florestais;";0.2251;0.3171;0.2665;0.3471;0.3525
+Q13;"XX - Recuperação de ecossistemas florestais degradados;";0.3371;0.3696;0.3604;0.4428;0.4559
+Q14;"XXII - Sementes e viveiros florestais;";0.0829;0.5;0.2665;0.1941;0.1752
+Q15;"XXIV - Sistemas e técnicas silviculturais;";0.2766;0.2268;0.0945;0.3236;0.3525
+Q16;"XXIV - Sistemas e técnicas silviculturais;";0.002;0.5;0.0945;0.0491;0.0
+Q17;"VIII - Experimentação florestal;";0.5;0.1335;0.3604;0.6321;0.7283
+Q18;"XIV - Melhoramento e biotecnologia florestal;";0.5;0.1029;0.3604;0.6431;0.7331
+Q19;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0.1278;0.5;0.2959;0.2379;0.2307
+Q20;"XI - Industrialização de produtos florestais;";0.0021;0.5;0.1118;0.0578;0.0
+Q21;"XIX - Proteção florestal;";0.3837;0.4109;0.3604;0.4577;0.4668
+Q22;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0.2543;0.4036;0.4296;0.4013;0.4011
+Q23;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0.2917;0.3535;0.4296;0.4441;0.4442
+Q24;"XII - Manejo de bacias hidrográficas;";0.2858;0.3264;0.3604;0.4256;0.4428
+Q25;"IV - Dendrometria e inventário florestal;";0.2279;0.4001;0.302;0.3403;0.3436
+Q26;"IV - Dendrometria e inventário florestal;";0.108;0.5;0.302;0.2264;0.2088
+Q27;"XIII - Manejo florestal;";0.3409;0.3702;0.3604;0.445;0.4579
+Q28;"VII - Estradas, colheita e transporte florestal;";0.0029;0.5;0.3604;0.182;0.0
+Q29;"XVI - Morfologia, sistemática e dendrologia;";0.4392;0.2996;0.3604;0.5333;0.5455
+Q30;"VI - Economia, administração e marketing florestal;";0.3704;0.2324;0.3604;0.5135;0.5318
+Q31;"XXV - Solos e nutrição florestal;";0.4795;0.3151;0.3604;0.5535;0.5633
+Q32;"XV - Meteorologia e climatologia;";0.4037;0.1807;0.3604;0.5535;0.5729
+Q33;"XI - Industrialização de produtos florestais;";0.4295;0.0882;0.1118;0.4834;0.5216
+Q34;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0.1921;0.3746;0.2959;0.3203;0.3217
+Q35;"XXI - Recursos energéticos florestais;";0.1088;0.5;0.3604;0.2498;0.2094
+Q36;"IV - Dendrometria e inventário florestal;";0.3535;0.2415;0.302;0.4758;0.4805
+Q37;"XXIV - Sistemas e técnicas silviculturais;";0.3518;0.1762;0.0945;0.3964;0.4244
+Q38;"II - Comunicação e extensão rural;";0.4428;0.4405;0.3604;0.4848;0.4901

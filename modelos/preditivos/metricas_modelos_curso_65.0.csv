@@ -1,0 +1,5 @@
+Modelo;Acuracia;F1_Score
+LightGBM;0.9095;0.9094
+XGBoost;0.8824;0.8812
+RandomForest;0.9095;0.9084
+LogisticRegression;0.9683;0.9682

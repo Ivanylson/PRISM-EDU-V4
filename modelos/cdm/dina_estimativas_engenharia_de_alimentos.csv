@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.3063;0.1289;0.5817;0.6349;0.6352
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.0541;0.6985;0.8115;0.8156
+Q3;II - Estado, sociedade e trabalho;0.5;0.1553;0.445;0.6534;0.6799
+Q4;II - Estado, sociedade e trabalho;0.3629;0.2528;0.445;0.5339;0.5391
+Q5;XIII - Acessibilidade e inclusão social;0.3682;0.402;0.2028;0.4148;0.4229
+Q6;IV - Cultura, arte e comunicação;0.5;0.0266;0.2028;0.596;0.8447
+Q7;II - Estado, sociedade e trabalho;0.3413;0.4189;0.445;0.448;0.4508
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.4635;0.2364;0.2028;0.5244;0.5358
+Q9;II - Estado, sociedade e trabalho;0.1197;0.5;0.445;0.289;0.2341
+Q10;"XII - Controle e gestão da qualidade;";0.5;0.0682;0.6359;0.7746;0.8128
+Q11;"XI - Conservação e processamento de alimentos;";0.4404;0.1859;0.4652;0.6142;0.6201
+Q12;"X - Ciências do ambiente e tratamento de resíduos da indústria de alimentos;";0.0018;0.5;0.2028;0.1029;0.0
+Q13;"XIX - Modelagem, análise e simulação de sistemas;";0.3048;0.1297;0.5807;0.6332;0.6335
+Q14;"XXII - Projetos de indústrias de alimentos e desenho universal;";0.0018;0.5;0.2028;0.1029;0.0
+Q15;"IX - Bioengenharia e biotecnologia de alimentos;";0.5;0.0912;0.2028;0.5829;0.7106
+Q16;"XXIII - Química e bioquímica de alimentos;";0.0015;0.5;0.0402;0.0215;0.0
+Q17;"XV - Físico-química e termodinâmica aplicada;";0.1354;0.5;0.3652;0.2686;0.2553
+Q18;"V - Matemática e Estatística;";0.1455;0.5;0.2028;0.2174;0.2134
+Q19;"XVII - Legislação e higiene na indústria de alimentos;";0.5;0.0866;0.2028;0.5838;0.7749
+Q20;"VIII - Análise sensorial;";0.4464;0.4598;0.2028;0.4654;0.4687
+Q21;"XVI - Instrumentação, controle e automação;";0.264;0.3474;0.3895;0.4154;0.4156
+Q22;"XIII - Embalagens;";0.5;0.2051;0.2028;0.5598;0.624
+Q23;"XVIII - Microbiologia de alimentos;";0.5;0.0657;0.1279;0.5556;0.6
+Q24;"XVIII - Microbiologia de alimentos;";0.0018;0.5;0.1279;0.0655;0.0
+Q25;"XXIV - Tecnologias limpas e novas tecnologias;";0.2288;0.5;0.2028;0.2838;0.2765
+Q26;"XIV - Fenômenos de transporte;";0.2363;0.3669;0.3671;0.3819;0.3821
+Q27;"XII - Controle e gestão da qualidade;";0.1506;0.4905;0.6359;0.3789;0.3687
+Q28;"XXIII - Química e bioquímica de alimentos;";0.1001;0.3738;0.0402;0.1212;0.1369
+Q29;"XI - Conservação e processamento de alimentos;";0.2415;0.4091;0.4652;0.404;0.4084
+Q30;"XIV - Fenômenos de transporte;";0.1905;0.4467;0.3671;0.3237;0.3235
+Q31;"XI - Conservação e processamento de alimentos;";0.5;0.0702;0.4652;0.6999;0.7888
+Q32;"XI - Conservação e processamento de alimentos;";0.0508;0.5;0.4652;0.2598;0.1575
+Q33;"XX - Nutrição básica e toxicologia;";0.3405;0.3792;0.2028;0.3973;0.4073
+Q34;"XVI - Instrumentação, controle e automação;";0.203;0.4441;0.3895;0.3404;0.3402
+Q35;"IV - Ciências naturais aplicadas à Engenharia;";0.053;0.5;0.2028;0.1436;0.1006
+Q36;"VII - Análise de alimentos;";0.2082;0.5;0.2028;0.2674;0.2737
+Q37;"XV - Físico-química e termodinâmica aplicada;";0.2993;0.2681;0.3652;0.4573;0.4603
+Q38;"I - Administração e Economia;";0.5;0.0539;0.2028;0.5905;0.7844

@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.0707;0.2645;0.6136;0.7272
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.24;0.5;0.2645;0.3087;0.303
+Q3;II - Estado, sociedade e trabalho;0.2579;0.3715;0.5956;0.4787;0.4714
+Q4;II - Estado, sociedade e trabalho;0.2216;0.4565;0.5956;0.4133;0.4069
+Q5;XIII - Acessibilidade e inclusão social;0.3741;0.2767;0.2645;0.4665;0.4669
+Q6;IV - Cultura, arte e comunicação;0.1365;0.5;0.2645;0.2327;0.2006
+Q7;II - Estado, sociedade e trabalho;0.2636;0.3676;0.5956;0.4833;0.4761
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.2069;0.5;0.2645;0.2844;0.2818
+Q9;II - Estado, sociedade e trabalho;0.5;0.068;0.5956;0.7573;0.7871
+Q10;"XIV - Recursos florestais;";0.1161;0.3601;0.5471;0.4027;0.4024
+Q11;"XVI - Solos;";0.3167;0.1903;0.1037;0.3679;0.3987
+Q12;"XII - Legislação aplicada;";0.0007;0.5;0.3204;0.1607;0.0002
+Q13;"IX - Fitossanidade;";0.5;0.0499;0.4818;0.7169;0.7596
+Q14;"XI - Genética e melhoramento;";0.2803;0.2296;0.5597;0.5546;0.5546
+Q15;"I - Agroecologia e agricultura orgânica;";0.122;0.3867;0.4955;0.3654;0.3652
+Q16;"XVI - Solos;";0.0005;0.5;0.1037;0.0523;0.0002
+Q17;"X - Fitotecnia;";0.1177;0.5;0.3848;0.2648;0.2595
+Q18;"XII - Legislação aplicada;";0.3712;0.0864;0.3204;0.545;0.581
+Q19;"XVII - Tecnologia e processamento de produtos agropecuários;";0.2642;0.1937;0.6548;0.6191;0.6191
+Q20;"X - Fitotecnia;";0.4456;0.1733;0.3848;0.5922;0.5931
+Q21;"I - Agroecologia e agricultura orgânica;";0.3785;0.1254;0.4955;0.6243;0.6245
+Q22;"XVII - Tecnologia e processamento de produtos agropecuários;";0.4253;0.1087;0.6548;0.7304;0.7306
+Q23;XVIII - Zootecnia.;0.1269;0.4699;0.27;0.2358;0.2359
+Q24;"IX - Fitossanidade;";0.135;0.4805;0.4818;0.3202;0.3145
+Q25;"XI - Genética e melhoramento;";0.3089;0.2071;0.5597;0.5798;0.5797
+Q26;"XIII - Metodologia científica e experimentação agrícola;";0.5;0.1581;0.2645;0.5904;0.5966
+Q27;"V - Extensão e desenvolvimento rural;";0.1252;0.5;0.2645;0.2243;0.2007
+Q28;"VI - Engenharia rural;";0.1843;0.4637;0.084;0.2138;0.2309
+Q29;"IX - Fitossanidade;";0.1382;0.5;0.4818;0.3125;0.285
+Q30;XVIII - Zootecnia.;0.1348;0.4485;0.27;0.2473;0.2474
+Q31;"X - Fitotecnia;";0.175;0.3785;0.3848;0.3468;0.3474
+Q32;"VI - Engenharia rural;";0.4272;0.1348;0.084;0.464;0.4857
+Q33;"IV - Economia e administração;";0.1342;0.5;0.2645;0.231;0.2206
+Q34;"VI - Engenharia rural;";0.0005;0.5;0.084;0.0424;0.0002
+Q35;"XIV - Recursos florestais;";0.4485;0.0848;0.5471;0.7038;0.7041
+Q36;"XII - Legislação aplicada;";0.5;0.0262;0.3204;0.6518;0.7494
+Q37;"XVI - Solos;";0.3488;0.1718;0.1037;0.3985;0.4286
+Q38;"VI - Engenharia rural;";0.2819;0.2455;0.084;0.3216;0.3448

@@ -1,0 +1,7 @@
+{
+  "n_total": 600,
+  "n_treino": 480,
+  "n_validacao": 120,
+  "formato": "chat-jsonl",
+  "tipo": "prompt-tuning (sem treino de pesos)"
+}

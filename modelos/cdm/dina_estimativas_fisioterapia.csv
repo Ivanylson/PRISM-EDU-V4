@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.2218;0.1804;0.5194;0.5323;0.5323
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.469;0.0664;0.6677;0.7792;0.7793
+Q3;II - Estado, sociedade e trabalho;0.3921;0.2566;0.2972;0.4965;0.5034
+Q4;II - Estado, sociedade e trabalho;0.3205;0.3463;0.2972;0.4195;0.426
+Q5;XIII - Acessibilidade e inclusão social;0.3003;0.3361;0.4157;0.4515;0.4561
+Q6;IV - Cultura, arte e comunicação;0.5;0.135;0.4157;0.6517;0.6792
+Q7;II - Estado, sociedade e trabalho;0.2824;0.4506;0.2972;0.3617;0.3669
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.1952;0.2055;0.4952;0.492;0.492
+Q9;II - Estado, sociedade e trabalho;0.1571;0.5;0.2972;0.259;0.221
+Q10;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.1637;0.5;0.2858;0.2598;0.2482
+Q11;"XII - Métodos de avaliação fisioterapêutica;";0.4852;0.1551;0.5036;0.6663;0.6664
+Q12;"XIV - Recursos e intervenções em fisioterapia;";0.3836;0.271;0.2379;0.4658;0.4925
+Q13;"XIV - Recursos e intervenções em fisioterapia;";0.0002;0.5;0.2379;0.119;0.0
+Q14;"XIV - Recursos e intervenções em fisioterapia;";0.2906;0.4052;0.2379;0.363;0.3865
+Q15;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.0002;0.5;0.2858;0.143;0.0
+Q16;"II - Ética e Bioética;";0.5;0.0864;0.6568;0.7716;0.7926
+Q17;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.5;0.0929;0.2858;0.6164;0.7123
+Q18;"VIII - Acessibilidade e tecnologia assistiva;";0.1009;0.5;0.4157;0.2668;0.2237
+Q19;"IV - Determinantes do processo de saúde-doença;";0.0945;0.5;0.4501;0.277;0.237
+Q20;"V - Políticas de saúde;";0.3881;0.1859;0.7463;0.706;0.702
+Q21;"IV - Determinantes do processo de saúde-doença;";0.5;0.1565;0.4501;0.6546;0.6877
+Q22;"II - Ética e Bioética;";0.2127;0.3352;0.6568;0.5097;0.5038
+Q23;"XIV - Recursos e intervenções em fisioterapia;";0.5;0.0576;0.2379;0.6052;0.7666
+Q24;"XIV - Recursos e intervenções em fisioterapia;";0.5;0.0786;0.2379;0.6002;0.7088
+Q25;"XIV - Recursos e intervenções em fisioterapia;";0.5;0.0205;0.2379;0.6141;0.8486
+Q26;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.5;0.1347;0.2858;0.6044;0.6667
+Q27;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.3767;0.3238;0.2858;0.4623;0.4775
+Q28;"XI - Cinesiologia e biomecânica;";0.4865;0.1554;0.5296;0.6762;0.6761
+Q29;"XII - Métodos de avaliação fisioterapêutica;";0.1581;0.4775;0.5036;0.3416;0.3416
+Q30;"IV - Determinantes do processo de saúde-doença;";0.3281;0.2689;0.4501;0.5095;0.5134
+Q31;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.2592;0.4175;0.2858;0.3516;0.3679
+Q32;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.3207;0.4075;0.2858;0.3984;0.4121
+Q33;"V - Políticas de saúde;";0.5;0.0961;0.7463;0.8014;0.816
+Q34;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.5;0.1329;0.2858;0.6049;0.6767
+Q35;"XIV - Recursos e intervenções em fisioterapia;";0.0002;0.5;0.2379;0.119;0.0
+Q36;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.3619;0.4399;0.2858;0.4186;0.4285
+Q37;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0.4362;0.2823;0.2858;0.5167;0.5309
+Q38;"XI - Cinesiologia e biomecânica;";0.1818;0.4252;0.5296;0.39;0.3898

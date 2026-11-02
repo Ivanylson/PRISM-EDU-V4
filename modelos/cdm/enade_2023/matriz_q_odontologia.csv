@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;1;0;0;0;0
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;1;0;0;0
+Q3;3;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;1;0
+Q7;7;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;1;0;0
+Q9;9;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0;0;0;0;0;1;0;0;0;0;0;0
+Q11;11;CE;"XIII - Terapêutica medicamentosa;";0;0;0;1;0;0;0;0;0;0;0;0
+Q12;12;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q13;13;CE;"XIII - Terapêutica medicamentosa;";0;0;0;1;0;0;0;0;0;0;0;0
+Q14;14;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q15;15;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q16;16;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q17;17;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q18;18;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q19;19;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0;0;1;0;0;0;0;0;0;0;0;0
+Q20;20;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0;0;1;0;0;0;0;0;0;0;0;0
+Q21;21;CE;"IX - Atendimento clínico a indivíduos com necessidades especiais;";0;0;0;0;0;0;0;0;0;0;0;1
+Q22;22;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0;0;0;0;0;1;0;0;0;0;0;0
+Q23;23;CE;"XIII - Terapêutica medicamentosa;";0;0;0;1;0;0;0;0;0;0;0;0
+Q24;24;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0;0;1;0;0;0;0;0;0;0;0;0
+Q25;25;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0;0;1;0;0;0;0;0;0;0;0;0
+Q26;26;CE;"XIV - Urgências odontológicas e emergências médicas em odontologia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q27;27;CE;"V - Propedêutica clínica;";0;0;0;0;1;0;0;0;0;0;0;0
+Q28;28;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q29;29;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0;0;0;0;0;0;1;0;0;0;0;0
+Q30;30;CE;"XI - Biossegurança;";0;0;0;0;0;0;0;0;0;0;0;1
+Q31;31;CE;"V - Propedêutica clínica;";0;0;0;0;1;0;0;0;0;0;0;0
+Q32;32;CE;"X - Saúde coletiva;";0;0;0;0;0;0;0;0;0;0;0;1
+Q33;33;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q34;34;CE;"VII - Clínica odontológica integrada do adulto;";0;0;0;0;0;0;0;0;0;0;0;1
+Q35;35;CE;"V - Propedêutica clínica;";0;0;0;0;1;0;0;0;0;0;0;0
+Q36;36;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0;0;0;0;0;0;1;0;0;0;0;0
+Q37;37;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";1;0;0;0;0;0;0;0;0;0;0;0
+Q38;38;CE;"IV - Aspectos éticos, bioéticos e legais no exercício profissional;";0;0;0;0;0;0;0;0;0;0;0;1

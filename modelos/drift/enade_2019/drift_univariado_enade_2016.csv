@@ -1,0 +1,49 @@
+Curso,CO_GRUPO_ref,CO_GRUPO_prod,Variavel,Tipo,KS_D,KS_p,Wasserstein,Cramer_V,PSI,Status,Rotulo
+Agronomia,17,17,NT_GER,continuo,0.2124,0.0007,3.6287,,,Drift (KS significativo),NT_GER
+Agronomia,17,17,NT_DIS_CE,continuo,0.0939,0.4012,2.3532,,,Sem drift,NT_DIS_CE
+Biomedicina,55,55,ciencias exatas aplicadas a biomedicina abordagens processos e metodos fisicos quimicos matematicos estatisticos e de bioinformatica como suporte a biomedicina,continuo,0.4464,0.0,11.1378,,,Drift (KS significativo),"I - Ciências exatas aplicadas à Biomedicina – abordagens, processos e métodos físicos, químicos, matemáticos, estatísticos e de bioinformática como suporte à Biomedicina."
+Biomedicina,55,55,NT_GER,continuo,0.1031,0.4788,1.4552,,,Sem drift,NT_GER
+Biomedicina,55,55,NT_DIS_CE,continuo,0.5,0.0,21.0331,,,Drift (KS significativo),NT_DIS_CE
+Educacao Fisica Bacharelado,3501,3501,dimensao biodinamica conhecimentos sobre o ser humano nos aspectos morfologicos fisiologicos biomecanicos bioquimicos e suas aplicacoes na area,continuo,0.3539,0.0,12.8774,,,Drift (KS significativo),"II - Dimensão biodinâmica: conhecimentos sobre o ser humano nos aspectos morfológicos, fisiológicos, biomecânicos, bioquímicos e suas aplicações na área."
+Educacao Fisica Bacharelado,3501,3501,dimensao cientifica e tecnologica conhecimentos sobre procedimentos eticos metodos e tecnicas de estudo e pesquisa que fundamentam a intervencao profissional,continuo,0.0729,0.2633,1.6573,,,Sem drift,"IV - Dimensão científica e tecnológica: conhecimentos sobre procedimentos éticos, métodos e técnicas de estudo e pesquisa que fundamentam a intervenção profissional."
+Educacao Fisica Bacharelado,3501,3501,NT_GER,continuo,0.1226,0.007,2.3862,,,Drift (KS significativo),NT_GER
+Educacao Fisica Bacharelado,3501,3501,NT_DIS_CE,continuo,0.1475,0.0006,4.4329,,,Drift (KS significativo),NT_DIS_CE
+Enfermagem,23,23,NT_GER,continuo,0.093,0.0216,1.747,,,Drift (KS significativo),NT_GER
+Enfermagem,23,23,NT_DIS_CE,continuo,0.0853,0.044,2.8841,,,Drift (KS significativo),NT_DIS_CE
+Farmacia,19,19,bromatologia e tecnologia de alimentos,discreto,0.0571,0.8396,3.6002,0.111,0.0515,Sem drift,VI - Bromatologia e tecnologia de alimentos.
+Farmacia,19,19,farmacia magistral alopatica e homeopatica,discreto,0.2645,0.0,11.1162,0.5421,3.8237,Drift forte,VII - Farmácia magistral alopática e homeopática.
+Farmacia,19,19,saude publica epidemiologia e educacao em saude,discreto,0.273,0.0,7.7797,0.9592,14.1284,Drift forte,"VIII - Saúde pública, epidemiologia e educação em saúde."
+Farmacia,19,19,quimica farmaceutica e medicinal,discreto,0.3667,0.0,15.4507,0.9731,13.8846,Drift forte,XVI - Química farmacêutica e medicinal.
+Farmacia,19,19,farmacognosia e fitoterapia,discreto,0.0628,0.7483,3.7857,0.0769,0.0245,Sem drift,V - Farmacognosia e fitoterapia.
+Farmacia,19,19,legislacao sanitaria e profissional,discreto,0.0999,0.2039,4.5564,0.1298,0.0694,Sem drift,IX - Legislação sanitária e profissional.
+Farmacia,19,19,seguranca do paciente e biosseguranca,discreto,0.0586,0.8167,3.2696,0.154,0.1026,Drift moderado,XI - Segurança do paciente e biossegurança.
+Farmacia,19,19,assistencia e servicos farmaceuticos,discreto,0.0659,0.6935,2.8276,0.0863,0.0307,Sem drift,XIV - Assistência e serviços farmacêuticos.
+Farmacia,19,19,NT_GER,continuo,0.2076,0.0001,6.1581,,,Drift (KS significativo),NT_GER
+Farmacia,19,19,NT_DIS_CE,continuo,0.6093,0.0,24.6625,,,Drift (KS significativo),NT_DIS_CE
+Fisioterapia,36,36,NT_GER,continuo,0.1834,0.0003,3.6467,,,Drift (KS significativo),NT_GER
+Fisioterapia,36,36,NT_DIS_CE,continuo,0.0598,0.7223,1.8052,,,Sem drift,NT_DIS_CE
+Fonoaudiologia,27,27,NT_GER,continuo,0.1949,0.4171,3.8273,,,Sem drift,NT_GER
+Fonoaudiologia,27,27,NT_DIS_CE,continuo,0.4549,0.0005,18.3035,,,Drift (KS significativo),NT_DIS_CE
+Medicina,12,12,pediatria,discreto,0.4591,0.0,9.3682,0.9972,14.7624,Drift forte,VI - Pediatria.
+Medicina,12,12,urgencia e emergencia,continuo,0.1967,0.0002,3.7773,,,Drift (KS significativo),VIII - Urgência e emergência.
+Medicina,12,12,saude mental,discreto,0.4505,0.0,8.7204,0.9972,14.5866,Drift forte,IX - Saúde mental.
+Medicina,12,12,clinica medica,continuo,0.4211,0.0,13.6554,,,Drift (KS significativo),III - Clínica médica.
+Medicina,12,12,cirurgia,discreto,0.3677,0.0,7.3838,0.9901,14.4513,Drift forte,IV - Cirurgia.
+Medicina,12,12,ginecologia e obstetricia,discreto,0.3798,0.0,10.667,0.8927,11.7232,Drift forte,V - Ginecologia e obstetrícia.
+Medicina,12,12,NT_GER,continuo,0.2708,0.0,5.1733,,,Drift (KS significativo),NT_GER
+Medicina,12,12,NT_DIS_CE,continuo,0.7099,0.0,27.8795,,,Drift (KS significativo),NT_DIS_CE
+Medicina Veterinaria,5,5,NT_GER,continuo,0.1047,0.3078,2.5592,,,Sem drift,NT_GER
+Medicina Veterinaria,5,5,NT_DIS_CE,continuo,0.6489,0.0,29.3429,,,Drift (KS significativo),NT_DIS_CE
+Nutricao,28,28,indicadores de qualidade na producao de refeicoes,discreto,0.6546,0.0,35.2804,0.775,8.142,Drift forte,D - Indicadores de qualidade na produção de refeições
+Nutricao,28,28,seguranca alimentar e nutricional,discreto,0.1624,0.0035,9.2504,0.6502,4.7344,Drift forte,D - Segurança Alimentar e Nutricional
+Nutricao,28,28,triagem e avaliacao do estado nutricional nas situacoes patologicas,binario,0.4569,0.0,30.7416,0.8736,8.4224,Drift forte,C - Triagem e avaliação do estado nutricional nas situações patológicas
+Nutricao,28,28,controle higienico sanitario dos alimentos,discreto,0.3509,0.0,18.1227,0.8153,9.6475,Drift forte,D - Controle higiênico-sanitário dos alimentos
+Nutricao,28,28,planejamento e prescricao de planos alimentares,discreto,0.3661,0.0,14.7001,0.8048,9.9106,Drift forte,C - Planejamento e prescrição de planos alimentares
+Nutricao,28,28,NT_GER,continuo,0.0967,0.2053,1.7152,,,Sem drift,NT_GER
+Nutricao,28,28,NT_DIS_CE,continuo,0.307,0.0,12.4261,,,Drift (KS significativo),NT_DIS_CE
+Odontologia,6,6,NT_GER,continuo,0.2233,0.0001,5.5233,,,Drift (KS significativo),NT_GER
+Odontologia,6,6,NT_DIS_CE,continuo,0.5003,0.0,18.2205,,,Drift (KS significativo),NT_DIS_CE
+Tecnologia Em Estetica E Cosmetica,95,95,NT_GER,continuo,0.1022,0.8539,1.5202,,,Sem drift,NT_GER
+Tecnologia Em Estetica E Cosmetica,95,95,NT_DIS_CE,continuo,0.1444,0.4683,2.9873,,,Sem drift,NT_DIS_CE
+Tecnologia Em Gestao Ambiental,92,92,NT_GER,continuo,0.1612,0.3055,3.6854,,,Sem drift,NT_GER
+Tecnologia Em Gestao Ambiental,92,92,NT_DIS_CE,continuo,0.3616,0.0002,13.7187,,,Drift (KS significativo),NT_DIS_CE

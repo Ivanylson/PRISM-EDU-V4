@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;1;0;0
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;1;0;0;0
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"IV - Climatologia e meteorologia;";0;0;0;1;0;0;0;0;0;0;0;0
+Q11;11;CE;"XII - Gestão de resíduos sólidos;";0;1;0;0;0;0;0;0;0;0;0;0
+Q12;12;CE;"XXII - Saúde ambiental;";0;0;0;0;0;0;0;0;0;0;0;1
+Q13;13;CE;"XVIII - Planejamento e gestão dos territórios urbano, rural e das unidades de conservação;";0;0;0;0;0;0;0;0;0;0;1;0
+Q14;14;CE;"III - Ciências do ambiente;";0;0;0;0;0;0;0;0;0;0;0;1
+Q15;15;CE;"XVII - Planejamento e gestão ambiental nos setores público e privado;";0;0;0;0;1;0;0;0;0;0;0;0
+Q16;16;CE;"XIX - Qualidade do solo, do ar e da água;";0;0;0;0;0;1;0;0;0;0;0;0
+Q17;17;CE;"I - Avaliação de impactos e de riscos ambientais;";0;0;1;0;0;0;0;0;0;0;0;0
+Q18;18;CE;"VIII - Expressão gráfica de projetos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"II - Cartografia, geoprocessamento e sensoriamento remoto;";0;0;0;0;0;0;1;0;0;0;0;0
+Q20;20;CE;"IV - Climatologia e meteorologia;";0;0;0;1;0;0;0;0;0;0;0;0
+Q21;21;CE;"XIII - Hidráulica;";0;0;0;0;0;0;0;0;0;0;0;1
+Q22;22;CE;"VI - Energia e fontes renováveis;";0;0;0;0;0;0;0;0;0;0;0;1
+Q23;23;CE;"XXIV - Sistemas de abastecimento e de tratamento de águas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q24;24;CE;"XV - Manejo de águas pluviais e drenagem;";0;0;0;0;0;0;0;0;0;0;0;1
+Q25;25;CE;"XIV - Hidrologia;";0;0;0;0;0;0;0;1;0;0;0;0
+Q26;26;CE;"XIV - Hidrologia;";0;0;0;0;0;0;0;1;0;0;0;0
+Q27;27;CE;"I - Avaliação de impactos e de riscos ambientais;";0;0;1;0;0;0;0;0;0;0;0;0
+Q28;28;CE;"XVII - Planejamento e gestão ambiental nos setores público e privado;";0;0;0;0;1;0;0;0;0;0;0;0
+Q29;29;CE;"XVI - Modelagem de sistemas ambientais;";0;0;0;0;0;0;0;0;0;0;0;1
+Q30;30;CE;"XXI - Recuperação e remediação de áreas degradadas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q31;31;CE;"I - Avaliação de impactos e de riscos ambientais;";0;0;1;0;0;0;0;0;0;0;0;0
+Q32;32;CE;"XI - Gestão de recursos hídricos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q33;33;CE;"XIX - Qualidade do solo, do ar e da água;";0;0;0;0;0;1;0;0;0;0;0;0
+Q34;34;CE;"V - Ecologia e microbiologia aplicadas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q35;35;CE;"XXV - Sistemas de coleta e tratamento de efluentes;";0;0;0;0;0;0;0;0;0;0;0;1
+Q36;36;CE;"XII - Gestão de resíduos sólidos;";0;1;0;0;0;0;0;0;0;0;0;0
+Q37;37;CE;"XII - Gestão de resíduos sólidos;";0;1;0;0;0;0;0;0;0;0;0;0
+Q38;38;CE;"II - Cartografia, geoprocessamento e sensoriamento remoto;";0;0;0;0;0;0;1;0;0;0;0;0

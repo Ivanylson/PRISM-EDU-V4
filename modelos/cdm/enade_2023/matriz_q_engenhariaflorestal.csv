@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;1;0;0;0
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;1;0;0;0;0
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;1;0;0
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;1;0
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"V - Ecologia e ecossistemas florestais;";0;0;0;0;0;0;0;0;0;0;0;1
+Q11;11;CE;"X - Gestão de recursos naturais renováveis;";0;0;0;0;0;0;0;0;0;0;0;1
+Q12;12;CE;"XXII - Sementes e viveiros florestais;";0;0;0;0;0;0;1;0;0;0;0;0
+Q13;13;CE;"XX - Recuperação de ecossistemas florestais degradados;";0;0;0;0;0;0;0;0;0;0;0;1
+Q14;14;CE;"XXII - Sementes e viveiros florestais;";0;0;0;0;0;0;1;0;0;0;0;0
+Q15;15;CE;"XXIV - Sistemas e técnicas silviculturais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q16;16;CE;"XXIV - Sistemas e técnicas silviculturais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q17;17;CE;"VIII - Experimentação florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q18;18;CE;"XIV - Melhoramento e biotecnologia florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0;0;0;1;0;0;0;0;0;0;0;0
+Q20;20;CE;"XI - Industrialização de produtos florestais;";0;0;0;0;0;1;0;0;0;0;0;0
+Q21;21;CE;"XIX - Proteção florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q22;22;CE;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0;0;0;0;1;0;0;0;0;0;0;0
+Q23;23;CE;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0;0;0;0;1;0;0;0;0;0;0;0
+Q24;24;CE;"XII - Manejo de bacias hidrográficas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q25;25;CE;"IV - Dendrometria e inventário florestal;";0;0;1;0;0;0;0;0;0;0;0;0
+Q26;26;CE;"IV - Dendrometria e inventário florestal;";0;0;1;0;0;0;0;0;0;0;0;0
+Q27;27;CE;"XIII - Manejo florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q28;28;CE;"VII - Estradas, colheita e transporte florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q29;29;CE;"XVI - Morfologia, sistemática e dendrologia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q30;30;CE;"VI - Economia, administração e marketing florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q31;31;CE;"XXV - Solos e nutrição florestal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q32;32;CE;"XV - Meteorologia e climatologia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q33;33;CE;"XI - Industrialização de produtos florestais;";0;0;0;0;0;1;0;0;0;0;0;0
+Q34;34;CE;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0;0;0;1;0;0;0;0;0;0;0;0
+Q35;35;CE;"XXI - Recursos energéticos florestais;";0;0;0;0;0;0;0;0;0;0;0;1
+Q36;36;CE;"IV - Dendrometria e inventário florestal;";0;0;1;0;0;0;0;0;0;0;0;0
+Q37;37;CE;"XXIV - Sistemas e técnicas silviculturais;";0;1;0;0;0;0;0;0;0;0;0;0
+Q38;38;CE;"II - Comunicação e extensão rural;";0;0;0;0;0;0;0;0;0;0;0;1
