@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "prism-edu": {
+      "type": "local",
+      "command": ["python", "C:/Users/usuario/Downloads/projeto/PRISM-EDU/mcp/prism_edu_server.py"],
+      "cwd": "C:/Users/usuario/Downloads/projeto/PRISM-EDU",
+      "enabled": true
+    }
+  }
+}

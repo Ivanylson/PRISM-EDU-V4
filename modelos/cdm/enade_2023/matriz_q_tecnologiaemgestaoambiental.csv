@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;0;0;1
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;0;0;0;1
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;1;0
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"XV - Economia ambiental e marketing verde;";0;0;0;0;0;0;0;0;0;0;0;1
+Q11;11;CE;"I - Gestão de recursos hídricos e de bacias hidrográficas;";0;0;0;0;1;0;0;0;0;0;0;0
+Q12;12;CE;"II - Sistemas de abastecimento de água e esgotamento sanitário: parâmetros, padrões de qualidade e dinâmica da drenagem urbana;";0;0;0;0;0;0;0;0;1;0;0;0
+Q13;13;CE;"II - Sistemas de abastecimento de água e esgotamento sanitário: parâmetros, padrões de qualidade e dinâmica da drenagem urbana;";0;0;0;0;0;0;0;0;1;0;0;0
+Q14;14;CE;"VI - Recuperação de áreas degradadas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q15;15;CE;XIX - Energias renováveis.;0;0;0;0;0;0;0;0;0;0;0;1
+Q16;16;CE;"III - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final;";0;0;0;0;0;0;0;0;0;1;0;0
+Q17;17;CE;"III - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final;";0;0;0;0;0;0;0;0;0;1;0;0
+Q18;18;CE;"XIV - Educação ambiental;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0;0;1;0;0;0;0;0;0;0;0;0
+Q20;20;CE;"V - Poluição ambiental;";0;0;0;0;0;0;1;0;0;0;0;0
+Q21;21;CE;"V - Poluição ambiental;";0;0;0;0;0;0;1;0;0;0;0;0
+Q22;22;CE;XIII - Mecanismos de produção mais limpa - P + L;0;1;0;0;0;0;0;0;0;0;0;0
+Q23;23;CE;XIII - Mecanismos de produção mais limpa - P + L;0;1;0;0;0;0;0;0;0;0;0;0
+Q24;24;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0;0;0;1;0;0;0;0;0;0;0;0
+Q25;25;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0;0;0;1;0;0;0;0;0;0;0;0
+Q26;26;CE;X - Licenciamento ambiental;0;0;0;0;0;0;0;0;0;0;0;1
+Q27;27;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0;0;1;0;0;0;0;0;0;0;0;0
+Q28;28;CE;XII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria;0;0;0;0;0;1;0;0;0;0;0;0
+Q29;29;CE;XII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria;0;0;0;0;0;1;0;0;0;0;0;0
+Q30;30;CE;XVIII - Mudanças climáticas e eventos extremos;0;0;0;0;0;0;0;0;0;0;0;1
+Q31;31;CE;XI - Estudo e avaliação de impactos ambientais;0;0;0;0;0;0;0;1;0;0;0;0
+Q32;32;CE;XI - Estudo e avaliação de impactos ambientais;0;0;0;0;0;0;0;1;0;0;0;0
+Q33;33;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0;0;0;1;0;0;0;0;0;0;0;0
+Q34;34;CE;XVII - Desastres ambientais: avaliação de risco e vulnerabilidade;0;0;0;0;0;0;0;0;0;0;0;1
+Q35;35;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0;0;1;0;0;0;0;0;0;0;0;0
+Q36;36;CE;XIII - Mecanismos de produção mais limpa - P + L;0;1;0;0;0;0;0;0;0;0;0;0
+Q37;37;CE;"IX - Geotecnologias: uso e aplicação na gestão ambiental;";0;0;0;0;0;0;0;0;0;0;0;1
+Q38;38;CE;"I - Gestão de recursos hídricos e de bacias hidrográficas;";0;0;0;0;1;0;0;0;0;0;0;0

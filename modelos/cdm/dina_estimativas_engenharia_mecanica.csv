@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.307;0.1242;0.5834;0.6388;0.6388
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.4858;0.0625;0.6745;0.7905;0.7906
+Q3;II - Estado, sociedade e trabalho;0.5;0.1538;0.4215;0.6459;0.6536
+Q4;II - Estado, sociedade e trabalho;0.4315;0.2165;0.4215;0.5799;0.5852
+Q5;XIII - Acessibilidade e inclusão social;0.2038;0.1971;0.5031;0.5052;0.5052
+Q6;IV - Cultura, arte e comunicação;0.5;0.0311;0.1328;0.5623;0.773
+Q7;II - Estado, sociedade e trabalho;0.233;0.5;0.4215;0.3456;0.3416
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.4675;0.2757;0.1328;0.5016;0.5088
+Q9;II - Estado, sociedade e trabalho;0.1481;0.5;0.4215;0.2964;0.2585
+Q10;"XIX - Processos de fabricação;";0.0002;0.5;0.1294;0.0649;0.0
+Q11;"XIII - Materiais de construção mecânica;";0.0435;0.5;0.285;0.1736;0.1677
+Q12;"XIV - Mecânica dos fluidos e sistemas fluidomecânicos;";0.0923;0.5;0.259;0.1978;0.1871
+Q13;"XIV - Mecânica dos fluidos e sistemas fluidomecânicos;";0.1724;0.3704;0.259;0.2908;0.2939
+Q14;"XXIV - Transferência de calor e massa;";0.0002;0.5;0.0849;0.0427;0.0
+Q15;"XXIV - Transferência de calor e massa;";0.2939;0.132;0.0849;0.3427;0.3769
+Q16;"XXIII - Termodinâmica e Sistemas térmicos;";0.2103;0.5;0.1328;0.2487;0.2505
+Q17;"X - Instrumentação e Controle;";0.5;0.0346;0.1328;0.5618;0.6737
+Q18;"XVIII - Modelagem matemática e simulação computacional;";0.5;0.0373;0.1328;0.5614;0.7164
+Q19;"XXII - Segurança e saúde no trabalho;";0.5;0.017;0.1328;0.5641;0.8516
+Q20;"XV - Mecânica geral e mecânica dos sólidos;";0.1842;0.3879;0.22;0.2783;0.2841
+Q21;"XV - Mecânica geral e mecânica dos sólidos;";0.071;0.5;0.22;0.1654;0.1468
+Q22;"XVI - Mecanismos;";0.0002;0.5;0.1328;0.0666;0.0
+Q23;"XX - Projeto de máquinas e de Sistemas mecânicos;";0.2672;0.183;0.1328;0.3402;0.3555
+Q24;"VI - Dinâmica de máquinas e de sistemas mecânicos;";0.1622;0.4889;0.317;0.2728;0.2732
+Q25;"VI - Dinâmica de máquinas e de sistemas mecânicos;";0.1953;0.4158;0.317;0.3186;0.319
+Q26;"I - Administração e Economia;";0.5;0.0064;0.1328;0.5655;0.8997
+Q27;"XVII - Metrologia;";0.1408;0.5;0.1328;0.1885;0.188
+Q28;"XXI - Química;";0.5;0.0567;0.1328;0.5589;0.7205
+Q29;"IV - Ciência dos materiais;";0.0002;0.5;0.0803;0.0403;0.0
+Q30;"XXIII - Termodinâmica e sistemas térmicos;";0.2242;0.5;0.1328;0.2608;0.2535
+Q31;"XIX - Processos de fabricação;";0.2803;0.2484;0.1294;0.3413;0.3749
+Q32;"VIII - Empreendedorismo;";0.0002;0.5;0.1328;0.0666;0.0
+Q33;"XI - Manutenção;";0.0002;0.5;0.1328;0.0666;0.0
+Q34;"XIX - Processos de fabricação;";0.5;0.1026;0.1294;0.5514;0.6294
+Q35;"IX - Expressão gráfica;";0.261;0.49;0.1328;0.2941;0.3009
+Q36;"IV - Ciência dos materiais;";0.2719;0.1449;0.0803;0.3187;0.3517
+Q37;"III - Ciências do ambiente;";0.0002;0.5;0.1328;0.0666;0.0
+Q38;"VII - Eletricidade;";0.1729;0.5;0.1328;0.2163;0.2122

@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.0344;0.0771;0.5359;0.7604
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.2996;0.3967;0.0771;0.323;0.3308
+Q3;II - Estado, sociedade e trabalho;0.3887;0.2626;0.3642;0.5157;0.5204
+Q4;II - Estado, sociedade e trabalho;0.2662;0.4158;0.3642;0.382;0.3862
+Q5;XIII - Acessibilidade e inclusão social;0.4619;0.1158;0.0771;0.4945;0.5056
+Q6;IV - Cultura, arte e comunicação;0.0635;0.4817;0.3271;0.2122;0.2121
+Q7;II - Estado, sociedade e trabalho;0.4079;0.2628;0.3642;0.5279;0.5323
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.0752;0.4362;0.3465;0.2445;0.2444
+Q9;II - Estado, sociedade e trabalho;0.1254;0.5;0.3642;0.2619;0.234
+Q10;"XVIII - Saúde pública, epidemiologia e educação em saúde;";0.1411;0.4886;0.6217;0.3713;0.3629
+Q11;"VII - Análises clínicas;";0.1548;0.2555;0.4531;0.422;0.422
+Q12;"XIV - Farmácia comunitária;";0.1321;0.5;0.2565;0.2264;0.2164
+Q13;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.0002;0.5;0.1259;0.0631;0.0001
+Q14;"XV - Farmácia clínica;";0.5;0.1519;0.4757;0.6656;0.6706
+Q15;"II - Genética, biologia molecular e biotecnologia;";0.3585;0.2852;0.0771;0.386;0.3952
+Q16;"XVIII - Saúde pública, epidemiologia e educação em saúde;";0.5;0.0684;0.6217;0.7683;0.8022
+Q17;"XX - Farmacoepidemiologia e farmacovigilância;";0.2696;0.5;0.0771;0.2873;0.2909
+Q18;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.5;0.1401;0.1259;0.5453;0.5922
+Q19;"XI - Controle físico- químico, biológico e microbiológico e garantia da qualidade;";0.4832;0.1295;0.0771;0.513;0.5232
+Q20;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.4163;0.2239;0.1259;0.4616;0.4828
+Q21;"VI - Farmácia magistral alopática e homeopática;";0.1847;0.4261;0.0771;0.2147;0.2247
+Q22;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.2866;0.3683;0.1259;0.33;0.3503
+Q23;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.331;0.3334;0.1259;0.3732;0.3929
+Q24;"IV - Farmacognosia e fitoterapia;";0.1932;0.5;0.0771;0.2169;0.2229
+Q25;"XIII - Farmácia hospitalar;";0.4224;0.0908;0.0771;0.4599;0.4727
+Q26;"IX - Química farmacêutica e medicinal;";0.2123;0.3384;0.2251;0.3135;0.3209
+Q27;"XV - Farmácia clínica;";0.1353;0.5;0.4757;0.3088;0.2935
+Q28;"III - Farmacologia;";0.1627;0.2452;0.056;0.1958;0.22
+Q29;"XIV - Farmácia comunitária;";0.1548;0.4801;0.2565;0.2484;0.2507
+Q30;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0.2232;0.4438;0.1259;0.2651;0.2846
+Q31;"VIII - Toxicologia e análises toxicológicas;";0.2009;0.5;0.0771;0.2239;0.2214
+Q32;I - Processos fisiológicos, patológicos,;0.1946;0.4252;0.0771;0.2239;0.2337
+Q33;"IX - Química farmacêutica e medicinal;";0.0613;0.5;0.2251;0.1601;0.1382
+Q34;"XII - Assistência farmacêutica;";0.0002;0.5;0.0771;0.0387;0.0
+Q35;XXI - Gestão farmacêutica e farmacoeconomia.;0.0002;0.5;0.0771;0.0387;0.0
+Q36;"XVI - Serviços farmacêuticos;";0.0002;0.5;0.0039;0.0021;0.0
+Q37;"XVI - Serviços farmacêuticos;";0.0002;0.5;0.0039;0.0021;0.0
+Q38;"III - Farmacologia;";0.0002;0.5;0.056;0.0282;0.0

@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.1909;0.2211;0.4857;0.4765;0.4764
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.4381;0.0808;0.6545;0.753;0.7543
+Q3;II - Estado, sociedade e trabalho;0.2534;0.4029;0.2381;0.3352;0.3393
+Q4;II - Estado, sociedade e trabalho;0.2995;0.3281;0.2381;0.3882;0.3932
+Q5;XIII - Acessibilidade e inclusão social;0.4154;0.3587;0.5823;0.547;0.5388
+Q6;IV - Cultura, arte e comunicação;0.3363;0.3355;0.5823;0.5274;0.5151
+Q7;II - Estado, sociedade e trabalho;0.2028;0.5;0.2381;0.2736;0.2628
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.3025;0.5;0.5823;0.4175;0.4036
+Q9;II - Estado, sociedade e trabalho;0.2329;0.5;0.2381;0.2965;0.2769
+Q10;"III - Higiene do trabalho;";0.2987;0.2604;0.7209;0.6166;0.6134
+Q11;"II - Ergonomia;";0.3797;0.4458;0.5823;0.4813;0.4745
+Q12;"IV - Gerenciamento de risco;";0.0025;0.5;0.0248;0.0148;0.0
+Q13;"IV - Gerenciamento de risco;";0.0025;0.5;0.0248;0.0148;0.0
+Q14;"V - Atendimento pré- hospitalar;";0.38;0.1739;0.7072;0.6955;0.6957
+Q15;"V - Atendimento pré- hospitalar;";0.4972;0.1248;0.7072;0.7645;0.7656
+Q16;"VII - Legislação e normas técnicas;";0.0761;0.5;0.214;0.1669;0.1437
+Q17;"VIII - Psicologia, comunicação e treinamento;";0.4218;0.1815;0.347;0.5594;0.5737
+Q18;"VIII - Psicologia, comunicação e treinamento;";0.4177;0.2216;0.347;0.5429;0.5558
+Q19;"XII - Sistema de gestão integrada;";0.3619;0.3466;0.5823;0.5316;0.5208
+Q20;"XI - Proteção e controle de máquinas, de equipamentos e de instalações;";0.1754;0.5;0.5823;0.3644;0.3176
+Q21;"XIV - Ética profissional;";0.2918;0.4858;0.5823;0.4214;0.4121
+Q22;"III - Higiene do trabalho;";0.3739;0.225;0.7209;0.663;0.6607
+Q23;"XIII - Empreendedorismo e fundamentos da Administração;";0.5;0.1415;0.6464;0.7317;0.7344
+Q24;XVI - Doenças ocupacionais.;0.003;0.5;0.1249;0.0651;0.0
+Q25;"VI - Prevenção e combate a incêndio;";0.5;0.0372;0.5823;0.7695;0.8743
+Q26;"XV - Biossegurança;";0.2883;0.272;0.581;0.5438;0.5435
+Q27;XVI - Doenças ocupacionais.;0.4991;0.0737;0.1249;0.5525;0.5907
+Q28;"XIII - Empreendedorismo e fundamentos da Administração;";0.3019;0.2531;0.6464;0.5896;0.5888
+Q29;"IV - Gerenciamento de risco;";0.5;0.0459;0.0248;0.5112;0.7665
+Q30;"III - Higiene do trabalho;";0.5;0.1155;0.7209;0.7772;0.794
+Q31;"VII - Legislação e normas técnicas;";0.0032;0.5;0.214;0.1096;0.0
+Q32;"VII - Legislação e normas técnicas;";0.3986;0.3156;0.214;0.4597;0.4783
+Q33;"XV - Biossegurança;";0.3977;0.193;0.581;0.6355;0.6361
+Q34;"VII - Legislação e normas técnicas;";0.5;0.1255;0.214;0.5802;0.672
+Q35;"VII - Legislação e normas técnicas;";0.347;0.397;0.214;0.4018;0.4178
+Q36;"VII - Legislação e normas técnicas;";0.5;0.0726;0.214;0.5915;0.7164
+Q37;"VII - Legislação e normas técnicas;";0.4879;0.1606;0.214;0.5631;0.587
+Q38;"VIII - Psicologia, comunicação e treinamento;";0.0488;0.5;0.347;0.2054;0.1531

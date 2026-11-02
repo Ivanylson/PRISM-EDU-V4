@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.1431;0.1492;0.5533;0.6608
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.0235;0.1492;0.5711;0.8426
+Q3;II - Estado, sociedade e trabalho;0.5;0.1378;0.4986;0.6806;0.7086
+Q4;II - Estado, sociedade e trabalho;0.454;0.2107;0.4986;0.6211;0.6237
+Q5;XIII - Acessibilidade e inclusão social;0.1928;0.2097;0.4921;0.4868;0.4868
+Q6;IV - Cultura, arte e comunicação;0.5;0.0294;0.7558;0.8557;0.8675
+Q7;II - Estado, sociedade e trabalho;0.2861;0.4491;0.4986;0.4181;0.4198
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.5;0.1782;0.1492;0.548;0.6073
+Q9;II - Estado, sociedade e trabalho;0.1535;0.5;0.4986;0.3263;0.2756
+Q10;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0.0826;0.5;0.1857;0.1601;0.1461
+Q11;"XIV - Modelagem, simulação, otimização e controle de processos;";0.0005;0.5;0.0753;0.0382;0.0
+Q12;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0.2756;0.3483;0.1857;0.3455;0.35
+Q13;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0.1626;0.4769;0.1857;0.2295;0.2336
+Q14;"X - Balanços de massa e energia;";0.2152;0.4493;0.3784;0.3422;0.3424
+Q15;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.0005;0.5;0.018;0.0095;0.0
+Q16;"XVI - Projeto e segurança de processos;";0.1067;0.5;0.3602;0.2483;0.2293
+Q17;"III - Eletricidade aplicada;";0.1782;0.5;0.1492;0.2262;0.2395
+Q18;"IX - Química;";0.1604;0.4887;0.3493;0.283;0.2831
+Q19;"XIV - Modelagem, simulação, otimização e controle de processos;";0.3747;0.1761;0.0753;0.4086;0.4324
+Q20;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.0005;0.5;0.018;0.0095;0.0
+Q21;"VIII - Metodologia científica e tecnológica;";0.4659;0.25;0.1492;0.5083;0.5256
+Q22;"X - Balanços de massa e energia;";0.252;0.3876;0.3784;0.3884;0.3887
+Q23;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.1924;0.4644;0.018;0.1986;0.2076
+Q24;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.2775;0.3676;0.018;0.2839;0.2935
+Q25;"XIV - Modelagem, simulação, otimização e controle de processos;";0.2225;0.3044;0.0753;0.2581;0.2829
+Q26;"XVII - Termodinâmica;";0.1387;0.2844;0.0501;0.1676;0.189
+Q27;"XI - Engenharia das reações químicas;";0.1948;0.5;0.1492;0.2404;0.2553
+Q28;"XVI - Projeto e segurança de processos;";0.3378;0.2277;0.3602;0.4943;0.4991
+Q29;"XII - Engenharia de bioprocessos;";0.2135;0.2947;0.5166;0.4675;0.4674
+Q30;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.5;0.0277;0.018;0.5085;0.715
+Q31;"IX - Química;";0.2352;0.3474;0.3493;0.381;0.3814
+Q32;"XVII - Termodinâmica;";0.0005;0.5;0.0501;0.0256;0.0
+Q33;"VII - Mecânica dos sólidos;";0.3273;0.4292;0.1492;0.3636;0.3782
+Q34;"VI - Algoritimos e programação;";0.5;0.0859;0.1492;0.5618;0.6854
+Q35;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0.3325;0.2172;0.018;0.3406;0.353
+Q36;"XIII - Engenharia de meio ambiente;";0.0006;0.5;0.1492;0.0751;0.0
+Q37;"XII - Engenharia de bioprocessos;";0.3192;0.1958;0.5166;0.5698;0.5698
+Q38;"XIX - Estatística;";0.0006;0.5;0.1492;0.0751;0.0

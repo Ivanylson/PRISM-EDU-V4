@@ -1,0 +1,476 @@
+{
+  "pca": {
+    "farmacia": {
+      "mse_baseline": 5.662216799517709e-31,
+      "mse_prod": 1.3367668793487693e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 8,
+      "variancia_explicada": 1.0,
+      "n_ref": 261,
+      "n_prod": 190,
+      "principais": [
+        {
+          "Variavel": "quimica farmaceutica e medicinal",
+          "Contribuicao (var explicada media)": 0.12500000000000006
+        },
+        {
+          "Variavel": "farmacognosia e fitoterapia",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "seguranca do paciente e biosseguranca",
+          "Contribuicao (var explicada media)": 0.12499999999999997
+        },
+        {
+          "Variavel": "assistencia e servicos farmaceuticos",
+          "Contribuicao (var explicada media)": 0.12499999999999996
+        },
+        {
+          "Variavel": "saude publica epidemiologia e educacao em saude",
+          "Contribuicao (var explicada media)": 0.12499999999999994
+        }
+      ],
+      "referencia": "enade_2016"
+    },
+    "medicina": {
+      "mse_baseline": 1.0642728342065e-30,
+      "mse_prod": 4.553205061946507e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 6,
+      "variancia_explicada": 0.9999999999999999,
+      "n_ref": 301,
+      "n_prod": 192,
+      "principais": [
+        {
+          "Variavel": "cirurgia",
+          "Contribuicao (var explicada media)": 0.16666666666666666
+        },
+        {
+          "Variavel": "clinica medica",
+          "Contribuicao (var explicada media)": 0.16666666666666666
+        },
+        {
+          "Variavel": "ginecologia e obstetricia",
+          "Contribuicao (var explicada media)": 0.16666666666666666
+        },
+        {
+          "Variavel": "saude mental",
+          "Contribuicao (var explicada media)": 0.1666666666666666
+        },
+        {
+          "Variavel": "urgencia e emergencia",
+          "Contribuicao (var explicada media)": 0.16666666666666655
+        }
+      ],
+      "referencia": "enade_2016"
+    },
+    "nutricao": {
+      "mse_baseline": 3.7337938912848453e-31,
+      "mse_prod": 5.184151876475726e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 5,
+      "variancia_explicada": 1.0,
+      "n_ref": 267,
+      "n_prod": 209,
+      "principais": [
+        {
+          "Variavel": "planejamento e prescricao de planos alimentares",
+          "Contribuicao (var explicada media)": 0.20000000000000012
+        },
+        {
+          "Variavel": "triagem e avaliacao do estado nutricional nas situacoes patologicas",
+          "Contribuicao (var explicada media)": 0.2000000000000001
+        },
+        {
+          "Variavel": "controle higienico sanitario dos alimentos",
+          "Contribuicao (var explicada media)": 0.20000000000000004
+        },
+        {
+          "Variavel": "indicadores de qualidade na producao de refeicoes",
+          "Contribuicao (var explicada media)": 0.19999999999999998
+        },
+        {
+          "Variavel": "seguranca alimentar e nutricional",
+          "Contribuicao (var explicada media)": 0.19999999999999996
+        }
+      ],
+      "referencia": "enade_2016"
+    },
+    "arquitetura e urbanismo": {
+      "mse_baseline": 0.031963091539023984,
+      "mse_prod": 0.09123579992767789,
+      "ratio": 2.854410995140673,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9733584356706327,
+      "n_ref": 197,
+      "n_prod": 263,
+      "principais": [
+        {
+          "Variavel": "estetica e historia das artes",
+          "Contribuicao (var explicada media)": 0.08204552628670722
+        },
+        {
+          "Variavel": "planejamento urbano e regional",
+          "Contribuicao (var explicada media)": 0.07800494490885851
+        },
+        {
+          "Variavel": "informatica aplicada a arquitetura e urbanismo",
+          "Contribuicao (var explicada media)": 0.07717713662600449
+        },
+        {
+          "Variavel": "gestao e coordenacao de projetos",
+          "Contribuicao (var explicada media)": 0.07561668053194545
+        },
+        {
+          "Variavel": "tecnicas retrospectivas",
+          "Contribuicao (var explicada media)": 0.07360532970205776
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia ambiental": {
+      "mse_baseline": 0.05349862346080234,
+      "mse_prod": 0.05567877695250069,
+      "ratio": 1.0407515810812538,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9746713483535954,
+      "n_ref": 61,
+      "n_prod": 83,
+      "principais": [
+        {
+          "Variavel": "modelagem de sistemas ambientais",
+          "Contribuicao (var explicada media)": 0.09978477772362374
+        },
+        {
+          "Variavel": "recuperacao e remediacao de areas degradadas",
+          "Contribuicao (var explicada media)": 0.09231698101660211
+        },
+        {
+          "Variavel": "climatologia e meteorologia",
+          "Contribuicao (var explicada media)": 0.09009222914732615
+        },
+        {
+          "Variavel": "geologia e geotecnia ambiental",
+          "Contribuicao (var explicada media)": 0.08880267566054116
+        },
+        {
+          "Variavel": "avaliacao de impactos ambientais",
+          "Contribuicao (var explicada media)": 0.08668924222912305
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia civil": {
+      "mse_baseline": 1.2417051547850657e-30,
+      "mse_prod": 2.6463567377765014e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 1.0,
+      "n_ref": 409,
+      "n_prod": 536,
+      "principais": [
+        {
+          "Variavel": "geotecnia",
+          "Contribuicao (var explicada media)": 0.10000000000000002
+        },
+        {
+          "Variavel": "ciencias do ambiente",
+          "Contribuicao (var explicada media)": 0.1
+        },
+        {
+          "Variavel": "construcao civil",
+          "Contribuicao (var explicada media)": 0.1
+        },
+        {
+          "Variavel": "ciencia e tecnologia dos materiais",
+          "Contribuicao (var explicada media)": 0.1
+        },
+        {
+          "Variavel": "recursos hidricos e saneamento",
+          "Contribuicao (var explicada media)": 0.1
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia da computacao": {
+      "mse_baseline": 0.01378538789651503,
+      "mse_prod": 0.06993524382295023,
+      "ratio": 5.073142979214243,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9946751789603768,
+      "n_ref": 40,
+      "n_prod": 48,
+      "principais": [
+        {
+          "Variavel": "algoritmos e estruturas de dados",
+          "Contribuicao (var explicada media)": 0.09996648786424214
+        },
+        {
+          "Variavel": "automacao industrial e sistemas de controle",
+          "Contribuicao (var explicada media)": 0.09972678621665247
+        },
+        {
+          "Variavel": "matematica e estatistica",
+          "Contribuicao (var explicada media)": 0.09867396464832948
+        },
+        {
+          "Variavel": "interacao humano computador",
+          "Contribuicao (var explicada media)": 0.08812448084287389
+        },
+        {
+          "Variavel": "sistemas operacionais",
+          "Contribuicao (var explicada media)": 0.08435864993613688
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia de controle e automacao": {
+      "mse_baseline": 0.08997546293424953,
+      "mse_prod": 0.07649202828666968,
+      "ratio": 0.8501432034038768,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9676004285795881,
+      "n_ref": 49,
+      "n_prod": 47,
+      "principais": [
+        {
+          "Variavel": "fenomenos de transporte",
+          "Contribuicao (var explicada media)": 0.09799193526622674
+        },
+        {
+          "Variavel": "mecanica dos solidos",
+          "Contribuicao (var explicada media)": 0.0943168204431417
+        },
+        {
+          "Variavel": "circuitos eletricos",
+          "Contribuicao (var explicada media)": 0.08264490364968027
+        },
+        {
+          "Variavel": "microcontroladores sistemas embarcados e sistemas em tempo real",
+          "Contribuicao (var explicada media)": 0.07185447681965974
+        },
+        {
+          "Variavel": "controle analogico e digital de equipamentos e processos",
+          "Contribuicao (var explicada media)": 0.06418367148020732
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia de producao": {
+      "mse_baseline": 0.08926681799609239,
+      "mse_prod": 0.09269190759892115,
+      "ratio": 1.0383691239333601,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9246761714703947,
+      "n_ref": 214,
+      "n_prod": 248,
+      "principais": [
+        {
+          "Variavel": "ciencia e tecnologia dos materiais",
+          "Contribuicao (var explicada media)": 0.09871137768671333
+        },
+        {
+          "Variavel": "eletricidade aplicada",
+          "Contribuicao (var explicada media)": 0.09740011603021445
+        },
+        {
+          "Variavel": "gerencia de producao",
+          "Contribuicao (var explicada media)": 0.06355922819047091
+        },
+        {
+          "Variavel": "transporte e logistica",
+          "Contribuicao (var explicada media)": 0.06311288838941058
+        },
+        {
+          "Variavel": "processos de fabricacao",
+          "Contribuicao (var explicada media)": 0.06179870345112144
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia eletrica": {
+      "mse_baseline": 0.01917104438480417,
+      "mse_prod": 0.024801671094238396,
+      "ratio": 1.2937047453657409,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.986543931048667,
+      "n_ref": 121,
+      "n_prod": 157,
+      "principais": [
+        {
+          "Variavel": "ciencias do ambiente",
+          "Contribuicao (var explicada media)": 0.09981737881754421
+        },
+        {
+          "Variavel": "circuitos eletricos",
+          "Contribuicao (var explicada media)": 0.09931327635863835
+        },
+        {
+          "Variavel": "conversao de energia",
+          "Contribuicao (var explicada media)": 0.09861024104915353
+        },
+        {
+          "Variavel": "instalacoes eletricas",
+          "Contribuicao (var explicada media)": 0.09703983987887008
+        },
+        {
+          "Variavel": "instrumentacao eletronica",
+          "Contribuicao (var explicada media)": 0.09679453000979976
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia mecanica": {
+      "mse_baseline": 1.1158256063911201e-30,
+      "mse_prod": 6.074688877925793e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 9,
+      "variancia_explicada": 1.0,
+      "n_ref": 162,
+      "n_prod": 200,
+      "principais": [
+        {
+          "Variavel": "economia",
+          "Contribuicao (var explicada media)": 0.11111111111111122
+        },
+        {
+          "Variavel": "expressao grafica",
+          "Contribuicao (var explicada media)": 0.11111111111111119
+        },
+        {
+          "Variavel": "materiais de construcao mecanica",
+          "Contribuicao (var explicada media)": 0.11111111111111116
+        },
+        {
+          "Variavel": "processos de fabricacao",
+          "Contribuicao (var explicada media)": 0.1111111111111111
+        },
+        {
+          "Variavel": "matematica e estatistica",
+          "Contribuicao (var explicada media)": 0.1111111111111111
+        }
+      ],
+      "referencia": "enade_2017"
+    },
+    "engenharia quimica": {
+      "mse_baseline": 0.051165984546544634,
+      "mse_prod": 0.06645688346591877,
+      "ratio": 1.298848914076193,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9742146510130764,
+      "n_ref": 53,
+      "n_prod": 65,
+      "principais": [
+        {
+          "Variavel": "fisica",
+          "Contribuicao (var explicada media)": 0.09469481650515874
+        },
+        {
+          "Variavel": "metodologia cientifica e tecnologica",
+          "Contribuicao (var explicada media)": 0.09148684935251866
+        },
+        {
+          "Variavel": "eletricidade aplicada",
+          "Contribuicao (var explicada media)": 0.090770097338326
+        },
+        {
+          "Variavel": "administracao",
+          "Contribuicao (var explicada media)": 0.0895350865912423
+        },
+        {
+          "Variavel": "termodinamica",
+          "Contribuicao (var explicada media)": 0.08776457082445431
+        }
+      ],
+      "referencia": "enade_2017"
+    }
+  },
+  "meta": {
+    "edicao_ref": "",
+    "edicao_prod": "enade_2019",
+    "modo": "consecutivas_tendencia",
+    "n_alunos_ref": 8000,
+    "n_alunos_prod": 4000,
+    "n_cursos_comuns": 22,
+    "n_cursos_nao_comuns": 0,
+    "n_oc_comuns": 143,
+    "n_comparacoes": 187,
+    "n_drift": 156,
+    "erro": null,
+    "tempo_s": 55.4,
+    "referencias": [
+      "enade_2016",
+      "enade_2017"
+    ],
+    "oc_comuns_por_curso": {
+      "agronomia": 0,
+      "biomedicina": 1,
+      "educacao fisica bacharelado": 2,
+      "enfermagem": 0,
+      "farmacia": 8,
+      "fisioterapia": 0,
+      "fonoaudiologia": 0,
+      "medicina": 6,
+      "medicina veterinaria": 0,
+      "nutricao": 5,
+      "odontologia": 0,
+      "tecnologia em estetica e cosmetica": 0,
+      "tecnologia em gestao ambiental": 0,
+      "arquitetura e urbanismo": 16,
+      "engenharia ambiental": 13,
+      "engenharia civil": 10,
+      "engenharia da computacao": 12,
+      "engenharia de controle e automacao": 17,
+      "engenharia de producao": 19,
+      "engenharia eletrica": 12,
+      "engenharia mecanica": 9,
+      "engenharia quimica": 13
+    }
+  },
+  "referencias": {
+    "enade_2016": {
+      "n_alunos": 4000,
+      "cursos": [
+        "agronomia",
+        "biomedicina",
+        "educacao fisica bacharelado",
+        "enfermagem",
+        "farmacia",
+        "fisioterapia",
+        "fonoaudiologia",
+        "medicina",
+        "medicina veterinaria",
+        "nutricao",
+        "odontologia",
+        "tecnologia em estetica e cosmetica",
+        "tecnologia em gestao ambiental"
+      ]
+    },
+    "enade_2017": {
+      "n_alunos": 4000,
+      "cursos": [
+        "arquitetura e urbanismo",
+        "engenharia ambiental",
+        "engenharia civil",
+        "engenharia da computacao",
+        "engenharia de controle e automacao",
+        "engenharia de producao",
+        "engenharia eletrica",
+        "engenharia mecanica",
+        "engenharia quimica"
+      ]
+    }
+  }
+}

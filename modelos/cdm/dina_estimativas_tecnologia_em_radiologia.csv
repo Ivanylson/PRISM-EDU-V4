@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.3566;0.291;0.2912;0.4593;0.4765
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.3949;0.0906;0.6336;0.7209;0.7213
+Q3;II - Estado, sociedade e trabalho;0.3188;0.3397;0.2823;0.4152;0.4195
+Q4;II - Estado, sociedade e trabalho;0.3383;0.3154;0.2823;0.4361;0.4405
+Q5;XIII - Acessibilidade e inclusão social;0.4333;0.3319;0.2912;0.5017;0.5133
+Q6;IV - Cultura, arte e comunicação;0.2454;0.1656;0.5374;0.562;0.5621
+Q7;II - Estado, sociedade e trabalho;0.2171;0.5;0.2823;0.297;0.2958
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.1611;0.2515;0.4576;0.4299;0.4298
+Q9;II - Estado, sociedade e trabalho;0.1953;0.5;0.2823;0.2813;0.259
+Q10;"I - Anatomia radiológica e fisiologia;";0.2422;0.4367;0.1444;0.2886;0.3048
+Q11;"I - Anatomia radiológica e fisiologia;";0.5;0.0607;0.1444;0.5634;0.6969
+Q12;"I - Anatomia radiológica e fisiologia;";0.332;0.2858;0.1444;0.3872;0.4071
+Q13;"II - Física das radiações;";0.2532;0.3081;0.0972;0.2958;0.3168
+Q14;"II - Física das radiações;";0.0012;0.5;0.0972;0.0497;0.0
+Q15;"III - Proteção radiológica;";0.3463;0.3715;0.3546;0.4464;0.4486
+Q16;"II - Física das radiações;";0.2078;0.3086;0.0972;0.2548;0.2778
+Q17;"III - Proteção radiológica;";0.3732;0.3625;0.3546;0.467;0.4692
+Q18;"II - Física das radiações;";0.413;0.1335;0.0972;0.4571;0.4795
+Q19;"IV - Radiologia convencional, digital e exames contrastados;";0.4774;0.2538;0.3446;0.57;0.5706
+Q20;"IV - Radiologia convencional, digital e exames contrastados;";0.1775;0.5;0.3446;0.2886;0.2727
+Q21;"V - Radiologia odontológica;";0.5;0.0166;0.2912;0.6408;0.8318
+Q22;"IX - Mamografia e densitometria óssea;";0.5;0.1372;0.5321;0.693;0.7025
+Q23;"IV - Radiologia convencional, digital e exames contrastados;";0.5;0.0886;0.3446;0.6418;0.7003
+Q24;"I - Anatomia radiológica e fisiologia;";0.2492;0.4046;0.1444;0.2992;0.3168
+Q25;"VIII - Tomografia computadorizada;";0.2405;0.4354;0.2912;0.3349;0.3502
+Q26;"IX - Mamografia e densitometria óssea;";0.1601;0.4593;0.5321;0.3626;0.3604
+Q27;"IV - Radiologia convencional, digital e exames contrastados;";0.2058;0.4425;0.3446;0.327;0.3266
+Q28;"XI - Ressonância magnética;";0.3801;0.219;0.6649;0.6467;0.6464
+Q29;"I - Anatomia radiológica e fisiologia;";0.0013;0.5;0.1444;0.0733;0.0
+Q30;"III - Proteção radiológica;";0.1453;0.5;0.3546;0.2711;0.253
+Q31;"XIII - Radioterapia;";0.0013;0.5;0.116;0.0592;0.0
+Q32;"XIII - Radioterapia;";0.2111;0.3009;0.116;0.2677;0.2979
+Q33;"XIII - Radioterapia;";0.5;0.0952;0.116;0.547;0.6207
+Q34;"IV - Radiologia convencional, digital e exames contrastados;";0.1924;0.5;0.3446;0.2984;0.2744
+Q35;"IV - Radiologia convencional, digital e exames contrastados;";0.1755;0.5;0.3446;0.2873;0.2735
+Q36;"XII - Medicina nuclear;";0.0016;0.5;0.2912;0.1468;0.0
+Q37;"XI - Ressonância magnética;";0.4894;0.1646;0.6649;0.7195;0.7196
+Q38;"III - Proteção radiológica;";0.2892;0.2963;0.3546;0.4362;0.4396

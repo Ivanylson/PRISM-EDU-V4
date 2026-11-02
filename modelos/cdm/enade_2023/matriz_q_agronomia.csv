@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;0;0;1
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;0;0;0;1
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"XIV - Recursos florestais;";0;0;0;0;0;0;0;0;0;0;1;0
+Q11;11;CE;"XVI - Solos;";0;0;0;0;0;1;0;0;0;0;0;0
+Q12;12;CE;"XII - Legislação aplicada;";0;0;1;0;0;0;0;0;0;0;0;0
+Q13;13;CE;"IX - Fitossanidade;";0;0;0;0;1;0;0;0;0;0;0;0
+Q14;14;CE;"XI - Genética e melhoramento;";0;0;0;0;0;0;0;0;0;1;0;0
+Q15;15;CE;"I - Agroecologia e agricultura orgânica;";0;0;0;0;0;0;1;0;0;0;0;0
+Q16;16;CE;"XVI - Solos;";0;0;0;0;0;1;0;0;0;0;0;0
+Q17;17;CE;"X - Fitotecnia;";0;0;0;1;0;0;0;0;0;0;0;0
+Q18;18;CE;"XII - Legislação aplicada;";0;0;1;0;0;0;0;0;0;0;0;0
+Q19;19;CE;"XVII - Tecnologia e processamento de produtos agropecuários;";0;0;0;0;0;0;0;0;1;0;0;0
+Q20;20;CE;"X - Fitotecnia;";0;0;0;1;0;0;0;0;0;0;0;0
+Q21;21;CE;"I - Agroecologia e agricultura orgânica;";0;0;0;0;0;0;1;0;0;0;0;0
+Q22;22;CE;"XVII - Tecnologia e processamento de produtos agropecuários;";0;0;0;0;0;0;0;0;1;0;0;0
+Q23;23;CE;XVIII - Zootecnia.;0;0;0;0;0;0;0;1;0;0;0;0
+Q24;24;CE;"IX - Fitossanidade;";0;0;0;0;1;0;0;0;0;0;0;0
+Q25;25;CE;"XI - Genética e melhoramento;";0;0;0;0;0;0;0;0;0;1;0;0
+Q26;26;CE;"XIII - Metodologia científica e experimentação agrícola;";0;0;0;0;0;0;0;0;0;0;0;1
+Q27;27;CE;"V - Extensão e desenvolvimento rural;";0;0;0;0;0;0;0;0;0;0;0;1
+Q28;28;CE;"VI - Engenharia rural;";0;1;0;0;0;0;0;0;0;0;0;0
+Q29;29;CE;"IX - Fitossanidade;";0;0;0;0;1;0;0;0;0;0;0;0
+Q30;30;CE;XVIII - Zootecnia.;0;0;0;0;0;0;0;1;0;0;0;0
+Q31;31;CE;"X - Fitotecnia;";0;0;0;1;0;0;0;0;0;0;0;0
+Q32;32;CE;"VI - Engenharia rural;";0;1;0;0;0;0;0;0;0;0;0;0
+Q33;33;CE;"IV - Economia e administração;";0;0;0;0;0;0;0;0;0;0;0;1
+Q34;34;CE;"VI - Engenharia rural;";0;1;0;0;0;0;0;0;0;0;0;0
+Q35;35;CE;"XIV - Recursos florestais;";0;0;0;0;0;0;0;0;0;0;1;0
+Q36;36;CE;"XII - Legislação aplicada;";0;0;1;0;0;0;0;0;0;0;0;0
+Q37;37;CE;"XVI - Solos;";0;0;0;0;0;1;0;0;0;0;0;0
+Q38;38;CE;"VI - Engenharia rural;";0;1;0;0;0;0;0;0;0;0;0;0

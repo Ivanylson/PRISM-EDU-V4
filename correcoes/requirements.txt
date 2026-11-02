@@ -1,0 +1,48 @@
+# =============================================================================
+# projetoENADE - dependencias Python
+# =============================================================================
+# Gerado a partir dos imports do codigo, nao de um ambiente congelado.
+# As versoes abaixo sao pisos seguros, nao necessariamente as que o autor usou.
+#
+# Para reprodutibilidade EXATA do artigo, rode o pipeline num ambiente limpo
+# e congele o que funcionou:
+#     python -m venv .venv
+#     .venv\Scripts\activate          (Windows)   |   source .venv/bin/activate  (Linux/Mac)
+#     pip install -r requirements.txt
+#     pip freeze > requirements-lock.txt
+# e versione o requirements-lock.txt junto do paper.
+#
+# Requer Python >= 3.10 (o codigo usa anotacoes list[...]/dict[...] nativas).
+# =============================================================================
+
+# --- nucleo de dados e estatistica ---
+pandas>=2.0
+numpy>=1.24,<3.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# --- machine learning (fase 6: boosting/regressao) ---
+xgboost>=2.0
+lightgbm>=4.0
+
+# --- visualizacao ---
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+
+# --- dashboard interativo (fase 5) ---
+streamlit>=1.30
+
+# --- extracao dos relatorios-sintese em PDF (fase 1) ---
+# docling puxa dependencias pesadas (modelos de layout/OCR, torch).
+# So e preciso para fase1_pre_processamento/preprocessamentoRelatorioSintese.py.
+# Se voce nao regenera a matriz item-OC a partir do PDF, pode instalar sem estas
+# duas linhas e o resto do pipeline roda igual.
+docling>=1.0
+PyMuPDF>=1.23
+
+# --- leitura/escrita das planilhas .xlsx (validadores da fase 6) ---
+openpyxl>=3.1
+
+# --- download dos microdados do INEP (fase 1) ---
+requests>=2.31

@@ -1,0 +1,909 @@
+{
+  "pca": {
+    "agronomia": {
+      "mse_baseline": 0.013629485121261881,
+      "mse_prod": 0.17204463984208962,
+      "ratio": 12.62297425848475,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.98745780754146,
+      "n_ref": 650,
+      "n_prod": 905,
+      "principais": [
+        {
+          "Variavel": "engenharia rural",
+          "Contribuicao (var explicada media)": 0.09999980992249545
+        },
+        {
+          "Variavel": "tecnologia e processamento de produtos agropecuarios",
+          "Contribuicao (var explicada media)": 0.09997265294108086
+        },
+        {
+          "Variavel": "ecologia e manejo ambiental",
+          "Contribuicao (var explicada media)": 0.09980379410748079
+        },
+        {
+          "Variavel": "sistemas agroindustriais",
+          "Contribuicao (var explicada media)": 0.09960544720623714
+        },
+        {
+          "Variavel": "metodologia cientifica e experimentacao agricola",
+          "Contribuicao (var explicada media)": 0.0995495571342871
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "arquitetura e urbanismo": {
+      "mse_baseline": 0.026093147796315292,
+      "mse_prod": 1.2135715324223335,
+      "ratio": 46.509203944865035,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9744939154929737,
+      "n_ref": 1428,
+      "n_prod": 1051,
+      "principais": [
+        {
+          "Variavel": "sistemas estruturais",
+          "Contribuicao (var explicada media)": 0.08576083251378841
+        },
+        {
+          "Variavel": "projeto de arquitetura",
+          "Contribuicao (var explicada media)": 0.08193518897493066
+        },
+        {
+          "Variavel": "informatica aplicada a arquitetura e urbanismo",
+          "Contribuicao (var explicada media)": 0.08127857771472585
+        },
+        {
+          "Variavel": "teoria e historia da arquitetura do urbanismo e do paisagismo",
+          "Contribuicao (var explicada media)": 0.07659322923838927
+        },
+        {
+          "Variavel": "planejamento urbano e regional",
+          "Contribuicao (var explicada media)": 0.07123983473711334
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "enfermagem": {
+      "mse_baseline": 6.199308975614129e-31,
+      "mse_prod": 5.430007742990428e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9999999999999999,
+      "n_ref": 1975,
+      "n_prod": 2717,
+      "principais": [
+        {
+          "Variavel": "cuidados paliativos",
+          "Contribuicao (var explicada media)": 0.10000000000000016
+        },
+        {
+          "Variavel": "saude mental e atencao psicossocial",
+          "Contribuicao (var explicada media)": 0.10000000000000013
+        },
+        {
+          "Variavel": "sus politicas de saude e redes de atencao",
+          "Contribuicao (var explicada media)": 0.10000000000000013
+        },
+        {
+          "Variavel": "tecnologias do cuidado",
+          "Contribuicao (var explicada media)": 0.10000000000000013
+        },
+        {
+          "Variavel": "diagnostico situacional e territorializacao",
+          "Contribuicao (var explicada media)": 0.10000000000000012
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia ambiental": {
+      "mse_baseline": 1.0553509922768092e-30,
+      "mse_prod": 2.350304932549253e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 1.0,
+      "n_ref": 408,
+      "n_prod": 207,
+      "principais": [
+        {
+          "Variavel": "planejamento e gestao ambiental nos setores publico e privado",
+          "Contribuicao (var explicada media)": 0.10000000000000002
+        },
+        {
+          "Variavel": "recuperacao e remediacao de areas degradadas",
+          "Contribuicao (var explicada media)": 0.09999999999999999
+        },
+        {
+          "Variavel": "gestao de recursos hidricos",
+          "Contribuicao (var explicada media)": 0.09999999999999999
+        },
+        {
+          "Variavel": "climatologia e meteorologia",
+          "Contribuicao (var explicada media)": 0.09999999999999999
+        },
+        {
+          "Variavel": "energia e fontes renovaveis",
+          "Contribuicao (var explicada media)": 0.09999999999999998
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia civil": {
+      "mse_baseline": 3.41037809407465e-31,
+      "mse_prod": 6.202079831611927e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 8,
+      "variancia_explicada": 1.0000000000000002,
+      "n_ref": 2735,
+      "n_prod": 1414,
+      "principais": [
+        {
+          "Variavel": "construcao civil",
+          "Contribuicao (var explicada media)": 0.12500000000000017
+        },
+        {
+          "Variavel": "topografia e geoprocessamento",
+          "Contribuicao (var explicada media)": 0.12500000000000017
+        },
+        {
+          "Variavel": "fenomenos de transporte",
+          "Contribuicao (var explicada media)": 0.12500000000000006
+        },
+        {
+          "Variavel": "ciencias do ambiente",
+          "Contribuicao (var explicada media)": 0.12500000000000006
+        },
+        {
+          "Variavel": "estruturas",
+          "Contribuicao (var explicada media)": 0.12500000000000006
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia de alimentos": {
+      "mse_baseline": 0.02427138855687197,
+      "mse_prod": 0.28554026167077484,
+      "ratio": 11.764479852551727,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9870514095818725,
+      "n_ref": 97,
+      "n_prod": 95,
+      "principais": [
+        {
+          "Variavel": "fenomenos de transporte",
+          "Contribuicao (var explicada media)": 0.0999863808067599
+        },
+        {
+          "Variavel": "bioengenharia e biotecnologia de alimentos",
+          "Contribuicao (var explicada media)": 0.09960634926465109
+        },
+        {
+          "Variavel": "analise sensorial",
+          "Contribuicao (var explicada media)": 0.0971272104305562
+        },
+        {
+          "Variavel": "fisico quimica e termodinamica aplicada",
+          "Contribuicao (var explicada media)": 0.09308448819206142
+        },
+        {
+          "Variavel": "microbiologia de alimentos",
+          "Contribuicao (var explicada media)": 0.09146788180619575
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia de controle e automacao": {
+      "mse_baseline": 0.049057752199797966,
+      "mse_prod": 1.413416221433756,
+      "ratio": 28.811271573905845,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9579013030704899,
+      "n_ref": 224,
+      "n_prod": 205,
+      "principais": [
+        {
+          "Variavel": "controladores logico programaveis e sistemas supervisorios",
+          "Contribuicao (var explicada media)": 0.08534754740507577
+        },
+        {
+          "Variavel": "administracao e economia",
+          "Contribuicao (var explicada media)": 0.08189798205615337
+        },
+        {
+          "Variavel": "algoritmos estruturas de dados e interfaces homem maquina",
+          "Contribuicao (var explicada media)": 0.07146739645530423
+        },
+        {
+          "Variavel": "acionamentos e maquinas eletricas",
+          "Contribuicao (var explicada media)": 0.06419111024362227
+        },
+        {
+          "Variavel": "fisica matematica e estatistica",
+          "Contribuicao (var explicada media)": 0.06162750409652599
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia de producao": {
+      "mse_baseline": 2.5694797138676642e-31,
+      "mse_prod": 1.727450831870355e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 5,
+      "variancia_explicada": 1.0,
+      "n_ref": 1202,
+      "n_prod": 906,
+      "principais": [
+        {
+          "Variavel": "estrategia e organizacao",
+          "Contribuicao (var explicada media)": 0.20000000000000018
+        },
+        {
+          "Variavel": "processos de fabricacao",
+          "Contribuicao (var explicada media)": 0.2
+        },
+        {
+          "Variavel": "pesquisa operacional",
+          "Contribuicao (var explicada media)": 0.2
+        },
+        {
+          "Variavel": "sistemas de informacao",
+          "Contribuicao (var explicada media)": 0.19999999999999996
+        },
+        {
+          "Variavel": "qualidade",
+          "Contribuicao (var explicada media)": 0.19999999999999987
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia eletrica": {
+      "mse_baseline": 0.02821246782533497,
+      "mse_prod": 0.8171653453155214,
+      "ratio": 28.964688604153302,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9730922137921018,
+      "n_ref": 821,
+      "n_prod": 704,
+      "principais": [
+        {
+          "Variavel": "fundamentos de sistemas eletricos de potencia",
+          "Contribuicao (var explicada media)": 0.09021894716712195
+        },
+        {
+          "Variavel": "maquinas eletricas",
+          "Contribuicao (var explicada media)": 0.08633210795652209
+        },
+        {
+          "Variavel": "principios de comunicacoes",
+          "Contribuicao (var explicada media)": 0.086149955764811
+        },
+        {
+          "Variavel": "eletronica de potencia",
+          "Contribuicao (var explicada media)": 0.0844210293239803
+        },
+        {
+          "Variavel": "ciencias do ambiente",
+          "Contribuicao (var explicada media)": 0.07996150890369662
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia florestal": {
+      "mse_baseline": 0.0356618171486034,
+      "mse_prod": 0.8698409994020785,
+      "ratio": 24.391381846231678,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9772953933919711,
+      "n_ref": 87,
+      "n_prod": 92,
+      "principais": [
+        {
+          "Variavel": "ecologia e ecossistemas florestais",
+          "Contribuicao (var explicada media)": 0.0938479968164657
+        },
+        {
+          "Variavel": "manejo florestal",
+          "Contribuicao (var explicada media)": 0.09053043531894708
+        },
+        {
+          "Variavel": "gestao de recursos naturais renovaveis",
+          "Contribuicao (var explicada media)": 0.0818503003926655
+        },
+        {
+          "Variavel": "sistemas e tecnicas silviculturais",
+          "Contribuicao (var explicada media)": 0.08157678348095607
+        },
+        {
+          "Variavel": "morfologia sistematica e dendrologia",
+          "Contribuicao (var explicada media)": 0.0797700097267127
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia mecanica": {
+      "mse_baseline": 0.023105014925543912,
+      "mse_prod": 0.6705422787975304,
+      "ratio": 29.021503814576963,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9775002397465081,
+      "n_ref": 1004,
+      "n_prod": 845,
+      "principais": [
+        {
+          "Variavel": "transferencia de calor e massa",
+          "Contribuicao (var explicada media)": 0.09685205606293157
+        },
+        {
+          "Variavel": "mecanica dos fluidos e sistemas fluidomecanicos",
+          "Contribuicao (var explicada media)": 0.08994851528605055
+        },
+        {
+          "Variavel": "eletricidade",
+          "Contribuicao (var explicada media)": 0.08952418962493983
+        },
+        {
+          "Variavel": "processos de fabricacao",
+          "Contribuicao (var explicada media)": 0.08303086270257998
+        },
+        {
+          "Variavel": "projeto de maquinas e de sistemas mecanicos",
+          "Contribuicao (var explicada media)": 0.08256743398915142
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "engenharia quimica": {
+      "mse_baseline": 1.016751567112122e-30,
+      "mse_prod": 6.907726875150226e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 10,
+      "variancia_explicada": 1.0,
+      "n_ref": 346,
+      "n_prod": 318,
+      "principais": [
+        {
+          "Variavel": "eletricidade aplicada",
+          "Contribuicao (var explicada media)": 0.1000000000000002
+        },
+        {
+          "Variavel": "balancos de massa e energia",
+          "Contribuicao (var explicada media)": 0.10000000000000013
+        },
+        {
+          "Variavel": "modelagem simulacao otimizacao e controle de processos",
+          "Contribuicao (var explicada media)": 0.10000000000000013
+        },
+        {
+          "Variavel": "quimica",
+          "Contribuicao (var explicada media)": 0.10000000000000009
+        },
+        {
+          "Variavel": "mecanica dos solidos",
+          "Contribuicao (var explicada media)": 0.10000000000000009
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "farmacia": {
+      "mse_baseline": 0.042018800084485254,
+      "mse_prod": 1.1230103272644878,
+      "ratio": 26.72637783579024,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9595130232673516,
+      "n_ref": 877,
+      "n_prod": 1372,
+      "principais": [
+        {
+          "Variavel": "processos fisiologicos patologicos fisiopatologicos e bioquimicos",
+          "Contribuicao (var explicada media)": 0.08312477631339057
+        },
+        {
+          "Variavel": "analises clinicas",
+          "Contribuicao (var explicada media)": 0.08227169945239228
+        },
+        {
+          "Variavel": "farmacia magistral alopatica e homeopatica",
+          "Contribuicao (var explicada media)": 0.07940886707443806
+        },
+        {
+          "Variavel": "controle fisico quimico biologico e microbiologico e garantia da qualidade",
+          "Contribuicao (var explicada media)": 0.07350410406907734
+        },
+        {
+          "Variavel": "farmacologia",
+          "Contribuicao (var explicada media)": 0.07176387020188461
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "fisioterapia": {
+      "mse_baseline": 0.0026002074726127595,
+      "mse_prod": 0.08063825338610431,
+      "ratio": 31.012238152318204,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9974444625446952,
+      "n_ref": 1087,
+      "n_prod": 1254,
+      "principais": [
+        {
+          "Variavel": "anatomia fisiologia e patologia de orgaos e sistemas",
+          "Contribuicao (var explicada media)": 0.09999904081952747
+        },
+        {
+          "Variavel": "acessibilidade e tecnologia assistiva",
+          "Contribuicao (var explicada media)": 0.09999764365374401
+        },
+        {
+          "Variavel": "determinantes do processo de saude doenca",
+          "Contribuicao (var explicada media)": 0.09999406676841739
+        },
+        {
+          "Variavel": "politicas de saude",
+          "Contribuicao (var explicada media)": 0.09999258996751241
+        },
+        {
+          "Variavel": "gestao de servicos de saude",
+          "Contribuicao (var explicada media)": 0.09998012415074319
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "fonoaudiologia": {
+      "mse_baseline": 5.193724543067582e-31,
+      "mse_prod": 8.220784408595126e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 8,
+      "variancia_explicada": 1.0,
+      "n_ref": 123,
+      "n_prod": 143,
+      "principais": [
+        {
+          "Variavel": "funcoes e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "funcoes e habilidades da audicao nos ciclos da vida",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "interface das politicas publicas com a atuacao fonoaudiologica",
+          "Contribuicao (var explicada media)": 0.125
+        },
+        {
+          "Variavel": "etica e bioetica na pratica fonoaudiologica",
+          "Contribuicao (var explicada media)": 0.12499999999999999
+        },
+        {
+          "Variavel": "funcoes e habilidades da fluencia nos ciclos da vida",
+          "Contribuicao (var explicada media)": 0.12499999999999997
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "medicina": {
+      "mse_baseline": 6.842034276444368e-31,
+      "mse_prod": 1.3640290838802897e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 8,
+      "variancia_explicada": 1.0,
+      "n_ref": 1034,
+      "n_prod": 1799,
+      "principais": [
+        {
+          "Variavel": "urgencia e emergencia",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "pediatria",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "saude mental",
+          "Contribuicao (var explicada media)": 0.125
+        },
+        {
+          "Variavel": "saude coletiva",
+          "Contribuicao (var explicada media)": 0.125
+        },
+        {
+          "Variavel": "medicina de familia e comunidade",
+          "Contribuicao (var explicada media)": 0.125
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "medicina veterinaria": {
+      "mse_baseline": 5.550515621435123e-31,
+      "mse_prod": 1.4478063343463556e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 7,
+      "variancia_explicada": 1.0,
+      "n_ref": 713,
+      "n_prod": 1040,
+      "principais": [
+        {
+          "Variavel": "etologia e bem estar animal",
+          "Contribuicao (var explicada media)": 0.142857142857143
+        },
+        {
+          "Variavel": "medicina veterinaria preventiva e saude publica",
+          "Contribuicao (var explicada media)": 0.14285714285714296
+        },
+        {
+          "Variavel": "morfofisiologia genetica bioquimica biofisica microbiologia imunologia parasitologia e farmacologia",
+          "Contribuicao (var explicada media)": 0.14285714285714296
+        },
+        {
+          "Variavel": "tecnologia e inspecao dos produtos de origem animal",
+          "Contribuicao (var explicada media)": 0.14285714285714293
+        },
+        {
+          "Variavel": "sanidade e producao animal",
+          "Contribuicao (var explicada media)": 0.14285714285714285
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "nutricao": {
+      "mse_baseline": 0.009655441489261866,
+      "mse_prod": 0.8544331808936845,
+      "ratio": 88.49239901085079,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9906228357545136,
+      "n_ref": 999,
+      "n_prod": 1120,
+      "principais": [
+        {
+          "Variavel": "tecnica dietetica e analise sensorial",
+          "Contribuicao (var explicada media)": 0.09993282162123546
+        },
+        {
+          "Variavel": "sistemas alimentares e sustentabilidade",
+          "Contribuicao (var explicada media)": 0.09368741728264188
+        },
+        {
+          "Variavel": "seguranca alimentar e nutricional",
+          "Contribuicao (var explicada media)": 0.09155102970316575
+        },
+        {
+          "Variavel": "planejamento fisico e funcional de servicos de alimentacao",
+          "Contribuicao (var explicada media)": 0.09037523847734551
+        },
+        {
+          "Variavel": "controle higienico sanitario dos alimentos",
+          "Contribuicao (var explicada media)": 0.08800478111107247
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "odontologia": {
+      "mse_baseline": 1.3463339741275337e-30,
+      "mse_prod": 8.790178155649576e-31,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 6,
+      "variancia_explicada": 1.0,
+      "n_ref": 846,
+      "n_prod": 1382,
+      "principais": [
+        {
+          "Variavel": "propedeutica clinica",
+          "Contribuicao (var explicada media)": 0.16666666666666674
+        },
+        {
+          "Variavel": "aspectos eticos bioeticos e legais no exercicio profissional",
+          "Contribuicao (var explicada media)": 0.1666666666666667
+        },
+        {
+          "Variavel": "terapeutica medicamentosa",
+          "Contribuicao (var explicada media)": 0.1666666666666667
+        },
+        {
+          "Variavel": "biosseguranca",
+          "Contribuicao (var explicada media)": 0.16666666666666666
+        },
+        {
+          "Variavel": "clinica odontologica integrada da infancia e da adolescencia",
+          "Contribuicao (var explicada media)": 0.1666666666666666
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "tecnologia em agronegocios": {
+      "mse_baseline": 6.454021668721879e-31,
+      "mse_prod": 2.5996567741902886e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 9,
+      "variancia_explicada": 0.9999999999999999,
+      "n_ref": 77,
+      "n_prod": 82,
+      "principais": [
+        {
+          "Variavel": "cadeias produtivas do agronegocio",
+          "Contribuicao (var explicada media)": 0.11111111111111122
+        },
+        {
+          "Variavel": "inovacoes tecnologicas e novos mercados no agronegocio",
+          "Contribuicao (var explicada media)": 0.11111111111111116
+        },
+        {
+          "Variavel": "gestao financeira no agronegocio",
+          "Contribuicao (var explicada media)": 0.11111111111111116
+        },
+        {
+          "Variavel": "comercializacao marketing e acoes empreendedoras no agronegocio",
+          "Contribuicao (var explicada media)": 0.11111111111111113
+        },
+        {
+          "Variavel": "gestao de pessoas e seguranca do trabalho no agronegocio",
+          "Contribuicao (var explicada media)": 0.11111111111111113
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "tecnologia em gestao ambiental": {
+      "mse_baseline": 0.026943056484816107,
+      "mse_prod": 1.0796064276278845,
+      "ratio": 40.06993149557111,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9769263432156764,
+      "n_ref": 206,
+      "n_prod": 198,
+      "principais": [
+        {
+          "Variavel": "poluicao ambiental",
+          "Contribuicao (var explicada media)": 0.09951160693686505
+        },
+        {
+          "Variavel": "gestao de residuos solidos acondicionamento coleta transporte tratamento e disposicao final",
+          "Contribuicao (var explicada media)": 0.0991984801545055
+        },
+        {
+          "Variavel": "licenciamento ambiental",
+          "Contribuicao (var explicada media)": 0.08519333062739756
+        },
+        {
+          "Variavel": "valoracao ambiental servicos ambientais e ecossistemicos",
+          "Contribuicao (var explicada media)": 0.08327171908479063
+        },
+        {
+          "Variavel": "educacao ambiental",
+          "Contribuicao (var explicada media)": 0.07462440908696805
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "tecnologia em gestao hospitalar": {
+      "mse_baseline": 0.02318975916579781,
+      "mse_prod": 0.7362825859339066,
+      "ratio": 31.750333441144036,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9908762824553807,
+      "n_ref": 47,
+      "n_prod": 117,
+      "principais": [
+        {
+          "Variavel": "responsabilidade social etica e bioetica",
+          "Contribuicao (var explicada media)": 0.09190189478153918
+        },
+        {
+          "Variavel": "humanizacao em saude",
+          "Contribuicao (var explicada media)": 0.08942261520145314
+        },
+        {
+          "Variavel": "auditoria em saude",
+          "Contribuicao (var explicada media)": 0.0857361669527784
+        },
+        {
+          "Variavel": "gestao logistica em saude",
+          "Contribuicao (var explicada media)": 0.0830623061569408
+        },
+        {
+          "Variavel": "gestao da qualidade em saude",
+          "Contribuicao (var explicada media)": 0.07986850691876025
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "tecnologia em radiologia": {
+      "mse_baseline": 1.0463384904632876e-30,
+      "mse_prod": 4.512076818190281e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 9,
+      "variancia_explicada": 1.0,
+      "n_ref": 125,
+      "n_prod": 134,
+      "principais": [
+        {
+          "Variavel": "fisica das radiacoes",
+          "Contribuicao (var explicada media)": 0.11111111111111123
+        },
+        {
+          "Variavel": "protecao radiologica",
+          "Contribuicao (var explicada media)": 0.11111111111111122
+        },
+        {
+          "Variavel": "gestao de servicos radiologicos",
+          "Contribuicao (var explicada media)": 0.11111111111111122
+        },
+        {
+          "Variavel": "ressonancia magnetica",
+          "Contribuicao (var explicada media)": 0.11111111111111119
+        },
+        {
+          "Variavel": "tomografia computadorizada",
+          "Contribuicao (var explicada media)": 0.11111111111111116
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "tecnologia em seguranca no trabalho": {
+      "mse_baseline": 0.022009166526318815,
+      "mse_prod": 0.4740431994300479,
+      "ratio": 21.538443941672284,
+      "status": "Drift multivariado detectado",
+      "n_componentes": 10,
+      "variancia_explicada": 0.9945261003848651,
+      "n_ref": 30,
+      "n_prod": 72,
+      "principais": [
+        {
+          "Variavel": "qualidade de vida do trabalhador",
+          "Contribuicao (var explicada media)": 0.09816710482051609
+        },
+        {
+          "Variavel": "etica profissional",
+          "Contribuicao (var explicada media)": 0.09447172980578347
+        },
+        {
+          "Variavel": "sistema de gestao integrada",
+          "Contribuicao (var explicada media)": 0.09271965934395797
+        },
+        {
+          "Variavel": "psicologia comunicacao e treinamento",
+          "Contribuicao (var explicada media)": 0.08891711950145757
+        },
+        {
+          "Variavel": "ergonomia",
+          "Contribuicao (var explicada media)": 0.08451727625197744
+        }
+      ],
+      "referencia": "enade_2019"
+    },
+    "zootecnia": {
+      "mse_baseline": 6.339071753974708e-31,
+      "mse_prod": 1.31862923205235e-30,
+      "ratio": null,
+      "status": "Sem drift multivariado significativo",
+      "n_componentes": 8,
+      "variancia_explicada": 1.0,
+      "n_ref": 128,
+      "n_prod": 184,
+      "principais": [
+        {
+          "Variavel": "zootecnia de precisao",
+          "Contribuicao (var explicada media)": 0.12500000000000008
+        },
+        {
+          "Variavel": "estatistica experimentacao e matematica aplicadas a zootecnia",
+          "Contribuicao (var explicada media)": 0.12500000000000006
+        },
+        {
+          "Variavel": "nutricao e producao de nao ruminantes",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "construcoes instalacoes equipamentos zootecnicos bioclimatologia animal e ambiencia",
+          "Contribuicao (var explicada media)": 0.12500000000000003
+        },
+        {
+          "Variavel": "ecologia gestao ambiental manejo dos residuos e dos dejetos oriundos da producao animal",
+          "Contribuicao (var explicada media)": 0.125
+        }
+      ],
+      "referencia": "enade_2019"
+    }
+  },
+  "meta": {
+    "edicao_ref": "",
+    "edicao_prod": "enade_2023",
+    "modo": "consecutivas_tendencia",
+    "n_alunos_ref": 20000,
+    "n_alunos_prod": 20000,
+    "n_cursos_comuns": 27,
+    "n_cursos_nao_comuns": 1,
+    "n_oc_comuns": 278,
+    "n_comparacoes": 332,
+    "n_drift": 324,
+    "erro": null,
+    "tempo_s": 36.8,
+    "referencias": [
+      "enade_2019"
+    ],
+    "oc_comuns_por_curso": {
+      "agronomia": 11,
+      "arquitetura e urbanismo": 15,
+      "biomedicina": 0,
+      "enfermagem": 10,
+      "engenharia ambiental": 10,
+      "engenharia civil": 8,
+      "engenharia de alimentos": 11,
+      "engenharia de controle e automacao": 18,
+      "engenharia de producao": 5,
+      "engenharia eletrica": 15,
+      "engenharia florestal": 14,
+      "engenharia mecanica": 13,
+      "engenharia quimica": 10,
+      "farmacia": 17,
+      "fisioterapia": 11,
+      "fonoaudiologia": 8,
+      "medicina": 8,
+      "medicina veterinaria": 7,
+      "nutricao": 12,
+      "odontologia": 6,
+      "tecnologia em agronegocios": 9,
+      "tecnologia em estetica e cosmetica": 0,
+      "tecnologia em gestao ambiental": 16,
+      "tecnologia em gestao hospitalar": 14,
+      "tecnologia em radiologia": 9,
+      "tecnologia em seguranca no trabalho": 13,
+      "zootecnia": 8
+    }
+  },
+  "referencias": {
+    "enade_2019": {
+      "n_alunos": 20000,
+      "cursos": [
+        "agronomia",
+        "arquitetura e urbanismo",
+        "biomedicina",
+        "enfermagem",
+        "engenharia ambiental",
+        "engenharia civil",
+        "engenharia de alimentos",
+        "engenharia de controle e automacao",
+        "engenharia de producao",
+        "engenharia eletrica",
+        "engenharia florestal",
+        "engenharia mecanica",
+        "engenharia quimica",
+        "farmacia",
+        "fisioterapia",
+        "fonoaudiologia",
+        "medicina",
+        "medicina veterinaria",
+        "nutricao",
+        "odontologia",
+        "tecnologia em agronegocios",
+        "tecnologia em estetica e cosmetica",
+        "tecnologia em gestao ambiental",
+        "tecnologia em gestao hospitalar",
+        "tecnologia em radiologia",
+        "tecnologia em seguranca no trabalho",
+        "zootecnia"
+      ]
+    }
+  }
+}

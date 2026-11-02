@@ -1,0 +1,59 @@
+Curso,Variavel,enade_2019 vs enade_2016,enade_2019 vs enade_2017,enade_2023 vs enade_2019
+Agronomia,NT_DIS_CE,0.4012,,0.0
+Agronomia,NT_GER,0.0007,,0.0007
+Arquitetura E Urbanismo,NT_DIS_CE,,0.0,0.0
+Arquitetura E Urbanismo,NT_GER,,0.0004,0.0
+Biomedicina,NT_DIS_CE,0.0,,0.0
+Biomedicina,NT_GER,0.4788,,0.0
+Educacao Fisica Bacharelado,NT_DIS_CE,0.0006,,
+Educacao Fisica Bacharelado,NT_GER,0.007,,
+Enfermagem,NT_DIS_CE,0.044,,0.0
+Enfermagem,NT_GER,0.0216,,0.0
+Engenharia Ambiental,NT_DIS_CE,,0.6146,0.0
+Engenharia Ambiental,NT_GER,,0.0061,0.0
+Engenharia Civil,NT_DIS_CE,,0.0,0.0
+Engenharia Civil,NT_GER,,0.0,0.0053
+Engenharia Da Computacao,NT_DIS_CE,,0.892,
+Engenharia Da Computacao,NT_GER,,0.1449,
+Engenharia De Alimentos,NT_DIS_CE,,,0.0
+Engenharia De Alimentos,NT_GER,,,0.4142
+Engenharia De Controle E Automacao,NT_DIS_CE,,0.9515,0.0
+Engenharia De Controle E Automacao,NT_GER,,0.9876,0.03
+Engenharia De Producao,NT_DIS_CE,,0.0,0.0
+Engenharia De Producao,NT_GER,,0.2471,0.0038
+Engenharia Eletrica,NT_DIS_CE,,0.2274,0.0
+Engenharia Eletrica,NT_GER,,0.0005,0.0
+Engenharia Florestal,NT_DIS_CE,,,0.0
+Engenharia Florestal,NT_GER,,,0.8427
+Engenharia Mecanica,NT_DIS_CE,,0.0001,0.0
+Engenharia Mecanica,NT_GER,,0.0,0.0
+Engenharia Quimica,NT_DIS_CE,,0.0076,0.0
+Engenharia Quimica,NT_GER,,0.3781,0.0
+Farmacia,NT_DIS_CE,0.0,,0.0
+Farmacia,NT_GER,0.0001,,0.0051
+Fisioterapia,NT_DIS_CE,0.7223,,0.0
+Fisioterapia,NT_GER,0.0003,,0.0
+Fonoaudiologia,NT_DIS_CE,0.0005,,0.0017
+Fonoaudiologia,NT_GER,0.4171,,0.0432
+Medicina,NT_DIS_CE,0.0,,0.0
+Medicina,NT_GER,0.0,,0.0
+Medicina Veterinaria,NT_DIS_CE,0.0,,0.0
+Medicina Veterinaria,NT_GER,0.3078,,0.0027
+Nutricao,NT_DIS_CE,0.0,,0.0
+Nutricao,NT_GER,0.2053,,0.0038
+Odontologia,NT_DIS_CE,0.0,,0.0
+Odontologia,NT_GER,0.0001,,0.0064
+Tecnologia Em Agronegocios,NT_DIS_CE,,,0.0384
+Tecnologia Em Agronegocios,NT_GER,,,0.0028
+Tecnologia Em Estetica E Cosmetica,NT_DIS_CE,0.4683,,0.0
+Tecnologia Em Estetica E Cosmetica,NT_GER,0.8539,,0.0048
+Tecnologia Em Gestao Ambiental,NT_DIS_CE,0.0002,,0.0
+Tecnologia Em Gestao Ambiental,NT_GER,0.3055,,0.0
+Tecnologia Em Gestao Hospitalar,NT_DIS_CE,,,0.0
+Tecnologia Em Gestao Hospitalar,NT_GER,,,0.0295
+Tecnologia Em Radiologia,NT_DIS_CE,,,0.0
+Tecnologia Em Radiologia,NT_GER,,,0.7553
+Tecnologia Em Seguranca No Trabalho,NT_DIS_CE,,,0.0044
+Tecnologia Em Seguranca No Trabalho,NT_GER,,,0.0
+Zootecnia,NT_DIS_CE,,,0.0
+Zootecnia,NT_GER,,,0.0

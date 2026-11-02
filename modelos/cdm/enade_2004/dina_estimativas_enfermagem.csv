@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.5;0.0143;0.0118;0.5057;0.7586
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.3099;0.3195;0.0118;0.3143;0.3208
+Q3;II - Estado, sociedade e trabalho;0.3603;0.3014;0.3393;0.475;0.4789
+Q4;II - Estado, sociedade e trabalho;0.2421;0.4301;0.3393;0.3533;0.3569
+Q5;XIII - Acessibilidade e inclusão social;0.5;0.0661;0.0118;0.5051;0.5341
+Q6;IV - Cultura, arte e comunicação;0.1818;0.5;0.0118;0.1856;0.189
+Q7;II - Estado, sociedade e trabalho;0.3834;0.2961;0.3393;0.4922;0.4958
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.0573;0.5;0.3162;0.1973;0.1965
+Q9;II - Estado, sociedade e trabalho;0.1551;0.5;0.3393;0.2721;0.2477
+Q10;IX - História da enfermagem e legislação;0.0001;0.5;0.0591;0.0297;0.0001
+Q11;I - Aspectos morfofisiológicos do ser humano;0.0001;0.5;0.004;0.0021;0.0
+Q12;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0.2726;0.3685;0.5232;0.4604;0.4593
+Q13;XII - Qualidade do cuidado e Segurança do paciente;0.1255;0.5;0.3381;0.2521;0.2473
+Q14;XVII - Cuidados de enfermagem ao paciente clínico, cirúrgico e crítico;0.0001;0.5;0.0118;0.006;0.0
+Q15;VIII - Bioética e dilemas éticos;0.4031;0.2354;0.0118;0.4074;0.4138
+Q16;IV - Epidemiologia em saúde;0.0001;0.5;0.058;0.0291;0.0001
+Q17;XI - Processo de enfermagem;0.0001;0.5;0.0041;0.0022;0.0001
+Q18;XVIII - Cuidados de enfermagem em situações de urgência e emergência;0.3818;0.1711;0.2533;0.495;0.5106
+Q19;XVIII - Cuidados de enfermagem em situações de urgência e emergência;0.0308;0.5;0.2533;0.1496;0.1103
+Q20;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0.3285;0.2989;0.5232;0.5235;0.5223
+Q21;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0.257;0.4377;0.5232;0.4168;0.4158
+Q22;I - Aspectos morfofisiológicos do ser humano;0.0001;0.5;0.004;0.0021;0.0001
+Q23;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0.5;0.2283;0.5232;0.6421;0.6465
+Q24;XX - Gestão dos serviços e sistemas de saúde;0.4415;0.2478;0.0118;0.4452;0.4508
+Q25;XIV - Atenção integral à saúde do indivíduo e das populações;0.2687;0.344;0.3971;0.4225;0.4381
+Q26;XIV - Atenção integral à saúde do indivíduo e das populações;0.5;0.0075;0.3971;0.6956;0.8878
+Q27;XV - Saúde mental e atenção psicossocial;0.0001;0.5;0.0039;0.0021;0.0
+Q28;XIV - Atenção integral à saúde do indivíduo e das populações;0.4266;0.2068;0.3971;0.5722;0.587
+Q29;XII - Qualidade do cuidado e Segurança do paciente;0.2364;0.2994;0.3381;0.3933;0.3947
+Q30;"XXI - Educação, pesquisa em saúde e enfermagem;";0.1804;0.38;0.0118;0.1856;0.1934
+Q31;IV - Epidemiologia em saúde;0.1702;0.2361;0.058;0.2046;0.2296
+Q32;XIX - SUS: políticas de saúde e redes de atenção;0.3815;0.1573;0.0118;0.3869;0.3951
+Q33;VI - Diagnóstico situacional e territorialização;0.2466;0.4278;0.0118;0.2504;0.2561
+Q34;XVI - Cuidados paliativos;0.0001;0.5;0.0118;0.006;0.0
+Q35;XIV - Atenção integral à saúde do indivíduo e das populações;0.0002;0.5;0.3971;0.1987;0.0
+Q36;XI - Processo de enfermagem;0.0001;0.5;0.0041;0.0022;0.0
+Q37;XV - Saúde mental e atenção psicossocial;0.0001;0.5;0.0039;0.0021;0.0
+Q38;XIII - Tecnologias do cuidado;0.0001;0.5;0.0118;0.006;0.0

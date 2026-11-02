@@ -1,0 +1,1065 @@
+﻿curso;Questao;area_prova;oc_principal;taxa_acerto_real;p_item_lca;p_item_dina;diff_p_lca_dina;gap_lca_medio;gap_lca_max_abs;status_validacao
+Medicina Veterinaria;Q1;FG;I - Ética, democracia e cidadania;0,5545;0,5642;0,5553;0,0089;-0,0;0,5862;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,809;0,8148;0,8072;0,0076;0,0;0,6281;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q3;FG;II - Estado, sociedade e trabalho;0,6059;0,6179;0,5999;0,018;-0,0;0,75;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q4;FG;II - Estado, sociedade e trabalho;0,4924;0,5015;0,4858;0,0157;0,0;0,5525;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q5;FG;XIII - Acessibilidade e inclusão social;0,4706;0,4739;0,4706;0,0034;0,0;0,5301;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q6;FG;IV - Cultura, arte e comunicação;0,738;0,7588;0,7342;0,0246;0,0;0,6964;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q7;FG;II - Estado, sociedade e trabalho;0,3747;0,3855;0,3697;0,0157;-0,0;0,4561;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0,5124;0,527;0,5124;0,0146;0,0;0,5614;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q9;FG;II - Estado, sociedade e trabalho;0,2361;0,2391;0,2794;-0,0404;0,0;0,4802;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q10;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,0;0,0;0,0173;-0,0173;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q11;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,7949;0,8062;0,5169;0,2893;-0,0;0,4346;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q12;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,0;0,0;0,0173;-0,0173;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q13;CE;I - Morfofisiologia, genética, bioquímica, biofísica,;0,5399;0,5504;0,5408;0,0096;-0,0;0,5781;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q14;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,7579;0,7705;0,5168;0,2537;-0,0;0,6721;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q15;CE;"IV - Administração, economia, agronegócio e empreendedorismo;";0,0;0,0;0,0032;-0,0032;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q16;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,2111;0,2134;0,2012;0,0122;0,0;0,6363;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q17;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,0;0,0;0,0173;-0,0173;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q18;CE;"VIII - Medicina veterinária preventiva e saúde pública;";0,8348;0,8424;0,811;0,0314;0,0;0,4923;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q19;CE;"VIII - Medicina veterinária preventiva e saúde pública;";0,3319;0,3273;0,3923;-0,065;-0,0;0,5714;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q20;CE;"III - Clínica e cirurgia veterinária;";0,5351;0,5385;0,5089;0,0296;-0,0;0,5973;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q21;CE;"IV - Administração, economia, agronegócio e empreendedorismo;";0,3622;0,3644;0,3526;0,0117;0,0;0,6857;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q22;CE;"VII - Tecnologia e inspeção dos produtos de origem animal;";0,4057;0,4077;0,4058;0,0019;-0,0;0,5517;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q23;CE;"IX - Etologia e bem- estar animal;";0,5009;0,5103;0,5019;0,0084;-0,0;0,5556;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q24;CE;"V - Sanidade e produção animal;";0,2299;0,2266;0,237;-0,0105;0,0;0,6179;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q25;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,3627;0,3603;0,3493;0,0109;0,0;0,6078;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q26;CE;"IV - Administração, economia, agronegócio e empreendedorismo;";0,0;0,0;0,0032;-0,0032;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q27;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,4006;0,4123;0,3874;0,0249;-0,0;0,546;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q28;CE;"III - Clínica e cirurgia veterinária;";0,0;0,0;0,0105;-0,0105;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q29;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,1937;0,1963;0,1824;0,0139;0,0;0,6957;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q30;CE;"I - Morfofisiologia, genética, bioquímica, biofísica, microbiologia, imunologia, parasitologia e farmacologia;";0,5875;0,5935;0,5146;0,079;-0,0;0,4833;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q31;CE;"III - Clínica e cirurgia veterinária;";0,5802;0,5887;0,5091;0,0796;-0,0;0,6824;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q32;CE;"III - Clínica e cirurgia veterinária;";0,0;0,0;0,0105;-0,0105;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q33;CE;"V - Sanidade e produção animal;";0,2419;0,2495;0,2398;0,0097;-0,0;0,5789;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q34;CE;"II - Ciências humanas e sociais, ética e legislação veterinária;";0,0;0,0;0,0728;-0,0728;0,0;0,0;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q35;CE;"II - Ciências humanas e sociais, ética e legislação veterinária;";0,6456;0,6497;0,5656;0,084;0,0;0,6316;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q36;CE;"VII - Tecnologia e inspeção dos produtos de origem animal;";0,6133;0,5996;0,6133;-0,0137;0,0;0,5862;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q37;CE;"V - Sanidade e produção animal;";0,2864;0,2672;0,2841;-0,0168;0,0;0,6615;PENDENTE_VALIDACAO
+Medicina Veterinaria;Q38;CE;"VIII - Medicina veterinária preventiva e saúde pública;";0,787;0,7981;0,7766;0,0215;-0,0;0,8065;PENDENTE_VALIDACAO
+Odontologia;Q1;FG;I - Ética, democracia e cidadania;0,552;0,5541;0,552;0,0021;0,0;0,6909;PENDENTE_VALIDACAO
+Odontologia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8063;0,8071;0,805;0,0021;0,0;0,5242;PENDENTE_VALIDACAO
+Odontologia;Q3;FG;II - Estado, sociedade e trabalho;0,5289;0,5309;0,5223;0,0086;-0,0;0,5726;PENDENTE_VALIDACAO
+Odontologia;Q4;FG;II - Estado, sociedade e trabalho;0,4823;0,4844;0,4757;0,0087;-0,0;0,7432;PENDENTE_VALIDACAO
+Odontologia;Q5;FG;XIII - Acessibilidade e inclusão social;0,4923;0,4964;0,4766;0,0197;-0,0;0,6053;PENDENTE_VALIDACAO
+Odontologia;Q6;FG;IV - Cultura, arte e comunicação;0,7038;0,7102;0,7038;0,0065;-0,0;0,6727;PENDENTE_VALIDACAO
+Odontologia;Q7;FG;II - Estado, sociedade e trabalho;0,3676;0,3704;0,3627;0,0077;-0,0;0,5536;PENDENTE_VALIDACAO
+Odontologia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4881;0,4919;0,4881;0,0037;-0,0;0,5395;PENDENTE_VALIDACAO
+Odontologia;Q9;FG;II - Estado, sociedade e trabalho;0,2393;0,2418;0,2824;-0,0406;-0,0;0,4369;PENDENTE_VALIDACAO
+Odontologia;Q10;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0,3465;0,3412;0,3464;-0,0052;-0,0;0,5758;PENDENTE_VALIDACAO
+Odontologia;Q11;CE;"XIII - Terapêutica medicamentosa;";0,4644;0,4632;0,4642;-0,001;-0,0;0,6;PENDENTE_VALIDACAO
+Odontologia;Q12;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,5252;0,5343;0,5194;0,0149;-0,0;0,5179;PENDENTE_VALIDACAO
+Odontologia;Q13;CE;"XIII - Terapêutica medicamentosa;";0,3961;0,3951;0,396;-0,0008;-0,0;0,5563;PENDENTE_VALIDACAO
+Odontologia;Q14;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,1717;0,169;0,2541;-0,0851;-0,0;0,5242;PENDENTE_VALIDACAO
+Odontologia;Q15;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,7869;0,7867;0,6999;0,0868;-0,0;0,7046;PENDENTE_VALIDACAO
+Odontologia;Q16;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,8811;0,8809;0,7156;0,1653;-0,0;0,6489;PENDENTE_VALIDACAO
+Odontologia;Q17;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,0;0,0;0,2233;-0,2233;0,0;0,0;PENDENTE_VALIDACAO
+Odontologia;Q18;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,3945;0,3924;0,39;0,0024;0,0;0,6346;PENDENTE_VALIDACAO
+Odontologia;Q19;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,2804;0,2769;0,2613;0,0156;0,0;0,4667;PENDENTE_VALIDACAO
+Odontologia;Q20;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,0;0,0;0,0363;-0,0363;0,0;0,0;PENDENTE_VALIDACAO
+Odontologia;Q21;CE;"IX - Atendimento clínico a indivíduos com necessidades especiais;";0,3631;0,3562;0,344;0,0121;0,0;0,6078;PENDENTE_VALIDACAO
+Odontologia;Q22;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0,5323;0,5336;0,5321;0,0015;-0,0;0,7105;PENDENTE_VALIDACAO
+Odontologia;Q23;CE;"XIII - Terapêutica medicamentosa;";0,4896;0,4854;0,4894;-0,004;0,0;0,6364;PENDENTE_VALIDACAO
+Odontologia;Q24;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,5451;0,5387;0,5245;0,0142;0,0;0,552;PENDENTE_VALIDACAO
+Odontologia;Q25;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,3069;0,3153;0,2857;0,0296;-0,0;0,4857;PENDENTE_VALIDACAO
+Odontologia;Q26;CE;"XIV - Urgências odontológicas e emergências médicas em odontologia;";0,0;0,0;0,0105;-0,0105;0,0;0,0;PENDENTE_VALIDACAO
+Odontologia;Q27;CE;"V - Propedêutica clínica;";0,3288;0,3312;0,3193;0,0119;0,0;0,4194;PENDENTE_VALIDACAO
+Odontologia;Q28;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,4912;0,4843;0,4871;-0,0029;0,0;0,5271;PENDENTE_VALIDACAO
+Odontologia;Q29;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0,5661;0,5716;0,5663;0,0053;0,0;0,6452;PENDENTE_VALIDACAO
+Odontologia;Q30;CE;"XI - Biossegurança;";0,8165;0,8108;0,5103;0,3005;0,0;0,7588;PENDENTE_VALIDACAO
+Odontologia;Q31;CE;"V - Propedêutica clínica;";0,4846;0,4824;0,4754;0,007;0,0;0,4643;PENDENTE_VALIDACAO
+Odontologia;Q32;CE;"X - Saúde coletiva;";0,0;0,0;0,0105;-0,0105;0,0;0,0;PENDENTE_VALIDACAO
+Odontologia;Q33;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,3911;0,384;0,3866;-0,0026;0,0;0,4464;PENDENTE_VALIDACAO
+Odontologia;Q34;CE;"VII - Clínica odontológica integrada do adulto;";0,0;0,0;0,0105;-0,0105;0,0;0,0;PENDENTE_VALIDACAO
+Odontologia;Q35;CE;"V - Propedêutica clínica;";0,1165;0,1178;0,1477;-0,0299;0,0;0,4557;PENDENTE_VALIDACAO
+Odontologia;Q36;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0,6135;0,6043;0,6137;-0,0093;0,0;0,6672;PENDENTE_VALIDACAO
+Odontologia;Q37;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,7663;0,7613;0,6727;0,0886;0,0;0,6186;PENDENTE_VALIDACAO
+Odontologia;Q38;CE;"IV - Aspectos éticos, bioéticos e legais no exercício profissional;";0,7136;0,7008;0,5099;0,191;-0,0;0,7255;PENDENTE_VALIDACAO
+Medicina;Q1;FG;I - Ética, democracia e cidadania;0,7514;0,7492;0,7513;-0,0021;-0,0;0,7846;PENDENTE_VALIDACAO
+Medicina;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,9165;0,9151;0,9164;-0,0013;0,0;0,7731;PENDENTE_VALIDACAO
+Medicina;Q3;FG;II - Estado, sociedade e trabalho;0,8495;0,8475;0,8364;0,0111;0,0;0,6686;PENDENTE_VALIDACAO
+Medicina;Q4;FG;II - Estado, sociedade e trabalho;0,7116;0,7067;0,7092;-0,0025;0,0;0,6982;PENDENTE_VALIDACAO
+Medicina;Q5;FG;XIII - Acessibilidade e inclusão social;0,6128;0,6091;0,6128;-0,0037;-0,0;0,6954;PENDENTE_VALIDACAO
+Medicina;Q6;FG;IV - Cultura, arte e comunicação;0,9139;0,9117;0,9138;-0,002;-0,0;0,7317;PENDENTE_VALIDACAO
+Medicina;Q7;FG;II - Estado, sociedade e trabalho;0,471;0,4689;0,474;-0,005;-0,0;0,5769;PENDENTE_VALIDACAO
+Medicina;Q8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0,6878;0,6844;0,6878;-0,0034;0,0;0,5397;PENDENTE_VALIDACAO
+Medicina;Q9;FG;II - Estado, sociedade e trabalho;0,3629;0,3591;0,4095;-0,0504;-0,0;0,444;PENDENTE_VALIDACAO
+Medicina;Q10;CE;"I - Clínica Médica;";0,5083;0,5068;0,5083;-0,0015;0,0;0,6491;PENDENTE_VALIDACAO
+Medicina;Q11;CE;"I - Clínica Médica;";0,7506;0,7491;0,7163;0,0327;0,0;0,6833;PENDENTE_VALIDACAO
+Medicina;Q12;CE;"I - Clínica Médica;";0,401;0,4016;0,431;-0,0295;-0,0;0,5;PENDENTE_VALIDACAO
+Medicina;Q13;CE;"I - Clínica Médica;";0,7756;0,7742;0,7333;0,0409;-0,0;0,6218;PENDENTE_VALIDACAO
+Medicina;Q14;CE;"I - Clínica Médica;";0,9592;0,9594;0,8219;0,1375;-0,0;0,7547;PENDENTE_VALIDACAO
+Medicina;Q15;CE;"V - Medicina de Família e Comunidade;";0,9275;0,9252;0,9274;-0,0022;-0,0;0,719;PENDENTE_VALIDACAO
+Medicina;Q16;CE;"III - Ginecologia e Obstetrícia;";0,5125;0,5106;0,5125;-0,0019;0,0;0,5846;PENDENTE_VALIDACAO
+Medicina;Q17;CE;"IV - Pediatria;";0,8233;0,8226;0,8196;0,003;0,0;0,7009;PENDENTE_VALIDACAO
+Medicina;Q18;CE;"VI - Urgência e Emergência;";0,755;0,754;0,7549;-0,001;0,0;0,7458;PENDENTE_VALIDACAO
+Medicina;Q19;CE;"VII - Saúde Mental;";0,4094;0,4087;0,4094;-0,0007;-0,0;0,6587;PENDENTE_VALIDACAO
+Medicina;Q20;CE;"VII - Saúde Mental;";0,1581;0,1588;0,1582;0,0006;-0,0;0,337;PENDENTE_VALIDACAO
+Medicina;Q21;CE;"I - Clínica Médica;";0,0;0,0;0,3221;-0,3221;0,0;0,0;PENDENTE_VALIDACAO
+Medicina;Q22;CE;"V - Medicina de Família e Comunidade;";0,5723;0,5701;0,5718;-0,0018;0,0;0,6807;PENDENTE_VALIDACAO
+Medicina;Q23;CE;"III - Ginecologia e Obstetrícia;";0,7268;0,7233;0,7268;-0,0035;-0,0;0,7212;PENDENTE_VALIDACAO
+Medicina;Q24;CE;"IV - Pediatria;";0,628;0,6245;0,628;-0,0035;-0,0;0,7965;PENDENTE_VALIDACAO
+Medicina;Q25;CE;"IV - Pediatria;";0,6922;0,6927;0,6873;0,0055;0,0;0,6471;PENDENTE_VALIDACAO
+Medicina;Q26;CE;"IV - Pediatria;";0,6792;0,6739;0,6792;-0,0054;-0,0;0,5364;PENDENTE_VALIDACAO
+Medicina;Q27;CE;"III - Ginecologia e Obstetrícia;";0,6417;0,6409;0,6416;-0,0007;-0,0;0,5962;PENDENTE_VALIDACAO
+Medicina;Q28;CE;"VI - Urgência e Emergência;";0,4948;0,4924;0,4948;-0,0024;0,0;0,4745;PENDENTE_VALIDACAO
+Medicina;Q29;CE;"II - Cirurgia;";0,0;0,0;0,1343;-0,1343;0,0;0,0;PENDENTE_VALIDACAO
+Medicina;Q30;CE;"III - Ginecologia e Obstetrícia;";0,8449;0,8419;0,8423;-0,0004;-0,0;0,83;PENDENTE_VALIDACAO
+Medicina;Q31;CE;"III - Ginecologia e Obstetrícia;";0,6366;0,6329;0,6366;-0,0037;-0,0;0,6625;PENDENTE_VALIDACAO
+Medicina;Q32;CE;"II - Cirurgia;";0,3508;0,3505;0,3555;-0,005;0,0;0,7273;PENDENTE_VALIDACAO
+Medicina;Q33;CE;"II - Cirurgia;";0,7402;0,7377;0,634;0,1037;-0,0;0,5865;PENDENTE_VALIDACAO
+Medicina;Q34;CE;"II - Cirurgia;";0,8467;0,8441;0,6341;0,2101;-0,0;0,6472;PENDENTE_VALIDACAO
+Medicina;Q35;CE;"III - Ginecologia e Obstetrícia;";0,8471;0,8457;0,8342;0,0115;-0,0;0,6305;PENDENTE_VALIDACAO
+Medicina;Q36;CE;"I - Clínica Médica;";0,5485;0,5467;0,5485;-0,0018;-0,0;0,7228;PENDENTE_VALIDACAO
+Medicina;Q37;CE;"I - Clínica Médica;";0,704;0,7033;0,6937;0,0096;-0,0;0,5882;PENDENTE_VALIDACAO
+Medicina;Q38;CE;"I - Clínica Médica;";0,6759;0,6726;0,6751;-0,0026;0,0;0,7113;PENDENTE_VALIDACAO
+Agronomia;Q1;FG;I - Ética, democracia e cidadania;0,5854;0,5963;0,5839;0,0123;-0,0;0,5674;PENDENTE_VALIDACAO
+Agronomia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7852;0,7958;0,7208;0,075;0,0;0,6548;PENDENTE_VALIDACAO
+Agronomia;Q3;FG;II - Estado, sociedade e trabalho;0,5505;0,5768;0,5452;0,0316;0,0;0,4476;PENDENTE_VALIDACAO
+Agronomia;Q4;FG;II - Estado, sociedade e trabalho;0,4301;0,4524;0,4247;0,0278;0,0;0,6;PENDENTE_VALIDACAO
+Agronomia;Q5;FG;XIII - Acessibilidade e inclusão social;0,493;0,4956;0,4917;0,0039;0,0;0,5536;PENDENTE_VALIDACAO
+Agronomia;Q6;FG;IV - Cultura, arte e comunicação;0,6754;0,6991;0,6731;0,026;0,0;0,5009;PENDENTE_VALIDACAO
+Agronomia;Q7;FG;II - Estado, sociedade e trabalho;0,3324;0,3384;0,3287;0,0098;0,0;0,5227;PENDENTE_VALIDACAO
+Agronomia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4352;0,4481;0,4337;0,0144;0,0;0,5153;PENDENTE_VALIDACAO
+Agronomia;Q9;FG;II - Estado, sociedade e trabalho;0,2459;0,2473;0,2794;-0,0321;0,0;0,3613;PENDENTE_VALIDACAO
+Agronomia;Q10;CE;"XIV - Recursos florestais;";0,7053;0,7229;0,5859;0,137;-0,0;0,5571;PENDENTE_VALIDACAO
+Agronomia;Q11;CE;"XVI - Solos;";0,3207;0,3342;0,3143;0,0199;-0,0;0,5846;PENDENTE_VALIDACAO
+Agronomia;Q12;CE;"XII - Legislação aplicada;";0,7627;0,7667;0,7637;0,0029;0,0;0,5143;PENDENTE_VALIDACAO
+Agronomia;Q13;CE;"IX - Fitossanidade;";0,3552;0,3604;0,3316;0,0288;-0,0;0,42;PENDENTE_VALIDACAO
+Agronomia;Q14;CE;"XI - Genética e melhoramento;";0,2399;0,2463;0,2682;-0,022;-0,0;0,3594;PENDENTE_VALIDACAO
+Agronomia;Q15;CE;"I - Agroecologia e agricultura orgânica;";0,6745;0,6868;0,6813;0,0055;-0,0;0,4497;PENDENTE_VALIDACAO
+Agronomia;Q16;CE;"XVI - Solos;";0,1951;0,2056;0,2197;-0,0141;-0,0;0,62;PENDENTE_VALIDACAO
+Agronomia;Q17;CE;"X - Fitotecnia;";0,4142;0,417;0,4147;0,0023;-0,0;0,4172;PENDENTE_VALIDACAO
+Agronomia;Q18;CE;"XII - Legislação aplicada;";0,3261;0,3363;0,3951;-0,0588;0,0;0,3898;PENDENTE_VALIDACAO
+Agronomia;Q19;CE;"XVII - Tecnologia e processamento de produtos agropecuários;";0,8452;0,8504;0,8099;0,0405;-0,0;0,5668;PENDENTE_VALIDACAO
+Agronomia;Q20;CE;"X - Fitotecnia;";0,6657;0,6611;0,666;-0,0049;0,0;0,5067;PENDENTE_VALIDACAO
+Agronomia;Q21;CE;"I - Agroecologia e agricultura orgânica;";0,8557;0,8597;0,8361;0,0236;0,0;0,8148;PENDENTE_VALIDACAO
+Agronomia;Q22;CE;"XVII - Tecnologia e processamento de produtos agropecuários;";0,4234;0,4275;0,4351;-0,0076;0,0;0,5781;PENDENTE_VALIDACAO
+Agronomia;Q23;CE;XVIII - Zootecnia.;0,0;0,0;0,0445;-0,0445;0,0;0,0;PENDENTE_VALIDACAO
+Agronomia;Q24;CE;"IX - Fitossanidade;";0,0;0,0;0,0352;-0,0352;0,0;0,0;PENDENTE_VALIDACAO
+Agronomia;Q25;CE;"XI - Genética e melhoramento;";0,6333;0,6392;0,6278;0,0114;-0,0;0,5071;PENDENTE_VALIDACAO
+Agronomia;Q26;CE;"XIII - Metodologia científica e experimentação agrícola;";0,7119;0,7201;0,6883;0,0318;0,0;0,6293;PENDENTE_VALIDACAO
+Agronomia;Q27;CE;"V - Extensão e desenvolvimento rural;";0,3004;0,3138;0,3429;-0,0291;-0,0;0,4257;PENDENTE_VALIDACAO
+Agronomia;Q28;CE;"VI - Engenharia rural;";0,5035;0,526;0,4745;0,0515;0,0;0,5424;PENDENTE_VALIDACAO
+Agronomia;Q29;CE;"IX - Fitossanidade;";0,3347;0,3683;0,3109;0,0573;-0,0;0,593;PENDENTE_VALIDACAO
+Agronomia;Q30;CE;XVIII - Zootecnia.;0,3974;0,3957;0,3623;0,0335;0,0;0,4425;PENDENTE_VALIDACAO
+Agronomia;Q31;CE;"X - Fitotecnia;";0,6197;0,6305;0,6201;0,0104;0,0;0,4641;PENDENTE_VALIDACAO
+Agronomia;Q32;CE;"VI - Engenharia rural;";0,657;0,6739;0,5633;0,1106;0,0;0,6016;PENDENTE_VALIDACAO
+Agronomia;Q33;CE;"IV - Economia e administração;";0,2372;0,2419;0,3314;-0,0895;-0,0;0,3408;PENDENTE_VALIDACAO
+Agronomia;Q34;CE;"VI - Engenharia rural;";0,2745;0,2785;0,2524;0,0261;0,0;0,4464;PENDENTE_VALIDACAO
+Agronomia;Q35;CE;"XIV - Recursos florestais;";0,0;0,0;0,0917;-0,0917;0,0;0,0;PENDENTE_VALIDACAO
+Agronomia;Q36;CE;"XII - Legislação aplicada;";0,8582;0,8655;0,8243;0,0411;-0,0;0,4704;PENDENTE_VALIDACAO
+Agronomia;Q37;CE;"XVI - Solos;";0,5882;0,6078;0,5827;0,0251;0,0;0,6222;PENDENTE_VALIDACAO
+Agronomia;Q38;CE;"VI - Engenharia rural;";0,0;0,0;0,0773;-0,0773;0,0;0,0;PENDENTE_VALIDACAO
+Farmacia;Q1;FG;I - Ética, democracia e cidadania;0,5296;0,5416;0,5285;0,0131;-0,0;0,56;PENDENTE_VALIDACAO
+Farmacia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7819;0,7731;0,6235;0,1496;-0,0;0,3545;PENDENTE_VALIDACAO
+Farmacia;Q3;FG;II - Estado, sociedade e trabalho;0,5371;0,5363;0,531;0,0053;-0,0;0,6209;PENDENTE_VALIDACAO
+Farmacia;Q4;FG;II - Estado, sociedade e trabalho;0,4448;0,4571;0,4389;0,0182;-0,0;0,5556;PENDENTE_VALIDACAO
+Farmacia;Q5;FG;XIII - Acessibilidade e inclusão social;0,4832;0,4893;0,4828;0,0065;0,0;0,4867;PENDENTE_VALIDACAO
+Farmacia;Q6;FG;IV - Cultura, arte e comunicação;0,6664;0,6668;0,6664;0,0005;0,0;0,4964;PENDENTE_VALIDACAO
+Farmacia;Q7;FG;II - Estado, sociedade e trabalho;0,3488;0,3474;0,3443;0,0031;-0,0;0,6176;PENDENTE_VALIDACAO
+Farmacia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4769;0,4812;0,4769;0,0043;-0,0;0,436;PENDENTE_VALIDACAO
+Farmacia;Q9;FG;II - Estado, sociedade e trabalho;0,2404;0,2455;0,2782;-0,0327;-0,0;0,6842;PENDENTE_VALIDACAO
+Farmacia;Q10;CE;"XVIII - Saúde pública, epidemiologia e educação em saúde;";0,3445;0,3329;0,3373;-0,0044;0,0;0,5405;PENDENTE_VALIDACAO
+Farmacia;Q11;CE;"VII - Análises clínicas;";0,561;0,5469;0,561;-0,0141;-0,0;0,4552;PENDENTE_VALIDACAO
+Farmacia;Q12;CE;"XIV - Farmácia comunitária;";0,5625;0,5565;0,5628;-0,0063;-0,0;0,4867;PENDENTE_VALIDACAO
+Farmacia;Q13;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,5102;0,5004;0,4782;0,0222;0,0;0,5355;PENDENTE_VALIDACAO
+Farmacia;Q14;CE;"XV - Farmácia clínica;";0,6101;0,5855;0,61;-0,0245;-0,0;0,7286;PENDENTE_VALIDACAO
+Farmacia;Q15;CE;"II - Genética, biologia molecular e biotecnologia;";0,1928;0,1966;0,2332;-0,0366;-0,0;0,4074;PENDENTE_VALIDACAO
+Farmacia;Q16;CE;"XVIII - Saúde pública, epidemiologia e educação em saúde;";0,154;0,1519;0,1769;-0,0249;0,0;0,4444;PENDENTE_VALIDACAO
+Farmacia;Q17;CE;"XX - Farmacoepidemiologia e farmacovigilância;";0,6492;0,6457;0,5934;0,0523;-0,0;0,5556;PENDENTE_VALIDACAO
+Farmacia;Q18;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,5953;0,5928;0,5679;0,0248;-0,0;0,6089;PENDENTE_VALIDACAO
+Farmacia;Q19;CE;"XI - Controle físico- químico, biológico e microbiológico e garantia da qualidade;";0,5681;0,569;0,5664;0,0026;0,0;0,5806;PENDENTE_VALIDACAO
+Farmacia;Q20;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,5298;0,5236;0,4998;0,0239;-0,0;0,5926;PENDENTE_VALIDACAO
+Farmacia;Q21;CE;"VI - Farmácia magistral alopática e homeopática;";0,3108;0,3122;0,3097;0,0025;0,0;0,7222;PENDENTE_VALIDACAO
+Farmacia;Q22;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,0;0,0;0,1213;-0,1213;0,0;0,0;PENDENTE_VALIDACAO
+Farmacia;Q23;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,5217;0,5156;0,494;0,0216;-0,0;0,5142;PENDENTE_VALIDACAO
+Farmacia;Q24;CE;"IV - Farmacognosia e fitoterapia;";0,2103;0,2211;0,2514;-0,0303;-0,0;0,3731;PENDENTE_VALIDACAO
+Farmacia;Q25;CE;"XIII - Farmácia hospitalar;";0,4961;0,4803;0,4945;-0,0142;0,0;0,5313;PENDENTE_VALIDACAO
+Farmacia;Q26;CE;"IX - Química farmacêutica e medicinal;";0,1881;0,1821;0,2014;-0,0192;-0,0;0,3913;PENDENTE_VALIDACAO
+Farmacia;Q27;CE;"XV - Farmácia clínica;";0,3214;0,3126;0,3213;-0,0087;-0,0;0,4586;PENDENTE_VALIDACAO
+Farmacia;Q28;CE;"III - Farmacologia;";0,0;0,0;0,07;-0,07;0,0;0,0;PENDENTE_VALIDACAO
+Farmacia;Q29;CE;"XIV - Farmácia comunitária;";0,6798;0,6798;0,6801;-0,0002;0,0;0,5895;PENDENTE_VALIDACAO
+Farmacia;Q30;CE;"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde;";0,4992;0,4873;0,4642;0,0232;-0,0;0,4978;PENDENTE_VALIDACAO
+Farmacia;Q31;CE;"VIII - Toxicologia e análises toxicológicas;";0,328;0,3363;0,3283;0,0081;0,0;0,463;PENDENTE_VALIDACAO
+Farmacia;Q32;CE;I - Processos fisiológicos, patológicos,;0,1846;0,1799;0,2195;-0,0396;-0,0;0,4187;PENDENTE_VALIDACAO
+Farmacia;Q33;CE;"IX - Química farmacêutica e medicinal;";0,313;0,3167;0,3093;0,0074;-0,0;0,5782;PENDENTE_VALIDACAO
+Farmacia;Q34;CE;"XII - Assistência farmacêutica;";0,2438;0,2428;0,2659;-0,0231;-0,0;0,5;PENDENTE_VALIDACAO
+Farmacia;Q35;CE;XXI - Gestão farmacêutica e farmacoeconomia.;0,398;0,3939;0,3967;-0,0027;-0,0;0,4644;PENDENTE_VALIDACAO
+Farmacia;Q36;CE;"XVI - Serviços farmacêuticos;";0,4418;0,4262;0,4418;-0,0156;-0,0;0,5375;PENDENTE_VALIDACAO
+Farmacia;Q37;CE;"XVI - Serviços farmacêuticos;";0,5121;0,494;0,5121;-0,0181;-0,0;0,5438;PENDENTE_VALIDACAO
+Farmacia;Q38;CE;"III - Farmacologia;";0,6318;0,6212;0,5628;0,0584;-0,0;0,5303;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q1;FG;I - Ética, democracia e cidadania;0,6611;0,7076;0,6133;0,0944;0,0;0,4807;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8214;0,8304;0,8174;0,013;-0,0;0,4308;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q3;FG;II - Estado, sociedade e trabalho;0,6113;0,6465;0,6053;0,0412;0,0;0,5348;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q4;FG;II - Estado, sociedade e trabalho;0,5649;0,5893;0,559;0,0303;-0,0;0,4758;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q5;FG;XIII - Acessibilidade e inclusão social;0,5253;0,538;0,5253;0,0127;-0,0;0,6105;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q6;FG;IV - Cultura, arte e comunicação;0,8382;0,8737;0,8314;0,0423;-0,0;0,6212;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q7;FG;II - Estado, sociedade e trabalho;0,4266;0,458;0,4215;0,0366;0,0;0,4815;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5594;0,5903;0,5438;0,0465;0,0;0,7432;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q9;FG;II - Estado, sociedade e trabalho;0,2503;0,2542;0,2964;-0,0422;0,0;0,3797;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q10;CE;"I - Estética e História das Artes;";0,2374;0,286;0,2361;0,0499;-0,0;0,5672;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q11;CE;IV - Desenho e Meios de representação e expressão;0,572;0,5893;0,5575;0,0318;0,0;0,5172;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q12;CE;"II - Estudos sociais, econômicos e ambientais;";0,0;0,0;0,1222;-0,1222;0,0;0,0;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q13;CE;III - Sustentabilidade;0,7253;0,7412;0,6397;0,1014;0,0;0,7546;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q14;CE;"XI - Políticas públicas e habitacionais;";0,683;0,7132;0,6831;0,0301;0,0;0,5625;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q15;CE;"X - Planejamento urbano e regional;";0,5033;0,5451;0,4823;0,0628;0,0;0,5143;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q16;CE;"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo;";0,7402;0,7784;0,6;0,1784;-0,0;0,6286;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q17;CE;"VI - Projeto de arquitetura;";0,4591;0,4996;0,4591;0,0405;-0,0;0,7133;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q18;CE;"VI - Projeto de arquitetura;";0,4775;0,5105;0,4775;0,0331;0,0;0,4737;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q19;CE;"VII - Projeto de Urbanismo;";0,8517;0,8688;0,6693;0,1995;-0,0;0,9286;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q20;CE;"VIII - Projeto de Paisagismo;";0,5195;0,5446;0,5059;0,0388;0,0;0,4444;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q21;CE;"XI - Políticas públicas e habitacionais;";0,4537;0,4757;0,4539;0,0218;0,0;0,465;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q22;CE;IX - Projeto de Arquitetura de Interiores;0,0;0,0;0,1764;-0,1764;0,0;0,0;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q23;CE;"XII - Tecnologia da construção;";0,0;0,0;0,0875;-0,0875;0,0;0,0;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q24;CE;"XII - Tecnologia da construção;";0,6935;0,7032;0,5814;0,1218;-0,0;0,6;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q25;CE;"XIII - Infraestrutura urbana;";0,5657;0,605;0,5485;0,0565;0,0;0,7432;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q26;CE;"XVI - Sistemas estruturais;";0,3332;0,3513;0,3361;0,0152;0,0;0,4429;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q27;CE;"XIV - Gestão e coordenação de projetos;";0,8421;0,8443;0,8001;0,0441;-0,0;0,6;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q28;CE;"XV - Gestão e coordenação de obras;";0,6811;0,6869;0,6101;0,0768;0,0;0,6414;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q29;CE;"XVII - Conforto ambiental e eficiência energética;";0,0;0,0;0,1764;-0,1764;0,0;0,0;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q30;CE;XVIII - Mobilidade urbana;0,6241;0,6706;0,5999;0,0708;0,0;0,5115;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q31;CE;"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo;";0,0;0,0;0,1049;-0,1049;0,0;0,0;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q32;CE;"XIX - Desenho universal e acessibilidade;";0,5761;0,5961;0,5889;0,0071;-0,0;0,7143;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q33;CE;"XIX - Desenho universal e acessibilidade;";0,8866;0,8869;0,8554;0,0315;0,0;0,6589;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q34;CE;"XX - Patrimônio cultural e técnicas retrospectivas;";0,6393;0,686;0,6181;0,0678;0,0;0,5694;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q35;CE;XXI - Informática aplicada a Arquitetura e Urbanismo;0,5271;0,5524;0,5108;0,0416;0,0;0,561;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q36;CE;"XIV - Gestão e coordenação de projetos;";0,3702;0,3793;0,3821;-0,0028;-0,0;0,5079;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q37;CE;"XXII - Topografia;";0,3991;0,4054;0,3888;0,0166;-0,0;0,4282;PENDENTE_VALIDACAO
+Arquitetura e Urbanismo;Q38;CE;"II - Estudos sociais, econômicos e ambientais;";0,7813;0,7749;0,6183;0,1566;-0,0;0,3813;PENDENTE_VALIDACAO
+Enfermagem;Q1;FG;I - Ética, democracia e cidadania;0,5258;0,5124;0,5258;-0,0133;-0,0;0,5203;PENDENTE_VALIDACAO
+Enfermagem;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,767;0,7562;0,7392;0,017;-0,0;0,6892;PENDENTE_VALIDACAO
+Enfermagem;Q3;FG;II - Estado, sociedade e trabalho;0,5142;0,4893;0,5096;-0,0203;-0,0;0,5127;PENDENTE_VALIDACAO
+Enfermagem;Q4;FG;II - Estado, sociedade e trabalho;0,4186;0,4086;0,4143;-0,0057;-0,0;0,433;PENDENTE_VALIDACAO
+Enfermagem;Q5;FG;XIII - Acessibilidade e inclusão social;0,4566;0,4561;0,4595;-0,0034;0,0;0,5951;PENDENTE_VALIDACAO
+Enfermagem;Q6;FG;IV - Cultura, arte e comunicação;0,6003;0,5771;0,6003;-0,0231;0,0;0,6622;PENDENTE_VALIDACAO
+Enfermagem;Q7;FG;II - Estado, sociedade e trabalho;0,3509;0,3382;0,3477;-0,0095;-0,0;0,4833;PENDENTE_VALIDACAO
+Enfermagem;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4442;0,4328;0,4442;-0,0114;0,0;0,6349;PENDENTE_VALIDACAO
+Enfermagem;Q9;FG;II - Estado, sociedade e trabalho;0,2284;0,2319;0,2587;-0,0268;-0,0;0,5345;PENDENTE_VALIDACAO
+Enfermagem;Q10;CE;IX - História da enfermagem e legislação;0,8753;0,8654;0,8722;-0,0068;0,0;0,4603;PENDENTE_VALIDACAO
+Enfermagem;Q11;CE;I - Aspectos morfofisiológicos do ser humano;0,3088;0,3037;0,3165;-0,0128;0,0;0,6923;PENDENTE_VALIDACAO
+Enfermagem;Q12;CE;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0,6409;0,6171;0,6406;-0,0236;-0,0;0,525;PENDENTE_VALIDACAO
+Enfermagem;Q13;CE;XII - Qualidade do cuidado e Segurança do paciente;0,5182;0,5074;0,5182;-0,0109;0,0;0,6154;PENDENTE_VALIDACAO
+Enfermagem;Q14;CE;XVII - Cuidados de enfermagem ao paciente clínico, cirúrgico e crítico;0,5425;0,52;0,5425;-0,0225;-0,0;0,6786;PENDENTE_VALIDACAO
+Enfermagem;Q15;CE;VIII - Bioética e dilemas éticos;0,5193;0,507;0,5193;-0,0123;-0,0;0,6081;PENDENTE_VALIDACAO
+Enfermagem;Q16;CE;IV - Epidemiologia em saúde;0,4413;0,4305;0,4414;-0,0109;0,0;0,5755;PENDENTE_VALIDACAO
+Enfermagem;Q17;CE;XI - Processo de enfermagem;0,0;0,0;0,0183;-0,0183;0,0;0,0;PENDENTE_VALIDACAO
+Enfermagem;Q18;CE;XVIII - Cuidados de enfermagem em situações de urgência e emergência;0,3731;0,359;0,373;-0,0139;-0,0;0,5;PENDENTE_VALIDACAO
+Enfermagem;Q19;CE;XVIII - Cuidados de enfermagem em situações de urgência e emergência;0,3507;0,3453;0,3506;-0,0053;0,0;0,3969;PENDENTE_VALIDACAO
+Enfermagem;Q20;CE;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0,41;0,3926;0,4098;-0,0172;0,0;0,6194;PENDENTE_VALIDACAO
+Enfermagem;Q21;CE;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0,3513;0,3378;0,3511;-0,0133;0,0;0,85;PENDENTE_VALIDACAO
+Enfermagem;Q22;CE;I - Aspectos morfofisiológicos do ser humano;0,4302;0,4215;0,4291;-0,0076;-0,0;0,5769;PENDENTE_VALIDACAO
+Enfermagem;Q23;CE;X - Semiologia e semiotécnica no ciclo vital e biossegurança;0,4301;0,4148;0,4299;-0,0151;-0,0;0,5669;PENDENTE_VALIDACAO
+Enfermagem;Q24;CE;XX - Gestão dos serviços e sistemas de saúde;0,5475;0,5312;0,5475;-0,0162;0,0;0,6333;PENDENTE_VALIDACAO
+Enfermagem;Q25;CE;XIV - Atenção integral à saúde do indivíduo e das populações;0,6337;0,6255;0,6123;0,0132;0,0;0,5637;PENDENTE_VALIDACAO
+Enfermagem;Q26;CE;XIV - Atenção integral à saúde do indivíduo e das populações;0,4258;0,4054;0,4261;-0,0206;-0,0;0,5887;PENDENTE_VALIDACAO
+Enfermagem;Q27;CE;XV - Saúde mental e atenção psicossocial;0,5957;0,5786;0,5957;-0,0171;-0,0;0,4605;PENDENTE_VALIDACAO
+Enfermagem;Q28;CE;XIV - Atenção integral à saúde do indivíduo e das populações;0,4089;0,4027;0,4092;-0,0064;0,0;0,8167;PENDENTE_VALIDACAO
+Enfermagem;Q29;CE;XII - Qualidade do cuidado e Segurança do paciente;0,5554;0,5489;0,5554;-0,0065;0,0;0,5256;PENDENTE_VALIDACAO
+Enfermagem;Q30;CE;"XXI - Educação, pesquisa em saúde e enfermagem;";0,6351;0,6084;0,6351;-0,0267;0,0;0,525;PENDENTE_VALIDACAO
+Enfermagem;Q31;CE;IV - Epidemiologia em saúde;0,6039;0,5832;0,6039;-0,0207;0,0;0,609;PENDENTE_VALIDACAO
+Enfermagem;Q32;CE;XIX - SUS: políticas de saúde e redes de atenção;0,8063;0,7882;0,792;-0,0038;-0,0;0,5689;PENDENTE_VALIDACAO
+Enfermagem;Q33;CE;VI - Diagnóstico situacional e territorialização;0,4833;0,4774;0,4834;-0,0059;0,0;0,5582;PENDENTE_VALIDACAO
+Enfermagem;Q34;CE;XVI - Cuidados paliativos;0,6734;0,6438;0,6734;-0,0296;0,0;0,5099;PENDENTE_VALIDACAO
+Enfermagem;Q35;CE;XIV - Atenção integral à saúde do indivíduo e das populações;0,33;0,314;0,3406;-0,0266;-0,0;0,5812;PENDENTE_VALIDACAO
+Enfermagem;Q36;CE;XI - Processo de enfermagem;0,5568;0,5341;0,5163;0,0178;0,0;0,4877;PENDENTE_VALIDACAO
+Enfermagem;Q37;CE;XV - Saúde mental e atenção psicossocial;0,3609;0,3421;0,3609;-0,0188;-0,0;0,4744;PENDENTE_VALIDACAO
+Enfermagem;Q38;CE;XIII - Tecnologias do cuidado;0,4832;0,4597;0,4832;-0,0235;0,0;0,7468;PENDENTE_VALIDACAO
+Fonoaudiologia;Q1;FG;I - Ética, democracia e cidadania;0,5524;0,5534;0,5523;0,0011;-0,0;0,4079;PENDENTE_VALIDACAO
+Fonoaudiologia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8007;0,7852;0,7188;0,0664;-0,0;0,2763;PENDENTE_VALIDACAO
+Fonoaudiologia;Q3;FG;II - Estado, sociedade e trabalho;0,587;0,551;0,5789;-0,028;-0,0;0,4204;PENDENTE_VALIDACAO
+Fonoaudiologia;Q4;FG;II - Estado, sociedade e trabalho;0,4177;0,4005;0,4111;-0,0106;-0,0;0,4186;PENDENTE_VALIDACAO
+Fonoaudiologia;Q5;FG;XIII - Acessibilidade e inclusão social;0,4451;0,4818;0,4347;0,0471;0,0;0,6279;PENDENTE_VALIDACAO
+Fonoaudiologia;Q6;FG;IV - Cultura, arte e comunicação;0,7449;0,6966;0,6955;0,0011;-0,0;0,4037;PENDENTE_VALIDACAO
+Fonoaudiologia;Q7;FG;II - Estado, sociedade e trabalho;0,4126;0,4066;0,4064;0,0001;0,0;0,3592;PENDENTE_VALIDACAO
+Fonoaudiologia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0,5097;0,4951;0,4953;-0,0002;-0,0;0,2073;PENDENTE_VALIDACAO
+Fonoaudiologia;Q9;FG;II - Estado, sociedade e trabalho;0,2238;0,2172;0,2697;-0,0525;-0,0;0,1926;PENDENTE_VALIDACAO
+Fonoaudiologia;Q10;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,7796;0,7099;0,62;0,0899;0,0;0,3095;PENDENTE_VALIDACAO
+Fonoaudiologia;Q11;CE;XIII - Ética e bioética na prática fonoaudiológica.;0,4067;0,3762;0,4068;-0,0306;0,0;0,4088;PENDENTE_VALIDACAO
+Fonoaudiologia;Q12;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,0;0,0;0,1313;-0,1313;0,0;0,0;PENDENTE_VALIDACAO
+Fonoaudiologia;Q13;CE;"V - Funções e habilidades da fluência nos ciclos da vida;";0,7918;0,7512;0,7113;0,0399;0,0;0,3629;PENDENTE_VALIDACAO
+Fonoaudiologia;Q14;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,4164;0,3968;0,4164;-0,0196;-0,0;0,2917;PENDENTE_VALIDACAO
+Fonoaudiologia;Q15;CE;III - Funções e habilidades da;0,5106;0,4891;0,5104;-0,0213;0,0;0,4342;PENDENTE_VALIDACAO
+Fonoaudiologia;Q16;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0,0;0,0;0,0512;-0,0512;0,0;0,0;PENDENTE_VALIDACAO
+Fonoaudiologia;Q17;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,3944;0,341;0,3909;-0,0499;0,0;0,4079;PENDENTE_VALIDACAO
+Fonoaudiologia;Q18;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,1913;0,1699;0,2466;-0,0767;0,0;0,1786;PENDENTE_VALIDACAO
+Fonoaudiologia;Q19;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0,8391;0,8228;0,7408;0,082;0,0;0,2469;PENDENTE_VALIDACAO
+Fonoaudiologia;Q20;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,6639;0,591;0,6514;-0,0603;-0,0;0,2811;PENDENTE_VALIDACAO
+Fonoaudiologia;Q21;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,6968;0,642;0,6109;0,0311;0,0;0,2751;PENDENTE_VALIDACAO
+Fonoaudiologia;Q22;CE;"IV - Funções e habilidades da fala nos ciclos da vida;";0,0;0,0;0,2528;-0,2528;0,0;0,0;PENDENTE_VALIDACAO
+Fonoaudiologia;Q23;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,3197;0,2512;0,32;-0,0688;-0,0;0,4044;PENDENTE_VALIDACAO
+Fonoaudiologia;Q24;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,3277;0,318;0,3158;0,0022;-0,0;0,2707;PENDENTE_VALIDACAO
+Fonoaudiologia;Q25;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,492;0,4369;0,4715;-0,0346;-0,0;0,3256;PENDENTE_VALIDACAO
+Fonoaudiologia;Q26;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";0,2551;0,2366;0,245;-0,0083;0,0;0,2943;PENDENTE_VALIDACAO
+Fonoaudiologia;Q27;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,4983;0,4575;0,4929;-0,0354;0,0;0,3711;PENDENTE_VALIDACAO
+Fonoaudiologia;Q28;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0,2171;0,1554;0,2453;-0,0899;-0,0;0,1555;PENDENTE_VALIDACAO
+Fonoaudiologia;Q29;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,0;0,0;0,036;-0,036;0,0;0,0;PENDENTE_VALIDACAO
+Fonoaudiologia;Q30;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0,5697;0,5303;0,569;-0,0386;0,0;0,4493;PENDENTE_VALIDACAO
+Fonoaudiologia;Q31;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,6592;0,5995;0,6233;-0,0238;-0,0;0,3018;PENDENTE_VALIDACAO
+Fonoaudiologia;Q32;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,3471;0,3568;0,3289;0,028;-0,0;0,4656;PENDENTE_VALIDACAO
+Fonoaudiologia;Q33;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0,4586;0,4223;0,4216;0,0008;0,0;0,6279;PENDENTE_VALIDACAO
+Fonoaudiologia;Q34;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0,1833;0,1468;0,2831;-0,1363;0,0;0,4044;PENDENTE_VALIDACAO
+Fonoaudiologia;Q35;CE;III - Funções e habilidades da;0,4143;0,3435;0,4145;-0,071;-0,0;0,447;PENDENTE_VALIDACAO
+Fonoaudiologia;Q36;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,3463;0,3192;0,3428;-0,0236;0,0;0,3466;PENDENTE_VALIDACAO
+Fonoaudiologia;Q37;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0,2335;0,2233;0,2157;0,0076;-0,0;0,1185;PENDENTE_VALIDACAO
+Fonoaudiologia;Q38;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0,4464;0,4235;0,4414;-0,0178;-0,0;0,4963;PENDENTE_VALIDACAO
+Nutricao;Q1;FG;I - Ética, democracia e cidadania;0,5776;0,5701;0,5643;0,0058;-0,0;0,5;PENDENTE_VALIDACAO
+Nutricao;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7817;0,78;0,6808;0,0993;-0,0;0,5974;PENDENTE_VALIDACAO
+Nutricao;Q3;FG;II - Estado, sociedade e trabalho;0,5392;0,5391;0,5332;0,0059;0,0;0,5663;PENDENTE_VALIDACAO
+Nutricao;Q4;FG;II - Estado, sociedade e trabalho;0,4687;0,4772;0,4626;0,0146;0,0;0,5303;PENDENTE_VALIDACAO
+Nutricao;Q5;FG;XIII - Acessibilidade e inclusão social;0,4797;0,5018;0,4797;0,0221;-0,0;0,5;PENDENTE_VALIDACAO
+Nutricao;Q6;FG;IV - Cultura, arte e comunicação;0,7061;0,706;0,6677;0,0383;0,0;0,6;PENDENTE_VALIDACAO
+Nutricao;Q7;FG;II - Estado, sociedade e trabalho;0,3715;0,3609;0,3668;-0,0059;0,0;0,6476;PENDENTE_VALIDACAO
+Nutricao;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,489;0,4934;0,489;0,0044;-0,0;0,5989;PENDENTE_VALIDACAO
+Nutricao;Q9;FG;II - Estado, sociedade e trabalho;0,236;0,2407;0,2751;-0,0344;-0,0;0,3267;PENDENTE_VALIDACAO
+Nutricao;Q10;CE;"XVII - Educação alimentar e nutricional;";0,4094;0,3981;0,4094;-0,0113;-0,0;0,409;PENDENTE_VALIDACAO
+Nutricao;Q11;CE;"VII - Métodos de avaliação alimentar e nutricional;";0,0;0,0;0,0389;-0,0389;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q12;CE;"XIV - Guia alimentar para a população brasileira e guia alimentar para menores de 2 anos;";0,2075;0,2196;0,2968;-0,0773;-0,0;0,39;PENDENTE_VALIDACAO
+Nutricao;Q13;CE;"XV - Segurança alimentar e nutricional;";0,0;0,0;0,068;-0,068;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q14;CE;"XV - Segurança alimentar e nutricional;";0,6214;0,6084;0,5606;0,0478;0,0;0,7333;PENDENTE_VALIDACAO
+Nutricao;Q15;CE;"XIII - Epidemiologia e vigilância alimentar e nutricional;";0,0;0,0;0,2298;-0,2298;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q16;CE;"XVI - Sistema Único de Saúde (SUS) e políticas públicas de alimentação e de nutrição;";0,3483;0,3375;0,3706;-0,0331;-0,0;0,431;PENDENTE_VALIDACAO
+Nutricao;Q17;CE;"I - Biodisponibilidade de nutrientes e propriedades de compostos bioativos;";0,367;0,3675;0,3647;0,0028;-0,0;0,5207;PENDENTE_VALIDACAO
+Nutricao;Q18;CE;"II - Técnica dietética e análise sensorial;";0,6137;0,622;0,6113;0,0107;-0,0;0,6061;PENDENTE_VALIDACAO
+Nutricao;Q19;CE;"II - Técnica dietética e análise sensorial;";0,683;0,6641;0,6638;0,0003;0,0;0,6289;PENDENTE_VALIDACAO
+Nutricao;Q20;CE;"II - Técnica dietética e análise sensorial;";0,411;0,402;0,4088;-0,0069;0,0;0,4632;PENDENTE_VALIDACAO
+Nutricao;Q21;CE;"II - Técnica dietética e análise sensorial;";0,2761;0,2931;0,3179;-0,0248;-0,0;0,4677;PENDENTE_VALIDACAO
+Nutricao;Q22;CE;"VIII - Planejamento e prescrição dietética;";0,0;0,0;0,0002;-0,0002;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q23;CE;"VIII - Planejamento e prescrição dietética;";0,0;0,0;0,0002;-0,0002;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q24;CE;"VI - Necessidades e recomendações nutricionais nas diferentes fases da vida;";0,7432;0,742;0,7436;-0,0015;-0,0;0,5;PENDENTE_VALIDACAO
+Nutricao;Q25;CE;"VII - Métodos de avaliação alimentar e nutricional;";0,3366;0,3119;0,3043;0,0076;-0,0;0,4151;PENDENTE_VALIDACAO
+Nutricao;Q26;CE;"III - Controle higiênico- sanitário dos alimentos;";0,7334;0,7125;0,6613;0,0513;0,0;0,5417;PENDENTE_VALIDACAO
+Nutricao;Q27;CE;"V - Rotulagem nutricional de alimentos;";0,8067;0,8001;0,6915;0,1085;0,0;0,5074;PENDENTE_VALIDACAO
+Nutricao;Q28;CE;"XI - Gestão de materiais, financeira e de pessoas na produção de refeições;";0,2677;0,2622;0,2845;-0,0224;0,0;0,2971;PENDENTE_VALIDACAO
+Nutricao;Q29;CE;XX - Código de ética e conduta do nutricionista.;0,4639;0,4442;0,4534;-0,0091;0,0;0,506;PENDENTE_VALIDACAO
+Nutricao;Q30;CE;"VIII - Planejamento e prescrição dietética;";0,0;0,0;0,0002;-0,0002;0,0;0,0;PENDENTE_VALIDACAO
+Nutricao;Q31;CE;"VI - Necessidades e recomendações nutricionais nas diferentes fases da vida;";0,7166;0,7005;0,717;-0,0165;0,0;0,5931;PENDENTE_VALIDACAO
+Nutricao;Q32;CE;"XVIII - Bioquímica nutricional;";0,6214;0,6092;0,6044;0,0048;0,0;0,5799;PENDENTE_VALIDACAO
+Nutricao;Q33;CE;"XI - Gestão de materiais, financeira e de pessoas na produção de refeições;";0,383;0,4038;0,3795;0,0243;-0,0;0,5814;PENDENTE_VALIDACAO
+Nutricao;Q34;CE;"IX - Planejamento físico e funcional de serviços de alimentação;";0,6327;0,6348;0,6328;0,002;-0,0;0,6389;PENDENTE_VALIDACAO
+Nutricao;Q35;CE;"IX - Planejamento físico e funcional de serviços de alimentação;";0,6521;0,6545;0,6521;0,0023;0,0;0,5532;PENDENTE_VALIDACAO
+Nutricao;Q36;CE;"XI - Gestão de materiais, financeira e de pessoas na produção de refeições;";0,4072;0,4047;0,4041;0,0006;-0,0;0,5094;PENDENTE_VALIDACAO
+Nutricao;Q37;CE;"XII - Indicadores de qualidade na produção de refeições;";0,6313;0,6051;0,6175;-0,0124;-0,0;0,4796;PENDENTE_VALIDACAO
+Nutricao;Q38;CE;"XI - Gestão de materiais, financeira e de pessoas na produção de refeições;";0,4146;0,3999;0,4118;-0,0119;-0,0;0,5415;PENDENTE_VALIDACAO
+Fisioterapia;Q1;FG;I - Ética, democracia e cidadania;0,5323;0,5251;0,5323;-0,0072;-0,0;0,4461;PENDENTE_VALIDACAO
+Fisioterapia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7793;0,7714;0,7792;-0,0078;-0,0;0,5046;PENDENTE_VALIDACAO
+Fisioterapia;Q3;FG;II - Estado, sociedade e trabalho;0,5034;0,4925;0,4965;-0,004;-0,0;0,5132;PENDENTE_VALIDACAO
+Fisioterapia;Q4;FG;II - Estado, sociedade e trabalho;0,426;0,4224;0,4195;0,0029;0,0;0,5914;PENDENTE_VALIDACAO
+Fisioterapia;Q5;FG;XIII - Acessibilidade e inclusão social;0,4561;0,4583;0,4515;0,0069;0,0;0,6038;PENDENTE_VALIDACAO
+Fisioterapia;Q6;FG;IV - Cultura, arte e comunicação;0,6792;0,675;0,6517;0,0232;-0,0;0,6111;PENDENTE_VALIDACAO
+Fisioterapia;Q7;FG;II - Estado, sociedade e trabalho;0,3669;0,3637;0,3617;0,002;-0,0;0,6606;PENDENTE_VALIDACAO
+Fisioterapia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,492;0,4886;0,492;-0,0033;-0,0;0,4032;PENDENTE_VALIDACAO
+Fisioterapia;Q9;FG;II - Estado, sociedade e trabalho;0,221;0,2213;0,259;-0,0377;0,0;0,405;PENDENTE_VALIDACAO
+Fisioterapia;Q10;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,2482;0,2366;0,2598;-0,0233;0,0;0,3952;PENDENTE_VALIDACAO
+Fisioterapia;Q11;CE;"XII - Métodos de avaliação fisioterapêutica;";0,6664;0,6535;0,6663;-0,0128;0,0;0,4104;PENDENTE_VALIDACAO
+Fisioterapia;Q12;CE;"XIV - Recursos e intervenções em fisioterapia;";0,4925;0,4799;0,4658;0,0142;0,0;0,5393;PENDENTE_VALIDACAO
+Fisioterapia;Q13;CE;"XIV - Recursos e intervenções em fisioterapia;";0,0;0,0;0,119;-0,119;0,0;0,0;PENDENTE_VALIDACAO
+Fisioterapia;Q14;CE;"XIV - Recursos e intervenções em fisioterapia;";0,3865;0,3759;0,363;0,0129;0,0;0,5175;PENDENTE_VALIDACAO
+Fisioterapia;Q15;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,0;0,0;0,143;-0,143;0,0;0,0;PENDENTE_VALIDACAO
+Fisioterapia;Q16;CE;"II - Ética e Bioética;";0,7926;0,7742;0,7716;0,0026;-0,0;0,5266;PENDENTE_VALIDACAO
+Fisioterapia;Q17;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,7123;0,6888;0,6164;0,0724;0,0;0,659;PENDENTE_VALIDACAO
+Fisioterapia;Q18;CE;"VIII - Acessibilidade e tecnologia assistiva;";0,2237;0,2239;0,2668;-0,0429;0,0;0,4182;PENDENTE_VALIDACAO
+Fisioterapia;Q19;CE;"IV - Determinantes do processo de saúde-doença;";0,237;0,2277;0,277;-0,0493;-0,0;0,806;PENDENTE_VALIDACAO
+Fisioterapia;Q20;CE;"V - Políticas de saúde;";0,702;0,6965;0,706;-0,0096;-0,0;0,3743;PENDENTE_VALIDACAO
+Fisioterapia;Q21;CE;"IV - Determinantes do processo de saúde-doença;";0,6877;0,6845;0,6546;0,0299;0,0;0,5011;PENDENTE_VALIDACAO
+Fisioterapia;Q22;CE;"II - Ética e Bioética;";0,5038;0,4722;0,5097;-0,0374;0,0;0,6184;PENDENTE_VALIDACAO
+Fisioterapia;Q23;CE;"XIV - Recursos e intervenções em fisioterapia;";0,7666;0,7501;0,6052;0,1449;0,0;0,4212;PENDENTE_VALIDACAO
+Fisioterapia;Q24;CE;"XIV - Recursos e intervenções em fisioterapia;";0,7088;0,6928;0,6002;0,0926;0,0;0,4741;PENDENTE_VALIDACAO
+Fisioterapia;Q25;CE;"XIV - Recursos e intervenções em fisioterapia;";0,8486;0,8299;0,6141;0,2158;-0,0;0,5147;PENDENTE_VALIDACAO
+Fisioterapia;Q26;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,6667;0,6467;0,6044;0,0423;0,0;0,6196;PENDENTE_VALIDACAO
+Fisioterapia;Q27;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,4775;0,4624;0,4623;0,0;0,0;0,4433;PENDENTE_VALIDACAO
+Fisioterapia;Q28;CE;"XI - Cinesiologia e biomecânica;";0,6761;0,644;0,6762;-0,0321;0,0;0,4649;PENDENTE_VALIDACAO
+Fisioterapia;Q29;CE;"XII - Métodos de avaliação fisioterapêutica;";0,3416;0,3164;0,3416;-0,0252;0,0;0,5079;PENDENTE_VALIDACAO
+Fisioterapia;Q30;CE;"IV - Determinantes do processo de saúde-doença;";0,5134;0,4939;0,5095;-0,0156;-0,0;0,5731;PENDENTE_VALIDACAO
+Fisioterapia;Q31;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,3679;0,3499;0,3516;-0,0017;0,0;0,4906;PENDENTE_VALIDACAO
+Fisioterapia;Q32;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,4121;0,4003;0,3984;0,0019;0,0;0,5086;PENDENTE_VALIDACAO
+Fisioterapia;Q33;CE;"V - Políticas de saúde;";0,816;0,7979;0,8014;-0,0036;0,0;0,4845;PENDENTE_VALIDACAO
+Fisioterapia;Q34;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,6767;0,6557;0,6049;0,0507;-0,0;0,5166;PENDENTE_VALIDACAO
+Fisioterapia;Q35;CE;"XIV - Recursos e intervenções em fisioterapia;";0,0;0,0;0,119;-0,119;0,0;0,0;PENDENTE_VALIDACAO
+Fisioterapia;Q36;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,4285;0,4147;0,4186;-0,0038;-0,0;0,5547;PENDENTE_VALIDACAO
+Fisioterapia;Q37;CE;"X - Anatomia, fisiologia e patologia de órgãos e sistemas;";0,5309;0,5125;0,5167;-0,0042;0,0;0,5645;PENDENTE_VALIDACAO
+Fisioterapia;Q38;CE;"XI - Cinesiologia e biomecânica;";0,3898;0,379;0,39;-0,011;-0,0;0,5;PENDENTE_VALIDACAO
+Zootecnia;Q1;FG;I - Ética, democracia e cidadania;0,5371;0,51;0,5371;-0,0271;0,0;0,2837;PENDENTE_VALIDACAO
+Zootecnia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7677;0,7656;0,7673;-0,0017;0,0;0,3991;PENDENTE_VALIDACAO
+Zootecnia;Q3;FG;II - Estado, sociedade e trabalho;0,5689;0,5524;0,5621;-0,0097;-0,0;0,5535;PENDENTE_VALIDACAO
+Zootecnia;Q4;FG;II - Estado, sociedade e trabalho;0,4221;0,4414;0,4168;0,0246;0,0;0,5068;PENDENTE_VALIDACAO
+Zootecnia;Q5;FG;XIII - Acessibilidade e inclusão social;0,433;0,4426;0,4148;0,0279;-0,0;0,4244;PENDENTE_VALIDACAO
+Zootecnia;Q6;FG;IV - Cultura, arte e comunicação;0,7228;0,7145;0,7224;-0,008;-0,0;0,2754;PENDENTE_VALIDACAO
+Zootecnia;Q7;FG;II - Estado, sociedade e trabalho;0,3807;0,3691;0,3762;-0,0071;-0,0;0,5574;PENDENTE_VALIDACAO
+Zootecnia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0,4456;0,419;0,4456;-0,0267;0,0;0,4068;PENDENTE_VALIDACAO
+Zootecnia;Q9;FG;II - Estado, sociedade e trabalho;0,2281;0,2082;0,2673;-0,0591;-0,0;0,2308;PENDENTE_VALIDACAO
+Zootecnia;Q10;CE;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0,699;0,6384;0,6785;-0,0401;-0,0;0,3084;PENDENTE_VALIDACAO
+Zootecnia;Q11;CE;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0,4918;0,4938;0,4922;0,0016;0,0;0,3502;PENDENTE_VALIDACAO
+Zootecnia;Q12;CE;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0,3293;0,3454;0,352;-0,0066;0,0;0,3385;PENDENTE_VALIDACAO
+Zootecnia;Q13;CE;"III - Nutrição e produção de ruminantes;";0,346;0,3778;0,3432;0,0346;0,0;0,4706;PENDENTE_VALIDACAO
+Zootecnia;Q14;CE;"II - Nutrição e produção de não ruminantes;";0,4578;0,4214;0,4449;-0,0235;-0,0;0,4615;PENDENTE_VALIDACAO
+Zootecnia;Q15;CE;"II - Nutrição e produção de não ruminantes;";0,4105;0,4002;0,3979;0,0024;-0,0;0,3074;PENDENTE_VALIDACAO
+Zootecnia;Q16;CE;"III - Nutrição e produção de ruminantes;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q17;CE;"III - Nutrição e produção de ruminantes;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q18;CE;"III - Nutrição e produção de ruminantes;";0,3151;0,3155;0,3123;0,0031;-0,0;0,6275;PENDENTE_VALIDACAO
+Zootecnia;Q19;CE;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0,0;0,0;0,011;-0,011;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q20;CE;"V - Tecnologia e processamento de produtos de origem animal;";0,6643;0,6434;0,6623;-0,0189;-0,0;0,5882;PENDENTE_VALIDACAO
+Zootecnia;Q21;CE;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0,4491;0,4763;0,4286;0,0477;-0,0;0,4262;PENDENTE_VALIDACAO
+Zootecnia;Q22;CE;"II - Nutrição e produção de não ruminantes;";0,0;0,0;0,006;-0,006;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q23;CE;"II - Nutrição e produção de não ruminantes;";0,5551;0,5237;0,5041;0,0196;-0,0;0,6102;PENDENTE_VALIDACAO
+Zootecnia;Q24;CE;"II - Nutrição e produção de não ruminantes;";0,0;0,0;0,006;-0,006;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q25;CE;"II - Nutrição e produção de não ruminantes;";0,0;0,0;0,006;-0,006;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q26;CE;"III - Nutrição e produção de ruminantes;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q27;CE;"XII - Estatística, experimentação e matemática aplicadas à Zootecnia;";0,0;0,0;0,1595;-0,1595;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q28;CE;"V - Tecnologia e processamento de produtos de origem animal;";0,3016;0,2818;0,3116;-0,0298;-0,0;0,2166;PENDENTE_VALIDACAO
+Zootecnia;Q29;CE;"II - Nutrição e produção de não ruminantes;";0,398;0,3953;0,3853;0,01;0,0;0,7391;PENDENTE_VALIDACAO
+Zootecnia;Q30;CE;"I - Genética, ciências ômicas, programas de melhoramento animal e conservação de recursos genéticos;";0,5622;0,515;0,5623;-0,0473;0,0;0,1979;PENDENTE_VALIDACAO
+Zootecnia;Q31;CE;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0,0;0,0;0,011;-0,011;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q32;CE;"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência;";0,0;0,0;0,1075;-0,1075;0,0;0,0;PENDENTE_VALIDACAO
+Zootecnia;Q33;CE;"VII - Ecologia, gestão ambiental, manejo dos resíduos e dos dejetos oriundos da produção animal;";0,7918;0,7681;0,6445;0,1236;-0,0;0,5239;PENDENTE_VALIDACAO
+Zootecnia;Q34;CE;XIX - Animais silvestres e exóticos.;0,6466;0,6621;0,5971;0,065;-0,0;0,4622;PENDENTE_VALIDACAO
+Zootecnia;Q35;CE;"XVII - Zootecnia de precisão;";0,4934;0,49;0,4702;0,0198;0,0;0,3596;PENDENTE_VALIDACAO
+Zootecnia;Q36;CE;"IV - Bromatologia e controle de qualidade de alimentos para animais;";0,6087;0,5998;0,509;0,0908;0,0;0,3545;PENDENTE_VALIDACAO
+Zootecnia;Q37;CE;"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência;";0,7446;0,7332;0,6013;0,1319;0,0;0,2564;PENDENTE_VALIDACAO
+Zootecnia;Q38;CE;"II - Nutrição e produção de não ruminantes;";0,6242;0,5598;0,5047;0,0551;-0,0;0,3464;PENDENTE_VALIDACAO
+Biomedicina;Q1;FG;I - Ética, democracia e cidadania;0,5398;0,5198;0,5146;0,0052;0,0;0,7593;PENDENTE_VALIDACAO
+Biomedicina;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7831;0,7689;0,783;-0,0141;-0,0;0,5471;PENDENTE_VALIDACAO
+Biomedicina;Q3;FG;II - Estado, sociedade e trabalho;0,5209;0,4934;0,5148;-0,0213;-0,0;0,7593;PENDENTE_VALIDACAO
+Biomedicina;Q4;FG;II - Estado, sociedade e trabalho;0,4627;0,4477;0,4568;-0,0091;0,0;0,4757;PENDENTE_VALIDACAO
+Biomedicina;Q5;FG;XIII - Acessibilidade e inclusão social;0,4578;0,4784;0,4578;0,0206;0,0;0,4822;PENDENTE_VALIDACAO
+Biomedicina;Q6;FG;IV - Cultura, arte e comunicação;0,6886;0,6556;0,6885;-0,0329;-0,0;0,6996;PENDENTE_VALIDACAO
+Biomedicina;Q7;FG;II - Estado, sociedade e trabalho;0,3548;0,3356;0,3499;-0,0142;-0,0;0,3846;PENDENTE_VALIDACAO
+Biomedicina;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,483;0,4688;0,4774;-0,0086;-0,0;0,5263;PENDENTE_VALIDACAO
+Biomedicina;Q9;FG;II - Estado, sociedade e trabalho;0,2299;0,2346;0,2653;-0,0307;-0,0;0,3185;PENDENTE_VALIDACAO
+Biomedicina;Q10;CE;"I - Estética e História das Artes;";0,3938;0,3749;0,3853;-0,0104;0,0;0,5091;PENDENTE_VALIDACAO
+Biomedicina;Q11;CE;IV - Desenho e Meios de representação e expressão;0,1971;0,1684;0,1884;-0,02;-0,0;0,5073;PENDENTE_VALIDACAO
+Biomedicina;Q12;CE;"II - Estudos sociais, econômicos e ambientais;";0,4943;0,4415;0,4914;-0,0499;-0,0;0,5536;PENDENTE_VALIDACAO
+Biomedicina;Q13;CE;III - Sustentabilidade;0,1826;0,1613;0,1735;-0,0122;0,0;0,4111;PENDENTE_VALIDACAO
+Biomedicina;Q14;CE;"XI - Políticas públicas e habitacionais;";0,4722;0,424;0,4721;-0,0481;0,0;0,6604;PENDENTE_VALIDACAO
+Biomedicina;Q15;CE;"X - Planejamento urbano e regional;";0,0;0,0;0,027;-0,027;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q16;CE;"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo;";0,51;0,4685;0,4722;-0,0037;-0,0;0,5941;PENDENTE_VALIDACAO
+Biomedicina;Q17;CE;"VI - Projeto de arquitetura;";0,3631;0,3046;0,363;-0,0584;-0,0;0,6667;PENDENTE_VALIDACAO
+Biomedicina;Q18;CE;"VI - Projeto de arquitetura;";0,3062;0,2711;0,3062;-0,0351;0,0;0,7246;PENDENTE_VALIDACAO
+Biomedicina;Q19;CE;"VII - Projeto de Urbanismo;";0,3913;0,3669;0,3846;-0,0177;0,0;0,4615;PENDENTE_VALIDACAO
+Biomedicina;Q20;CE;"VIII - Projeto de Paisagismo;";0,5949;0,567;0,5221;0,0449;-0,0;0,5593;PENDENTE_VALIDACAO
+Biomedicina;Q21;CE;"XI - Políticas públicas e habitacionais;";0,4729;0,4364;0,4728;-0,0364;-0,0;0,3929;PENDENTE_VALIDACAO
+Biomedicina;Q22;CE;IX - Projeto de Arquitetura de Interiores;0,1464;0,1437;0,1475;-0,0038;0,0;0,3557;PENDENTE_VALIDACAO
+Biomedicina;Q23;CE;"XII - Tecnologia da construção;";0,0;0,0;0,0021;-0,0021;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q24;CE;"XII - Tecnologia da construção;";0,0;0,0;0,0021;-0,0021;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q25;CE;"XIII - Infraestrutura urbana;";0,2735;0,2315;0,2624;-0,0309;-0,0;0,6731;PENDENTE_VALIDACAO
+Biomedicina;Q26;CE;"XVI - Sistemas estruturais;";0,0;0,0;0,027;-0,027;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q27;CE;"XIV - Gestão e coordenação de projetos;";0,0;0,0;0,046;-0,046;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q28;CE;"XV - Gestão e coordenação de obras;";0,4226;0,3672;0,4122;-0,045;0,0;0,7963;PENDENTE_VALIDACAO
+Biomedicina;Q29;CE;"XVII - Conforto ambiental e eficiência energética;";0,5124;0,4737;0,5053;-0,0316;0,0;0,4643;PENDENTE_VALIDACAO
+Biomedicina;Q30;CE;XVIII - Mobilidade urbana;0,4667;0,425;0,4598;-0,0348;0,0;0,4834;PENDENTE_VALIDACAO
+Biomedicina;Q31;CE;"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo;";0,0;0,0;0,0549;-0,0549;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q32;CE;"XIX - Desenho universal e acessibilidade;";0,5837;0,557;0,5836;-0,0266;-0,0;0,5072;PENDENTE_VALIDACAO
+Biomedicina;Q33;CE;"XIX - Desenho universal e acessibilidade;";0,3834;0,3493;0,3835;-0,0342;-0,0;0,3667;PENDENTE_VALIDACAO
+Biomedicina;Q34;CE;"XX - Patrimônio cultural e técnicas retrospectivas;";0,1951;0,1532;0,1884;-0,0352;0,0;0,3984;PENDENTE_VALIDACAO
+Biomedicina;Q35;CE;XXI - Informática aplicada a Arquitetura e Urbanismo;0,3773;0,3273;0,3693;-0,042;-0,0;0,4471;PENDENTE_VALIDACAO
+Biomedicina;Q36;CE;"XIV - Gestão e coordenação de projetos;";0,4129;0,3554;0,3772;-0,0218;0,0;0,6226;PENDENTE_VALIDACAO
+Biomedicina;Q37;CE;"XXII - Topografia;";0,0;0,0;0,027;-0,027;0,0;0,0;PENDENTE_VALIDACAO
+Biomedicina;Q38;CE;"II - Estudos sociais, econômicos e ambientais;";0,2531;0,2305;0,2656;-0,0351;0,0;0,3798;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q1;FG;I - Ética, democracia e cidadania;0,4765;0,4512;0,4593;-0,008;0,0;0,4274;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7213;0,7121;0,7209;-0,0088;0,0;0,5662;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q3;FG;II - Estado, sociedade e trabalho;0,4195;0,4077;0,4152;-0,0075;0,0;0,4206;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q4;FG;II - Estado, sociedade e trabalho;0,4405;0,4367;0,4361;0,0007;-0,0;0,2455;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q5;FG;XIII - Acessibilidade e inclusão social;0,5133;0,542;0,5017;0,0403;0,0;0,2393;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q6;FG;IV - Cultura, arte e comunicação;0,5621;0,5188;0,562;-0,0431;-0,0;0,4081;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q7;FG;II - Estado, sociedade e trabalho;0,2958;0,2657;0,297;-0,0313;-0,0;0,1845;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4298;0,399;0,4299;-0,0309;-0,0;0,3162;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q9;FG;II - Estado, sociedade e trabalho;0,259;0,2821;0,2813;0,0008;0,0;0,3081;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q10;CE;"I - Anatomia radiológica e fisiologia;";0,3048;0,3169;0,2886;0,0283;0,0;0,2825;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q11;CE;"I - Anatomia radiológica e fisiologia;";0,6969;0,6338;0,5634;0,0704;0,0;0,3616;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q12;CE;"I - Anatomia radiológica e fisiologia;";0,4071;0,373;0,3872;-0,0143;-0,0;0,4231;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q13;CE;"II - Física das radiações;";0,3168;0,2754;0,2958;-0,0205;-0,0;0,2299;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q14;CE;"II - Física das radiações;";0,0;0,0;0,0497;-0,0497;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q15;CE;"III - Proteção radiológica;";0,4486;0,4251;0,4464;-0,0212;0,0;0,4037;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q16;CE;"II - Física das radiações;";0,2778;0,2358;0,2548;-0,0191;0,0;0,2575;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q17;CE;"III - Proteção radiológica;";0,4692;0,4976;0,467;0,0306;-0,0;0,3889;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q18;CE;"II - Física das radiações;";0,4795;0,4116;0,4571;-0,0455;-0,0;0,4081;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q19;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,5706;0,543;0,57;-0,027;-0,0;0,3353;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q20;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,2727;0,2763;0,2886;-0,0123;-0,0;0,4187;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q21;CE;"V - Radiologia odontológica;";0,8318;0,7817;0,6408;0,1409;0,0;0,527;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q22;CE;"IX - Mamografia e densitometria óssea;";0,7025;0,6425;0,693;-0,0505;-0,0;0,6451;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q23;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,7003;0,6493;0,6418;0,0075;-0,0;0,4682;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q24;CE;"I - Anatomia radiológica e fisiologia;";0,3168;0,2763;0,2992;-0,0229;-0,0;0,2628;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q25;CE;"VIII - Tomografia computadorizada;";0,3502;0,287;0,3349;-0,0479;-0,0;0,2818;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q26;CE;"IX - Mamografia e densitometria óssea;";0,3604;0,343;0,3626;-0,0196;0,0;0,4038;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q27;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,3266;0,2213;0,327;-0,1057;0,0;0,2308;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q28;CE;"XI - Ressonância magnética;";0,6464;0,6184;0,6467;-0,0283;-0,0;0,2324;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q29;CE;"I - Anatomia radiológica e fisiologia;";0,0;0,0;0,0733;-0,0733;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q30;CE;"III - Proteção radiológica;";0,253;0,2097;0,2711;-0,0614;-0,0;0,2536;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q31;CE;"XIII - Radioterapia;";0,0;0,0;0,0592;-0,0592;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q32;CE;"XIII - Radioterapia;";0,2979;0,2811;0,2677;0,0134;-0,0;0,2455;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q33;CE;"XIII - Radioterapia;";0,6207;0,572;0,547;0,025;0,0;0,3889;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q34;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,2744;0,2561;0,2984;-0,0423;0,0;0,359;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q35;CE;"IV - Radiologia convencional, digital e exames contrastados;";0,2735;0,2531;0,2873;-0,0342;0,0;0,2455;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q36;CE;"XII - Medicina nuclear;";0,0;0,0;0,1468;-0,1468;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q37;CE;"XI - Ressonância magnética;";0,7196;0,7188;0,7195;-0,0006;-0,0;0,486;PENDENTE_VALIDACAO
+Tecnologia em Radiologia;Q38;CE;"III - Proteção radiológica;";0,4396;0,4;0,4362;-0,0362;0,0;0,4212;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q1;FG;I - Ética, democracia e cidadania;0,4545;0,4401;0,4631;-0,023;-0,0;0,3238;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7309;0,7339;0,7301;0,0038;0,0;0,284;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q3;FG;II - Estado, sociedade e trabalho;0,4149;0,4159;0,4102;0,0057;-0,0;0,3503;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q4;FG;II - Estado, sociedade e trabalho;0,3846;0,3871;0,3799;0,0072;-0,0;0,3509;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q5;FG;XIII - Acessibilidade e inclusão social;0,5599;0,6025;0,5673;0,0352;-0,0;0,3363;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q6;FG;IV - Cultura, arte e comunicação;0,5209;0,5242;0,5299;-0,0057;0,0;0,406;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q7;FG;II - Estado, sociedade e trabalho;0,2561;0,2373;0,2713;-0,034;-0,0;0,1604;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,3932;0,4067;0,3935;0,0131;-0,0;0,3102;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q9;FG;II - Estado, sociedade e trabalho;0,3009;0,3376;0,3123;0,0253;0,0;0,3333;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q10;CE;IX - Gestão da qualidade de processos e de produtos do agronegócio.;0,6948;0,727;0,5559;0,1711;0,0;0,3365;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q11;CE;"V - Gestão financeira no agronegócio;";0,0;0,0;0,0018;-0,0018;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q12;CE;IX - Gestão da qualidade de processos e de produtos do agronegócio.;0,2929;0,3007;0,2742;0,0265;-0,0;0,1729;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q13;CE;"III - Economia e políticas públicas no agronegócio;";0,5483;0,5369;0,5427;-0,0058;-0,0;0,3859;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q14;CE;"V - Gestão financeira no agronegócio;";0,7778;0,7592;0,5;0,2592;-0,0;0,1757;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q15;CE;"VII - Inovações tecnológicas e novos mercados no agronegócio;";0,7201;0,7051;0,6841;0,021;-0,0;0,346;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q16;CE;"VII - Inovações tecnológicas e novos mercados no agronegócio;";0,3456;0,3606;0,3616;-0,001;0,0;0,2222;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q17;CE;"I - Cadeias produtivas do agronegócio;";0,8276;0,8076;0,6963;0,1113;0,0;0,327;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q18;CE;"IV - Comercialização, marketing e ações empreendedoras no agronegócio;";0,5346;0,553;0,499;0,054;-0,0;0,5;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q19;CE;"V - Gestão financeira no agronegócio;";0,0;0,0;0,0018;-0,0018;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q20;CE;"VII - Inovações tecnológicas e novos mercados no agronegócio;";0,2864;0,2511;0,3188;-0,0677;0,0;0,1892;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q21;CE;"II - Gestão de pessoas e segurança do trabalho no agronegócio;";0,6046;0,6267;0,6044;0,0223;0,0;0,2913;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q22;CE;"VI - Desenvolvimento sustentável no agronegócio;";0,0;0,0;0,0841;-0,0841;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q23;CE;"IV - Comercialização, marketing e ações empreendedoras no agronegócio;";0,4885;0,4505;0,4507;-0,0002;-0,0;0,284;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q24;CE;"VIII - Gestão de logística e cadeia de suprimentos no agronegócio;";0,8304;0,841;0,7938;0,0472;-0,0;0,3937;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q25;CE;"VII - Inovações tecnológicas e novos mercados no agronegócio;";0,5794;0,5921;0,5787;0,0135;-0,0;0,4113;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q26;CE;IX - Gestão da qualidade de processos e de produtos do agronegócio.;0,0;0,0;0,0656;-0,0656;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q27;CE;"VI - Desenvolvimento sustentável no agronegócio;";0,4473;0,4723;0,4101;0,0622;-0,0;0,2763;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q28;CE;IX - Gestão da qualidade de processos e de produtos do agronegócio.;0,2532;0,2915;0,2355;0,056;-0,0;0,1053;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q29;CE;"IV - Comercialização, marketing e ações empreendedoras no agronegócio;";0,0;0,0;0,0735;-0,0735;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q30;CE;"VI - Desenvolvimento sustentável no agronegócio;";0,6537;0,6671;0,5665;0,1005;0,0;0,4476;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q31;CE;"II - Gestão de pessoas e segurança do trabalho no agronegócio;";0,4776;0,523;0,4785;0,0446;-0,0;0,2357;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q32;CE;"V - Gestão financeira no agronegócio;";0,0;0,0;0,0018;-0,0018;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q33;CE;"V - Gestão financeira no agronegócio;";0,1883;0,2212;0,189;0,0322;-0,0;0,0762;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q34;CE;"V - Gestão financeira no agronegócio;";0,0;0,0;0,0018;-0,0018;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q35;CE;"II - Gestão de pessoas e segurança do trabalho no agronegócio;";0,6133;0,6083;0,613;-0,0047;0,0;0,3565;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q36;CE;"I - Cadeias produtivas do agronegócio;";0,7107;0,6982;0,6763;0,0219;0,0;0,3492;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q37;CE;"III - Economia e políticas públicas no agronegócio;";0,2359;0,2258;0,2587;-0,0329;0,0;0,3544;PENDENTE_VALIDACAO
+Tecnologia em Agronegocios;Q38;CE;"I - Cadeias produtivas do agronegócio;";0,0;0,0;0,208;-0,208;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q1;FG;I - Ética, democracia e cidadania;0,4595;0,4546;0,4585;-0,0039;-0,0;0,5294;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7254;0,7243;0,6613;0,0631;0,0;0,2606;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q3;FG;II - Estado, sociedade e trabalho;0,4426;0,4349;0,4376;-0,0027;-0,0;0,3313;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q4;FG;II - Estado, sociedade e trabalho;0,4284;0,4112;0,423;-0,0118;-0,0;0,3521;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q5;FG;XIII - Acessibilidade e inclusão social;0,535;0,5421;0,534;0,0081;-0,0;0,4085;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q6;FG;IV - Cultura, arte e comunicação;0,5602;0,5401;0,5579;-0,0177;0,0;0,4279;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q7;FG;II - Estado, sociedade e trabalho;0,2783;0,2664;0,2817;-0,0153;0,0;0,2292;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4082;0,402;0,4074;-0,0054;0,0;0,451;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q9;FG;II - Estado, sociedade e trabalho;0,2522;0,2618;0,2826;-0,0208;-0,0;0,2238;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q10;CE;"III - Gestão financeira, orçamentária e de custos;";0,2146;0,1974;0,1914;0,006;-0,0;0,2655;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q11;CE;"X - Gestão de contratos, de convênios e de faturamento;";0,4888;0,4967;0,4888;0,0079;0,0;0,2937;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q12;CE;"III - Gestão financeira, orçamentária e de custos;";0,0;0,0;0,0285;-0,0285;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q13;CE;"IV - Gestão de serviços assistenciais;";0,6691;0,6671;0,5566;0,1105;-0,0;0,4947;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q14;CE;"I - Planejamento e gestão estratégica em saúde;";0,162;0,1599;0,1759;-0,016;-0,0;0,272;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q15;CE;"II - Gestão de pessoas;";0,3748;0,377;0,3929;-0,016;0,0;0,488;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q16;CE;"XI - Gestão da qualidade em saúde;";0,1588;0,1572;0,2743;-0,1171;-0,0;0,206;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q17;CE;"V - Auditoria em saúde;";0,0;0,0;0,0643;-0,0643;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q18;CE;"IX - Hotelaria hospitalar;";0,6105;0,598;0,5915;0,0066;0,0;0,236;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q19;CE;"VII - Sistemas de informação e de documentação médico- hospitalar;";0,8055;0,8118;0,7038;0,1081;0,0;0,2011;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q20;CE;"VIII - Marketing em saúde;";0,5574;0,5697;0,5643;0,0055;0,0;0,4118;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q21;CE;"XIII - Humanização em saúde;";0,5368;0,525;0,535;-0,01;0,0;0,3707;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q22;CE;"I - Planejamento e gestão estratégica em saúde;";0,281;0,2618;0,2771;-0,0153;-0,0;0,3685;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q23;CE;"XIV - Responsabilidade social, ética e bioética;";0,5062;0,4809;0,504;-0,0231;-0,0;0,4898;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q24;CE;"XV - Gestão ambiental e biossegurança;";0,5483;0,5395;0,5483;-0,0089;0,0;0,4641;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q25;CE;"XVII - Epidemiologia aplicada aos serviços de saúde;";0,3812;0,3855;0,392;-0,0064;0,0;0,2816;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q26;CE;XIX - Modelos de gestão em saúde.;0,2783;0,2783;0,2872;-0,0089;-0,0;0,2074;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q27;CE;"XII - Política e legislação aplicadas ao sistema de saúde;";0,2773;0,2803;0,3219;-0,0417;0,0;0,3893;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q28;CE;XIX - Modelos de gestão em saúde.;0,4481;0,4474;0,4462;0,0012;0,0;0,3209;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q29;CE;"VI - Gestão logística em saúde;";0,6517;0,6388;0,5662;0,0726;-0,0;0,4525;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q30;CE;"IV - Gestão de serviços assistenciais;";0,2929;0,2908;0,2641;0,0267;0,0;0,2568;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q31;CE;"VI - Gestão logística em saúde;";0,0;0,0;0,0753;-0,0753;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q32;CE;XIX - Modelos de gestão em saúde.;0,3295;0,3197;0,328;-0,0083;0,0;0,3028;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q33;CE;"XVIII - Tecnologias em saúde;";0,6384;0,6191;0,6349;-0,0159;0,0;0,4079;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q34;CE;"XVIII - Tecnologias em saúde;";0,2787;0,2888;0,2949;-0,0061;-0,0;0,3537;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q35;CE;"IV - Gestão de serviços assistenciais;";0,0;0,0;0,0676;-0,0676;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q36;CE;"VIII - Marketing em saúde;";0,8119;0,8099;0,7883;0,0216;-0,0;0,338;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q37;CE;"V - Auditoria em saúde;";0,5954;0,5743;0,5548;0,0195;-0,0;0,3556;PENDENTE_VALIDACAO
+Tecnologia em Gestao Hospitalar;Q38;CE;"XV - Gestão ambiental e biossegurança;";0,5606;0,5605;0,5606;-0,0001;-0,0;0,5424;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q1;FG;I - Ética, democracia e cidadania;0,5788;0,5539;0,5494;0,0045;-0,0;0,3816;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7781;0,777;0,5747;0,2023;-0,0;0,2447;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q3;FG;II - Estado, sociedade e trabalho;0,4759;0,4565;0,4711;-0,0146;-0,0;0,3101;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q4;FG;II - Estado, sociedade e trabalho;0,4341;0,4185;0,429;-0,0105;0,0;0,4528;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q5;FG;XIII - Acessibilidade e inclusão social;0,5458;0,5778;0,529;0,0488;0,0;0,4901;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q6;FG;IV - Cultura, arte e comunicação;0,627;0,584;0,5657;0,0182;0,0;0,4415;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q7;FG;II - Estado, sociedade e trabalho;0,2988;0,2696;0,2956;-0,026;-0,0;0,2544;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4066;0,3854;0,4067;-0,0213;0,0;0,298;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q9;FG;II - Estado, sociedade e trabalho;0,2582;0,2745;0,291;-0,0165;0,0;0,2589;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q10;CE;"XV - Economia ambiental e marketing verde;";0,0;0,0;0,084;-0,084;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q11;CE;"I - Gestão de recursos hídricos e de bacias hidrográficas;";0,6398;0,6599;0,6394;0,0206;-0,0;0,4921;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q12;CE;"II - Sistemas de abastecimento de água e esgotamento sanitário: parâmetros, padrões de qualidade e dinâmica da drenagem urbana;";0,3239;0,31;0,2925;0,0175;-0,0;0,2063;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q13;CE;"II - Sistemas de abastecimento de água e esgotamento sanitário: parâmetros, padrões de qualidade e dinâmica da drenagem urbana;";0,0;0,0;0,0383;-0,0383;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q14;CE;"VI - Recuperação de áreas degradadas;";0,6236;0,5846;0,5604;0,0242;0,0;0,4181;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q15;CE;XIX - Energias renováveis.;0,4615;0,4357;0,4342;0,0014;0,0;0,4253;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q16;CE;"III - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final;";0,2592;0,2457;0,2593;-0,0136;0,0;0,2466;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q17;CE;"III - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final;";0,3404;0,3015;0,3401;-0,0387;0,0;0,3477;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q18;CE;"XIV - Educação ambiental;";0,4597;0,462;0,4364;0,0256;-0,0;0,4274;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q19;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0,6505;0,6887;0,6483;0,0404;-0,0;0,5581;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q20;CE;"V - Poluição ambiental;";0,4737;0,4804;0,4735;0,0068;0,0;0,341;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q21;CE;"V - Poluição ambiental;";0,3871;0,3634;0,3871;-0,0238;-0,0;0,3126;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q22;CE;XIII - Mecanismos de produção mais limpa - P + L;0,7189;0,6979;0,7194;-0,0215;-0,0;0,5134;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q23;CE;XIII - Mecanismos de produção mais limpa - P + L;0,7372;0,7457;0,7376;0,0082;-0,0;0,5286;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q24;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0,3733;0,3493;0,3734;-0,0241;0,0;0,3865;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q25;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0,565;0,5619;0,5645;-0,0026;-0,0;0,3362;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q26;CE;X - Licenciamento ambiental;0,0;0,0;0,084;-0,084;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q27;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0,6789;0,7126;0,6767;0,0359;-0,0;0,5167;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q28;CE;XII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria;0,4704;0,4675;0,4624;0,0051;-0,0;0,5066;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q29;CE;XII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria;0,1734;0,155;0,1976;-0,0426;-0,0;0,1616;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q30;CE;XVIII - Mudanças climáticas e eventos extremos;0,2387;0,2028;0,229;-0,0261;-0,0;0,2311;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q31;CE;XI - Estudo e avaliação de impactos ambientais;0,1688;0,1483;0,1656;-0,0173;0,0;0,2588;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q32;CE;XI - Estudo e avaliação de impactos ambientais;0,1062;0,0944;0,1177;-0,0233;-0,0;0,3787;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q33;CE;"VIII - Gestão de unidades de conservação e áreas protegidas;";0,4658;0,4847;0,4656;0,0191;-0,0;0,4543;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q34;CE;XVII - Desastres ambientais: avaliação de risco e vulnerabilidade;0,5449;0,5539;0,5262;0,0278;0,0;0,4717;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q35;CE;"VII - Instrumentos de planejamento ambiental e urbano;";0,3394;0,3107;0,3829;-0,0722;-0,0;0,2844;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q36;CE;XIII - Mecanismos de produção mais limpa - P + L;0,4548;0,4927;0,456;0,0367;0,0;0,3177;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q37;CE;"IX - Geotecnologias: uso e aplicação na gestão ambiental;";0,4182;0,4014;0,398;0,0034;-0,0;0,3374;PENDENTE_VALIDACAO
+Tecnologia em Gestao Ambiental;Q38;CE;"I - Gestão de recursos hídricos e de bacias hidrográficas;";0,3513;0,3695;0,3518;0,0177;0,0;0,3547;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q1;FG;I - Ética, democracia e cidadania;0,4069;0,391;0,407;-0,016;0,0;0,4039;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,719;0,7107;0,6953;0,0154;0,0;0,3571;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q3;FG;II - Estado, sociedade e trabalho;0,3767;0,3549;0,3723;-0,0174;-0,0;0,614;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q4;FG;II - Estado, sociedade e trabalho;0,3857;0,3818;0,3813;0,0005;0,0;0,4031;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q5;FG;XIII - Acessibilidade e inclusão social;0,4914;0,5186;0,4879;0,0307;0,0;0,4867;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q6;FG;IV - Cultura, arte e comunicação;0,5365;0,5017;0,5322;-0,0304;-0,0;0,4868;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q7;FG;II - Estado, sociedade e trabalho;0,2945;0,2762;0,2911;-0,015;0,0;0,3659;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4148;0,4036;0,4149;-0,0113;0,0;0,3586;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q9;FG;II - Estado, sociedade e trabalho;0,2593;0,2748;0,2849;-0,0101;0,0;0,4;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q10;CE;"XIX - Gestão, empreendedorismo, inovação e marketing;";0,7096;0,6408;0,7094;-0,0686;0,0;0,4336;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q11;CE;"IX - Métodos e técnicas de avaliação corporal, facial e capilar;";0,0;0,0;0,0821;-0,0821;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q12;CE;"VII - Eletrotermofototerapia;";0,2901;0,2467;0,2868;-0,0401;0,0;0,2442;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q13;CE;"III - Patologias dermatológicas e disfunções estéticas;";0,6493;0,6322;0,5008;0,1314;0,0;0,3429;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q14;CE;"IV - Biossegurança;";0,0;0,0;0,085;-0,085;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q15;CE;"II - Química e bioquímica aplicadas à estética e à cosmética;";0,6437;0,5598;0,6435;-0,0837;0,0;0,3992;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q16;CE;"VII - Eletrotermofototerapia;";0,1286;0,101;0,1438;-0,0427;0,0;0,1974;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q17;CE;"IX - Métodos e técnicas de avaliação corporal, facial e capilar;";0,5118;0,4599;0,4706;-0,0107;0,0;0,4238;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q18;CE;"II - Química e bioquímica aplicadas à estética e à cosmética;";0,3337;0,2662;0,3339;-0,0677;0,0;0,6181;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q19;CE;"IX - Métodos e técnicas de avaliação corporal, facial e capilar;";0,5938;0,5661;0,5579;0,0082;-0,0;0,4727;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q20;CE;"IV - Biossegurança;";0,5874;0,5441;0,5516;-0,0075;-0,0;0,4095;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q21;CE;"VII - Eletrotermofototerapia;";0,6667;0,6231;0,5621;0,0609;0,0;0,4366;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q22;CE;"III - Patologias dermatológicas e disfunções estéticas;";0,3623;0,3348;0,3576;-0,0227;-0,0;0,433;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q23;CE;"I - Ciências biológicas aplicadas à estética;";0,5325;0,5094;0,5284;-0,019;-0,0;0,4363;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q24;CE;"XV - Práticas integrativas e complementares (PICs);";0,6606;0,6494;0,6543;-0,0049;-0,0;0,3256;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q25;CE;"VII - Eletrotermofototerapia;";0,2216;0,1952;0,2175;-0,0224;-0,0;0,4369;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q26;CE;"VII - Eletrotermofototerapia;";0,1315;0,1125;0,1527;-0,0402;0,0;0,2755;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q27;CE;"VII - Eletrotermofototerapia;";0,3802;0,3497;0,3767;-0,027;-0,0;0,4164;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q28;CE;"III - Patologias dermatológicas e disfunções estéticas;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q29;CE;"XVIII - Bioética;";0,7885;0,7702;0,7344;0,0358;0,0;0,3234;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q30;CE;"XVII - Imagem pessoal, embelezamento e bem- estar;";0,1908;0,1889;0,3241;-0,1352;-0,0;0,3047;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q31;CE;"III - Patologias dermatológicas e disfunções estéticas;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q32;CE;"I - Ciências biológicas aplicadas à estética;";0,5143;0,4966;0,5103;-0,0137;-0,0;0,3725;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q33;CE;"VI - Cosmetologia;";0,6312;0,5922;0,5882;0,0039;0,0;0,4269;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q34;CE;"IV - Biossegurança;";0,4914;0,4488;0,4498;-0,001;-0,0;0,6164;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q35;CE;"III - Patologias dermatológicas e disfunções estéticas;";0,0;0,0;0,0012;-0,0012;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q36;CE;"VI - Cosmetologia;";0,6373;0,5944;0,5887;0,0058;-0,0;0,5269;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q37;CE;"VI - Cosmetologia;";0,0;0,0;0,1077;-0,1077;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Estetica e Cosmetica;Q38;CE;"I - Ciências biológicas aplicadas à estética;";0,2563;0,2172;0,2762;-0,0589;-0,0;0,3558;PENDENTE_VALIDACAO
+Engenharia Civil;Q1;FG;I - Ética, democracia e cidadania;0,6159;0,6539;0,6159;0,0381;-0,0;0,4894;PENDENTE_VALIDACAO
+Engenharia Civil;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8125;0,8296;0,8102;0,0195;-0,0;0,4757;PENDENTE_VALIDACAO
+Engenharia Civil;Q3;FG;II - Estado, sociedade e trabalho;0,5927;0,6348;0,5869;0,0479;0,0;0,5902;PENDENTE_VALIDACAO
+Engenharia Civil;Q4;FG;II - Estado, sociedade e trabalho;0,5457;0,5856;0,5398;0,0458;0,0;0,5522;PENDENTE_VALIDACAO
+Engenharia Civil;Q5;FG;XIII - Acessibilidade e inclusão social;0,4909;0,5102;0,4909;0,0194;-0,0;0,5522;PENDENTE_VALIDACAO
+Engenharia Civil;Q6;FG;IV - Cultura, arte e comunicação;0,7499;0,7877;0,7498;0,0378;0,0;0,5435;PENDENTE_VALIDACAO
+Engenharia Civil;Q7;FG;II - Estado, sociedade e trabalho;0,3456;0,362;0,3414;0,0206;0,0;0,6567;PENDENTE_VALIDACAO
+Engenharia Civil;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,481;0,5025;0,4718;0,0307;-0,0;0,6475;PENDENTE_VALIDACAO
+Engenharia Civil;Q9;FG;II - Estado, sociedade e trabalho;0,2432;0,2582;0,2828;-0,0246;0,0;0,4248;PENDENTE_VALIDACAO
+Engenharia Civil;Q10;CE;"VI - Eletricidade aplicada à Engenharia Civil;";0,0;0,0;0,0295;-0,0295;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Civil;Q11;CE;"XIV - Recursos hídricos e saneamento;";0,4237;0,4509;0,4206;0,0303;0,0;0,5931;PENDENTE_VALIDACAO
+Engenharia Civil;Q12;CE;"XIV - Recursos hídricos e saneamento;";0,2266;0,2914;0,231;0,0604;-0,0;0,6667;PENDENTE_VALIDACAO
+Engenharia Civil;Q13;CE;"XI - Construção civil;";0,1272;0,1437;0,1654;-0,0217;0,0;0,4773;PENDENTE_VALIDACAO
+Engenharia Civil;Q14;CE;"XI - Construção civil;";0,453;0,4592;0,4451;0,0141;-0,0;0,446;PENDENTE_VALIDACAO
+Engenharia Civil;Q15;CE;"XIII - Geotecnia;";0,5743;0,5775;0,5333;0,0442;-0,0;0,6271;PENDENTE_VALIDACAO
+Engenharia Civil;Q16;CE;"XI - Construção civil;";0,454;0,5077;0,4427;0,065;0,0;0,6164;PENDENTE_VALIDACAO
+Engenharia Civil;Q17;CE;"VIII - Fenômenos de transporte;";0,6945;0,7422;0,5213;0,2209;0,0;0,5556;PENDENTE_VALIDACAO
+Engenharia Civil;Q18;CE;"XV - Transportes;";0,622;0,6677;0,5557;0,112;-0,0;0,5082;PENDENTE_VALIDACAO
+Engenharia Civil;Q19;CE;"XII - Estruturas;";0,0;0,0;0,0494;-0,0494;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Civil;Q20;CE;"XII - Estruturas;";0,3621;0,371;0,3404;0,0306;-0,0;0,4069;PENDENTE_VALIDACAO
+Engenharia Civil;Q21;CE;"XIII - Geotecnia;";0,342;0,3739;0,3151;0,0589;-0,0;0,7486;PENDENTE_VALIDACAO
+Engenharia Civil;Q22;CE;"XIV - Recursos hídricos e saneamento;";0,2285;0,2499;0,2537;-0,0038;-0,0;0,6588;PENDENTE_VALIDACAO
+Engenharia Civil;Q23;CE;"I - Administração e Economia aplicadas à Engenharia Civil;";0,0;0,0;0,022;-0,022;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Civil;Q24;CE;"XI - Construção civil;";0,4494;0,4747;0,4395;0,0352;0,0;0,4748;PENDENTE_VALIDACAO
+Engenharia Civil;Q25;CE;"VII - Expressão gráfica e desenho universal;";0,5922;0,6308;0,5192;0,1116;-0,0;0,5424;PENDENTE_VALIDACAO
+Engenharia Civil;Q26;CE;"XV - Transportes;";0,0;0,0;0,0653;-0,0653;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Civil;Q27;CE;"V - Estatística, física, matemática e química aplicadas à Engenharia Civil;";0,2829;0,3042;0,2732;0,031;-0,0;0,5704;PENDENTE_VALIDACAO
+Engenharia Civil;Q28;CE;"XV - Transportes;";0,2602;0,2958;0,2388;0,057;-0,0;0,5126;PENDENTE_VALIDACAO
+Engenharia Civil;Q29;CE;"XII - Estruturas;";0,5986;0,6279;0,5395;0,0884;0,0;0,5883;PENDENTE_VALIDACAO
+Engenharia Civil;Q30;CE;"XIII - Geotecnia;";0,0;0,0;0,0508;-0,0508;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Civil;Q31;CE;"XV - Transportes;";0,3985;0,4469;0,3711;0,0758;0,0;0,6627;PENDENTE_VALIDACAO
+Engenharia Civil;Q32;CE;"XIV - Recursos hídricos e saneamento;";0,6498;0,6941;0,623;0,0711;0,0;0,5714;PENDENTE_VALIDACAO
+Engenharia Civil;Q33;CE;"XIII - Geotecnia;";0,3266;0,378;0,3019;0,0761;0,0;0,5319;PENDENTE_VALIDACAO
+Engenharia Civil;Q34;CE;"III - Ciências do ambiente;";0,264;0,2698;0,256;0,0138;0,0;0,4049;PENDENTE_VALIDACAO
+Engenharia Civil;Q35;CE;"XII - Estruturas;";0,2632;0,2834;0,2413;0,0421;-0,0;0,6524;PENDENTE_VALIDACAO
+Engenharia Civil;Q36;CE;"II - Informática, algoritmos e programação;";0,102;0,1213;0,0939;0,0274;-0,0;0,3268;PENDENTE_VALIDACAO
+Engenharia Civil;Q37;CE;"X - Topografia e geoprocessamento;";0,2753;0,3214;0,2629;0,0585;-0,0;0,6648;PENDENTE_VALIDACAO
+Engenharia Civil;Q38;CE;"IV - Ciência dos materiais;";0,0;0,0;0,022;-0,022;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q1;FG;I - Ética, democracia e cidadania;0,6338;0,6581;0,5348;0,1234;-0,0;0,7857;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7934;0,8095;0,7932;0,0163;-0,0;0,5794;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q3;FG;II - Estado, sociedade e trabalho;0,6302;0,6553;0,6255;0,0298;0,0;0,5432;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q4;FG;II - Estado, sociedade e trabalho;0,5694;0,5988;0,5647;0,0341;-0,0;0,5556;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q5;FG;XIII - Acessibilidade e inclusão social;0,5089;0,5277;0,5089;0,0188;-0,0;0,5455;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q6;FG;IV - Cultura, arte e comunicação;0,7582;0,7802;0,7581;0,0221;-0,0;0,7107;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q7;FG;II - Estado, sociedade e trabalho;0,353;0,3687;0,3496;0,0191;0,0;0,4643;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5002;0,5281;0,4913;0,0368;-0,0;0,5;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q9;FG;II - Estado, sociedade e trabalho;0,2617;0,2854;0,2985;-0,0131;0,0;0,4853;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q10;CE;"VI - Circuitos elétricos;";0,2908;0,2863;0,2614;0,0249;-0,0;0,4125;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q11;CE;"XVI - Máquinas elétricas;";0,2353;0,2647;0,2232;0,0415;0,0;0,6389;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q12;CE;"II - Ciências do ambiente;";0,6818;0,6928;0,5342;0,1587;-0,0;0,6128;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q13;CE;"VIII - Eletromagnetismo;";0,5508;0,6026;0,5368;0,0658;0,0;0,7049;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q14;CE;"V - Sistemas lineares;";0,2644;0,2786;0,2635;0,0151;0,0;0,4818;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q15;CE;"XV - Sensores e instrumentação eletrônica;";0,1948;0,2109;0,1841;0,0267;-0,0;0,4364;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q16;CE;"XXI - Sistemas de controle e automação;";0,3603;0,3595;0,3268;0,0327;0,0;0,6869;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q17;CE;"III - Ciências naturais aplicadas à Engenharia Elétrica;";0,3908;0,4115;0,3776;0,0339;-0,0;0,6297;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q18;CE;"IX - Dispositivos e circuitos eletrônicos;";0,0;0,0;0,048;-0,048;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q19;CE;"VII - Conversão de energia;";0,0;0,0;0,048;-0,048;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q20;CE;"XX - Análise e processamento de sinais;";0,2188;0,2395;0,1947;0,0448;0,0;0,5316;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q21;CE;"XVII - Materiais elétricos e magnéticos;";0,3148;0,3154;0,3148;0,0006;-0,0;0,4044;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q22;CE;"XI - Sistemas digitais;";0,3581;0,3558;0,3566;-0,0008;0,0;0,6042;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q23;CE;"VI - Circuitos elétricos;";0,0;0,0;0,0347;-0,0347;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q24;CE;"XII - Fundamentos de sistemas elétricos de potência;";0,2553;0,2786;0,2283;0,0503;-0,0;0,5768;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q25;CE;"XIII - Eficiência energética;";0,0;0,0;0,1416;-0,1416;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q26;CE;"XIII - Eficiência energética;";0,8224;0,8263;0,6386;0,1877;-0,0;0,6047;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q27;CE;"XIX - Redes de comunicação;";0,2859;0,3011;0,2769;0,0242;0,0;0,4935;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q28;CE;"XVIII - Princípios de comunicações;";0,3999;0,4174;0,393;0,0244;0,0;0,5758;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q29;CE;"XX - Análise e processamento de sinais;";0,0;0,0;0,0281;-0,0281;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q30;CE;"XXI - Sistemas de controle e automação;";0,0;0,0;0,0412;-0,0412;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q31;CE;"XIV - Instalações elétricas;";0,6001;0,5969;0,5353;0,0616;0,0;0,5971;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q32;CE;"XII - Fundamentos de sistemas elétricos de potência;";0,0;0,0;0,0314;-0,0314;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q33;CE;"IV - Algoritmos e estruturas de dados;";0,4262;0,4543;0,4114;0,0429;0,0;0,7202;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q34;CE;"X - Eletrônica de potência;";0,2365;0,262;0,211;0,051;-0,0;0,6837;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q35;CE;"I - Administração e Economia;";0,4337;0,4644;0,4228;0,0416;-0,0;0,5172;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q36;CE;"XI - Sistemas digitais;";0,2503;0,2641;0,2555;0,0087;0,0;0,7054;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q37;CE;"X - Eletrônica de potência;";0,0;0,0;0,0297;-0,0297;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Eletrica;Q38;CE;"XXII - Probabilidade e Estatística;";0,4438;0,4759;0,4318;0,044;-0,0;0,4702;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q1;FG;I - Ética, democracia e cidadania;0,6678;0,7083;0,6676;0,0407;-0,0;0,25;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8157;0,8661;0,8122;0,054;-0,0;0,2115;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q3;FG;II - Estado, sociedade e trabalho;0,6597;0,7333;0,648;0,0852;0,0;0,2973;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q4;FG;II - Estado, sociedade e trabalho;0,621;0,6524;0,6153;0,037;-0,0;0,2346;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q5;FG;XIII - Acessibilidade e inclusão social;0,4698;0,4565;0,4698;-0,0133;-0,0;0,4808;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q6;FG;IV - Cultura, arte e comunicação;0,8404;0,9081;0,8327;0,0754;-0,0;0,1176;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q7;FG;II - Estado, sociedade e trabalho;0,3539;0,3746;0,3571;0,0175;0,0;0,4154;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5408;0,5914;0,5407;0,0507;0,0;0,3016;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q9;FG;II - Estado, sociedade e trabalho;0,2548;0,2937;0,2927;0,001;-0,0;0,2846;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q10;CE;"XXIII - Sistemas integrados de manufatura;";0,7043;0,7972;0,5929;0,2043;-0,0;0,3516;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q11;CE;"I - Acionamentos e máquinas elétricas;";0,4236;0,4605;0,4171;0,0434;0,0;0,3769;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q12;CE;"XVIII - Microcontroladores, sistemas embarcados e sistemas em tempo real;";0,4904;0,5504;0,4867;0,0637;0,0;0,3767;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q13;CE;"XX - Redes industriais de comunicação para automação;";0,0;0,0;0,0982;-0,0982;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q14;CE;"XXII - Sistemas e dispositivos mecânicos;";0,3328;0,3557;0,3454;0,0102;0,0;0,256;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q15;CE;"II - Acionamentos pneumáticos e hidráulicos;";0,8627;0,9121;0,8473;0,0648;-0,0;0,1447;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q16;CE;"XXI - Robótica;";0,372;0,4176;0,3719;0,0457;-0,0;0,5156;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q17;CE;"II - Acionamentos pneumáticos e hidráulicos;";0,7171;0,7173;0,7219;-0,0046;-0,0;0,3562;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q18;CE;"XXI - Robótica;";0,4096;0,4326;0,4094;0,0232;0,0;0,3066;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q19;CE;"V - Circuitos elétricos;";0,242;0,2607;0,2549;0,0058;-0,0;0,4258;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q20;CE;"XII - Física, Matemática e Estatística;";0,2492;0,2697;0,2639;0,0058;-0,0;0,3918;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q21;CE;"XIV - Instrumentação e sistemas de aquisição de dados;";0,543;0,5704;0,514;0,0564;0,0;0,3833;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q22;CE;"X - Eletrônica analógica e digital;";0,2726;0,2947;0,2692;0,0255;-0,0;0,6964;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q23;CE;"XIV - Instrumentação e sistemas de aquisição de dados;";0,0;0,0;0,0573;-0,0573;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q24;CE;"I - Acionamentos e máquinas elétricas;";0,1969;0,2058;0,2284;-0,0226;0,0;0,2923;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q25;CE;"I - Acionamentos e máquinas elétricas;";0,511;0,5415;0,5034;0,0381;-0,0;0,56;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q26;CE;"VIII - Controle moderno via variáveis de estado;";0,2275;0,2657;0,2362;0,0295;0,0;0,3481;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q27;CE;"II - Acionamentos pneumáticos e hidráulicos;";0,55;0,5864;0,5554;0,031;-0,0;0,3828;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q28;CE;"VII - Controle analógico e digital de equipamentos e processos;";0,3771;0,4176;0,3735;0,0441;-0,0;0,5038;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q29;CE;"XIII - Identificação, modelagem, análise e simulação de sistemas dinâmicos;";0,4651;0,5435;0,4607;0,0828;-0,0;0,5339;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q30;CE;"XI - Fenômenos de transporte;";0,3225;0,4346;0,3178;0,1168;-0,0;0,4641;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q31;CE;XIII - Identificação, modelagem, análise e simulação de sistemas;0,3913;0,4575;0,3881;0,0695;0,0;0,2231;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q32;CE;"VI - Controladores lógico- programáveis e sistemas supervisórios;";0,5124;0,5614;0,4744;0,087;0,0;0,4346;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q33;CE;"VI - Controladores lógico- programáveis e sistemas supervisórios;";0,0;0,0;0,0558;-0,0558;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q34;CE;"XVI - Mecânica dos sólidos;";0,2311;0,2617;0,2283;0,0335;-0,0;0,439;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q35;CE;"IV - Algoritmos, estruturas de dados e interfaces homem-máquina;";0,6859;0,7463;0,5772;0,1691;0,0;0,5154;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q36;CE;"XIV - Instrumentação e sistemas de aquisição de dados;";0,3765;0,4036;0,342;0,0616;0,0;0,69;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q37;CE;"III - Administração e Economia;";0,4639;0,5464;0,461;0,0854;0,0;0,522;PENDENTE_VALIDACAO
+Engenharia de Controle e Automacao;Q38;CE;"XIX - Química, ciências do ambiente e ciência dos materiais;";0,401;0,4645;0,3965;0,068;0,0;0,4381;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q1;FG;I - Ética, democracia e cidadania;0,6388;0,6686;0,6388;0,0298;-0,0;0,3392;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7906;0,8087;0,7905;0,0182;-0,0;0,2655;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q3;FG;II - Estado, sociedade e trabalho;0,6536;0,6921;0,6459;0,0462;0,0;0,5111;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q4;FG;II - Estado, sociedade e trabalho;0,5852;0,6225;0,5799;0,0427;-0,0;0,4883;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q5;FG;XIII - Acessibilidade e inclusão social;0,5052;0,5122;0,5052;0,007;-0,0;0,4849;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q6;FG;IV - Cultura, arte e comunicação;0,773;0,8117;0,5623;0,2494;0,0;0,5299;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q7;FG;II - Estado, sociedade e trabalho;0,3416;0,3559;0,3456;0,0103;-0,0;0,4698;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5088;0,5404;0,5016;0,0388;0,0;0,5094;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q9;FG;II - Estado, sociedade e trabalho;0,2585;0,2834;0,2964;-0,0131;-0,0;0,4094;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q10;CE;"XIX - Processos de fabricação;";0,0;0,0;0,0649;-0,0649;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q11;CE;"XIII - Materiais de construção mecânica;";0,1677;0,1837;0,1736;0,0101;0,0;0,6168;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q12;CE;"XIV - Mecânica dos fluidos e sistemas fluidomecânicos;";0,1871;0,224;0,1978;0,0262;-0,0;0,4844;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q13;CE;"XIV - Mecânica dos fluidos e sistemas fluidomecânicos;";0,2939;0,333;0,2908;0,0421;-0,0;0,5804;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q14;CE;"XXIV - Transferência de calor e massa;";0,0;0,0;0,0427;-0,0427;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q15;CE;"XXIV - Transferência de calor e massa;";0,3769;0,474;0,3427;0,1313;0,0;0,8305;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q16;CE;"XXIII - Termodinâmica e Sistemas térmicos;";0,2505;0,2596;0,2487;0,0109;0,0;0,3681;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q17;CE;"X - Instrumentação e Controle;";0,6737;0,7196;0,5618;0,1578;-0,0;0,5517;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q18;CE;"XVIII - Modelagem matemática e simulação computacional;";0,7164;0,7538;0,5614;0,1923;0,0;0,5805;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q19;CE;"XXII - Segurança e saúde no trabalho;";0,8516;0,8699;0,5641;0,3058;-0,0;0,3571;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q20;CE;"XV - Mecânica geral e mecânica dos sólidos;";0,2841;0,2989;0,2783;0,0206;0,0;0,7083;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q21;CE;"XV - Mecânica geral e mecânica dos sólidos;";0,1468;0,1566;0,1654;-0,0088;0,0;0,6;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q22;CE;"XVI - Mecanismos;";0,0;0,0;0,0666;-0,0666;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q23;CE;"XX - Projeto de máquinas e de Sistemas mecânicos;";0,3555;0,4234;0,3402;0,0833;-0,0;0,58;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q24;CE;"VI - Dinâmica de máquinas e de sistemas mecânicos;";0,2732;0,2893;0,2728;0,0165;0,0;0,3836;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q25;CE;"VI - Dinâmica de máquinas e de sistemas mecânicos;";0,319;0,3719;0,3186;0,0533;0,0;0,5684;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q26;CE;"I - Administração e Economia;";0,8997;0,9016;0,5655;0,3361;-0,0;0,3121;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q27;CE;"XVII - Metrologia;";0,188;0,2124;0,1885;0,0239;0,0;0,3222;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q28;CE;"XXI - Química;";0,7205;0,7388;0,5589;0,1799;0,0;0,52;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q29;CE;"IV - Ciência dos materiais;";0,0;0,0;0,0403;-0,0403;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q30;CE;"XXIII - Termodinâmica e sistemas térmicos;";0,2535;0,2661;0,2608;0,0053;0,0;0,3697;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q31;CE;"XIX - Processos de fabricação;";0,3749;0,3965;0,3413;0,0552;0,0;0,4953;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q32;CE;"VIII - Empreendedorismo;";0,0;0,0;0,0666;-0,0666;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q33;CE;"XI - Manutenção;";0,0;0,0;0,0666;-0,0666;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q34;CE;"XIX - Processos de fabricação;";0,6294;0,6345;0,5514;0,0831;-0,0;0,5675;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q35;CE;"IX - Expressão gráfica;";0,3009;0,322;0,2941;0,0279;0,0;0,4639;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q36;CE;"IV - Ciência dos materiais;";0,3517;0,4116;0,3187;0,0929;0,0;0,549;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q37;CE;"III - Ciências do ambiente;";0,0;0,0;0,0666;-0,0666;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Mecanica;Q38;CE;"VII - Eletricidade;";0,2122;0,2201;0,2163;0,0038;-0,0;0,5267;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q1;FG;I - Ética, democracia e cidadania;0,6352;0,6495;0,6349;0,0146;0,0;0,2324;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8156;0,8272;0,8115;0,0158;0,0;0,2131;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q3;FG;II - Estado, sociedade e trabalho;0,6799;0,7508;0,6534;0,0974;0,0;0,2059;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q4;FG;II - Estado, sociedade e trabalho;0,5391;0,5748;0,5339;0,0408;-0,0;0,2699;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q5;FG;XIII - Acessibilidade e inclusão social;0,4229;0,4535;0,4148;0,0387;-0,0;0,2744;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q6;FG;IV - Cultura, arte e comunicação;0,8447;0,8953;0,596;0,2993;0,0;0,2369;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q7;FG;II - Estado, sociedade e trabalho;0,4508;0,49;0,448;0,042;-0,0;0,4143;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5358;0,5997;0,5244;0,0753;0,0;0,3971;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q9;FG;II - Estado, sociedade e trabalho;0,2341;0,2541;0,289;-0,0348;-0,0;0,2288;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q10;CE;"XII - Controle e gestão da qualidade;";0,8128;0,8488;0,7746;0,0742;-0,0;0,2386;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q11;CE;"XI - Conservação e processamento de alimentos;";0,6201;0,686;0,6142;0,0718;-0,0;0,3524;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q12;CE;"X - Ciências do ambiente e tratamento de resíduos da indústria de alimentos;";0,0;0,0;0,1029;-0,1029;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q13;CE;"XIX - Modelagem, análise e simulação de sistemas;";0,6335;0,6645;0,6332;0,0313;-0,0;0,3183;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q14;CE;"XXII - Projetos de indústrias de alimentos e desenho universal;";0,0;0,0;0,1029;-0,1029;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q15;CE;"IX - Bioengenharia e biotecnologia de alimentos;";0,7106;0,7807;0,5829;0,1978;-0,0;0,1767;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q16;CE;"XXIII - Química e bioquímica de alimentos;";0,0;0,0;0,0215;-0,0215;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q17;CE;"XV - Físico-química e termodinâmica aplicada;";0,2553;0,2641;0,2686;-0,0044;0,0;0,1925;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q18;CE;"V - Matemática e Estatística;";0,2134;0,2209;0,2174;0,0035;0,0;0,4428;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q19;CE;"XVII - Legislação e higiene na indústria de alimentos;";0,7749;0,7907;0,5838;0,2069;-0,0;0,2332;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q20;CE;"VIII - Análise sensorial;";0,4687;0,495;0,4654;0,0296;0,0;0,1961;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q21;CE;"XVI - Instrumentação, controle e automação;";0,4156;0,5066;0,4154;0,0913;0,0;0,3012;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q22;CE;"XIII - Embalagens;";0,624;0,6545;0,5598;0,0947;-0,0;0,2941;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q23;CE;"XVIII - Microbiologia de alimentos;";0,6;0,6728;0,5556;0,1172;0,0;0,2528;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q24;CE;"XVIII - Microbiologia de alimentos;";0,0;0,0;0,0655;-0,0655;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q25;CE;"XXIV - Tecnologias limpas e novas tecnologias;";0,2765;0,304;0,2838;0,0202;0,0;0,2288;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q26;CE;"XIV - Fenômenos de transporte;";0,3821;0,392;0,3819;0,0101;-0,0;0,2042;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q27;CE;"XII - Controle e gestão da qualidade;";0,3687;0,3937;0,3789;0,0148;0,0;0,1619;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q28;CE;"XXIII - Química e bioquímica de alimentos;";0,1369;0,1512;0,1212;0,03;0,0;0,2206;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q29;CE;"XI - Conservação e processamento de alimentos;";0,4084;0,4635;0,404;0,0594;-0,0;0,2745;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q30;CE;"XIV - Fenômenos de transporte;";0,3235;0,3721;0,3237;0,0484;0,0;0,3778;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q31;CE;"XI - Conservação e processamento de alimentos;";0,7888;0,7774;0,6999;0,0775;-0,0;0,2332;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q32;CE;"XI - Conservação e processamento de alimentos;";0,1575;0,2093;0,2598;-0,0505;0,0;0,1754;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q33;CE;"XX - Nutrição básica e toxicologia;";0,4073;0,4435;0,3973;0,0462;-0,0;0,3793;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q34;CE;"XVI - Instrumentação, controle e automação;";0,3402;0,284;0,3404;-0,0564;-0,0;0,281;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q35;CE;"IV - Ciências naturais aplicadas à Engenharia;";0,1006;0,113;0,1436;-0,0307;0,0;0,2239;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q36;CE;"VII - Análise de alimentos;";0,2737;0,3206;0,2674;0,0532;0,0;0,404;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q37;CE;"XV - Físico-química e termodinâmica aplicada;";0,4603;0,485;0,4573;0,0278;-0,0;0,3333;PENDENTE_VALIDACAO
+Engenharia de Alimentos;Q38;CE;"I - Administração e Economia;";0,7844;0,8007;0,5905;0,2102;-0,0;0,2295;PENDENTE_VALIDACAO
+Engenharia Quimica;Q1;FG;I - Ética, democracia e cidadania;0,6608;0,6894;0,5533;0,1361;-0,0;0,5752;PENDENTE_VALIDACAO
+Engenharia Quimica;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8426;0,8703;0,5711;0,2992;-0,0;0,3548;PENDENTE_VALIDACAO
+Engenharia Quimica;Q3;FG;II - Estado, sociedade e trabalho;0,7086;0,7447;0,6806;0,0641;0,0;0,322;PENDENTE_VALIDACAO
+Engenharia Quimica;Q4;FG;II - Estado, sociedade e trabalho;0,6237;0,6546;0,6211;0,0335;-0,0;0,5556;PENDENTE_VALIDACAO
+Engenharia Quimica;Q5;FG;XIII - Acessibilidade e inclusão social;0,4868;0,5029;0,4868;0,0161;0,0;0,5887;PENDENTE_VALIDACAO
+Engenharia Quimica;Q6;FG;IV - Cultura, arte e comunicação;0,8675;0,8946;0,8557;0,0389;0,0;0,285;PENDENTE_VALIDACAO
+Engenharia Quimica;Q7;FG;II - Estado, sociedade e trabalho;0,4198;0,4386;0,4181;0,0205;-0,0;0,5905;PENDENTE_VALIDACAO
+Engenharia Quimica;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,6073;0,6372;0,548;0,0892;0,0;0,4307;PENDENTE_VALIDACAO
+Engenharia Quimica;Q9;FG;II - Estado, sociedade e trabalho;0,2756;0,2849;0,3263;-0,0414;0,0;0,4643;PENDENTE_VALIDACAO
+Engenharia Quimica;Q10;CE;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0,1461;0,1652;0,1601;0,0051;-0,0;0,5214;PENDENTE_VALIDACAO
+Engenharia Quimica;Q11;CE;"XIV - Modelagem, simulação, otimização e controle de processos;";0,0;0,0;0,0382;-0,0382;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Quimica;Q12;CE;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0,35;0,361;0,3455;0,0156;0,0;0,5392;PENDENTE_VALIDACAO
+Engenharia Quimica;Q13;CE;"XV - Operações unitárias de transferência de quantidade de movimento, de calor e de massa;";0,2336;0,265;0,2295;0,0355;-0,0;0,56;PENDENTE_VALIDACAO
+Engenharia Quimica;Q14;CE;"X - Balanços de massa e energia;";0,3424;0,3541;0,3422;0,0119;0,0;0,4091;PENDENTE_VALIDACAO
+Engenharia Quimica;Q15;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,0;0,0;0,0095;-0,0095;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Quimica;Q16;CE;"XVI - Projeto e segurança de processos;";0,2293;0,2428;0,2483;-0,0055;0,0;0,2411;PENDENTE_VALIDACAO
+Engenharia Quimica;Q17;CE;"III - Eletricidade aplicada;";0,2395;0,279;0,2262;0,0527;-0,0;0,4444;PENDENTE_VALIDACAO
+Engenharia Quimica;Q18;CE;"IX - Química;";0,2831;0,3071;0,283;0,0241;0,0;0,3397;PENDENTE_VALIDACAO
+Engenharia Quimica;Q19;CE;"XIV - Modelagem, simulação, otimização e controle de processos;";0,4324;0,4723;0,4086;0,0638;-0,0;0,4627;PENDENTE_VALIDACAO
+Engenharia Quimica;Q20;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,0;0,0;0,0095;-0,0095;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Quimica;Q21;CE;"VIII - Metodologia científica e tecnológica;";0,5256;0,5576;0,5083;0,0493;-0,0;0,4254;PENDENTE_VALIDACAO
+Engenharia Quimica;Q22;CE;"X - Balanços de massa e energia;";0,3887;0,4101;0,3884;0,0217;-0,0;0,3636;PENDENTE_VALIDACAO
+Engenharia Quimica;Q23;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,2076;0,231;0,1986;0,0324;-0,0;0,468;PENDENTE_VALIDACAO
+Engenharia Quimica;Q24;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,2935;0,3005;0,2839;0,0166;0,0;0,5915;PENDENTE_VALIDACAO
+Engenharia Quimica;Q25;CE;"XIV - Modelagem, simulação, otimização e controle de processos;";0,2829;0,3012;0,2581;0,0431;0,0;0,4822;PENDENTE_VALIDACAO
+Engenharia Quimica;Q26;CE;"XVII - Termodinâmica;";0,189;0,2;0,1676;0,0324;0,0;0,4765;PENDENTE_VALIDACAO
+Engenharia Quimica;Q27;CE;"XI - Engenharia das reações químicas;";0,2553;0,2713;0,2404;0,0309;0,0;0,372;PENDENTE_VALIDACAO
+Engenharia Quimica;Q28;CE;"XVI - Projeto e segurança de processos;";0,4991;0,5506;0,4943;0,0563;-0,0;0,4336;PENDENTE_VALIDACAO
+Engenharia Quimica;Q29;CE;"XII - Engenharia de bioprocessos;";0,4674;0,5144;0,4675;0,0469;0,0;0,4005;PENDENTE_VALIDACAO
+Engenharia Quimica;Q30;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,715;0,7624;0,5085;0,2539;0,0;0,6462;PENDENTE_VALIDACAO
+Engenharia Quimica;Q31;CE;"IX - Química;";0,3814;0,4118;0,381;0,0308;0,0;0,4897;PENDENTE_VALIDACAO
+Engenharia Quimica;Q32;CE;"XVII - Termodinâmica;";0,0;0,0;0,0256;-0,0256;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Quimica;Q33;CE;"VII - Mecânica dos sólidos;";0,3782;0,3937;0,3636;0,0301;-0,0;0,5224;PENDENTE_VALIDACAO
+Engenharia Quimica;Q34;CE;"VI - Algoritimos e programação;";0,6854;0,7151;0,5618;0,1533;0,0;0,5818;PENDENTE_VALIDACAO
+Engenharia Quimica;Q35;CE;"XVIII - Transferência de quantidade de movimento, de calor e de massa;";0,353;0,3798;0,3406;0,0392;0,0;0,5256;PENDENTE_VALIDACAO
+Engenharia Quimica;Q36;CE;"XIII - Engenharia de meio ambiente;";0,0;0,0;0,0751;-0,0751;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Quimica;Q37;CE;"XII - Engenharia de bioprocessos;";0,5698;0,639;0,5698;0,0692;-0,0;0,4194;PENDENTE_VALIDACAO
+Engenharia Quimica;Q38;CE;"XIX - Estatística;";0,0;0,0;0,0751;-0,0751;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q1;FG;I - Ética, democracia e cidadania;0,628;0,6534;0,628;0,0254;-0,0;0,3393;PENDENTE_VALIDACAO
+Engenharia de Producao;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7922;0,8039;0,7921;0,0118;-0,0;0,2745;PENDENTE_VALIDACAO
+Engenharia de Producao;Q3;FG;II - Estado, sociedade e trabalho;0,6298;0,6609;0,6243;0,0366;0,0;0,5575;PENDENTE_VALIDACAO
+Engenharia de Producao;Q4;FG;II - Estado, sociedade e trabalho;0,5607;0,5822;0,5551;0,0271;0,0;0,3811;PENDENTE_VALIDACAO
+Engenharia de Producao;Q5;FG;XIII - Acessibilidade e inclusão social;0,5035;0,5281;0,5035;0,0246;-0,0;0,5354;PENDENTE_VALIDACAO
+Engenharia de Producao;Q6;FG;IV - Cultura, arte e comunicação;0,7587;0,7705;0,7586;0,012;0,0;0,4423;PENDENTE_VALIDACAO
+Engenharia de Producao;Q7;FG;II - Estado, sociedade e trabalho;0,3599;0,3749;0,3556;0,0193;0,0;0,5312;PENDENTE_VALIDACAO
+Engenharia de Producao;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5153;0,5284;0,5153;0,0132;-0,0;0,4475;PENDENTE_VALIDACAO
+Engenharia de Producao;Q9;FG;II - Estado, sociedade e trabalho;0,2532;0,2769;0,2951;-0,0182;-0,0;0,3464;PENDENTE_VALIDACAO
+Engenharia de Producao;Q10;CE;"XIV - Gestão da produção;";0,4029;0,4153;0,396;0,0192;-0,0;0,497;PENDENTE_VALIDACAO
+Engenharia de Producao;Q11;CE;"IX - Estratégia e organização;";0,2394;0,2579;0,2328;0,0251;-0,0;0,5012;PENDENTE_VALIDACAO
+Engenharia de Producao;Q12;CE;"XVI - Logística;";0,4006;0,4051;0,3991;0,006;0,0;0,4485;PENDENTE_VALIDACAO
+Engenharia de Producao;Q13;CE;"VIII - Estatística;";0,3606;0,3591;0,3607;-0,0016;0,0;0,479;PENDENTE_VALIDACAO
+Engenharia de Producao;Q14;CE;"XX - Processos de fabricação;";0,3899;0,4027;0,373;0,0298;-0,0;0,5052;PENDENTE_VALIDACAO
+Engenharia de Producao;Q15;CE;"XIV - Gestão da produção;";0,5154;0,5418;0,5094;0,0325;-0,0;0,5173;PENDENTE_VALIDACAO
+Engenharia de Producao;Q16;CE;"XIV - Gestão da produção;";0,2725;0,2821;0,2657;0,0164;0,0;0,473;PENDENTE_VALIDACAO
+Engenharia de Producao;Q17;CE;"XIV - Gestão da produção;";0,4164;0,4378;0,4086;0,0292;-0,0;0,6111;PENDENTE_VALIDACAO
+Engenharia de Producao;Q18;CE;"XIV - Gestão da produção;";0,2682;0,2892;0,2598;0,0294;-0,0;0,7014;PENDENTE_VALIDACAO
+Engenharia de Producao;Q19;CE;"XIV - Gestão da produção;";0,1461;0,1572;0,1393;0,0179;-0,0;0,3881;PENDENTE_VALIDACAO
+Engenharia de Producao;Q20;CE;"XIV - Gestão da produção;";0,3111;0,3175;0,3056;0,0119;-0,0;0,5104;PENDENTE_VALIDACAO
+Engenharia de Producao;Q21;CE;"IV - Engenharia econômica;";0,6731;0,6919;0,6582;0,0337;0,0;0,5063;PENDENTE_VALIDACAO
+Engenharia de Producao;Q22;CE;"XIV - Gestão da produção;";0,2892;0,3019;0,2842;0,0178;0,0;0,6362;PENDENTE_VALIDACAO
+Engenharia de Producao;Q23;CE;"IV - Engenharia econômica;";0,2691;0,292;0,2835;0,0085;-0,0;0,3373;PENDENTE_VALIDACAO
+Engenharia de Producao;Q24;CE;"XIV - Gestão da produção;";0,0;0,0;0,0212;-0,0212;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q25;CE;"IV - Engenharia econômica;";0,3733;0,3874;0,3726;0,0148;-0,0;0,5171;PENDENTE_VALIDACAO
+Engenharia de Producao;Q26;CE;"XIV - Gestão da produção;";0,2078;0,2206;0,2032;0,0174;-0,0;0,4902;PENDENTE_VALIDACAO
+Engenharia de Producao;Q27;CE;"XVI - Logística;";0,2825;0,3073;0,2914;0,0159;0,0;0,6381;PENDENTE_VALIDACAO
+Engenharia de Producao;Q28;CE;"XIX - Pesquisa operacional;";0,3748;0,3831;0,3586;0,0245;-0,0;0,7156;PENDENTE_VALIDACAO
+Engenharia de Producao;Q29;CE;"XIV - Gestão da produção;";0,0;0,0;0,0212;-0,0212;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q30;CE;"XIV - Gestão da produção;";0,415;0,428;0,4078;0,0203;-0,0;0,5754;PENDENTE_VALIDACAO
+Engenharia de Producao;Q31;CE;"XVI - Logística;";0,6481;0,654;0,6464;0,0077;-0,0;0,451;PENDENTE_VALIDACAO
+Engenharia de Producao;Q32;CE;"XIV - Gestão da produção;";0,0;0,0;0,0212;-0,0212;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q33;CE;"XI - Fenômenos de transporte;";0,0;0,0;0,0852;-0,0852;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q34;CE;"XXI - Qualidade;";0,0;0,0;0,0434;-0,0434;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Producao;Q35;CE;"XXI - Qualidade;";0,3848;0,39;0,3502;0,0398;-0,0;0,3735;PENDENTE_VALIDACAO
+Engenharia de Producao;Q36;CE;"VII - Ergonomia;";0,6249;0,6312;0,5577;0,0735;-0,0;0,625;PENDENTE_VALIDACAO
+Engenharia de Producao;Q37;CE;"XXIV - Sistemas de informação;";0,2988;0,313;0,2849;0,0281;0,0;0,6013;PENDENTE_VALIDACAO
+Engenharia de Producao;Q38;CE;"XV - Higiene e segurança do trabalho;";0,739;0,7393;0,5711;0,1682;-0,0;0,6459;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q1;FG;I - Ética, democracia e cidadania;0,7041;0,7094;0,7038;0,0055;0,0;0,3775;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8753;0,8823;0,8622;0,0201;-0,0;0,3223;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q3;FG;II - Estado, sociedade e trabalho;0,689;0,6917;0,6599;0,0318;0,0;0,4353;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q4;FG;II - Estado, sociedade e trabalho;0,577;0,613;0,5727;0,0402;0,0;0,3485;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q5;FG;XIII - Acessibilidade e inclusão social;0,4984;0,5372;0,48;0,0571;0,0;0,2803;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q6;FG;IV - Cultura, arte e comunicação;0,8365;0,8396;0,6057;0,2338;0,0;0,3681;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q7;FG;II - Estado, sociedade e trabalho;0,436;0,4327;0,4324;0,0003;0,0;0,3238;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5685;0,5924;0,5452;0,0472;0,0;0,5263;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q9;FG;II - Estado, sociedade e trabalho;0,2418;0,2649;0,2974;-0,0325;-0,0;0,3398;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q10;CE;"IV - Climatologia e meteorologia;";0,5739;0,5776;0,5737;0,004;0,0;0,4407;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q11;CE;"XII - Gestão de resíduos sólidos;";0,0;0,0;0,06;-0,06;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q12;CE;"XXII - Saúde ambiental;";0,7824;0,78;0,5896;0,1904;0,0;0,2584;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q13;CE;"XVIII - Planejamento e gestão dos territórios urbano, rural e das unidades de conservação;";0,0;0,0;0,0301;-0,0301;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q14;CE;"III - Ciências do ambiente;";0,7538;0,7623;0,5901;0,1722;-0,0;0,3701;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q15;CE;"XVII - Planejamento e gestão ambiental nos setores público e privado;";0,8844;0,897;0,8369;0,0601;-0,0;0,3552;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q16;CE;"XIX - Qualidade do solo, do ar e da água;";0,7845;0,777;0,7592;0,0178;0,0;0,5735;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q17;CE;"I - Avaliação de impactos e de riscos ambientais;";0,8787;0,9146;0,621;0,2937;-0,0;0,2179;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q18;CE;"VIII - Expressão gráfica de projetos;";0,5822;0,5798;0,5558;0,024;-0,0;0,386;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q19;CE;"II - Cartografia, geoprocessamento e sensoriamento remoto;";0,0;0,0;0,04;-0,04;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q20;CE;"IV - Climatologia e meteorologia;";0,3777;0,3826;0,3779;0,0047;0,0;0,4259;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q21;CE;"XIII - Hidráulica;";0,0;0,0;0,1107;-0,1107;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q22;CE;"VI - Energia e fontes renováveis;";0,7155;0,7057;0,5938;0,1118;0,0;0,5735;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q23;CE;"XXIV - Sistemas de abastecimento e de tratamento de águas;";0,7051;0,6983;0,5882;0,1101;-0,0;0,4958;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q24;CE;"XV - Manejo de águas pluviais e drenagem;";0,0;0,0;0,1107;-0,1107;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q25;CE;"XIV - Hidrologia;";0,0;0,0;0,0853;-0,0853;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q26;CE;"XIV - Hidrologia;";0,6853;0,6704;0,578;0,0924;0,0;0,4858;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q27;CE;"I - Avaliação de impactos e de riscos ambientais;";0,229;0,2119;0,2157;-0,0038;0,0;0,3704;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q28;CE;"XVII - Planejamento e gestão ambiental nos setores público e privado;";0,3852;0,3709;0,402;-0,0312;-0,0;0,3486;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q29;CE;"XVI - Modelagem de sistemas ambientais;";0,0;0,0;0,1107;-0,1107;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q30;CE;"XXI - Recuperação e remediação de áreas degradadas;";0,3248;0,2987;0,3194;-0,0207;0,0;0,507;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q31;CE;"I - Avaliação de impactos e de riscos ambientais;";0,0;0,0;0,1235;-0,1235;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q32;CE;"XI - Gestão de recursos hídricos;";0,5888;0,5901;0,5615;0,0287;-0,0;0,5391;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q33;CE;"XIX - Qualidade do solo, do ar e da água;";0,4776;0,4871;0,484;0,0031;0,0;0,3519;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q34;CE;"V - Ecologia e microbiologia aplicadas;";0,3571;0,3628;0,3362;0,0266;0,0;0,5758;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q35;CE;"XXV - Sistemas de coleta e tratamento de efluentes;";0,3071;0,2921;0,3009;-0,0088;0,0;0,5614;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q36;CE;"XII - Gestão de resíduos sólidos;";0,5135;0,5063;0,4818;0,0244;0,0;0,463;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q37;CE;"XII - Gestão de resíduos sólidos;";0,4347;0,4584;0,4;0,0584;0,0;0,4365;PENDENTE_VALIDACAO
+Engenharia Ambiental;Q38;CE;"II - Cartografia, geoprocessamento e sensoriamento remoto;";0,3431;0,3723;0,3106;0,0618;-0,0;0,3967;PENDENTE_VALIDACAO
+Engenharia Florestal;Q1;FG;I - Ética, democracia e cidadania;0,6496;0,6509;0,6491;0,0018;-0,0;0,1192;PENDENTE_VALIDACAO
+Engenharia Florestal;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8077;0,8534;0,8046;0,0488;0,0;0,1719;PENDENTE_VALIDACAO
+Engenharia Florestal;Q3;FG;II - Estado, sociedade e trabalho;0,6235;0,7457;0,6131;0,1326;0,0;0,1061;PENDENTE_VALIDACAO
+Engenharia Florestal;Q4;FG;II - Estado, sociedade e trabalho;0,488;0,5302;0,481;0,0492;0,0;0,0662;PENDENTE_VALIDACAO
+Engenharia Florestal;Q5;FG;XIII - Acessibilidade e inclusão social;0,4668;0,4483;0,4669;-0,0186;0,0;0,0797;PENDENTE_VALIDACAO
+Engenharia Florestal;Q6;FG;IV - Cultura, arte e comunicação;0,8179;0,9052;0,813;0,0921;0,0;0,058;PENDENTE_VALIDACAO
+Engenharia Florestal;Q7;FG;II - Estado, sociedade e trabalho;0,4367;0,3966;0,4318;-0,0352;-0,0;0,2484;PENDENTE_VALIDACAO
+Engenharia Florestal;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5387;0,6466;0,529;0,1176;-0,0;0,1176;PENDENTE_VALIDACAO
+Engenharia Florestal;Q9;FG;II - Estado, sociedade e trabalho;0,217;0,2414;0,2661;-0,0248;0,0;0,0882;PENDENTE_VALIDACAO
+Engenharia Florestal;Q10;CE;"V - Ecologia e ecossistemas florestais;";0,4435;0,5173;0,4378;0,0795;-0,0;0,2345;PENDENTE_VALIDACAO
+Engenharia Florestal;Q11;CE;"X - Gestão de recursos naturais renováveis;";0,538;0,5862;0,527;0,0592;0,0;0,1055;PENDENTE_VALIDACAO
+Engenharia Florestal;Q12;CE;"XXII - Sementes e viveiros florestais;";0,3525;0,4785;0,3471;0,1313;-0,0;0,5343;PENDENTE_VALIDACAO
+Engenharia Florestal;Q13;CE;"XX - Recuperação de ecossistemas florestais degradados;";0,4559;0,4828;0,4428;0,04;0,0;0,2498;PENDENTE_VALIDACAO
+Engenharia Florestal;Q14;CE;"XXII - Sementes e viveiros florestais;";0,1752;0,194;0,1941;-0,0001;0,0;0,0968;PENDENTE_VALIDACAO
+Engenharia Florestal;Q15;CE;"XXIV - Sistemas e técnicas silviculturais;";0,3525;0,4526;0,3236;0,129;0,0;0,2925;PENDENTE_VALIDACAO
+Engenharia Florestal;Q16;CE;"XXIV - Sistemas e técnicas silviculturais;";0,0;0,0;0,0491;-0,0491;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Florestal;Q17;CE;"VIII - Experimentação florestal;";0,7283;0,7629;0,6321;0,1308;0,0;0,1206;PENDENTE_VALIDACAO
+Engenharia Florestal;Q18;CE;"XIV - Melhoramento e biotecnologia florestal;";0,7331;0,7974;0,6431;0,1543;-0,0;0,2029;PENDENTE_VALIDACAO
+Engenharia Florestal;Q19;CE;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0,2307;0,2586;0,2379;0,0207;0,0;0,2504;PENDENTE_VALIDACAO
+Engenharia Florestal;Q20;CE;"XI - Industrialização de produtos florestais;";0,0;0,0;0,0578;-0,0578;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Florestal;Q21;CE;"XIX - Proteção florestal;";0,4668;0,5345;0,4577;0,0768;-0,0;0,2905;PENDENTE_VALIDACAO
+Engenharia Florestal;Q22;CE;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0,4011;0,4612;0,4013;0,0599;0,0;0,103;PENDENTE_VALIDACAO
+Engenharia Florestal;Q23;CE;"IX - Geoprocessamento aplicado à Engenharia Florestal;";0,4442;0,3922;0,4441;-0,0519;-0,0;0,1201;PENDENTE_VALIDACAO
+Engenharia Florestal;Q24;CE;"XII - Manejo de bacias hidrográficas;";0,4428;0,6034;0,4256;0,1779;0,0;0,3333;PENDENTE_VALIDACAO
+Engenharia Florestal;Q25;CE;"IV - Dendrometria e inventário florestal;";0,3436;0,4741;0,3403;0,1339;-0,0;0,1838;PENDENTE_VALIDACAO
+Engenharia Florestal;Q26;CE;"IV - Dendrometria e inventário florestal;";0,2088;0,3276;0,2264;0,1012;-0,0;0,2788;PENDENTE_VALIDACAO
+Engenharia Florestal;Q27;CE;"XIII - Manejo florestal;";0,4579;0,5216;0,445;0,0765;-0,0;0,3971;PENDENTE_VALIDACAO
+Engenharia Florestal;Q28;CE;"VII - Estradas, colheita e transporte florestal;";0,0;0,0;0,182;-0,182;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia Florestal;Q29;CE;"XVI - Morfologia, sistemática e dendrologia;";0,5455;0,6207;0,5333;0,0874;0,0;0,1434;PENDENTE_VALIDACAO
+Engenharia Florestal;Q30;CE;"VI - Economia, administração e marketing florestal;";0,5318;0,6983;0,5135;0,1847;0,0;0,2134;PENDENTE_VALIDACAO
+Engenharia Florestal;Q31;CE;"XXV - Solos e nutrição florestal;";0,5633;0,5431;0,5535;-0,0104;-0,0;0,2036;PENDENTE_VALIDACAO
+Engenharia Florestal;Q32;CE;"XV - Meteorologia e climatologia;";0,5729;0,681;0,5535;0,1275;0,0;0,2696;PENDENTE_VALIDACAO
+Engenharia Florestal;Q33;CE;"XI - Industrialização de produtos florestais;";0,5216;0,6078;0,4834;0,1244;-0,0;0,2675;PENDENTE_VALIDACAO
+Engenharia Florestal;Q34;CE;"I - Anatomia e propriedades físicas, químicas e mecânicas da madeira;";0,3217;0,3966;0,3203;0,0763;-0,0;0,208;PENDENTE_VALIDACAO
+Engenharia Florestal;Q35;CE;"XXI - Recursos energéticos florestais;";0,2094;0,2802;0,2498;0,0304;-0,0;0,4828;PENDENTE_VALIDACAO
+Engenharia Florestal;Q36;CE;"IV - Dendrometria e inventário florestal;";0,4805;0,6034;0,4758;0,1276;0,0;0,1765;PENDENTE_VALIDACAO
+Engenharia Florestal;Q37;CE;"XXIV - Sistemas e técnicas silviculturais;";0,4244;0,5431;0,3964;0,1467;0,0;0,2438;PENDENTE_VALIDACAO
+Engenharia Florestal;Q38;CE;"II - Comunicação e extensão rural;";0,4901;0,5;0,4848;0,0152;0,0;0,1871;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q1;FG;I - Ética, democracia e cidadania;0,4764;0,4844;0,4765;0,0079;-0,0;0,361;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,7543;0,7572;0,753;0,0041;-0,0;0,3405;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q3;FG;II - Estado, sociedade e trabalho;0,3393;0,3351;0,3352;-0,0002;0,0;0,2406;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q4;FG;II - Estado, sociedade e trabalho;0,3932;0,387;0,3882;-0,0011;-0,0;0,1141;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q5;FG;XIII - Acessibilidade e inclusão social;0,5388;0,5402;0,547;-0,0067;0,0;0,3454;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q6;FG;IV - Cultura, arte e comunicação;0,5151;0,5013;0,5274;-0,0261;0,0;0,281;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q7;FG;II - Estado, sociedade e trabalho;0,2628;0,2675;0,2736;-0,006;0,0;0,1171;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4036;0,3935;0,4175;-0,024;-0,0;0,1224;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q9;FG;II - Estado, sociedade e trabalho;0,2769;0,2818;0,2965;-0,0147;0,0;0,066;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q10;CE;"III - Higiene do trabalho;";0,6134;0,6351;0,6166;0,0185;-0,0;0,3693;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q11;CE;"II - Ergonomia;";0,4745;0,4792;0,4813;-0,0021;0,0;0,2303;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q12;CE;"IV - Gerenciamento de risco;";0,0;0,0;0,0148;-0,0148;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q13;CE;"IV - Gerenciamento de risco;";0,0;0,0;0,0148;-0,0148;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q14;CE;"V - Atendimento pré- hospitalar;";0,6957;0,7013;0,6955;0,0058;-0,0;0,2735;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q15;CE;"V - Atendimento pré- hospitalar;";0,7656;0,7623;0,7645;-0,0022;-0,0;0,23;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q16;CE;"VII - Legislação e normas técnicas;";0,1437;0,1402;0,1669;-0,0266;0,0;0,1029;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q17;CE;"VIII - Psicologia, comunicação e treinamento;";0,5737;0,5636;0,5594;0,0042;0,0;0,3176;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q18;CE;"VIII - Psicologia, comunicação e treinamento;";0,5558;0,5533;0,5429;0,0104;0,0;0,2776;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q19;CE;"XII - Sistema de gestão integrada;";0,5208;0,5182;0,5316;-0,0135;-0,0;0,3164;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q20;CE;"XI - Proteção e controle de máquinas, de equipamentos e de instalações;";0,3176;0,2987;0,3644;-0,0657;-0,0;0,2265;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q21;CE;"XIV - Ética profissional;";0,4121;0,413;0,4214;-0,0084;-0,0;0,1;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q22;CE;"III - Higiene do trabalho;";0,6607;0,6714;0,663;0,0084;0,0;0,2072;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q23;CE;"XIII - Empreendedorismo e fundamentos da Administração;";0,7344;0,7299;0,7317;-0,0018;-0,0;0,2151;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q24;CE;XVI - Doenças ocupacionais.;0,0;0,0;0,0651;-0,0651;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q25;CE;"VI - Prevenção e combate a incêndio;";0,8743;0,874;0,7695;0,1045;0,0;0,2552;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q26;CE;"XV - Biossegurança;";0,5435;0,5467;0,5438;0,003;-0,0;0,2945;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q27;CE;XVI - Doenças ocupacionais.;0,5907;0,5935;0,5525;0,0411;-0,0;0,1854;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q28;CE;"XIII - Empreendedorismo e fundamentos da Administração;";0,5888;0,5779;0,5896;-0,0116;0,0;0,2077;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q29;CE;"IV - Gerenciamento de risco;";0,7665;0,7636;0,5112;0,2524;-0,0;0,2756;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q30;CE;"III - Higiene do trabalho;";0,794;0,8052;0,7772;0,028;-0,0;0,2415;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q31;CE;"VII - Legislação e normas técnicas;";0,0;0,0;0,1096;-0,1096;0,0;0,0;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q32;CE;"VII - Legislação e normas técnicas;";0,4783;0,4805;0,4597;0,0208;0,0;0,2393;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q33;CE;"XV - Biossegurança;";0,6361;0,6325;0,6355;-0,003;0,0;0,407;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q34;CE;"VII - Legislação e normas técnicas;";0,672;0,6818;0,5802;0,1017;-0,0;0,4323;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q35;CE;"VII - Legislação e normas técnicas;";0,4178;0,4325;0,4018;0,0307;0,0;0,1137;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q36;CE;"VII - Legislação e normas técnicas;";0,7164;0,7169;0,5915;0,1254;0,0;0,1856;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q37;CE;"VII - Legislação e normas técnicas;";0,587;0,587;0,5631;0,0239;-0,0;0,4954;PENDENTE_VALIDACAO
+Tecnologia em Seguranca no Trabalho;Q38;CE;"VIII - Psicologia, comunicação e treinamento;";0,1531;0,1519;0,2054;-0,0534;0,0;0,2073;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q1;FG;I - Ética, democracia e cidadania;0,6668;0,6803;0,6301;0,0502;0,0;0,4118;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8051;0,8013;0,6656;0,1356;0,0;0,342;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q3;FG;II - Estado, sociedade e trabalho;0,6593;0,6722;0,6531;0,0191;0,0;0,3416;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q4;FG;II - Estado, sociedade e trabalho;0,6053;0,6295;0,6014;0,0281;-0,0;0,6247;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q5;FG;XIII - Acessibilidade e inclusão social;0,5212;0,5459;0,5212;0,0247;-0,0;0,3791;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q6;FG;IV - Cultura, arte e comunicação;0,8188;0,8134;0,6828;0,1306;0,0;0,2778;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q7;FG;II - Estado, sociedade e trabalho;0,353;0,3691;0,3519;0,0173;0,0;0,4923;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,5219;0,527;0,5219;0,0051;0,0;0,3803;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q9;FG;II - Estado, sociedade e trabalho;0,2729;0,2756;0,3055;-0,0298;0,0;0,3151;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q10;CE;"II - Física e ciência dos materiais;";0,3817;0,4056;0,3818;0,0238;0,0;0,7358;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q11;CE;"III - Matemática discreta e teoria dos grafos;";0,3341;0,3341;0,3156;0,0185;0,0;0,4882;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q12;CE;"III - Matemática discreta e teoria dos grafos;";0,188;0,2028;0,1713;0,0314;-0,0;0,3019;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q13;CE;"XI - Circuitos elétricos e eletrônicos;";0,2747;0,2909;0,2791;0,0118;0,0;0,3985;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q14;CE;"VI - Algoritmos e estruturas de dados;";0,1699;0,1731;0,1503;0,0228;0,0;0,2611;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q15;CE;"V - Fundamentos de programação e linguagens de programação;";0,3497;0,3687;0,3387;0,03;0,0;0,457;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q16;CE;"V - Fundamentos de programação e linguagens de programação;";0,106;0,1205;0,1286;-0,0081;-0,0;0,3962;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q17;CE;"III - Matemática discreta e teoria dos grafos;";0,0;0,0;0,0265;-0,0265;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q18;CE;"VI - Algoritmos e estruturas de dados;";0,0;0,0;0,0239;-0,0239;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q19;CE;"VII - Linguagens formais e autômatos;";0,0;0,0;0,1976;-0,1976;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q20;CE;"XXI - Sistemas distribuídos e processamento paralelo;";0,4602;0,46;0,4591;0,0009;-0,0;0,6095;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q21;CE;"IX - Interação humano- computador;";0,4583;0,4667;0,4496;0,0171;-0,0;0,3626;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q22;CE;"X - Banco de dados;";0,3638;0,3521;0,357;-0,0049;0,0;0,3348;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q23;CE;"XI - Circuitos elétricos e eletrônicos;";0,3673;0,3723;0,3662;0,0061;0,0;0,3769;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q24;CE;"XII - Sistemas digitais e sistemas embarcados;";0,401;0,3957;0,3658;0,0299;0,0;0,5538;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q25;CE;"XII - Sistemas digitais e sistemas embarcados;";0,0;0,0;0,0453;-0,0453;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q26;CE;"XXI - Sistemas distribuídos e processamento paralelo;";0,6819;0,6808;0,6799;0,0008;0,0;0,549;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q27;CE;"XXI - Sistemas distribuídos e processamento paralelo;";0,3532;0,3336;0,3715;-0,0379;-0,0;0,4349;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q28;CE;"XIII - Arquitetura de computadores;";0,4517;0,4398;0,4472;-0,0075;-0,0;0,5088;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q29;CE;"V - Fundamentos de programação e linguagens de programação;";0,4477;0,4393;0,4374;0,0019;-0,0;0,4286;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q30;CE;"XXI - Sistemas distribuídos e processamento paralelo;";0,5662;0,531;0,5642;-0,0332;0,0;0,5266;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q31;CE;"XVI - Processamento de sinais;";0,2594;0,2612;0,3007;-0,0395;-0,0;0,346;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q32;CE;"XVII - Inteligência artificial;";0,5693;0,5508;0,5632;-0,0124;0,0;0,3953;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q33;CE;"XVIII - Automação e sistemas de controle;";0,36;0,3408;0,371;-0,0302;0,0;0,3767;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q34;CE;"XIX - Sistemas de comunicação e redes de computadores;";0,0;0,0;0,048;-0,048;0,0;0,0;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q35;CE;"XIX - Sistemas de comunicação e redes de computadores;";0,4295;0,4375;0,3933;0,0442;0,0;0,4641;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q36;CE;"XXI - Sistemas distribuídos e processamento paralelo;";0,5412;0,5436;0,5394;0,0042;-0,0;0,3725;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q37;CE;"XX - Segurança de sistemas de computação;";0,2905;0,2936;0,3074;-0,0138;0,0;0,3923;PENDENTE_VALIDACAO
+Engenharia de Computacao;Q38;CE;"VIII - Engenharia de software;";0,6294;0,6232;0,6202;0,003;0,0;0,4612;PENDENTE_VALIDACAO

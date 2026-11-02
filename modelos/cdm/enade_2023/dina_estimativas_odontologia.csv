@@ -1,0 +1,39 @@
+﻿Questao;area_prova;atributos_requeridos;taxa_acerto_real;guess_g;slip_s;p_domina_atributos;p_acerto_dina;status
+Q1;FG;I - Ética, democracia e cidadania;0,5519804106882035;0,2357332860482638;0,16894545154354182;0,5312054492962791;0,5519711847214368;OK
+Q2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0,8062977919065212;0,5;0,05583909471304301;0,6867895737373603;0,8050450788128292;OK
+Q3;FG;II - Estado, sociedade e trabalho;0,5289114185067446;0,40032578631661636;0,2378389488049884;0,33718666828780935;0,5223318137499995;OK
+Q4;FG;II - Estado, sociedade e trabalho;0,4823008849557522;0,3524834245971385;0,28215832998865126;0,33718666828780935;0,4756773540998359;OK
+Q5;FG;XIII - Acessibilidade e inclusão social;0,492267376922416;0,4688250483482754;0,155977095207863;0,02084258530606255;0,4766451416778584;OK
+Q6;FG;IV - Cultura, arte e comunicação;0,7037975771114356;0,37286577670133125;0,09545396772564751;0,6223499919729649;0,703756979489385;OK
+Q7;FG;II - Estado, sociedade e trabalho;0,36755735028782544;0,27064801731237675;0,4564662836294498;0,33718666828780935;0,3626614370011921;OK
+Q8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0,4881433112810379;0,19277645287607104;0,2079545515655179;0,49288207724242855;0,48814540023388436;OK
+Q9;FG;II - Estado, sociedade e trabalho;0,23932468425122433;0,17165868323585792;0,5;0,33718666828780935;0,2823709978967912;OK
+Q10;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0,3465074319099579;0,1880621344712873;0,4565150955366674;0,44544863550697833;0,34638472239235446;OK
+Q11;CE;"XIII - Terapêutica medicamentosa;";0,46442993384311365;0,3019497880279139;0,33126361786200575;0,4424283518812;0,4642265763521554;OK
+Q12;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,5252169430363434;0,3752060864537347;0,3016168848511108;0,4463034429171794;0,5194411070321262;OK
+Q13;CE;"XIII - Terapêutica medicamentosa;";0,39612509665778844;0,23382726283686484;0,3997314547315703;0,4424283518812;0,39595127548429543;OK
+Q14;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,17166423232236447;0,055902640183842806;0,5;0,4463034429171794;0,2541048208602232;OK
+Q15;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,7869232751954636;0,5;0,05208836342678029;0,4463034429171794;0,6999045055252964;OK
+Q16;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,8810894406735974;0,5;0,016945619829533874;0,4463034429171794;0,7155888329863032;OK
+Q17;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,0;0,00020033557965448996;0,5;0,4463034429171794;0,22326264657930558;OK
+Q18;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,394535613025174;0,27555507759403824;0,4680022265315032;0,4463034429171794;0,3900063356737723;OK
+Q19;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,28039350459661483;0,23580502822151383;0,4123286645137555;0,07240790889324934;0,2612829317405425;OK
+Q20;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,0;0,00012296671517566447;0,5;0,07240790889324934;0,036318017399091;OK
+Q21;CE;"IX - Atendimento clínico a indivíduos com necessidades especiais;";0,3631325715267635;0,33445441599847203;0,20567204940014253;0,02084258530606255;0,34403936937340196;OK
+Q22;CE;"II - Bases moleculares e celulares dos processos normais e alterados relacionados ao processo saúde-doença;";0,5323481398745596;0,3549030567431503;0,247250716713404;0,44544863550697833;0,5321231154985284;OK
+Q23;CE;"XIII - Terapêutica medicamentosa;";0,489646876879457;0,31278485303043324;0,28799004848616333;0,4424283518812;0,4894133553820552;OK
+Q24;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,5450640089354756;0,5;0,16210938212892845;0,07240790889324934;0,5244659530746922;OK
+Q25;CE;"I - Morfofisiologia dos tecidos, órgãos, sistemas e aparelhos relacionados ao processo saúde-doença;";0,3068562591287911;0,25759052885019046;0,3538003776375176;0,07240790889324934;0,28572890068831674;OK
+Q26;CE;"XIV - Urgências odontológicas e emergências médicas em odontologia;";0,0;0,0001145068145410285;0,5;0,02084258530606255;0,010533412849522106;OK
+Q27;CE;"V - Propedêutica clínica;";0,3288083168657101;0,2475000205477935;0,4115551439686042;0,21059482945134173;0,31930124002877847;OK
+Q28;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,4911504424778761;0,38668724788034825;0,3882372417120876;0,4463034429171794;0,4871392230915855;OK
+Q29;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0,5660709682962454;0,3129332850305035;0,25049073181514253;0,5802729280925971;0,5662665091103848;OK
+Q30;CE;"XI - Biossegurança;";0,8164790789586734;0,5;0,007107791404050894;0,02084258530606255;0,5102731479043546;OK
+Q31;CE;"V - Propedêutica clínica;";0,4846206718790274;0,40590049869125766;0,2642777748672397;0,21059482945134173;0,475359248920553;OK
+Q32;CE;"X - Saúde coletiva;";0,0;0,0001145068145410285;0,5;0,02084258530606255;0,010533412849522106;OK
+Q33;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,39114185067445656;0,2715837753569946;0,47072607173314546;0,4463034429171794;0,38659177780651954;OK
+Q34;CE;"VII - Clínica odontológica integrada do adulto;";0,0;0,0001145068145410285;0,5;0,02084258530606255;0,010533412849522106;OK
+Q35;CE;"V - Propedêutica clínica;";0,11654781338602972;0,05372180267244842;0,5;0,21059482945134173;0,14770568352649638;OK
+Q36;CE;"VI - Clínica odontológica integrada da infância e da adolescência;";0,6134977231720938;0,36960197028308567;0,20979813143053433;0,5802729280925971;0,613664704817172;OK
+Q37;CE;"III - Determinantes sociais, culturais, comportamentais, psicológicos e ecológicos nos níveis individual e coletivo, do processo de saúde-doença;";0,7663029469885729;0,5;0,11312282735149538;0,4463034429171794;0,6726646141390916;OK
+Q38;CE;"IV - Aspectos éticos, bioéticos e legais no exercício profissional;";0,7136351920268065;0,5;0,026532331961884818;0,02084258530606255;0,509868290260747;OK

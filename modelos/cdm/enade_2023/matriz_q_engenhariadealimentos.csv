@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;1;0;0
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;1;0;0;0
+Q3;3;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;0;1;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"XII - Controle e gestão da qualidade;";0;0;1;0;0;0;0;0;0;0;0;0
+Q11;11;CE;"XI - Conservação e processamento de alimentos;";1;0;0;0;0;0;0;0;0;0;0;0
+Q12;12;CE;"X - Ciências do ambiente e tratamento de resíduos da indústria de alimentos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q13;13;CE;"XIX - Modelagem, análise e simulação de sistemas;";0;0;0;0;0;0;0;0;0;0;1;0
+Q14;14;CE;"XXII - Projetos de indústrias de alimentos e desenho universal;";0;0;0;0;0;0;0;0;0;0;0;1
+Q15;15;CE;"IX - Bioengenharia e biotecnologia de alimentos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q16;16;CE;"XXIII - Química e bioquímica de alimentos;";0;0;0;0;1;0;0;0;0;0;0;0
+Q17;17;CE;"XV - Físico-química e termodinâmica aplicada;";0;0;0;0;0;0;0;1;0;0;0;0
+Q18;18;CE;"V - Matemática e Estatística;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"XVII - Legislação e higiene na indústria de alimentos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q20;20;CE;"VIII - Análise sensorial;";0;0;0;0;0;0;0;0;0;0;0;1
+Q21;21;CE;"XVI - Instrumentação, controle e automação;";0;0;0;1;0;0;0;0;0;0;0;0
+Q22;22;CE;"XIII - Embalagens;";0;0;0;0;0;0;0;0;0;0;0;1
+Q23;23;CE;"XVIII - Microbiologia de alimentos;";0;0;0;0;0;0;1;0;0;0;0;0
+Q24;24;CE;"XVIII - Microbiologia de alimentos;";0;0;0;0;0;0;1;0;0;0;0;0
+Q25;25;CE;"XXIV - Tecnologias limpas e novas tecnologias;";0;0;0;0;0;0;0;0;0;0;0;1
+Q26;26;CE;"XIV - Fenômenos de transporte;";0;0;0;0;0;1;0;0;0;0;0;0
+Q27;27;CE;"XII - Controle e gestão da qualidade;";0;0;1;0;0;0;0;0;0;0;0;0
+Q28;28;CE;"XXIII - Química e bioquímica de alimentos;";0;0;0;0;1;0;0;0;0;0;0;0
+Q29;29;CE;"XI - Conservação e processamento de alimentos;";1;0;0;0;0;0;0;0;0;0;0;0
+Q30;30;CE;"XIV - Fenômenos de transporte;";0;0;0;0;0;1;0;0;0;0;0;0
+Q31;31;CE;"XI - Conservação e processamento de alimentos;";1;0;0;0;0;0;0;0;0;0;0;0
+Q32;32;CE;"XI - Conservação e processamento de alimentos;";1;0;0;0;0;0;0;0;0;0;0;0
+Q33;33;CE;"XX - Nutrição básica e toxicologia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q34;34;CE;"XVI - Instrumentação, controle e automação;";0;0;0;1;0;0;0;0;0;0;0;0
+Q35;35;CE;"IV - Ciências naturais aplicadas à Engenharia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q36;36;CE;"VII - Análise de alimentos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q37;37;CE;"XV - Físico-química e termodinâmica aplicada;";0;0;0;0;0;0;0;1;0;0;0;0
+Q38;38;CE;"I - Administração e Economia;";0;0;0;0;0;0;0;0;0;0;0;1

@@ -1,0 +1,4 @@
+edicao,referencia,modo,status,n_alunos_ref,n_alunos_prod,n_cursos_comuns,n_oc_comuns,n_comparacoes,n_drift,pca_status,pca_ratio,tempo_s
+enade_2019,enade_2016,consecutivas_tendencia,ok,4000,4000,13,22,48,34,Sem drift multivariado significativo,,55.4
+enade_2019,enade_2017,consecutivas_tendencia,ok,4000,4000,9,121,139,122,Drift multivariado detectado,2.854410995140673,55.4
+enade_2023,enade_2019,consecutivas_tendencia,ok,20000,20000,27,278,332,324,Drift multivariado detectado,12.62297425848475,36.8

@@ -1,0 +1,650 @@
+{
+  "E1_equidade": {
+    "analise": "E1_equidade",
+    "status": "ok",
+    "ano": 2019,
+    "coluna_nota": "NT_DIS_CE",
+    "n": 40000,
+    "regiao": {
+      "maior": {
+        "CO_REGIAO_CURSO": 4.0,
+        "mean": 16.658793256433007,
+        "count": 5635.0
+      },
+      "menor": {
+        "CO_REGIAO_CURSO": 3.0,
+        "mean": 14.43248502994012,
+        "count": 18704.0
+      },
+      "gap": 2.226308226492888,
+      "tabela": [
+        {
+          "CO_REGIAO_CURSO": 4.0,
+          "mean": 16.658793256433007,
+          "count": 5635
+        },
+        {
+          "CO_REGIAO_CURSO": 2.0,
+          "mean": 16.369251639158943,
+          "count": 8846
+        },
+        {
+          "CO_REGIAO_CURSO": 1.0,
+          "mean": 15.326740303108142,
+          "count": 3893
+        },
+        {
+          "CO_REGIAO_CURSO": 5.0,
+          "mean": 15.306947296372348,
+          "count": 2922
+        },
+        {
+          "CO_REGIAO_CURSO": 3.0,
+          "mean": 14.43248502994012,
+          "count": 18704
+        }
+      ]
+    },
+    "categoria": {
+      "maior": {
+        "CO_CATEGAD": 3.0,
+        "mean": 15.77643410852713,
+        "count": 645.0
+      },
+      "menor": {
+        "CO_CATEGAD": 7.0,
+        "mean": 11.731460674157303,
+        "count": 178.0
+      },
+      "gap": 4.044973434369828,
+      "tabela": [
+        {
+          "CO_CATEGAD": 3.0,
+          "mean": 15.77643410852713,
+          "count": 645
+        },
+        {
+          "CO_CATEGAD": 2.0,
+          "mean": 15.76941297631308,
+          "count": 971
+        },
+        {
+          "CO_CATEGAD": 5.0,
+          "mean": 15.691450252951096,
+          "count": 11860
+        },
+        {
+          "CO_CATEGAD": 4.0,
+          "mean": 15.220521334882948,
+          "count": 24092
+        },
+        {
+          "CO_CATEGAD": 1.0,
+          "mean": 14.482830523513753,
+          "count": 2254
+        },
+        {
+          "CO_CATEGAD": 7.0,
+          "mean": 11.731460674157303,
+          "count": 178
+        }
+      ]
+    },
+    "sexo": {
+      "maior": {
+        "TP_SEXO": "F",
+        "mean": 16.289470901025297,
+        "count": 34039
+      },
+      "menor": {
+        "TP_SEXO": "M",
+        "mean": 9.819912766314376,
+        "count": 5961
+      },
+      "gap": 6.469558134710921,
+      "tabela": [
+        {
+          "TP_SEXO": "F",
+          "mean": 16.289470901025297,
+          "count": 34039
+        },
+        {
+          "TP_SEXO": "M",
+          "mean": 9.819912766314376,
+          "count": 5961
+        }
+      ]
+    },
+    "modalidade": {
+      "maior": {
+        "CO_MODALIDADE": 0.0,
+        "mean": 15.518748145950756,
+        "count": 3371.0
+      },
+      "menor": {
+        "CO_MODALIDADE": 1.0,
+        "mean": 15.30754593354992,
+        "count": 36629.0
+      },
+      "gap": 0.2112022124008366,
+      "tabela": [
+        {
+          "CO_MODALIDADE": 0.0,
+          "mean": 15.518748145950756,
+          "count": 3371
+        },
+        {
+          "CO_MODALIDADE": 1.0,
+          "mean": 15.30754593354992,
+          "count": 36629
+        }
+      ]
+    }
+  },
+  "E2_valor_agregado": {
+    "analise": "E2_valor_agregado",
+    "status": "ok",
+    "ano": 2019,
+    "r2_controle": 0.02161006216005712,
+    "controles": [
+      "QE_I01",
+      "QE_I02",
+      "QE_I03",
+      "NU_IDADE",
+      "TP_SEXO"
+    ],
+    "top_ies": [
+      {
+        "CO_IES": 1904.0,
+        "valor_agregado": 15.44863730125344,
+        "count": 38
+      },
+      {
+        "CO_IES": 2773.0,
+        "valor_agregado": 13.589468542925086,
+        "count": 38
+      },
+      {
+        "CO_IES": 5439.0,
+        "valor_agregado": 12.335319780151469,
+        "count": 62
+      },
+      {
+        "CO_IES": 1263.0,
+        "valor_agregado": 11.204478205529318,
+        "count": 56
+      },
+      {
+        "CO_IES": 1978.0,
+        "valor_agregado": 11.078526343160656,
+        "count": 49
+      },
+      {
+        "CO_IES": 605.0,
+        "valor_agregado": 10.907528124691112,
+        "count": 35
+      },
+      {
+        "CO_IES": 17224.0,
+        "valor_agregado": 10.558146338465665,
+        "count": 33
+      },
+      {
+        "CO_IES": 2122.0,
+        "valor_agregado": 9.831542713969863,
+        "count": 157
+      },
+      {
+        "CO_IES": 482.0,
+        "valor_agregado": 9.544945394691888,
+        "count": 33
+      },
+      {
+        "CO_IES": 4613.0,
+        "valor_agregado": 9.411299313645259,
+        "count": 34
+      }
+    ],
+    "bottom_ies": [
+      {
+        "CO_IES": 4460.0,
+        "valor_agregado": -8.92599654036055,
+        "count": 49
+      },
+      {
+        "CO_IES": 1807.0,
+        "valor_agregado": -9.335723130525414,
+        "count": 46
+      },
+      {
+        "CO_IES": 661.0,
+        "valor_agregado": -9.449244330020479,
+        "count": 70
+      },
+      {
+        "CO_IES": 2200.0,
+        "valor_agregado": -9.693628989187747,
+        "count": 59
+      },
+      {
+        "CO_IES": 781.0,
+        "valor_agregado": -9.759641882729852,
+        "count": 46
+      },
+      {
+        "CO_IES": 583.0,
+        "valor_agregado": -9.823727145870496,
+        "count": 33
+      },
+      {
+        "CO_IES": 1205.0,
+        "valor_agregado": -10.24792125873262,
+        "count": 91
+      },
+      {
+        "CO_IES": 15507.0,
+        "valor_agregado": -10.316925906800149,
+        "count": 36
+      },
+      {
+        "CO_IES": 1683.0,
+        "valor_agregado": -10.83085754909984,
+        "count": 51
+      },
+      {
+        "CO_IES": 1702.0,
+        "valor_agregado": -12.974464986111544,
+        "count": 37
+      }
+    ],
+    "n_ies": 355,
+    "n": 40000
+  },
+  "E5_formacao": {
+    "analise": "E5_formacao",
+    "status": "ok",
+    "ano": 2019,
+    "n": 40000,
+    "por_modalidade": {
+      "0.0": {
+        "mean": 15.518748145950756,
+        "count": 3371
+      },
+      "1.0": {
+        "mean": 15.30754593354992,
+        "count": 36629
+      }
+    },
+    "por_ano_curso": {}
+  },
+  "E6_eficiencia": {
+    "analise": "E6_eficiencia",
+    "status": "ok",
+    "ano": 2019,
+    "top_ies": [
+      {
+        "CO_IES": 1904.0,
+        "mean": 31.45,
+        "count": 38,
+        "size": 38,
+        "eficiencia": 1187.6513157894735
+      },
+      {
+        "CO_IES": 17224.0,
+        "mean": 27.12121212121212,
+        "count": 33,
+        "size": 33,
+        "eficiencia": 1179.3617998163454
+      },
+      {
+        "CO_IES": 2773.0,
+        "mean": 30.007894736842104,
+        "count": 38,
+        "size": 38,
+        "eficiencia": 1133.192867036011
+      },
+      {
+        "CO_IES": 482.0,
+        "mean": 25.812121212121212,
+        "count": 33,
+        "size": 33,
+        "eficiencia": 1122.4361799816345
+      },
+      {
+        "CO_IES": 416.0,
+        "mean": 23.45,
+        "count": 30,
+        "size": 30,
+        "eficiencia": 1121.6916666666666
+      },
+      {
+        "CO_IES": 605.0,
+        "mean": 27.234285714285715,
+        "count": 35,
+        "size": 35,
+        "eficiencia": 1116.6057142857144
+      },
+      {
+        "CO_IES": 446.0,
+        "mean": 23.283333333333335,
+        "count": 30,
+        "size": 30,
+        "eficiencia": 1113.7194444444444
+      },
+      {
+        "CO_IES": 453.0,
+        "mean": 25.099999999999998,
+        "count": 33,
+        "size": 33,
+        "eficiencia": 1091.469696969697
+      },
+      {
+        "CO_IES": 4613.0,
+        "mean": 25.63235294117647,
+        "count": 34,
+        "size": 34,
+        "eficiencia": 1081.8360726643598
+      },
+      {
+        "CO_IES": 634.0,
+        "mean": 23.22258064516129,
+        "count": 31,
+        "size": 31,
+        "eficiencia": 1074.980749219563
+      }
+    ],
+    "n_ies": 355
+  },
+  "E7_cluster_ies": {
+    "analise": "E7_cluster_ies",
+    "status": "ok",
+    "ano": 2019,
+    "n_clusters": 3,
+    "perfis": {
+      "0": {
+        "mean": 15.4980593918405,
+        "std": 15.571213348974029,
+        "count": 107.2189349112426
+      },
+      "1": {
+        "mean": 9.959368627915692,
+        "std": 11.763963313286512,
+        "count": 72.03539823008849
+      },
+      "2": {
+        "mean": 22.068020215739857,
+        "std": 17.624033882003644,
+        "count": 81.45205479452055
+      }
+    },
+    "n_ies": 355
+  },
+  "E8_distal": {
+    "analise": "E8_distal",
+    "status": "ok",
+    "ano": 2019,
+    "n": 40000,
+    "QE_I01": {
+      "baixo": {
+        "A": 0.984,
+        "B": 0.016,
+        "C": 0.0
+      },
+      "medio": {
+        "A": 0.989,
+        "B": 0.011,
+        "C": 0.0
+      },
+      "alto": {
+        "A": 0.992,
+        "B": 0.008,
+        "C": 0.0
+      }
+    },
+    "QE_I02": {
+      "baixo": {
+        "A": 0.925,
+        "B": 0.048,
+        "C": 0.006,
+        "D": 0.021,
+        "F": 0.0
+      },
+      "medio": {
+        "A": 0.925,
+        "B": 0.054,
+        "C": 0.005,
+        "D": 0.016,
+        "F": 0.0
+      },
+      "alto": {
+        "A": 0.92,
+        "B": 0.057,
+        "C": 0.005,
+        "D": 0.017,
+        "F": 0.0
+      }
+    },
+    "QE_I03": {
+      "baixo": {
+        "A": 1.0
+      },
+      "medio": {
+        "A": 1.0
+      },
+      "alto": {
+        "A": 1.0
+      }
+    }
+  },
+  "E9_sensibilidade": {
+    "analise": "E9_sensibilidade",
+    "status": "ok",
+    "ano": 2019,
+    "tau_kendall_peso": 0.9999999999999998,
+    "limiar_excelencia": 25.0,
+    "tabela": {
+      "5.0": {
+        "simples": 28.343,
+        "ponderada": 28.343,
+        "taxa_excelencia": 0.601
+      },
+      "6.0": {
+        "simples": 9.797,
+        "ponderada": 9.797,
+        "taxa_excelencia": 0.086
+      },
+      "12.0": {
+        "simples": 20.44,
+        "ponderada": 20.44,
+        "taxa_excelencia": 0.408
+      },
+      "17.0": {
+        "simples": 18.23,
+        "ponderada": 18.23,
+        "taxa_excelencia": 0.328
+      },
+      "19.0": {
+        "simples": 15.479,
+        "ponderada": 15.479,
+        "taxa_excelencia": 0.227
+      },
+      "21.0": {
+        "simples": 27.067,
+        "ponderada": 27.067,
+        "taxa_excelencia": 0.559
+      },
+      "23.0": {
+        "simples": 25.615,
+        "ponderada": 25.615,
+        "taxa_excelencia": 0.515
+      },
+      "27.0": {
+        "simples": 19.381,
+        "ponderada": 19.381,
+        "taxa_excelencia": 0.37
+      },
+      "28.0": {
+        "simples": 29.002,
+        "ponderada": 29.002,
+        "taxa_excelencia": 0.608
+      },
+      "36.0": {
+        "simples": 28.802,
+        "ponderada": 28.802,
+        "taxa_excelencia": 0.641
+      },
+      "51.0": {
+        "simples": 12.9,
+        "ponderada": 12.9,
+        "taxa_excelencia": 0.111
+      },
+      "55.0": {
+        "simples": 5.774,
+        "ponderada": 5.774,
+        "taxa_excelencia": 0.019
+      },
+      "69.0": {
+        "simples": 30.078,
+        "ponderada": 30.078,
+        "taxa_excelencia": 0.639
+      },
+      "90.0": {
+        "simples": 13.575,
+        "ponderada": 13.575,
+        "taxa_excelencia": 0.206
+      },
+      "91.0": {
+        "simples": 32.803,
+        "ponderada": 32.803,
+        "taxa_excelencia": 0.579
+      },
+      "92.0": {
+        "simples": 9.09,
+        "ponderada": 9.09,
+        "taxa_excelencia": 0.101
+      },
+      "95.0": {
+        "simples": 12.807,
+        "ponderada": 12.807,
+        "taxa_excelencia": 0.136
+      },
+      "3501.0": {
+        "simples": 19.72,
+        "ponderada": 19.72,
+        "taxa_excelencia": 0.426
+      },
+      "4003.0": {
+        "simples": 4.138,
+        "ponderada": 4.138,
+        "taxa_excelencia": 0.035
+      },
+      "5710.0": {
+        "simples": 5.169,
+        "ponderada": 5.169,
+        "taxa_excelencia": 0.034
+      },
+      "5806.0": {
+        "simples": 9.648,
+        "ponderada": 9.648,
+        "taxa_excelencia": 0.114
+      },
+      "5814.0": {
+        "simples": 3.053,
+        "ponderada": 3.053,
+        "taxa_excelencia": 0.0
+      },
+      "5902.0": {
+        "simples": 12.477,
+        "ponderada": 12.477,
+        "taxa_excelencia": 0.282
+      },
+      "6002.0": {
+        "simples": 12.222,
+        "ponderada": 12.222,
+        "taxa_excelencia": 0.111
+      },
+      "6008.0": {
+        "simples": 8.676,
+        "ponderada": 8.676,
+        "taxa_excelencia": 0.05
+      },
+      "6208.0": {
+        "simples": 19.559,
+        "ponderada": 19.559,
+        "taxa_excelencia": 0.343
+      },
+      "6307.0": {
+        "simples": 19.507,
+        "ponderada": 19.507,
+        "taxa_excelencia": 0.367
+      },
+      "6405.0": {
+        "simples": 16.265,
+        "ponderada": 16.265,
+        "taxa_excelencia": 0.239
+      },
+      "6410.0": {
+        "simples": 19.655,
+        "ponderada": 19.655,
+        "taxa_excelencia": 0.387
+      }
+    },
+    "n_cursos": 29
+  },
+  "E4_trienal": {
+    "curso_2001.0": {
+      "analise": "E4_trienal",
+      "status": "ok",
+      "curso": "2001.0",
+      "serie": [
+        {
+          "ano": 2017,
+          "media": 18.030727938186253,
+          "n": 12295
+        },
+        {
+          "ano": 2021,
+          "media": 17.542778803344554,
+          "n": 18418
+        }
+      ],
+      "tendencia_por_edicao": -0.48794913484170027
+    },
+    "curso_1.0": {
+      "analise": "E4_trienal",
+      "status": "ok",
+      "curso": "1.0",
+      "serie": [
+        {
+          "ano": 2018,
+          "media": 8.523152578415734,
+          "n": 11286
+        },
+        {
+          "ano": 2022,
+          "media": 16.1264475031282,
+          "n": 8791
+        }
+      ],
+      "tendencia_por_edicao": 7.603294924712467
+    },
+    "curso_22.0": {
+      "analise": "E4_trienal",
+      "status": "ok",
+      "curso": "22.0",
+      "serie": [
+        {
+          "ano": 2018,
+          "media": 3.9399603295697285,
+          "n": 6554
+        },
+        {
+          "ano": 2022,
+          "media": 2.9608077315942483,
+          "n": 12727
+        }
+      ],
+      "tendencia_por_edicao": -0.979152597975481
+    }
+  }
+}

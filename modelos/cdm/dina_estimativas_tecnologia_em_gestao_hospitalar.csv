@@ -1,0 +1,39 @@
+questao;oc_principal;guess_g;slip_s;p_domina_atributos;p_acerto_dina;taxa_acerto_real
+Q1;I - Ética, democracia e cidadania;0.3605;0.4251;0.4572;0.4585;0.4595
+Q2;VIII - Meio ambiente, biodiversidade e sustentabilidade;0.5;0.1472;0.4572;0.6613;0.7254
+Q3;II - Estado, sociedade e trabalho;0.3396;0.311;0.2805;0.4376;0.4426
+Q4;II - Estado, sociedade e trabalho;0.3166;0.304;0.2805;0.423;0.4284
+Q5;XIII - Acessibilidade e inclusão social;0.4661;0.3853;0.4572;0.534;0.535
+Q6;IV - Cultura, arte e comunicação;0.3893;0.242;0.4572;0.5579;0.5602
+Q7;II - Estado, sociedade e trabalho;0.1966;0.5;0.2805;0.2817;0.2783
+Q8;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0.3043;0.4702;0.4572;0.4074;0.4082
+Q9;II - Estado, sociedade e trabalho;0.1979;0.5;0.2805;0.2826;0.2522
+Q10;"III - Gestão financeira, orçamentária e de custos;";0.1596;0.259;0.0547;0.1914;0.2146
+Q11;"X - Gestão de contratos, de convênios e de faturamento;";0.1957;0.21;0.4932;0.4888;0.4888
+Q12;"III - Gestão financeira, orçamentária e de custos;";0.0013;0.5;0.0547;0.0285;0.0
+Q13;"IV - Gestão de serviços assistenciais;";0.5;0.0738;0.1328;0.5566;0.6691
+Q14;"I - Planejamento e gestão estratégica em saúde;";0.0762;0.5;0.2352;0.1759;0.162
+Q15;"II - Gestão de pessoas;";0.3028;0.5;0.4572;0.3929;0.3748
+Q16;"XI - Gestão da qualidade em saúde;";0.0842;0.5;0.4572;0.2743;0.1588
+Q17;"V - Auditoria em saúde;";0.0014;0.5;0.1261;0.0643;0.0
+Q18;"IX - Hotelaria hospitalar;";0.5;0.2999;0.4572;0.5915;0.6105
+Q19;"VII - Sistemas de informação e de documentação médico- hospitalar;";0.5;0.0542;0.4572;0.7038;0.8055
+Q20;"VIII - Marketing em saúde;";0.2546;0.2992;0.694;0.5643;0.5574
+Q21;"XIII - Humanização em saúde;";0.3959;0.2999;0.4572;0.535;0.5368
+Q22;"I - Planejamento e gestão estratégica em saúde;";0.1688;0.3707;0.2352;0.2771;0.281
+Q23;"XIV - Responsabilidade social, ética e bioética;";0.3239;0.2822;0.4572;0.504;0.5062
+Q24;"XV - Gestão ambiental e biossegurança;";0.3145;0.2595;0.5489;0.5483;0.5483
+Q25;"XVII - Epidemiologia aplicada aos serviços de saúde;";0.301;0.5;0.4572;0.392;0.3812
+Q26;XIX - Modelos de gestão em saúde.;0.1869;0.5;0.3203;0.2872;0.2783
+Q27;"XII - Política e legislação aplicadas ao sistema de saúde;";0.1719;0.5;0.4572;0.3219;0.2773
+Q28;XIX - Modelos de gestão em saúde.;0.3434;0.3359;0.3203;0.4462;0.4481
+Q29;"VI - Gestão logística em saúde;";0.5;0.053;0.1481;0.5662;0.6517
+Q30;"IV - Gestão de serviços assistenciais;";0.2012;0.3247;0.1328;0.2641;0.2929
+Q31;"VI - Gestão logística em saúde;";0.0015;0.5;0.1481;0.0753;0.0
+Q32;XIX - Modelos de gestão em saúde.;0.2198;0.4422;0.3203;0.328;0.3295
+Q33;"XVIII - Tecnologias em saúde;";0.4666;0.1607;0.4517;0.6349;0.6384
+Q34;"XVIII - Tecnologias em saúde;";0.126;0.5;0.4517;0.2949;0.2787
+Q35;"IV - Gestão de serviços assistenciais;";0.0014;0.5;0.1328;0.0676;0.0
+Q36;"VIII - Marketing em saúde;";0.5;0.0846;0.694;0.7883;0.8119
+Q37;"V - Auditoria em saúde;";0.5;0.0652;0.1261;0.5548;0.5954
+Q38;"XV - Gestão ambiental e biossegurança;";0.3281;0.2483;0.5489;0.5606;0.5606

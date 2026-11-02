@@ -1,0 +1,6 @@
+instancia_idx;pred_original;pred_contrafactual;distancia;features_mudadas;n_mudancas
+86;1;0;1.0;Q3;1
+192;0;1;1.0;Q1;1
+479;0;1;1.4142;Q1 | Q3;2
+616;0;1;1.0;Q3;1
+72;1;0;1.0;Q2;1

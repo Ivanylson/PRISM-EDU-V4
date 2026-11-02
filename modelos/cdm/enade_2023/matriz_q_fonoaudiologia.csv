@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;1;0;0
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;0;0;0;1
+Q3;3;FG;II - Estado, sociedade e trabalho;0;0;0;1;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;0;0;0;1;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;0;0;0;1
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;0;0;1
+Q7;7;FG;II - Estado, sociedade e trabalho;0;0;0;1;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico- raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;0;0;0;1;0;0;0;0;0;0;0;0
+Q10;10;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";1;0;0;0;0;0;0;0;0;0;0;0
+Q11;11;CE;XIII - Ética e bioética na prática fonoaudiológica.;0;0;0;0;0;0;0;0;0;0;1;0
+Q12;12;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";1;0;0;0;0;0;0;0;0;0;0;0
+Q13;13;CE;"V - Funções e habilidades da fluência nos ciclos da vida;";0;0;0;0;0;0;0;0;0;0;0;1
+Q14;14;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0;0;0;0;0;1;0;0;0;0;0;0
+Q15;15;CE;III - Funções e habilidades da;0;0;0;0;0;0;0;1;0;0;0;0
+Q16;16;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0;0;0;0;0;0;0;0;1;0;0;0
+Q17;17;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0;0;0;0;1;0;0;0;0;0;0;0
+Q18;18;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0;1;0;0;0;0;0;0;0;0;0;0
+Q19;19;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0;0;0;0;0;0;1;0;0;0;0;0
+Q20;20;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0;0;0;0;1;0;0;0;0;0;0;0
+Q21;21;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";1;0;0;0;0;0;0;0;0;0;0;0
+Q22;22;CE;"IV - Funções e habilidades da fala nos ciclos da vida;";0;0;0;0;0;0;0;0;0;0;0;1
+Q23;23;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0;0;0;0;0;1;0;0;0;0;0;0
+Q24;24;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";1;0;0;0;0;0;0;0;0;0;0;0
+Q25;25;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0;0;1;0;0;0;0;0;0;0;0;0
+Q26;26;CE;"II - Processos psicossocioculturais, linguísticos e educacionais que auxiliam na compreensão do desenvolvimento da comunicação humana e das alterações fonoaudiológicas;";1;0;0;0;0;0;0;0;0;0;0;0
+Q27;27;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0;1;0;0;0;0;0;0;0;0;0;0
+Q28;28;CE;"I - Processos biológicos normais e alterados, estruturas e funções de órgãos e de sistemas relacionados à Fonoaudiologia;";0;0;0;0;1;0;0;0;0;0;0;0
+Q29;29;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0;0;1;0;0;0;0;0;0;0;0;0
+Q30;30;CE;"VII - Funções e habilidades da voz nos ciclos da vida;";0;0;0;0;0;1;0;0;0;0;0;0
+Q31;31;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0;1;0;0;0;0;0;0;0;0;0;0
+Q32;32;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0;0;1;0;0;0;0;0;0;0;0;0
+Q33;33;CE;"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS);";0;0;0;0;0;0;0;0;1;0;0;0
+Q34;34;CE;"VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida;";0;0;0;0;0;0;1;0;0;0;0;0
+Q35;35;CE;III - Funções e habilidades da;0;0;0;0;0;0;0;1;0;0;0;0
+Q36;36;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0;1;0;0;0;0;0;0;0;0;0;0
+Q37;37;CE;"III - Funções e habilidades da audição nos ciclos da vida;";0;0;1;0;0;0;0;0;0;0;0;0
+Q38;38;CE;"VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida;";0;1;0;0;0;0;0;0;0;0;0;0

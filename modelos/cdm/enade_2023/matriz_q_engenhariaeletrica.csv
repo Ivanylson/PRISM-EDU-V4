@@ -1,0 +1,39 @@
+﻿Questao;posicao;area_prova;oc_principal;OC_A;OC_B;OC_C;OC_D;OC_E;OC_F;OC_G;OC_H;OC_I;OC_J;OC_K;OC_L
+Q1;1;FG;I - Ética, democracia e cidadania;0;0;0;0;0;0;0;0;0;0;0;1
+Q2;2;FG;VIII - Meio ambiente, biodiversidade e sustentabilidade;0;0;0;0;0;0;0;0;0;0;1;0
+Q3;3;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q4;4;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q5;5;FG;XIII - Acessibilidade e inclusão social;0;0;0;0;0;0;0;0;1;0;0;0
+Q6;6;FG;IV - Cultura, arte e comunicação;0;0;0;0;0;0;0;0;0;1;0;0
+Q7;7;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q8;8;FG;XII - Desigualdades estruturais econômicas, étnico-raciais e de gênero;0;0;0;0;0;0;0;0;0;0;0;1
+Q9;9;FG;II - Estado, sociedade e trabalho;1;0;0;0;0;0;0;0;0;0;0;0
+Q10;10;CE;"VI - Circuitos elétricos;";0;1;0;0;0;0;0;0;0;0;0;0
+Q11;11;CE;"XVI - Máquinas elétricas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q12;12;CE;"II - Ciências do ambiente;";0;0;0;0;0;0;0;0;0;0;0;1
+Q13;13;CE;"VIII - Eletromagnetismo;";0;0;0;0;0;0;0;0;0;0;0;1
+Q14;14;CE;"V - Sistemas lineares;";0;0;0;0;0;0;0;0;0;0;0;1
+Q15;15;CE;"XV - Sensores e instrumentação eletrônica;";0;0;0;0;0;0;0;0;0;0;0;1
+Q16;16;CE;"XXI - Sistemas de controle e automação;";0;0;0;1;0;0;0;0;0;0;0;0
+Q17;17;CE;"III - Ciências naturais aplicadas à Engenharia Elétrica;";0;0;0;0;0;0;0;0;0;0;0;1
+Q18;18;CE;"IX - Dispositivos e circuitos eletrônicos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q19;19;CE;"VII - Conversão de energia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q20;20;CE;"XX - Análise e processamento de sinais;";0;0;0;0;1;0;0;0;0;0;0;0
+Q21;21;CE;"XVII - Materiais elétricos e magnéticos;";0;0;0;0;0;0;0;0;0;0;0;1
+Q22;22;CE;"XI - Sistemas digitais;";0;0;0;0;0;1;0;0;0;0;0;0
+Q23;23;CE;"VI - Circuitos elétricos;";0;1;0;0;0;0;0;0;0;0;0;0
+Q24;24;CE;"XII - Fundamentos de sistemas elétricos de potência;";0;0;1;0;0;0;0;0;0;0;0;0
+Q25;25;CE;"XIII - Eficiência energética;";0;0;0;0;0;0;1;0;0;0;0;0
+Q26;26;CE;"XIII - Eficiência energética;";0;0;0;0;0;0;1;0;0;0;0;0
+Q27;27;CE;"XIX - Redes de comunicação;";0;0;0;0;0;0;0;0;0;0;0;1
+Q28;28;CE;"XVIII - Princípios de comunicações;";0;0;0;0;0;0;0;0;0;0;0;1
+Q29;29;CE;"XX - Análise e processamento de sinais;";0;0;0;0;1;0;0;0;0;0;0;0
+Q30;30;CE;"XXI - Sistemas de controle e automação;";0;0;0;1;0;0;0;0;0;0;0;0
+Q31;31;CE;"XIV - Instalações elétricas;";0;0;0;0;0;0;0;0;0;0;0;1
+Q32;32;CE;"XII - Fundamentos de sistemas elétricos de potência;";0;0;1;0;0;0;0;0;0;0;0;0
+Q33;33;CE;"IV - Algoritmos e estruturas de dados;";0;0;0;0;0;0;0;0;0;0;0;1
+Q34;34;CE;"X - Eletrônica de potência;";0;0;0;0;0;0;0;1;0;0;0;0
+Q35;35;CE;"I - Administração e Economia;";0;0;0;0;0;0;0;0;0;0;0;1
+Q36;36;CE;"XI - Sistemas digitais;";0;0;0;0;0;1;0;0;0;0;0;0
+Q37;37;CE;"X - Eletrônica de potência;";0;0;0;0;0;0;0;1;0;0;0;0
+Q38;38;CE;"XXII - Probabilidade e Estatística;";0;0;0;0;0;0;0;0;0;0;0;1

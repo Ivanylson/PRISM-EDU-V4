@@ -1,0 +1,520 @@
+Curso,CO_GRUPO_ref,CO_GRUPO_prod,Variavel,Tipo,KS_D,KS_p,Wasserstein,Cramer_V,PSI,Status,Rotulo,Edicao,Referencia,Par,Tipo_variavel
+Agronomia,17,17,NT_GER,continuo,0.2124,0.0007,3.6287,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Agronomia,17,17,NT_DIS_CE,continuo,0.0939,0.4012,2.3532,,,Sem drift,NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Biomedicina,55,55,ciencias exatas aplicadas a biomedicina abordagens processos e metodos fisicos quimicos matematicos estatisticos e de bioinformatica como suporte a biomedicina,continuo,0.4464,0.0,11.1378,,,Drift (KS significativo),"I - Ciências exatas aplicadas à Biomedicina – abordagens, processos e métodos físicos, químicos, matemáticos, estatísticos e de bioinformática como suporte à Biomedicina.",enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Biomedicina,55,55,NT_GER,continuo,0.1031,0.4788,1.4552,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Biomedicina,55,55,NT_DIS_CE,continuo,0.5,0.0,21.0331,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Educacao Fisica Bacharelado,3501,3501,dimensao biodinamica conhecimentos sobre o ser humano nos aspectos morfologicos fisiologicos biomecanicos bioquimicos e suas aplicacoes na area,continuo,0.3539,0.0,12.8774,,,Drift (KS significativo),"II - Dimensão biodinâmica: conhecimentos sobre o ser humano nos aspectos morfológicos, fisiológicos, biomecânicos, bioquímicos e suas aplicações na área.",enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Educacao Fisica Bacharelado,3501,3501,dimensao cientifica e tecnologica conhecimentos sobre procedimentos eticos metodos e tecnicas de estudo e pesquisa que fundamentam a intervencao profissional,continuo,0.0729,0.2633,1.6573,,,Sem drift,"IV - Dimensão científica e tecnológica: conhecimentos sobre procedimentos éticos, métodos e técnicas de estudo e pesquisa que fundamentam a intervenção profissional.",enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Educacao Fisica Bacharelado,3501,3501,NT_GER,continuo,0.1226,0.007,2.3862,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Educacao Fisica Bacharelado,3501,3501,NT_DIS_CE,continuo,0.1475,0.0006,4.4329,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Enfermagem,23,23,NT_GER,continuo,0.093,0.0216,1.747,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Enfermagem,23,23,NT_DIS_CE,continuo,0.0853,0.044,2.8841,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Farmacia,19,19,bromatologia e tecnologia de alimentos,discreto,0.0571,0.8396,3.6002,0.111,0.0515,Sem drift,VI - Bromatologia e tecnologia de alimentos.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,farmacia magistral alopatica e homeopatica,discreto,0.2645,0.0,11.1162,0.5421,3.8237,Drift forte,VII - Farmácia magistral alopática e homeopática.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,saude publica epidemiologia e educacao em saude,discreto,0.273,0.0,7.7797,0.9592,14.1284,Drift forte,"VIII - Saúde pública, epidemiologia e educação em saúde.",enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,quimica farmaceutica e medicinal,discreto,0.3667,0.0,15.4507,0.9731,13.8846,Drift forte,XVI - Química farmacêutica e medicinal.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,farmacognosia e fitoterapia,discreto,0.0628,0.7483,3.7857,0.0769,0.0245,Sem drift,V - Farmacognosia e fitoterapia.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,legislacao sanitaria e profissional,discreto,0.0999,0.2039,4.5564,0.1298,0.0694,Sem drift,IX - Legislação sanitária e profissional.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,seguranca do paciente e biosseguranca,discreto,0.0586,0.8167,3.2696,0.154,0.1026,Drift moderado,XI - Segurança do paciente e biossegurança.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,assistencia e servicos farmaceuticos,discreto,0.0659,0.6935,2.8276,0.0863,0.0307,Sem drift,XIV - Assistência e serviços farmacêuticos.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Farmacia,19,19,NT_GER,continuo,0.2076,0.0001,6.1581,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Farmacia,19,19,NT_DIS_CE,continuo,0.6093,0.0,24.6625,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Fisioterapia,36,36,NT_GER,continuo,0.1834,0.0003,3.6467,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Fisioterapia,36,36,NT_DIS_CE,continuo,0.0598,0.7223,1.8052,,,Sem drift,NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Fonoaudiologia,27,27,NT_GER,continuo,0.1949,0.4171,3.8273,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Fonoaudiologia,27,27,NT_DIS_CE,continuo,0.4549,0.0005,18.3035,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Medicina,12,12,pediatria,discreto,0.4591,0.0,9.3682,0.9972,14.7624,Drift forte,VI - Pediatria.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,urgencia e emergencia,continuo,0.1967,0.0002,3.7773,,,Drift (KS significativo),VIII - Urgência e emergência.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,saude mental,discreto,0.4505,0.0,8.7204,0.9972,14.5866,Drift forte,IX - Saúde mental.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,clinica medica,continuo,0.4211,0.0,13.6554,,,Drift (KS significativo),III - Clínica médica.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,cirurgia,discreto,0.3677,0.0,7.3838,0.9901,14.4513,Drift forte,IV - Cirurgia.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,ginecologia e obstetricia,discreto,0.3798,0.0,10.667,0.8927,11.7232,Drift forte,V - Ginecologia e obstetrícia.,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Medicina,12,12,NT_GER,continuo,0.2708,0.0,5.1733,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Medicina,12,12,NT_DIS_CE,continuo,0.7099,0.0,27.8795,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Medicina Veterinaria,5,5,NT_GER,continuo,0.1047,0.3078,2.5592,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Medicina Veterinaria,5,5,NT_DIS_CE,continuo,0.6489,0.0,29.3429,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Nutricao,28,28,indicadores de qualidade na producao de refeicoes,discreto,0.6546,0.0,35.2804,0.775,8.142,Drift forte,D - Indicadores de qualidade na produção de refeições,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Nutricao,28,28,seguranca alimentar e nutricional,discreto,0.1624,0.0035,9.2504,0.6502,4.7344,Drift forte,D - Segurança Alimentar e Nutricional,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Nutricao,28,28,triagem e avaliacao do estado nutricional nas situacoes patologicas,binario,0.4569,0.0,30.7416,0.8736,8.4224,Drift forte,C - Triagem e avaliação do estado nutricional nas situações patológicas,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Nutricao,28,28,controle higienico sanitario dos alimentos,discreto,0.3509,0.0,18.1227,0.8153,9.6475,Drift forte,D - Controle higiênico-sanitário dos alimentos,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Nutricao,28,28,planejamento e prescricao de planos alimentares,discreto,0.3661,0.0,14.7001,0.8048,9.9106,Drift forte,C - Planejamento e prescrição de planos alimentares,enade_2019,enade_2016,enade_2019 vs enade_2016,oc
+Nutricao,28,28,NT_GER,continuo,0.0967,0.2053,1.7152,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Nutricao,28,28,NT_DIS_CE,continuo,0.307,0.0,12.4261,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Odontologia,6,6,NT_GER,continuo,0.2233,0.0001,5.5233,,,Drift (KS significativo),NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Odontologia,6,6,NT_DIS_CE,continuo,0.5003,0.0,18.2205,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Tecnologia Em Estetica E Cosmetica,95,95,NT_GER,continuo,0.1022,0.8539,1.5202,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Tecnologia Em Estetica E Cosmetica,95,95,NT_DIS_CE,continuo,0.1444,0.4683,2.9873,,,Sem drift,NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Tecnologia Em Gestao Ambiental,92,92,NT_GER,continuo,0.1612,0.3055,3.6854,,,Sem drift,NT_GER,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Tecnologia Em Gestao Ambiental,92,92,NT_DIS_CE,continuo,0.3616,0.0002,13.7187,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2016,enade_2019 vs enade_2016,nota
+Arquitetura E Urbanismo,21,21,planejamento urbano e regional,discreto,0.5851,0.0,27.4118,0.9173,12.1283,Drift forte,VII - Planejamento Urbano e Regional,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,politicas publicas e habitacionais,discreto,0.4663,0.0,19.3001,0.9496,13.5477,Drift forte,VIII - Políticas públicas e habitacionais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,sustentabilidade,discreto,0.1542,0.0081,8.4602,0.6143,4.2364,Drift forte,XV - Sustentabilidade,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,mobilidade e acessibilidade,discreto,0.2202,0.0,9.3173,0.9651,14.1377,Drift forte,XVI - Mobilidade e Acessibilidade,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,tecnicas retrospectivas,discreto,0.2087,0.0001,11.7962,0.9394,13.3098,Drift forte,XVII - Técnicas Retrospectivas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,informatica aplicada a arquitetura e urbanismo,discreto,0.2666,0.0,7.943,0.9468,14.1222,Drift forte,XIX - Informática aplicada à Arquitetura e Urbanismo,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,topografia,discreto,0.2844,0.0,10.7082,0.9858,14.7048,Drift forte,XX - Topografia.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,estetica e historia das artes,discreto,0.4102,0.0,13.5716,0.9552,14.0429,Drift forte,I - Estética e História das Artes,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,desenho e meios de representacao e expressao,discreto,0.2263,0.0,18.4047,0.3001,0.4025,Drift forte,IV - Desenho e Meios de Representação e Expressão,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,teoria e historia da arquitetura do urbanismo e do paisagismo,discreto,0.5358,0.0,25.9237,0.7949,8.7447,Drift forte,"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,tecnologia da construcao,discreto,0.233,0.0,8.4412,0.9629,14.0898,Drift forte,IX - Tecnologia da Construção,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,infraestrutura urbana,discreto,0.1856,0.0007,8.982,0.2042,0.1724,Drift moderado,X - Infraestrutura urbana,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de projetos,discreto,0.2999,0.0,13.6393,0.3277,0.4711,Drift forte,XI - Gestão e Coordenação de Projetos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de obras,discreto,0.0499,0.924,2.1588,0.0928,0.0357,Sem drift,XII - Gestão e Coordenação de Obras,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,sistemas estruturais,discreto,0.0765,0.4962,3.3432,0.1294,0.0696,Sem drift,XIII - Sistemas Estruturais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,conforto ambiental,discreto,0.0522,0.8986,2.7066,0.1124,0.0514,Sem drift,XIV - Conforto Ambiental,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Arquitetura E Urbanismo,21,21,NT_GER,continuo,0.1918,0.0004,4.77,,,Drift (KS significativo),NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Arquitetura E Urbanismo,21,21,NT_DIS_CE,continuo,0.5777,0.0,29.115,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Ambiental,6307,6307,modelagem de sistemas ambientais,discreto,0.4221,0.0,18.5364,0.7696,8.974,Drift forte,III - Modelagem de Sistemas Ambientais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,avaliacao de impactos ambientais,binario,0.4489,0.0,30.6274,0.7887,7.8648,Drift forte,V - Avaliação de Impactos Ambientais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,climatologia e meteorologia,discreto,0.3421,0.0004,16.0544,0.8205,10.9509,Drift forte,VI - Climatologia e Meteorologia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,geologia e geotecnia ambiental,discreto,0.3857,0.0,20.0099,0.9382,12.0328,Drift forte,IX - Geologia e Geotecnia Ambiental,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,cartografia e geoprocessamento,discreto,0.3867,0.0,19.7926,0.9128,11.1559,Drift forte,X - Cartografia e Geoprocessamento,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,gestao de recursos hidricos,binario,0.5145,0.0,30.1916,0.8751,9.0059,Drift forte,XI - Gestão de Recursos Hídricos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,hidraulica,discreto,0.4316,0.0,15.1294,0.7327,6.641,Drift forte,XII - Hidráulica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,hidrologia,discreto,0.3464,0.0003,12.5716,0.9158,12.8107,Drift forte,XIII - Hidrologia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,recuperacao e remediacao de areas degradadas,discreto,0.2435,0.0247,11.747,0.5532,4.1099,Drift forte,XVI - Recuperação e Remediação de Áreas Degradadas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,saude ambiental,discreto,0.4081,0.0,31.7269,0.4748,1.2042,Drift forte,XVIII - Saúde ambiental,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,residuos solidos,discreto,0.5189,0.0,13.386,0.9303,13.7634,Drift forte,XIX - Resíduos Sólidos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,sistemas de coleta e tratamento de efluentes,discreto,0.2996,0.0027,13.1938,0.6512,5.4966,Drift forte,XXI - Sistemas de coleta e tratamento de efluentes,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,manejo de aguas pluviais,discreto,0.3569,0.0002,9.7057,0.9529,14.3525,Drift forte,XXII - Manejo de águas pluviais.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Ambiental,6307,6307,NT_GER,continuo,0.2803,0.0061,6.3444,,,Drift (KS significativo),NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Ambiental,6307,6307,NT_DIS_CE,continuo,0.1221,0.6146,3.2792,,,Sem drift,NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Civil,5710,5710,expressao grafica,discreto,0.1919,0.0,9.688,0.5907,4.3794,Drift forte,VI - Expressão Gráfica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,fenomenos de transporte,discreto,0.2834,0.0,8.7646,0.9819,14.5663,Drift forte,VII - Fenômenos de Transporte,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,ciencias do ambiente,discreto,0.2989,0.0,11.0912,0.8004,9.1118,Drift forte,II - Ciências do Ambiente,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,ciencia e tecnologia dos materiais,discreto,0.2649,0.0,10.309,0.9118,12.6123,Drift forte,III - Ciência e Tecnologia dos Materiais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,mecanica dos solidos,discreto,0.3898,0.0,10.3549,0.9765,14.054,Drift forte,XI - Mecânica dos Sólidos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,estruturas,discreto,0.183,0.0,8.9052,0.8705,11.4287,Drift forte,II - Estruturas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,geotecnia,discreto,0.415,0.0,11.0258,0.9667,14.2225,Drift forte,III - Geotecnia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,recursos hidricos e saneamento,discreto,0.2123,0.0,9.5132,0.5795,4.2522,Drift forte,IV - Recursos Hídricos e Saneamento,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,transportes,discreto,0.2886,0.0,12.2262,0.9031,12.6974,Drift forte,V - Transportes.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,construcao civil,discreto,0.3253,0.0,9.7145,0.9757,14.6135,Drift forte,I - Construção Civil,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Civil,5710,5710,NT_GER,continuo,0.2056,0.0,4.7822,,,Drift (KS significativo),NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Civil,5710,5710,NT_DIS_CE,continuo,0.1985,0.0,8.2733,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Da Computacao,4003,4003,interacao humano computador,discreto,0.4833,0.0,16.75,0.91,12.9354,Drift forte,XVII - Interação Humano-Computador,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,banco de dados,discreto,0.1625,0.5553,7.6389,0.5597,3.8905,Drift forte,III - Banco de dados,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,algoritmos e estruturas de dados,binario,0.5375,0.0,27.6389,0.6877,6.0009,Drift forte,I - Algoritmos e Estruturas de Dados,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,fundamentos de programacao e linguagens de programacao,discreto,0.225,0.1881,15.5556,0.7485,8.8925,Drift forte,V - Fundamentos de programação e linguagens de programação,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,engenharia de software,discreto,0.5208,0.0,28.125,0.892,11.1052,Drift forte,IV - Engenharia de software,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,inteligencia artificial,discreto,0.2958,0.0351,15.6944,0.8034,10.0913,Drift forte,IX - Inteligência artificial,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,sistemas operacionais,discreto,0.4583,0.0001,11.8333,0.9267,13.2192,Drift forte,XV - Sistemas operacionais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,arquitetura de computadores,discreto,0.2458,0.1205,9.375,0.6351,5.1246,Drift forte,II - Arquitetura de computadores,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,pesquisa operacional e otimizacao,discreto,0.0542,1.0,5.2083,0.1172,0.0564,Sem drift,XV - Pesquisa operacional e otimização,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,sistemas digitais e sistemas embarcados,binario,0.5125,0.0,30.2083,0.9138,9.306,Drift forte,XVI - Sistemas digitais e sistemas embarcados,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,automacao industrial e sistemas de controle,discreto,0.35,0.007,19.3056,0.8287,10.5135,Drift forte,XIX - Automação industrial e sistemas de controle,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,matematica e estatistica,discreto,0.7083,0.0,48.3333,0.9576,12.8129,Drift forte,X - Matemática e Estatística,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Da Computacao,4003,4003,NT_GER,continuo,0.2375,0.1449,6.0208,,,Sem drift,NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Da Computacao,4003,4003,NT_DIS_CE,continuo,0.1167,0.892,3.3483,,,Sem drift,NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia De Controle E Automacao,5814,5814,fenomenos de transporte,discreto,0.3244,0.0092,12.0712,0.9339,14.021,Drift forte,VII - Fenômenos de Transporte,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,mecanica dos solidos,discreto,0.4086,0.0004,14.7605,0.9601,14.6905,Drift forte,XI - Mecânica dos Sólidos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,circuitos eletricos,discreto,0.3799,0.0012,8.6626,0.8779,12.4988,Drift forte,I - Circuitos elétricos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,eletronica analogica e digital,discreto,0.2375,0.1079,11.7057,0.9034,13.0513,Drift forte,II - Eletrônica analógica e digital,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,instrumentacao e sistemas de aquisicao de dados,discreto,0.287,0.0297,15.749,0.9258,12.1953,Drift forte,III - Instrumentação e sistemas de aquisição de dados,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,microcontroladores sistemas embarcados e sistemas em tempo real,discreto,0.4733,0.0,23.1394,0.9423,12.1047,Drift forte,"IV - Microcontroladores, sistemas embarcados e sistemas em tempo real",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,acionamentos e maquinas eletricas,discreto,0.3287,0.0083,15.8619,0.9641,14.4259,Drift forte,V - Acionamentos e máquinas elétricas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,acionamentos pneumaticos e hidraulicos,discreto,0.3348,0.0065,9.133,0.9337,13.8426,Drift forte,VI - Acionamentos pneumáticos e hidráulicos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,controle analogico e digital de equipamentos e processos,discreto,0.2575,0.0656,9.8422,0.6029,4.633,Drift forte,VII - Controle analógico e digital de equipamentos e processos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,controle moderno via variaveis de estado,discreto,0.1811,0.3462,8.8725,0.576,3.8537,Drift forte,VIII - Controle moderno via variáveis de estado,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,identificacao modelagem analise e simulacao de sistemas dinamicos,discreto,0.2831,0.0326,16.5871,0.7662,7.7308,Drift forte,"IX - Identificação, modelagem, análise e simulação de sistemas dinâmicos",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,redes industriais de comunicacao para automacao,discreto,0.1819,0.3398,11.1702,0.5778,3.9448,Drift forte,X - Redes industriais de comunicação para automação,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,controladores logico programaveis e sistemas supervisorios,discreto,0.2948,0.0229,14.4449,0.7248,8.1827,Drift forte,XI - Controladores lógico-programáveis e sistemas supervisórios,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,algoritmos estruturas de dados e interfaces homem maquina,discreto,0.2948,0.0229,16.5726,0.7823,9.0326,Drift forte,"XII - Algoritmos, estruturas de dados e interfaces homem-máquina",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,sistemas integrados de manufatura,discreto,0.3383,0.0055,16.0269,0.8755,10.5912,Drift forte,XIII - Sistemas integrados de manufatura,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,sistemas e dispositivos mecanicos,discreto,0.4268,0.0002,19.8046,0.9247,11.2173,Drift forte,XIV - Sistemas e dispositivos mecânicos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,robotica,discreto,0.4403,0.0001,22.0727,0.9154,11.8726,Drift forte,XV - Robótica.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Controle E Automacao,5814,5814,NT_GER,continuo,0.0829,0.9876,1.8593,,,Sem drift,NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia De Controle E Automacao,5814,5814,NT_DIS_CE,continuo,0.0968,0.9515,2.0786,,,Sem drift,NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia De Producao,6208,6208,fenomenos de transporte,discreto,0.3755,0.0,17.8192,0.9242,11.9624,Drift forte,VII - Fenômenos de Transporte,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,fisica,discreto,0.3434,0.0,17.0498,0.6455,4.8409,Drift forte,VIII - Física,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,ciencia e tecnologia dos materiais,discreto,0.3752,0.0,16.5417,0.6161,4.6999,Drift forte,III - Ciência e Tecnologia dos Materiais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,matematica e estatistica,discreto,0.2262,0.0,11.3883,0.6404,4.6789,Drift forte,X - Matemática e Estatística,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,eletricidade aplicada,discreto,0.3783,0.0,17.1139,0.8063,10.3542,Drift forte,V - Eletricidade Aplicada,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,mecanica dos solidos,discreto,0.3395,0.0,8.968,0.8079,9.3459,Drift forte,XI - Mecânica dos Sólidos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,pesquisa operacional,discreto,0.3023,0.0,13.6765,0.8614,10.8004,Drift forte,IX - Pesquisa Operacional,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,processos de fabricacao,discreto,0.2854,0.0,11.6935,0.5618,4.0601,Drift forte,X - Processos de Fabricação,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,modelagem analise e simulacao de sistemas,discreto,0.3435,0.0,9.3189,0.8786,11.8568,Drift forte,"VIII - Modelagem, Análise e Simulação de Sistemas",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,ergonomia e seguranca do trabalho,discreto,0.2469,0.0,8.6461,0.7832,9.1112,Drift forte,II - Ergonomia e Segurança do Trabalho,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,estrategia e organizacao,discreto,0.2381,0.0,13.9923,0.7103,5.7896,Drift forte,I - Estratégia e Organização,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,gerencia de producao,binario,0.577,0.0,30.2419,0.9101,9.2646,Drift forte,IV - Gerência de Produção,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,gestao ambiental,binario,0.5113,0.0,35.6578,0.9278,9.9683,Drift forte,V - Gestão Ambiental,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,gestao economica,discreto,0.2855,0.0,15.9595,0.771,7.0137,Drift forte,VI - Gestão Econômica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,gestao de tecnologia,discreto,0.198,0.0002,9.1398,0.6354,4.8617,Drift forte,VII - Gestão de Tecnologia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,qualidade,discreto,0.2046,0.0001,12.2871,0.529,3.7048,Drift forte,VI - Qualidade,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,sistemas de informacao,discreto,0.2696,0.0,11.9096,0.9064,12.9082,Drift forte,XII - Sistemas de Informação,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,transporte e logistica,discreto,0.3682,0.0,13.0829,0.9328,13.1232,Drift forte,XIII - Transporte e Logística.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,engenharia do produto,discreto,0.0964,0.2172,6.2036,0.1334,0.073,Sem drift,I - Engenharia do Produto,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia De Producao,6208,6208,NT_GER,continuo,0.0935,0.2471,2.4647,,,Sem drift,NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia De Producao,6208,6208,NT_DIS_CE,continuo,0.7168,0.0,32.637,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Eletrica,5806,5806,eletromagnetismo,discreto,0.1058,0.3932,6.5238,0.1506,0.0939,Sem drift,VI - Eletromagnetismo,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,ciencias do ambiente,discreto,0.0688,0.8731,4.0708,0.124,0.0712,Sem drift,II - Ciências do Ambiente,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,circuitos eletricos,discreto,0.4255,0.0,16.4175,0.7663,8.8501,Drift forte,I - Circuitos elétricos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,conversao de energia,discreto,0.2957,0.0,14.5909,0.7717,9.8053,Drift forte,IV - Conversão de energia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,eletronica de potencia,discreto,0.3309,0.0,10.7256,0.9535,14.161,Drift forte,VIII - Eletrônica de potência,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,eletronica digital,discreto,0.5749,0.0,22.0935,0.9162,13.5093,Drift forte,IX - Eletrônica digital,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,fundamentos de sistemas eletricos de potencia,discreto,0.5228,0.0,25.513,0.89,12.6704,Drift forte,X - Fundamentos de sistemas elétricos de potência,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,instalacoes eletricas,discreto,0.3623,0.0,16.2199,0.9259,12.3301,Drift forte,XII - Instalações elétricas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,instrumentacao eletronica,discreto,0.4225,0.0,16.5092,0.6057,4.3685,Drift forte,XIII - Instrumentação eletrônica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,maquinas eletricas,discreto,0.3664,0.0,12.4204,0.5728,4.4338,Drift forte,XIV - Máquinas elétricas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,materiais eletricos,discreto,0.0582,0.9605,3.0496,0.1271,0.0684,Sem drift,XV - Materiais elétricos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,principios de comunicacoes,discreto,0.297,0.0,10.006,0.7809,9.7115,Drift forte,XVI - Princípios de comunicações,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Eletrica,5806,5806,NT_GER,continuo,0.243,0.0005,5.9749,,,Drift (KS significativo),NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Eletrica,5806,5806,NT_DIS_CE,continuo,0.123,0.2274,3.4847,,,Sem drift,NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Mecanica,5902,5902,metrologia,discreto,0.6008,0.0,24.9305,0.9298,12.9436,Drift forte,XVII - Metrologia.,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,expressao grafica,discreto,0.6451,0.0,35.0916,0.853,9.6786,Drift forte,VI - Expressão Gráfica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,ciencias do ambiente,discreto,0.4193,0.0,24.6451,0.6242,5.04,Drift forte,II - Ciências do Ambiente,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,matematica e estatistica,discreto,0.3107,0.0,10.5979,0.9434,13.4254,Drift forte,X - Matemática e Estatística,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,economia,discreto,0.2953,0.0,11.3621,0.7111,8.2163,Drift forte,IV - Economia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,dinamica de sistemas mecanicos,discreto,0.5798,0.0,19.0185,0.9172,13.6787,Drift forte,V - Dinâmica de sistemas mecânicos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,materiais de construcao mecanica,discreto,0.36,0.0,12.0737,0.9215,13.4129,Drift forte,VI - Materiais de construção mecânica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,processos de fabricacao,discreto,0.2577,0.0,12.9841,0.8633,11.6142,Drift forte,X - Processos de Fabricação,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,manutencao,discreto,0.4899,0.0,24.2387,0.6966,6.3472,Drift forte,XVI - Manutenção,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Mecanica,5902,5902,NT_GER,continuo,0.4178,0.0,10.4877,,,Drift (KS significativo),NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Mecanica,5902,5902,NT_DIS_CE,continuo,0.2377,0.0001,7.447,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Quimica,6008,6008,fisica,discreto,0.2569,0.0337,15.508,0.2896,0.3699,Drift forte,VIII - Física,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,administracao,discreto,0.3001,0.0077,18.3599,0.9706,14.5806,Drift forte,I - Administração,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,ciencia e tecnologia dos materiais,discreto,0.4563,0.0,21.9071,0.9461,12.2304,Drift forte,III - Ciência e Tecnologia dos Materiais,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,matematica e estatistica,discreto,0.5071,0.0,22.0053,0.8455,9.8324,Drift forte,X - Matemática e Estatística,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,economia,discreto,0.2305,0.0734,10.7692,0.5168,3.6481,Drift forte,IV - Economia,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,eletricidade aplicada,discreto,0.438,0.0,15.4194,0.8703,11.3157,Drift forte,V - Eletricidade Aplicada,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,mecanica dos solidos,discreto,0.2406,0.0549,10.8249,0.8123,10.0385,Drift forte,XI - Mecânica dos Sólidos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,metodologia cientifica e tecnologica,discreto,0.1959,0.1803,7.5302,0.748,7.9357,Drift forte,XII - Metodologia Científica e Tecnológica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,termodinamica,discreto,0.0877,0.9579,3.0769,0.1377,0.0779,Sem drift,III - Termodinâmica,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,engenharia das reacoes quimicas,discreto,0.2975,0.0085,14.4267,0.3705,0.7818,Drift forte,IV - Engenharia das reações químicas,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,engenharia de bioprocessos,discreto,0.1434,0.5239,6.6328,0.2724,0.4361,Drift forte,V - Engenharia de bioprocessos,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,engenharia de meio ambiente,discreto,0.4331,0.0,21.9473,0.9308,12.4874,Drift forte,VIII - Engenharia de meio ambiente,enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,modelagem simulacao otimizacao e controle de processos,discreto,0.4151,0.0,22.7896,0.9458,14.3304,Drift forte,"IX - Modelagem, simulação, otimização e controle de processos",enade_2019,enade_2017,enade_2019 vs enade_2017,oc
+Engenharia Quimica,6008,6008,NT_GER,continuo,0.1617,0.3781,3.4019,,,Sem drift,NT_GER,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Engenharia Quimica,6008,6008,NT_DIS_CE,continuo,0.3004,0.0076,7.4985,,,Drift (KS significativo),NT_DIS_CE,enade_2019,enade_2017,enade_2019 vs enade_2017,nota
+Agronomia,17,17,sistemas agroindustriais,discreto,0.8214,0.0,39.2816,0.9539,10.4369,Drift forte,XVII - Sistemas agroindustriais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,solos,discreto,0.5239,0.0,25.8469,0.9183,12.3122,Drift forte,XVIII - Solos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,tecnologia e processamento de produtos agropecuarios,discreto,0.2194,0.0,11.2692,0.5735,3.7991,Drift forte,XIX - Tecnologia e processamento de produtos agropecuários,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,zootecnia,discreto,0.324,0.0,16.144,0.944,12.415,Drift forte,XX - Zootecnia.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,ecologia e manejo ambiental,discreto,0.5627,0.0,31.885,0.795,7.1925,Drift forte,III - Ecologia e manejo ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,engenharia rural,discreto,0.2924,0.0,10.6682,0.9076,13.3784,Drift forte,V - Engenharia rural,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,fitossanidade,discreto,0.568,0.0,31.0465,0.9706,13.3966,Drift forte,VIII - Fitossanidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,fitotecnia,discreto,0.2167,0.0,7.567,0.7711,9.1726,Drift forte,IX - Fitotecnia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,genetica e melhoramento,discreto,0.2747,0.0,16.2835,0.6554,4.9225,Drift forte,X - Genética e melhoramento,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,legislacao aplicada,discreto,0.2371,0.0,10.1945,0.6061,4.0698,Drift forte,XII - Legislação aplicada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,metodologia cientifica e experimentacao agricola,discreto,0.5754,0.0,26.3374,0.8689,8.272,Drift forte,XIV - Metodologia científica e experimentação agrícola,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Agronomia,17,17,NT_GER,continuo,0.1016,0.0007,1.7539,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Agronomia,17,17,NT_DIS_CE,continuo,0.2159,0.0,9.4666,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Arquitetura E Urbanismo,21,21,informatica aplicada a arquitetura e urbanismo,discreto,0.2962,0.0,19.9391,0.6212,4.9361,Drift forte,XIX - Informática aplicada a Arquitetura e Urbanismo,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,topografia,discreto,0.5869,0.0,35.0009,0.894,9.5827,Drift forte,XX - Topografia.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,estetica e historia das artes,discreto,0.7484,0.0,38.4156,0.9046,9.7846,Drift forte,I - Estética e História das Artes,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,estudos sociais economicos e ambientais,discreto,0.7176,0.0,39.2571,0.8699,9.0345,Drift forte,"II - Estudos sociais, econômicos e ambientais",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,sustentabilidade,discreto,0.5806,0.0,32.3787,0.7504,7.1945,Drift forte,III - Sustentabilidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,desenho e meios de representacao e expressao,discreto,0.3715,0.0,26.3205,0.6917,6.2261,Drift forte,IV - Desenho e Meios de representação e expressão,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,teoria e historia da arquitetura do urbanismo e do paisagismo,discreto,0.3124,0.0,20.5386,0.6082,4.9755,Drift forte,"V - Teoria e História da Arquitetura, do Urbanismo e do Paisagismo",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,projeto de arquitetura,discreto,0.2766,0.0,19.9365,0.3363,0.489,Drift forte,VI - Projeto de Arquitetura,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,planejamento urbano e regional,discreto,0.4991,0.0,29.9346,0.8097,7.9218,Drift forte,VIII - Planejamento urbano e regional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,politicas publicas e habitacionais,discreto,0.2693,0.0,13.4559,0.6884,5.8562,Drift forte,IX - Políticas públicas e habitacionais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,tecnologia da construcao,discreto,0.6571,0.0,32.5926,0.9304,9.825,Drift forte,X - Tecnologia da construção,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,infraestrutura urbana,discreto,0.5423,0.0,32.4675,0.9389,10.2625,Drift forte,XI - Infraestrutura urbana,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de projetos,discreto,0.2851,0.0,14.2684,0.6958,5.8588,Drift forte,XII - Gestão e coordenação de projetos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,gestao e coordenacao de obras,discreto,0.6256,0.0,32.3996,0.942,10.0558,Drift forte,XIII - Gestão e coordenação de obras,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,sistemas estruturais,discreto,0.6814,0.0,39.1588,0.956,11.0013,Drift forte,XIV - Sistemas estruturais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Arquitetura E Urbanismo,21,21,NT_GER,continuo,0.0956,0.0,2.3227,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Arquitetura E Urbanismo,21,21,NT_DIS_CE,continuo,0.4068,0.0,21.5739,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Biomedicina,55,55,NT_GER,continuo,0.2006,0.0,4.6624,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Biomedicina,55,55,NT_DIS_CE,continuo,0.2527,0.0,10.1038,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Enfermagem,23,23,saude mental e atencao psicossocial,discreto,0.3647,0.0,11.5875,0.9281,12.9233,Drift forte,XV - Saúde mental e atenção psicossocial,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,cuidados paliativos,discreto,0.6526,0.0,38.6423,0.8979,9.6654,Drift forte,XVI - Cuidados paliativos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,sus politicas de saude e redes de atencao,discreto,0.5829,0.0,24.6681,0.9376,12.8514,Drift forte,XVIII - SUS: políticas de saúde e redes de atenção,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,indicadores de saude,discreto,0.3478,0.0,13.5259,0.7668,9.0574,Drift forte,II - Indicadores de saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,epidemiologia em saude,discreto,0.2144,0.0,18.2126,0.2478,0.2598,Drift forte,III - Epidemiologia em saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,diagnostico situacional e territorializacao,discreto,0.4614,0.0,29.3557,0.7289,6.1611,Drift forte,V - Diagnóstico situacional e territorialização,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,saude ambiental e vigilancia em saude,discreto,0.3471,0.0,31.5193,0.4144,0.8129,Drift forte,VI - Saúde ambiental e vigilância em saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,bioetica e dilemas eticos,discreto,0.3254,0.0,25.038,0.6127,4.6618,Drift forte,VII - Bioética e dilemas éticos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,historia da enfermagem e legislacao,discreto,0.544,0.0,31.3064,0.6236,4.4622,Drift forte,VIII - História da enfermagem e legislação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,tecnologias do cuidado,discreto,0.476,0.0,32.6245,0.955,10.0672,Drift forte,XIII - Tecnologias do cuidado,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Enfermagem,23,23,NT_GER,continuo,0.2706,0.0,9.3848,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Enfermagem,23,23,NT_DIS_CE,continuo,0.2736,0.0,12.1368,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Ambiental,6307,6307,recuperacao e remediacao de areas degradadas,discreto,0.651,0.0,30.4073,0.8279,8.6592,Drift forte,XV - Recuperação e remediação de áreas degradadas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,energia e fontes renovaveis,discreto,0.7171,0.0,38.8576,0.8948,9.8338,Drift forte,XVI - Energia e fontes renováveis,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,sistemas de coleta e tratamento de efluentes,discreto,0.2197,0.0,13.6657,0.6788,6.132,Drift forte,XIX - Sistemas de coleta e tratamento de efluentes,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,planejamento e gestao ambiental nos setores publico e privado,discreto,0.6065,0.0,22.7343,0.9137,13.2216,Drift forte,I - Planejamento e gestão ambiental nos setores público e privado,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,saude ambiental,discreto,0.5335,0.0,26.3178,0.8296,10.0233,Drift forte,III - Saúde ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,climatologia e meteorologia,discreto,0.0915,0.1858,5.5224,0.0921,0.0386,Sem drift,VI - Climatologia e meteorologia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,ecologia e microbiologia aplicadas,discreto,0.4182,0.0,20.7083,0.9101,11.9949,Drift forte,VIII - Ecologia e microbiologia aplicadas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,geologia e geotecnia ambiental,discreto,0.5838,0.0,30.4021,0.8904,9.4401,Drift forte,IX - Geologia e geotecnia ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,gestao de recursos hidricos,discreto,0.6108,0.0,35.255,0.9152,10.0782,Drift forte,XI - Gestão de recursos hídricos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,hidrologia,discreto,0.6928,0.0,34.3961,0.9017,9.8201,Drift forte,XIII - Hidrologia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Ambiental,6307,6307,NT_GER,continuo,0.3313,0.0,10.6359,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Ambiental,6307,6307,NT_DIS_CE,continuo,0.1953,0.0,12.0776,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Civil,5710,5710,ciencias do ambiente,discreto,0.5885,0.0,29.9659,0.7344,7.1765,Drift forte,I - Ciências do ambiente,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,fenomenos de transporte,discreto,0.6843,0.0,35.0299,0.9759,11.4612,Drift forte,III - Fenômenos de transporte,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,topografia e geoprocessamento,discreto,0.7137,0.0,40.0582,0.9516,11.1561,Drift forte,IX - Topografia e Geoprocessamento,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,construcao civil,discreto,0.3718,0.0,8.5029,0.9542,13.8637,Drift forte,X - Construção civil,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,estruturas,discreto,0.336,0.0,12.7616,0.9527,13.6887,Drift forte,XI - Estruturas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,geotecnia,discreto,0.3504,0.0,14.5293,0.9474,13.5631,Drift forte,XII - Geotecnia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,recursos hidricos e saneamento,discreto,0.2597,0.0,7.0639,0.7685,9.2108,Drift forte,XIII - Recursos hídricos e Saneamento,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,transportes,discreto,0.2135,0.0,12.0169,0.8799,12.5808,Drift forte,XIV - Transportes.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Civil,5710,5710,NT_GER,continuo,0.0562,0.0053,1.996,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Civil,5710,5710,NT_DIS_CE,continuo,0.4115,0.0,19.8112,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Alimentos,6002,6002,fenomenos de transporte,discreto,0.6226,0.0,26.663,0.8999,11.9251,Drift forte,III - Fenômenos de transporte,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,tecnologias limpas e novas tecnologias,discreto,0.7684,0.0,37.2979,0.99,15.2118,Drift forte,XIX - Tecnologias limpas e novas tecnologias,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,fisico quimica e termodinamica aplicada,discreto,0.4535,0.0,14.6565,0.9488,14.0657,Drift forte,XX - Físico-química e Termodinâmica aplicada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,analise sensorial,discreto,0.3002,0.0003,27.3196,0.6111,5.1336,Drift forte,V - Análise sensorial,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,quimica e bioquimica de alimentos,discreto,0.4883,0.0,16.1505,0.8804,12.3876,Drift forte,VII - Química e Bioquímica de Alimentos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,embalagens,discreto,0.6217,0.0,34.9083,0.9136,9.5146,Drift forte,VIII - Embalagens,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,bioengenharia e biotecnologia de alimentos,discreto,0.6022,0.0,30.8356,0.719,6.2576,Drift forte,VI - Bioengenharia e Biotecnologia de Alimentos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,instrumentacao controle e automacao,discreto,0.3276,0.0,16.8399,0.9249,11.7887,Drift forte,"XI - Instrumentação, controle e automação",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,microbiologia de alimentos,discreto,0.4638,0.0,22.5458,0.9516,12.0425,Drift forte,XII - Microbiologia de alimentos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,modelagem analise e simulacao de sistemas,discreto,0.5401,0.0,27.1362,0.8633,9.8219,Drift forte,"XV - Modelagem, análise e simulação de sistemas",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,operacoes unitarias,discreto,0.3489,0.0,14.0794,0.7927,9.3952,Drift forte,XIV - Operações unitárias,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Alimentos,6002,6002,NT_GER,continuo,0.1225,0.4142,2.5375,,,Sem drift,NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Alimentos,6002,6002,NT_DIS_CE,continuo,0.4743,0.0,13.4279,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Controle E Automacao,5814,5814,fenomenos de transporte,discreto,0.5173,0.0,29.0004,0.7539,6.9875,Drift forte,III - Fenômenos de transporte,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,mecanica dos solidos,discreto,0.6311,0.0,31.8997,0.7635,7.0151,Drift forte,VII - Mecânica dos sólidos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,administracao e economia,discreto,0.483,0.0,29.6421,0.7648,7.1213,Drift forte,I - Administração e Economia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,circuitos eletricos,discreto,0.5869,0.0,30.4254,0.7652,7.1738,Drift forte,VI - Circuitos elétricos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,controladores logico programaveis e sistemas supervisorios,discreto,0.4753,0.0,30.2787,0.7183,6.2935,Drift forte,XVI - Controladores lógico-programáveis e sistemas supervisórios,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,algoritmos estruturas de dados e interfaces homem maquina,discreto,0.6903,0.0,41.2014,0.7982,7.3881,Drift forte,"XVII - Algoritmos, estruturas de dados e interfaces homem-máquina",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,sistemas integrados de manufatura,discreto,0.6988,0.0,44.2496,0.8917,9.6951,Drift forte,XVIII - Sistemas integrados de manufatura,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,sistemas e dispositivos mecanicos,discreto,0.6285,0.0,32.392,0.9324,9.8483,Drift forte,XIX - Sistemas e dispositivos mecânicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,robotica,discreto,0.3855,0.0,21.3932,0.6321,4.7166,Drift forte,XX - Robótica.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,fisica matematica e estatistica,discreto,0.5791,0.0,32.8448,0.7636,7.1208,Drift forte,"III - Física, Matemática e Estatística",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,eletronica analogica e digital,discreto,0.668,0.0,35.0724,0.8939,9.2314,Drift forte,VII - Eletrônica analógica e digital,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,instrumentacao e sistemas de aquisicao de dados,discreto,0.291,0.0,17.3005,0.9288,11.8074,Drift forte,VIII - Instrumentação e sistemas de aquisição de dados,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,microcontroladores sistemas embarcados e sistemas em tempo real,discreto,0.4846,0.0,32.0131,0.9024,9.3391,Drift forte,"IX - Microcontroladores, sistemas embarcados e sistemas em tempo real",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,acionamentos e maquinas eletricas,discreto,0.45,0.0,12.3894,0.9604,13.9715,Drift forte,X - Acionamentos e máquinas elétricas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,acionamentos pneumaticos e hidraulicos,discreto,0.7237,0.0,32.2176,0.9707,13.5957,Drift forte,XI - Acionamentos pneumáticos e hidráulicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,controle analogico e digital de equipamentos e processos,discreto,0.644,0.0,32.0685,0.942,10.1943,Drift forte,XII - Controle analógico e digital de equipamentos e processos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,controle moderno via variaveis de estado,discreto,0.7257,0.0,35.2011,0.9456,9.9851,Drift forte,XIII - Controle moderno via variáveis de estado,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,identificacao modelagem analise e simulacao de sistemas dinamicos,discreto,0.3358,0.0,16.6895,0.7531,6.4284,Drift forte,"XIV - Identificação, modelagem, análise e simulação de sistemas dinâmicos",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Controle E Automacao,5814,5814,NT_GER,continuo,0.1379,0.03,3.9866,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Controle E Automacao,5814,5814,NT_DIS_CE,continuo,0.3661,0.0,7.6543,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Producao,6208,6208,processos de fabricacao,discreto,0.4625,0.0,27.6414,0.7998,7.6982,Drift forte,XVII - Processos de fabricação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Producao,6208,6208,pesquisa operacional,discreto,0.5048,0.0,28.0063,0.8472,8.4232,Drift forte,XVI - Pesquisa operacional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Producao,6208,6208,qualidade,discreto,0.4805,0.0,28.3278,0.8041,7.7738,Drift forte,XVIII - Qualidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Producao,6208,6208,sistemas de informacao,discreto,0.5891,0.0,29.4301,0.832,8.2143,Drift forte,XIX - Sistemas de informação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Producao,6208,6208,estrategia e organizacao,discreto,0.7054,0.0,33.8845,0.9524,10.431,Drift forte,X - Estratégia e organização,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia De Producao,6208,6208,NT_GER,continuo,0.0774,0.0038,1.9326,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia De Producao,6208,6208,NT_DIS_CE,continuo,0.7644,0.0,37.7075,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Eletrica,5806,5806,ciencias do ambiente,discreto,0.6195,0.0,34.657,0.7667,7.0525,Drift forte,I - Ciências do ambiente,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,maquinas eletricas,discreto,0.5531,0.0,27.1011,0.8086,7.814,Drift forte,XV - Máquinas elétricas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,principios de comunicacoes,discreto,0.3945,0.0,28.4631,0.7681,7.2931,Drift forte,XVII - Princípios de comunicações,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,redes de comunicacao,discreto,0.334,0.0,19.5594,0.6227,5.0038,Drift forte,XVIII - Redes de comunicação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,analise e processamento de sinais,discreto,0.601,0.0,25.0284,0.826,7.8089,Drift forte,XIX - Análise e processamento de sinais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,sistemas de controle e automacao,discreto,0.5326,0.0,26.2295,0.8339,7.9127,Drift forte,XX - Sistemas de controle e automação.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,administracao e economia,discreto,0.4143,0.0,26.8575,0.7961,7.4836,Drift forte,I - Administração e Economia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,sistemas lineares,discreto,0.5042,0.0,26.0625,0.7044,6.3252,Drift forte,IV - Sistemas lineares,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,circuitos eletricos,discreto,0.2906,0.0,22.4278,0.6556,5.4443,Drift forte,VI - Circuitos elétricos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,conversao de energia,discreto,0.4478,0.0,24.4172,0.7399,6.8747,Drift forte,VI - Conversão de energia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,eletromagnetismo,discreto,0.3464,0.0,18.2232,0.8474,11.4654,Drift forte,VII - Eletromagnetismo,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,eletronica de potencia,discreto,0.7413,0.0,35.97,0.9254,9.7084,Drift forte,IX - Eletrônica de potência,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,fundamentos de sistemas eletricos de potencia,discreto,0.5979,0.0,26.7013,0.8375,8.4106,Drift forte,XI - Fundamentos de sistemas elétricos de potência,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,eficiencia energetica,discreto,0.809,0.0,50.8572,0.9129,10.975,Drift forte,XII - Eficiência energética,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,instalacoes eletricas,discreto,0.5376,0.0,30.2375,0.9369,11.9662,Drift forte,XIII - Instalações elétricas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Eletrica,5806,5806,NT_GER,continuo,0.2523,0.0,6.1423,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Eletrica,5806,5806,NT_DIS_CE,continuo,0.4199,0.0,13.5442,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Florestal,6405,6405,manejo de bacias hidrograficas,discreto,0.5537,0.0,31.2261,0.947,10.1704,Drift forte,XVII - Manejo de bacias hidrográficas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,anatomia e propriedades fisicas quimicas e mecanicas da madeira,discreto,0.4559,0.0,23.5965,0.7564,6.6391,Drift forte,"XVIII - Anatomia e propriedades físicas, químicas e mecânicas da madeira",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,ecologia e ecossistemas florestais,discreto,0.4407,0.0,30.1724,0.8851,8.8935,Drift forte,I - Ecologia e ecossistemas florestais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,gestao de recursos naturais renovaveis,discreto,0.5422,0.0,31.8674,0.7526,6.776,Drift forte,II - Gestão de recursos naturais renováveis,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,morfologia sistematica e dendrologia,discreto,0.4335,0.0,29.0105,0.8059,7.8509,Drift forte,"IV - Morfologia, Sistemática e Dendrologia",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,sementes e viveiros florestais,discreto,0.2779,0.0015,15.3798,0.7799,9.6413,Drift forte,V - Sementes e viveiros florestais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,sistemas e tecnicas silviculturais,discreto,0.3999,0.0,15.5401,0.8041,9.6989,Drift forte,VI - Sistemas e técnicas silviculturais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,solos e nutricao florestal,discreto,0.5326,0.0,33.6207,0.9681,13.51,Drift forte,VII - Solos e nutrição florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,melhoramento e biotecnologia florestal,discreto,0.7161,0.0,35.7021,0.967,10.845,Drift forte,VIII - Melhoramento e Biotecnologia florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,experimentacao florestal,discreto,0.7021,0.0,30.6513,0.9259,10.3891,Drift forte,IX - Experimentação florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,protecao florestal,discreto,0.3037,0.0004,19.1946,0.7066,5.6416,Drift forte,X - Proteção florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,geoprocessamento aplicado a engenharia florestal,discreto,0.3255,0.0001,16.5209,0.7634,7.2364,Drift forte,XI - Geoprocessamento aplicado à Engenharia Florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,dendrometria e inventario florestal,discreto,0.467,0.0,10.4398,0.9448,13.739,Drift forte,XII - Dendrometria e inventário florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,manejo florestal,discreto,0.4764,0.0,35.0575,0.9349,10.0345,Drift forte,XIII - Manejo florestal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Florestal,6405,6405,NT_GER,continuo,0.0872,0.8427,1.7131,,,Sem drift,NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Florestal,6405,6405,NT_DIS_CE,continuo,0.6146,0.0,25.1392,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Mecanica,5902,5902,quimica,discreto,0.5073,0.0,28.3865,0.6365,5.5314,Drift forte,V - Química,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,expressao grafica,discreto,0.5444,0.0,33.5739,0.6186,4.3372,Drift forte,IV - Expressão gráfica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,mecanica dos fluidos e sistemas fluidomecanicos,discreto,0.5046,0.0,21.0539,0.9143,11.1343,Drift forte,XVI - Mecânica dos fluidos e sistemas fluidomecânicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,manutencao,discreto,0.7216,0.0,30.6109,0.928,9.9261,Drift forte,XVIII - Manutenção,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,metrologia,discreto,0.6842,0.0,28.1666,0.8564,8.4963,Drift forte,XIX - Metrologia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,transferencia de calor e massa,discreto,0.4222,0.0,28.4092,0.8159,8.8518,Drift forte,XX - Transferência de calor e massa.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,eletricidade,discreto,0.4746,0.0,25.6972,0.5848,4.8352,Drift forte,III - Eletricidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,mecanica geral e mecanica dos solidos,discreto,0.3955,0.0,28.8886,0.4193,0.7929,Drift forte,VI - Mecânica geral e mecânica dos sólidos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,modelagem matematica e simulacao computacional,discreto,0.4937,0.0,24.858,0.6997,6.2915,Drift forte,VIII - Modelagem matemática e simulação computacional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,termodinamica e sistemas termicos,discreto,0.5169,0.0,25.2953,0.9233,11.3319,Drift forte,IX - Termodinâmica e sistemas térmicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,projeto de maquinas e de sistemas mecanicos,discreto,0.4903,0.0,27.4053,0.8276,8.3064,Drift forte,XI - Projeto de máquinas e de sistemas mecânicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,materiais de construcao mecanica,discreto,0.7703,0.0,34.2898,0.9071,9.2697,Drift forte,XIII - Materiais de construção mecânica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,processos de fabricacao,discreto,0.1632,0.0,12.3008,0.5665,4.2436,Drift forte,XVII - Processos de fabricação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Mecanica,5902,5902,NT_GER,continuo,0.1238,0.0,3.8544,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Mecanica,5902,5902,NT_DIS_CE,continuo,0.6878,0.0,17.5236,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Quimica,6008,6008,quimica,discreto,0.6083,0.0,32.0933,0.9174,11.5731,Drift forte,V - Química,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,mecanica dos solidos,discreto,0.5798,0.0,31.6474,0.8908,9.1284,Drift forte,VII - Mecânica dos sólidos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,eletricidade aplicada,discreto,0.5902,0.0,24.926,0.8211,7.6469,Drift forte,II - Eletricidade aplicada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,projeto e seguranca de processos,discreto,0.3346,0.0,15.1687,0.8773,11.0533,Drift forte,XVI - Projeto e segurança de processos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,termodinamica,discreto,0.7493,0.0,31.4593,0.8999,9.1595,Drift forte,XVII - Termodinâmica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,metodologia cientifica e tecnologica,discreto,0.4339,0.0,30.2023,0.8659,8.6889,Drift forte,VIII - Metodologia científica e tecnológica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,balancos de massa e energia,discreto,0.3741,0.0,17.9936,0.938,12.3679,Drift forte,X - Balanços de massa e energia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,engenharia das reacoes quimicas,discreto,0.7211,0.0,33.4962,0.9305,9.7834,Drift forte,XI - Engenharia das reações químicas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,engenharia de bioprocessos,discreto,0.2819,0.0,17.925,0.619,4.6572,Drift forte,XII - Engenharia de bioprocessos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,modelagem simulacao otimizacao e controle de processos,discreto,0.4622,0.0,23.1501,0.9211,11.7873,Drift forte,"XIV - Modelagem, simulação, otimização e controle de processos",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Engenharia Quimica,6008,6008,NT_GER,continuo,0.1937,0.0,3.9021,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Engenharia Quimica,6008,6008,NT_DIS_CE,continuo,0.5938,0.0,15.2503,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Farmacia,19,19,seguranca do paciente e biosseguranca,discreto,0.4621,0.0,30.4737,0.9205,9.1724,Drift forte,XVI - Segurança do paciente e biossegurança,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,saude publica epidemiologia e educacao em saude,discreto,0.5385,0.0,26.2869,0.9417,11.5488,Drift forte,"XVII - Saúde pública, epidemiologia e educação em saúde",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,legislacao sanitaria e profissional,discreto,0.641,0.0,34.3656,0.9585,10.0877,Drift forte,XVIII - Legislação sanitária e profissional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacoepidemiologia e farmacovigilancia,discreto,0.568,0.0,29.5594,0.9163,9.0192,Drift forte,XIX - Farmacoepidemiologia e farmacovigilância,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,gestao farmaceutica e farmacoeconomia,discreto,0.5233,0.0,31.1574,0.8874,8.5395,Drift forte,XX - Gestão farmacêutica e farmacoeconomia.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,processos fisiologicos patologicos fisiopatologicos e bioquimicos,discreto,0.6349,0.0,31.3119,0.78,6.7876,Drift forte,"I - Processos fisiológicos, patológicos, fisiopatológicos e bioquímicos",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacologia,discreto,0.0663,0.017,4.7706,0.1107,0.0542,Drift (KS significativo),III - Farmacologia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacognosia e fitoterapia,discreto,0.6799,0.0,37.2584,0.8357,7.8487,Drift forte,IV - Farmacognosia e fitoterapia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacia magistral alopatica e homeopatica,discreto,0.2321,0.0,22.8826,0.2959,0.3913,Drift forte,VI - Farmácia magistral alopática e homeopática,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,analises clinicas,discreto,0.4105,0.0,27.3654,0.7439,6.2467,Drift forte,VII - Análises clínicas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,toxicologia e analises toxicologicas,discreto,0.6182,0.0,33.7319,0.8626,8.2173,Drift forte,VIII - Toxicologia e análises toxicológicas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,quimica farmaceutica e medicinal,discreto,0.5549,0.0,29.1913,0.7933,6.9471,Drift forte,IX - Química farmacêutica e medicinal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,tecnologia de medicamentos cosmeticos e outros produtos para saude,discreto,0.1264,0.0,7.234,0.1755,0.1684,Drift moderado,"X - Tecnologia de medicamentos, cosméticos e outros produtos para saúde",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,controle fisico quimico biologico e microbiologico e garantia da qualidade,discreto,0.5552,0.0,34.8124,0.947,10.5237,Drift forte,"XI - Controle físico-químico, biológico e microbiológico e garantia da qualidade",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacia hospitalar,discreto,0.4623,0.0,29.4287,0.9089,8.7861,Drift forte,XIII - Farmácia hospitalar,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacia comunitaria,discreto,0.3548,0.0,11.4242,0.9361,12.9118,Drift forte,XIV - Farmácia comunitária,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,farmacia clinica,discreto,0.3345,0.0,15.5827,0.9147,11.7316,Drift forte,XV - Farmácia clínica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Farmacia,19,19,NT_GER,continuo,0.0743,0.0051,1.9081,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Farmacia,19,19,NT_DIS_CE,continuo,0.4597,0.0,19.3032,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Fisioterapia,36,36,niveis de atencao a saude,discreto,0.3821,0.0,15.4122,0.9561,13.5628,Drift forte,XV - Níveis de atenção à saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,funcionalidade humana,discreto,0.4462,0.0,13.0622,0.9855,14.6121,Drift forte,XVI - Funcionalidade humana.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,anatomia fisiologia e patologia de orgaos e sistemas,discreto,0.3614,0.0,12.4207,0.7935,7.1888,Drift forte,"I - Anatomia, fisiologia e patologia de órgãos e sistemas",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,etica e bioetica,discreto,0.3064,0.0,29.6436,0.4046,0.7416,Drift forte,II - Ética e Bioética,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,politicas de saude,discreto,0.4828,0.0,28.5664,0.8575,9.909,Drift forte,IV - Políticas de saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,determinantes do processo de saude doenca,discreto,0.4591,0.0,16.9632,0.9569,14.0644,Drift forte,V - Determinantes do processo de saúde-doença,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,gestao de servicos de saude,discreto,0.7769,0.0,49.3187,0.8837,10.1633,Drift forte,VI - Gestão de serviços de saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,acessibilidade e tecnologia assistiva,discreto,0.5048,0.0,20.7853,0.7525,6.8435,Drift forte,VII - Acessibilidade e tecnologia assistiva,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,cinesiologia e biomecanica,discreto,0.2914,0.0,14.9173,0.356,0.5999,Drift forte,X - Cinesiologia e biomecânica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,metodos de avaliacao fisioterapeutica,discreto,0.486,0.0,15.0644,0.9937,14.671,Drift forte,XII - Métodos de avaliação fisioterapêutica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,exames complementares,discreto,0.3059,0.0,13.5025,0.9377,12.7699,Drift forte,XIII - Exames complementares,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fisioterapia,36,36,NT_GER,continuo,0.4724,0.0,15.267,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Fisioterapia,36,36,NT_DIS_CE,continuo,0.5012,0.0,22.7112,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Fonoaudiologia,27,27,funcoes e habilidades da fluencia nos ciclos da vida,discreto,0.5289,0.0,22.1545,0.7829,8.0162,Drift forte,V - Funções e habilidades da fluência nos ciclos da vida,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,funcoes e habilidades da linguagem oral e escrita nos ciclos da vida,discreto,0.2615,0.0002,7.8113,0.9943,15.0548,Drift forte,VI - Funções e habilidades da linguagem (oral e escrita) nos ciclos da vida,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,funcoes e habilidades da voz nos ciclos da vida,discreto,0.3375,0.0,14.1631,0.9785,13.7107,Drift forte,VII - Funções e habilidades da voz nos ciclos da vida,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,funcoes e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida,discreto,0.3565,0.0,13.0773,0.993,14.6429,Drift forte,VIII - Funções e habilidades do sistema miofuncional orofacial e cervical nos ciclos da vida,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,organizacao principios e niveis de atencao do sistema unico de saude sus,discreto,0.3466,0.0,18.5681,0.9927,14.684,Drift forte,"XI - Organização, princípios e níveis de atenção do Sistema Único de Saúde (SUS)",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,interface das politicas publicas com a atuacao fonoaudiologica,discreto,0.4256,0.0,14.8543,1.0,15.1777,Drift forte,XII - Interface das políticas públicas com a atuação fonoaudiológica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,etica e bioetica na pratica fonoaudiologica,discreto,0.202,0.0075,7.9844,0.6156,4.2497,Drift forte,XIII - Ética e bioética na prática fonoaudiológica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,funcoes e habilidades da audicao nos ciclos da vida,discreto,0.3101,0.0,15.9778,0.7618,6.9363,Drift forte,III - Funções e habilidades da audição nos ciclos da vida,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Fonoaudiologia,27,27,NT_GER,continuo,0.1669,0.0432,3.6167,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Fonoaudiologia,27,27,NT_DIS_CE,continuo,0.2274,0.0017,7.6248,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Medicina,12,12,saude mental,continuo,0.5611,0.0,19.7702,,,Drift (KS significativo),VII - Saúde Mental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,saude coletiva,continuo,0.9205,0.0,37.2893,,,Drift (KS significativo),VIII - Saúde Coletiva.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,clinica medica,continuo,0.2548,0.0,6.1283,,,Drift (KS significativo),I - Clínica Médica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,cirurgia,continuo,0.2324,0.0,7.1284,,,Drift (KS significativo),II - Cirurgia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,ginecologia e obstetricia,continuo,0.393,0.0,11.7006,,,Drift (KS significativo),III - Ginecologia e Obstetrícia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,pediatria,continuo,0.3371,0.0,7.2605,,,Drift (KS significativo),IV - Pediatria,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,medicina de familia e comunidade,continuo,0.3907,0.0,7.4794,,,Drift (KS significativo),V - Medicina de Família e Comunidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,urgencia e emergencia,continuo,0.1485,0.0,4.3946,,,Drift (KS significativo),VI - Urgência e Emergência,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina,12,12,NT_GER,continuo,0.2495,0.0,5.814,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Medicina,12,12,NT_DIS_CE,continuo,0.177,0.0,6.109,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Medicina Veterinaria,5,5,sanidade e producao animal,discreto,0.5094,0.0,15.3491,0.9944,14.4453,Drift forte,V - Sanidade e produção animal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,reproducao animal,discreto,0.5488,0.0,25.8987,0.9885,12.7978,Drift forte,VI - Reprodução animal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,tecnologia e inspecao dos produtos de origem animal,continuo,0.3131,0.0,17.3712,,,Drift (KS significativo),VII - Tecnologia e inspeção dos produtos de origem animal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,medicina veterinaria preventiva e saude publica,continuo,0.2599,0.0,7.6194,,,Drift (KS significativo),VIII - Medicina Veterinária Preventiva e Saúde Pública,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,etologia e bem estar animal,discreto,0.4945,0.0,35.6622,0.9871,11.3345,Drift forte,IX - Etologia e bem-estar animal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,morfofisiologia genetica bioquimica biofisica microbiologia imunologia parasitologia e farmacologia,discreto,0.1538,0.0,5.6537,0.9954,14.5604,Drift forte,"I - Morfofisiologia, Genética, Bioquímica, Biofísica, Microbiologia, Imunologia, Parasitologia e Farmacologia",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,clinica e cirurgia veterinaria,discreto,0.1542,0.0,5.5323,0.9858,14.4356,Drift forte,III - Clínica e Cirurgia veterinária,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Medicina Veterinaria,5,5,NT_GER,continuo,0.0878,0.0027,1.978,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Medicina Veterinaria,5,5,NT_DIS_CE,continuo,0.3265,0.0,14.7101,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Nutricao,28,28,seguranca alimentar e nutricional,discreto,0.5656,0.0,31.2479,0.9352,9.5647,Drift forte,XV - Segurança alimentar e nutricional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,educacao alimentar e nutricional,discreto,0.5606,0.0,33.5002,0.9582,10.2662,Drift forte,XVII - Educação alimentar e nutricional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,bioquimica nutricional,discreto,0.6006,0.0,33.9144,0.9231,9.409,Drift forte,XVIII - Bioquímica nutricional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,fisiopatologia e dietoterapia nas diferentes enfermidades,discreto,0.5099,0.0,28.1281,0.8434,8.0698,Drift forte,XX - Fisiopatologia e dietoterapia nas diferentes enfermidades.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,biodisponibilidade de nutrientes e propriedades de compostos bioativos,discreto,0.4408,0.0,27.027,0.8316,7.898,Drift forte,I - Biodisponibilidade de nutrientes e propriedades de compostos bioativos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,tecnica dietetica e analise sensorial,discreto,0.3097,0.0,18.3704,0.3431,0.5096,Drift forte,II - Técnica dietética e análise sensorial,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,controle higienico sanitario dos alimentos,discreto,0.1962,0.0,13.9166,0.2459,0.2546,Drift forte,III - Controle higiênico-sanitário dos alimentos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,sistemas alimentares e sustentabilidade,discreto,0.0443,0.2425,2.9365,0.0661,0.018,Sem drift,IV - Sistemas alimentares e sustentabilidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,planejamento fisico e funcional de servicos de alimentacao,discreto,0.4397,0.0,19.3242,0.7891,6.8545,Drift forte,IX - Planejamento físico e funcional de serviços de alimentação,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,planejamento e avaliacao de cardapios para coletividades sadias e enfermas,discreto,0.6862,0.0,31.7317,0.952,10.1064,Drift forte,X - Planejamento e avaliação de cardápios para coletividades sadias e enfermas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,indicadores de qualidade na producao de refeicoes,discreto,0.6264,0.0,36.9612,0.949,10.9591,Drift forte,XII - Indicadores de qualidade na produção de refeições,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,epidemiologia e vigilancia alimentar e nutricional,discreto,0.614,0.0,31.9955,0.9171,9.0549,Drift forte,XIII - Epidemiologia e vigilância alimentar e nutricional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Nutricao,28,28,NT_GER,continuo,0.0766,0.0038,2.0674,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Nutricao,28,28,NT_DIS_CE,continuo,0.5399,0.0,27.7636,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Odontologia,6,6,propedeutica clinica,discreto,0.6669,0.0,28.1432,0.9845,14.3744,Drift forte,IV - Propedêutica clínica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,clinica odontologica integrada da infancia e da adolescencia,discreto,0.4362,0.0,18.0763,0.9097,12.5492,Drift forte,V - Clínica odontológica integrada da infância e da adolescência,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,clinica odontologica integrada do adulto,discreto,0.4081,0.0,16.2334,0.6526,4.267,Drift forte,VI - Clínica odontológica integrada do adulto,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,biosseguranca,discreto,0.8165,0.0,34.5189,0.9848,11.0786,Drift forte,XV - Biossegurança.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,terapeutica medicamentosa,discreto,0.3645,0.0,11.2177,0.982,14.0646,Drift forte,XI - Terapêutica medicamentosa.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,aspectos eticos bioeticos e legais no exercicio profissional,discreto,0.5229,0.0,16.2122,0.9806,14.228,Drift forte,"III - Aspectos éticos, bioéticos e legais no exercício profissional",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Odontologia,6,6,NT_GER,continuo,0.0736,0.0064,1.2091,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Odontologia,6,6,NT_DIS_CE,continuo,0.4543,0.0,23.2533,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Agronegocios,90,90,gestao de logistica e cadeia de suprimentos no agronegocio,discreto,0.8049,0.0,39.7648,1.0,16.1049,Drift forte,VIII - Gestão de logística e cadeia de suprimentos no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,gestao da qualidade de processos e produtos do agronegocio,discreto,0.6463,0.0,35.6087,0.9762,13.614,Drift forte,IX - Gestão da qualidade de processos e produtos do agronegócio.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,cadeias produtivas do agronegocio,discreto,0.7317,0.0,43.4336,0.8954,12.7472,Drift forte,I - Cadeias produtivas do agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,gestao de pessoas e seguranca do trabalho no agronegocio,discreto,0.4335,0.0,15.0901,1.0,15.256,Drift forte,II - Gestão de pessoas e segurança do trabalho no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,economia e politicas publicas no agronegocio,discreto,0.4039,0.0,13.544,0.8106,8.3385,Drift forte,III - Economia e políticas públicas no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,comercializacao marketing e acoes empreendedoras no agronegocio,discreto,0.3681,0.0,22.5783,1.0,15.4067,Drift forte,"IV - Comercialização, marketing e ações empreendedoras no agronegócio",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,gestao financeira no agronegocio,discreto,0.4747,0.0,14.9097,0.8184,7.125,Drift forte,V - Gestão financeira no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,desenvolvimento sustentavel no agronegocio,discreto,0.3991,0.0,19.14,0.8095,7.2276,Drift forte,VI - Desenvolvimento sustentável no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,inovacoes tecnologicas e novos mercados no agronegocio,discreto,0.2041,0.0602,8.3933,0.9905,14.7552,Drift forte,VII - Inovações tecnológicas e novos mercados no agronegócio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Agronegocios,90,90,NT_GER,continuo,0.2811,0.0028,7.3565,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Agronegocios,90,90,NT_DIS_CE,continuo,0.2171,0.0384,6.3783,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Estetica E Cosmetica,95,95,NT_GER,continuo,0.1344,0.0048,2.3512,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Estetica E Cosmetica,95,95,NT_DIS_CE,continuo,0.7648,0.0,25.1916,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Gestao Ambiental,92,92,valoracao ambiental servicos ambientais e ecossistemicos,discreto,0.4903,0.0,28.8835,0.8332,7.9741,Drift forte,XVII - Valoração ambiental: serviços ambientais e ecossistêmicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,desastres ambientais avaliacao de risco e vulnerabilidade,discreto,0.5509,0.0,33.348,0.8946,9.5325,Drift forte,XVIII - Desastres ambientais: avaliação de risco e vulnerabilidade,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,mudancas climaticas e eventos extremos,discreto,0.7112,0.0,30.178,0.9033,9.8035,Drift forte,XIX - Mudanças climáticas e eventos extremos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,energias renovaveis,discreto,0.4648,0.0,33.2941,0.8889,9.4751,Drift forte,XX - Energias renováveis.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,gestao de recursos hidricos e de bacias hidrograficas,discreto,0.3446,0.0,17.5431,0.6243,4.9753,Drift forte,I - Gestão de recursos hídricos e de bacias hidrográficas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,gestao de residuos solidos acondicionamento coleta transporte tratamento e disposicao final,discreto,0.3052,0.0,17.7062,0.794,9.567,Drift forte,"IV - Gestão de resíduos sólidos: acondicionamento, coleta, transporte, tratamento e disposição final",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,poluicao ambiental,binario,0.2956,0.0,21.4646,0.5265,3.8309,Drift forte,VI - Poluição ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,recuperacao de areas degradadas,discreto,0.2646,0.0,25.1324,0.3409,0.5041,Drift forte,III - Recuperação de áreas degradadas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,instrumentos de planejamento ambiental e urbano,discreto,0.233,0.0,9.7102,0.9387,13.6276,Drift forte,VIII - Instrumentos de planejamento ambiental e urbano,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,gestao de unidades de conservacao e areas protegidas,discreto,0.3035,0.0,10.4818,0.916,12.7741,Drift forte,IX - Gestão de unidades de conservação e áreas protegidas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,geotecnologias uso e aplicacao na gestao ambiental,discreto,0.4551,0.0,30.5825,0.8709,9.0088,Drift forte,X - Geotecnologias: uso e aplicação na gestão ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,estudo e avaliacao de impactos ambientais,discreto,0.5393,0.0,22.2333,0.6247,4.3988,Drift forte,XII - Estudo e avaliação de impactos ambientais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,sistemas de gestao ambiental e de qualidade normas certificacao e auditoria,discreto,0.2852,0.0,14.2615,0.6173,4.8475,Drift forte,"XIII - Sistemas de gestão ambiental e de qualidade: normas, certificação e auditoria",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,mecanismos de producao mais limpa p l,discreto,0.4432,0.0,14.9704,0.9305,12.7991,Drift forte,XIV - Mecanismos de produção mais limpa - P + L,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,educacao ambiental,discreto,0.482,0.0,29.3689,0.8837,8.8868,Drift forte,XV - Educação ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,licenciamento ambiental,discreto,0.4592,0.0,22.5867,0.6693,5.61,Drift forte,XI - Licenciamento ambiental,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Ambiental,92,92,NT_GER,continuo,0.2814,0.0,7.7904,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Gestao Ambiental,92,92,NT_DIS_CE,continuo,0.4573,0.0,23.2878,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Gestao Hospitalar,91,91,responsabilidade social etica e bioetica,discreto,0.4832,0.0,30.3191,0.9409,9.7262,Drift forte,"XV - Responsabilidade social, Ética e Bioética",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao ambiental e biosseguranca,discreto,0.2588,0.0171,11.1945,0.8877,11.8781,Drift forte,XVI - Gestão ambiental e Biossegurança,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,saude e seguranca do trabalhador,discreto,0.6112,0.0,31.2057,0.9418,9.5415,Drift forte,IV - Saúde e segurança do trabalhador,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,planejamento e gestao estrategica em saude,discreto,0.5557,0.0,28.4124,0.9378,11.3332,Drift forte,I - Planejamento e gestão estratégica em saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao de pessoas,discreto,0.5146,0.0,34.8836,0.74,5.9588,Drift forte,II - Gestão de pessoas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao financeira orcamentaria e de custos,discreto,0.7609,0.0,49.0562,0.9287,9.4549,Drift forte,"III - Gestão financeira, orçamentária e de custos",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao de servicos assistenciais,discreto,0.5526,0.0,19.138,0.9364,12.7064,Drift forte,IV - Gestão de serviços assistenciais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,auditoria em saude,discreto,0.3812,0.0001,24.1741,0.808,6.8966,Drift forte,VI - Auditoria em Saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao logistica em saude,discreto,0.3815,0.0001,21.2766,0.5992,3.8917,Drift forte,VII - Gestão logística em Saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,marketing em saude,discreto,0.5232,0.0,29.2453,0.9697,15.3545,Drift forte,IX - Marketing em saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,hotelaria hospitalar,discreto,0.6667,0.0,40.0,0.9072,12.7257,Drift forte,X - Hotelaria hospitalar,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,gestao da qualidade em saude,discreto,0.2277,0.0518,10.0464,0.949,14.4919,Drift forte,XII - Gestão da qualidade em Saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,politica e legislacao aplicadas ao sistema de saude,discreto,0.3337,0.0008,13.8692,0.7125,4.9701,Drift forte,XIII - Política e Legislação aplicadas ao Sistema de Saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,humanizacao em saude,discreto,0.4575,0.0,26.6003,0.8402,7.309,Drift forte,XIV - Humanização em Saúde,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Gestao Hospitalar,91,91,NT_GER,continuo,0.2448,0.0295,5.6943,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Gestao Hospitalar,91,91,NT_DIS_CE,continuo,0.6636,0.0,39.1868,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Radiologia,69,69,fisica das radiacoes,discreto,0.0386,0.9999,2.7005,0.0594,0.0141,Sem drift,II - Física das radiações,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,protecao radiologica,discreto,0.3186,0.0,7.9367,0.9792,14.7022,Drift forte,III - Proteção radiológica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,radiologia odontologica,discreto,0.783,0.0,42.2348,0.9777,11.6175,Drift forte,V - Radiologia odontológica,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,tomografia computadorizada,discreto,0.4398,0.0,18.5114,0.762,6.8046,Drift forte,VII - Tomografia computadorizada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,ressonancia magnetica,discreto,0.487,0.0,26.1778,0.9928,15.1187,Drift forte,X - Ressonância magnética,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,medicina nuclear,discreto,0.7516,0.0,30.8,0.9698,11.2766,Drift forte,XI - Medicina nuclear,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,radioterapia,discreto,0.4705,0.0,21.5692,0.7674,6.8704,Drift forte,XII - Radioterapia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,radiologia industrial,discreto,0.5735,0.0,27.4699,0.8279,7.554,Drift forte,XIII - Radiologia industrial,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,gestao de servicos radiologicos,discreto,0.039,0.9998,2.591,0.0789,0.025,Sem drift,XIV - Gestão de serviços radiológicos,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Radiologia,69,69,NT_GER,continuo,0.0804,0.7553,1.7572,,,Sem drift,NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Radiologia,69,69,NT_DIS_CE,continuo,0.5906,0.0,25.818,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Seguranca No Trabalho,6410,6410,biosseguranca,discreto,0.4472,0.0002,19.8704,0.9552,13.1896,Drift forte,XV - Biossegurança.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,estatistica aplicada,discreto,0.6083,0.0,35.8333,0.9062,8.8573,Drift forte,I - Estatística aplicada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,ergonomia,discreto,0.4694,0.0001,21.3333,0.9368,13.2857,Drift forte,II - Ergonomia,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,higiene do trabalho,discreto,0.5861,0.0,28.5278,0.9809,14.8232,Drift forte,III - Higiene do trabalho,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,gerenciamento de risco,discreto,0.5944,0.0,35.1389,0.7569,8.4327,Drift forte,IV - Gerenciamento de risco,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,atendimento pre hospitalar,discreto,0.5139,0.0,29.0278,0.7615,8.9446,Drift forte,V - Atendimento pré-hospitalar,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,prevencao e combate a incendio,discreto,0.8417,0.0,47.7778,0.9361,9.5933,Drift forte,VI - Prevenção e combate a incêndio,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,legislacao e normas tecnicas,discreto,0.2583,0.0982,10.3571,0.3188,0.9091,Drift forte,VII - Legislação e normas técnicas,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,psicologia comunicacao e treinamento,discreto,0.2972,0.0376,14.2593,0.9774,14.1503,Drift forte,"VIII - Psicologia, comunicação e treinamento",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,sistema de gestao integrada,discreto,0.5694,0.0,27.3519,0.9491,14.571,Drift forte,XII - Sistema de gestão integrada,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,empreendedorismo e fundamentos da administracao,discreto,0.5944,0.0,28.8056,0.9301,13.9622,Drift forte,XIII - Empreendedorismo e fundamentos da Administração,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,etica profissional,discreto,0.6694,0.0,28.5278,0.9491,14.732,Drift forte,XIV - Ética profissional,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,qualidade de vida do trabalhador,discreto,0.6639,0.0,28.8056,0.8751,12.5702,Drift forte,X - Qualidade de vida do trabalhador,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Tecnologia Em Seguranca No Trabalho,6410,6410,NT_GER,continuo,0.5639,0.0,16.7361,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Tecnologia Em Seguranca No Trabalho,6410,6410,NT_DIS_CE,continuo,0.3694,0.0044,16.0561,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Zootecnia,51,51,estatistica experimentacao e matematica aplicadas a zootecnia,discreto,0.5516,0.0,30.599,0.9356,9.449,Drift forte,"XV - Estatística, experimentação e matemática aplicadas à Zootecnia",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,zootecnia de precisao,discreto,0.3509,0.0,20.3125,0.5734,3.8347,Drift forte,XX - Zootecnia de precisão.,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,nutricao e producao de nao ruminantes,binario,0.5605,0.0,29.5788,0.8515,8.4416,Drift forte,II - Nutrição e produção de não ruminantes,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,nutricao e producao de ruminantes,discreto,0.3573,0.0,21.8071,0.6381,5.2207,Drift forte,III - Nutrição e produção de ruminantes,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,bromatologia e controle de qualidade de alimentos para animais,discreto,0.2459,0.0002,18.1839,0.3237,0.4478,Drift forte,IV - Bromatologia e controle de qualidade de alimentos para animais,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,tecnologia e processamento de produtos de origem animal,discreto,0.0075,1.0,0.5548,0.0133,0.0007,Sem drift,V - Tecnologia e processamento de produtos de origem animal,enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,construcoes instalacoes equipamentos zootecnicos bioclimatologia animal e ambiencia,discreto,0.1827,0.011,12.3188,0.2411,0.2798,Drift forte,"VI - Construções, instalações, equipamentos zootécnicos, bioclimatologia animal e ambiência",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,ecologia gestao ambiental manejo dos residuos e dos dejetos oriundos da producao animal,discreto,0.6138,0.0,35.2836,0.7076,5.0764,Drift forte,"VII - Ecologia, gestão ambiental, manejo dos resíduos e dos dejetos oriundos da produção animal",enade_2023,enade_2019,enade_2023 vs enade_2019,oc
+Zootecnia,51,51,NT_GER,continuo,0.4219,0.0,11.7578,,,Drift (KS significativo),NT_GER,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
+Zootecnia,51,51,NT_DIS_CE,continuo,0.6756,0.0,39.9577,,,Drift (KS significativo),NT_DIS_CE,enade_2023,enade_2019,enade_2023 vs enade_2019,nota
