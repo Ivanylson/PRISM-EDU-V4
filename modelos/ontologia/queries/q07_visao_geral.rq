@@ -1,0 +1,26 @@
+# Visao geral: itens, areas e IES por edicao.
+# Usa subconsultas para evitar produto cartesiano entre itens e ofertas
+# (item x oferta explodia em ~8,6 milhoes de linhas por edicao).
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?edicao ?rotuloEdicao ?itens ?areas ?ofertas
+WHERE {
+  ?edicao a prism:ExamEdition ;
+          rdfs:label ?rotuloEdicao .
+  OPTIONAL {
+    SELECT ?edicao (COUNT(DISTINCT ?item) AS ?itens)
+                   (COUNT(DISTINCT ?area) AS ?areas)
+    WHERE {
+      ?item prism:inEdition ?edicao ;
+            prism:inKnowledgeArea ?area .
+    }
+    GROUP BY ?edicao
+  }
+  OPTIONAL {
+    SELECT ?edicao (COUNT(DISTINCT ?oferta) AS ?ofertas)
+    WHERE { ?oferta prism:offeringInEdition ?edicao }
+    GROUP BY ?edicao
+  }
+}
+ORDER BY ?rotuloEdicao

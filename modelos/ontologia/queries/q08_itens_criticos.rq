@@ -1,0 +1,17 @@
+# Itens com taxa de deficiencia acima de 60% e seus OCs.
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?rotulo ?taxa ?rotuloOc
+WHERE {
+  ?perf prism:aboutItem ?item ;
+        prism:deficiencyRate ?taxa .
+  FILTER (?taxa >= 60)
+  ?item rdfs:label ?rotulo .
+  OPTIONAL {
+    ?item prism:assessesObjective ?oc .
+    ?oc rdfs:label ?rotuloOc .
+  }
+}
+ORDER BY DESC(?taxa)
+LIMIT 40

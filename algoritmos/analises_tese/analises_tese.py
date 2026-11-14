@@ -272,8 +272,24 @@ def distal(df, ano=None):
     d = df.copy()
     d["_nota"] = nota
     d = d.dropna(subset=["_nota"])
-    d["_tercil"] = pd.qcut(d["_nota"], 3, labels=["baixo", "medio", "alto"], duplicates="drop")
-    saida = {"analise": "E8_distal", "status": "ok", "ano": ano, "n": int(len(d))}
+    try:
+        tercil = pd.qcut(d["_nota"], q=3, duplicates="drop")
+        cats = list(tercil.cat.categories)
+        rotulos_base = ["baixo", "medio", "alto"]
+        # duplicates='drop' pode reduzir bins; mapeia por posicao para manter semantica honesta
+        if len(cats) == 3:
+            rotulos = rotulos_base
+        elif len(cats) == 2:
+            rotulos = ["baixo", "alto"]
+        elif len(cats) == 1:
+            rotulos = ["unico"]
+        else:
+            rotulos = [f"faixa_{i+1}" for i in range(len(cats))]
+        d["_tercil"] = tercil.cat.rename_categories({c: rotulos[i] for i, c in enumerate(cats)})
+    except Exception as e:
+        return _insuficiente("E8_distal", f"qcut indisponivel: {e}")
+    saida = {"analise": "E8_distal", "status": "ok", "ano": ano, "n": int(len(d)),
+             "n_faixas_nota": int(d["_tercil"].nunique())}
     for var in candidatos:
         tab = pd.crosstab(d["_tercil"], d[var], normalize="index")
         saida[var] = tab.round(3).to_dict("index")

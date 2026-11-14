@@ -1,0 +1,13 @@
+# Itens sem objetivo de conhecimento associado (diagnostico de qualidade).
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?rotulo ?edicao
+WHERE {
+  ?item a prism:AssessmentItem ;
+        rdfs:label ?rotulo ;
+        prism:inEdition ?edicao .
+  FILTER NOT EXISTS { ?item prism:assessesObjective ?oc }
+}
+ORDER BY ?edicao ?rotulo
+LIMIT 50

@@ -633,6 +633,123 @@ class TestOntologia(unittest.TestCase):
         self.assertEqual(_remover_prefixo_romano("Morfofisiologia"), "Morfofisiologia")
 
 
+class TestOntologiaOWL(unittest.TestCase):
+    """TBox OWL 2 DL: estrutura formal, IRIs validas e integridade da ABox."""
+
+    @classmethod
+    def setUpClass(cls):
+        from algoritmos.ontologia.ontologia_owl import OntologiaOWL
+        cls.onto = OntologiaOWL(edicoes=[])
+        cls.onto.construir_tbox()
+        cls.onto.construir_skos()
+        cls.onto.construir_metodos()
+        cls.onto._criar_familias()
+        cls.g = cls.onto.g
+
+    def test_tbox_tem_classes_e_propriedades(self):
+        from algoritmos.ontologia.ontologia_owl import (
+            CLASSES, DATA_PROPERTIES, OBJECT_PROPERTIES)
+        from rdflib.namespace import OWL, RDF
+        from rdflib import URIRef
+        ns = "https://prism-edu.example/onto#"
+        classes = set(self.g.subjects(RDF.type, OWL.Class))
+        classes = {c for c in classes if str(c).startswith(ns)}
+        self.assertEqual(len(classes), len(CLASSES))
+        objs = {p for p in self.g.subjects(RDF.type, OWL.ObjectProperty)
+                if str(p).startswith(ns)}
+        self.assertGreaterEqual(len(objs), len(OBJECT_PROPERTIES))
+        dts = {p for p in self.g.subjects(RDF.type, OWL.DatatypeProperty)
+               if str(p).startswith(ns)}
+        self.assertEqual(len(dts), len(DATA_PROPERTIES))
+
+    def test_ontologia_declarada_com_versao(self):
+        from algoritmos.ontologia.ontologia_owl import IRI_ONTOLOGIA, VERSAO
+        from rdflib import URIRef
+        from rdflib.namespace import OWL, RDF
+        onto = URIRef(IRI_ONTOLOGIA)
+        self.assertIn((onto, RDF.type, OWL.Ontology), self.g)
+        versao = self.g.value(onto, OWL.versionInfo)
+        self.assertEqual(str(versao), VERSAO)
+
+    def test_sem_iri_duplicada(self):
+        # regressao: _individuo recebia URIRef e concatenava o prefixo de novo
+        for s, p, o in self.g:
+            for termo in (s, p, o):
+                texto = str(termo)
+                if texto.startswith("https://prism-edu.example/onto#"):
+                    self.assertEqual(texto.count("https://prism-edu.example/onto#"), 1,
+                                     f"IRI duplicada: {texto}")
+
+    def test_restricoes_owl_presentes(self):
+        from rdflib.namespace import OWL, RDF
+        restricoes = set(self.g.subjects(RDF.type, OWL.Restriction))
+        self.assertGreaterEqual(len(restricoes), 15)
+        self.assertTrue(list(self.g.subjects(OWL.someValuesFrom, None)))
+
+    def test_skos_dimensoes_contextuais(self):
+        from algoritmos.ontologia.ontologia_owl import SCHEMES
+        from rdflib.namespace import SKOS, RDF
+        esquemas = set(self.g.subjects(RDF.type, SKOS.ConceptScheme))
+        self.assertEqual(len(esquemas), len(SCHEMES))
+        conceitos = set(self.g.subjects(RDF.type, SKOS.Concept))
+        esperado = sum(len(v[1]) for v in SCHEMES.values())
+        self.assertEqual(len(conceitos), esperado)
+
+    def test_dina_resolve_cursos_de_nome_composto(self):
+        from algoritmos.ontologia.ontologia_owl import (
+            OntologiaOWL, _sem_romano_final, slug_compacto)
+        onto = OntologiaOWL(edicoes=["enade_2023"], incluir_dina=False)
+        onto._garantir_area_curso("enade_2023", "5710", "ENGENHARIA CIVIL", "ENADE 2023")
+        onto._garantir_area_curso("enade_2023", "6411",
+                                  "ENGENHARIA DE COMPUTACAO I", "ENADE 2023")
+        # regressao: o arquivo dina_estimativas_engenhariacivil.csv nao casava
+        # com a chave 'engenharia_civil' gerada por slug()
+        self.assertEqual(onto._grupo_por_curso[("enade_2023", "engenhariacivil")], "5710")
+        self.assertEqual(onto._grupo_por_curso[("enade_2023", "engenhariadecomputacao")], "6411")
+        self.assertEqual(slug_compacto("ENGENHARIA CIVIL"), "engenhariacivil")
+        self.assertEqual(slug_compacto(_sem_romano_final("ENGENHARIA DE COMPUTACAO I")),
+                         "engenhariadecomputacao")
+
+    def test_abox_com_limite_mantem_integridade(self):
+        from algoritmos.ontologia.ontologia_owl import OntologiaOWL
+        onto = OntologiaOWL(edicoes=["enade_2023"], limite_linhas=4000,
+                            incluir_dina=False)
+        onto.construir()
+        self.assertEqual(onto.validar(), [])
+        from rdflib.namespace import RDF
+        itens = set(onto.g.subjects(RDF.type, onto._u("AssessmentItem")))
+        self.assertGreater(len(itens), 10)
+        # identidade do item inclui edicao + area + questao
+        for item in itens:
+            self.assertTrue(str(item).startswith(
+                "https://prism-edu.example/onto#item_enade_2023_"))
+
+
+class TestMdParaDocx(unittest.TestCase):
+    """Conversor Markdown->docx: tabelas, enfase, codigo e linha vazia em bloco."""
+
+    def test_converte_tabela_negrito_e_codigo(self):
+        import tempfile
+        from docx import Document
+        from processamento.md_para_docx import markdown_para_docx
+
+        md = (
+            "# Titulo\n\n"
+            "**Data:** 14/11/2026\n\n"
+            "| A | B |\n|---|---|\n| 1 | 2 |\n\n"
+            "```bash\nlinha 1\n\nlinha 2\n```\n"
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            saida = Path(tmp) / "saida.docx"
+            markdown_para_docx(md, saida)
+            doc = Document(str(saida))
+        self.assertEqual(len(doc.tables), 1)
+        self.assertEqual(doc.tables[0].rows[1].cells[0].text, "1")
+        textos = [p.text for p in doc.paragraphs]
+        self.assertIn("Data: 14/11/2026", textos)
+        self.assertFalse(any("**" in t for t in textos))
+
+
 class TestRAGLocal(unittest.TestCase):
     """RAG local: chunking, indice TF-IDF e grounding (citacao de fonte)."""
 

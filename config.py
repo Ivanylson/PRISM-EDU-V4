@@ -243,6 +243,8 @@ ABAS_DASHBOARD = [
     "SHAP & XAI Dashboard",
     "Ranking IA por IES (K-Means)",
     "Analises de Tese (E1-E9)",
+    "Analises Globais (ENADE 2004-2023, ENAMED, Licenciaturas)",
+    "Ontologia Educacional (OWL 2 DL)",
 ]
 
 

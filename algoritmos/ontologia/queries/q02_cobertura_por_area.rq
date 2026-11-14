@@ -1,0 +1,16 @@
+# Cobertura de competencias e itens por area de conhecimento.
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?area ?rotuloArea
+       (COUNT(DISTINCT ?item) AS ?itens)
+       (COUNT(DISTINCT ?comp) AS ?competencias)
+       (COUNT(DISTINCT ?oc) AS ?ocs)
+WHERE {
+  ?item prism:inKnowledgeArea ?area .
+  OPTIONAL { ?item prism:assessesCompetency ?comp }
+  OPTIONAL { ?item prism:assessesObjective ?oc }
+  ?area rdfs:label ?rotuloArea .
+}
+GROUP BY ?area ?rotuloArea
+ORDER BY DESC(?itens)

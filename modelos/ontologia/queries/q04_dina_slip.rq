@@ -1,0 +1,15 @@
+# Itens com maior slip estimado pelo DINA (dificuldade de acerto mesmo dominando).
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?rotulo ?guess ?slip ?status
+WHERE {
+  ?est a prism:PsychometricEstimate ;
+       prism:estimateOfItem ?item ;
+       prism:slip ?slip .
+  OPTIONAL { ?est prism:guess ?guess }
+  OPTIONAL { ?est prism:estimationStatus ?status }
+  ?item rdfs:label ?rotulo .
+}
+ORDER BY DESC(?slip)
+LIMIT 25

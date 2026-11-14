@@ -1,0 +1,183 @@
+# SHACL shapes do PRISM-EDU
+# Valida a integridade estrutural da ABox gerada por
+# processamento/gerar_ontologia.py. Nao substitui raciocinio OWL.
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix prism: <https://prism-edu.example/onto#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+prism:AssessmentItemShape
+    a sh:NodeShape ;
+    sh:targetClass prism:AssessmentItem ;
+    sh:name "Item de avaliacao" ;
+    sh:property [
+        sh:path prism:inEdition ;
+        sh:name "edicao" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class prism:ExamEdition ;
+        sh:message "Todo item deve pertencer a exatamente uma edicao."@pt
+    ] ;
+    sh:property [
+        sh:path prism:inKnowledgeArea ;
+        sh:name "area de conhecimento" ;
+        sh:minCount 1 ;
+        sh:class prism:KnowledgeArea ;
+        sh:message "Todo item deve estar em uma area de conhecimento."@pt
+    ] ;
+    sh:property [
+        sh:path prism:inExamArea ;
+        sh:name "area da edicao" ;
+        sh:minCount 1 ;
+        sh:class prism:ExamArea ;
+        sh:message "Todo item deve estar em uma area da edicao."@pt
+    ] .
+
+prism:CourseProgramShape
+    a sh:NodeShape ;
+    sh:targetClass prism:CourseProgram ;
+    sh:name "Curso (programa)" ;
+    sh:property [
+        sh:path prism:belongsToArea ;
+        sh:name "area" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class prism:KnowledgeArea ;
+        sh:message "Todo curso deve pertencer a exatamente uma area."@pt
+    ] .
+
+prism:CourseOfferingShape
+    a sh:NodeShape ;
+    sh:targetClass prism:CourseOffering ;
+    sh:name "Oferta de curso" ;
+    sh:property [
+        sh:path prism:offeredBy ;
+        sh:minCount 1 ;
+        sh:class prism:HigherEducationInstitution ;
+        sh:message "Toda oferta deve ter uma IES."@pt
+    ] ;
+    sh:property [
+        sh:path prism:offersProgram ;
+        sh:minCount 1 ;
+        sh:class prism:CourseProgram ;
+        sh:message "Toda oferta deve apontar para um programa de curso."@pt
+    ] ;
+    sh:property [
+        sh:path prism:offeringInEdition ;
+        sh:minCount 1 ;
+        sh:class prism:ExamEdition ;
+        sh:message "Toda oferta deve estar em uma edicao."@pt
+    ] .
+
+prism:ItemPerformanceShape
+    a sh:NodeShape ;
+    sh:targetClass prism:ItemPerformance ;
+    sh:name "Desempenho do item" ;
+    sh:property [
+        sh:path prism:aboutItem ;
+        sh:minCount 1 ;
+        sh:class prism:AssessmentItem ;
+        sh:message "O desempenho deve referenciar um item."@pt
+    ] ;
+    sh:property [
+        sh:path prism:deficiencyRate ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 100 ;
+        sh:message "A taxa de deficiencia deve estar entre 0 e 100."@pt
+    ] ;
+    sh:property [
+        sh:path prism:hasCorrectCount ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:message "Acertos devem ser inteiros nao negativos."@pt
+    ] ;
+    sh:property [
+        sh:path prism:hasErrorCount ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:message "Erros devem ser inteiros nao negativos."@pt
+    ] .
+
+prism:InstitutionAreaPerformanceShape
+    a sh:NodeShape ;
+    sh:targetClass prism:InstitutionAreaPerformance ;
+    sh:name "Desempenho da IES na area" ;
+    sh:property [
+        sh:path prism:aboutInstitution ;
+        sh:minCount 1 ;
+        sh:class prism:HigherEducationInstitution ;
+        sh:message "O agregado deve referenciar uma IES."@pt
+    ] ;
+    sh:property [
+        sh:path prism:aboutArea ;
+        sh:minCount 1 ;
+        sh:class prism:KnowledgeArea ;
+        sh:message "O agregado deve referenciar uma area."@pt
+    ] ;
+    sh:property [
+        sh:path prism:deficiencyRate ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 100 ;
+        sh:message "A taxa de deficiencia deve estar entre 0 e 100."@pt
+    ] .
+
+prism:PsychometricEstimateShape
+    a sh:NodeShape ;
+    sh:targetClass prism:PsychometricEstimate ;
+    sh:name "Estimativa psicometrica" ;
+    sh:property [
+        sh:path prism:estimateOfItem ;
+        sh:minCount 1 ;
+        sh:class prism:AssessmentItem ;
+        sh:message "A estimativa deve referenciar um item."@pt
+    ] ;
+    sh:property [
+        sh:path prism:guess ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 1 ;
+        sh:message "guess deve estar entre 0 e 1."@pt
+    ] ;
+    sh:property [
+        sh:path prism:slip ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 1 ;
+        sh:message "slip deve estar entre 0 e 1."@pt
+    ] .
+
+prism:CurricularElementShape
+    a sh:NodeShape ;
+    sh:targetClass prism:LearningObjective, prism:Competency ;
+    sh:name "Elemento curricular rotulado" ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:message "Competencias e OCs devem ter rotulo."@pt
+    ] .
+
+prism:ObjectiveCooccurrenceShape
+    a sh:NodeShape ;
+    sh:targetClass prism:ObjectiveCooccurrence ;
+    sh:name "Coocorrencia de OCs" ;
+    sh:property [
+        sh:path prism:firstObjective ;
+        sh:minCount 1 ;
+        sh:class prism:LearningObjective ;
+        sh:message "A coocorrencia deve ter o primeiro OC."@pt
+    ] ;
+    sh:property [
+        sh:path prism:secondObjective ;
+        sh:minCount 1 ;
+        sh:class prism:LearningObjective ;
+        sh:message "A coocorrencia deve ter o segundo OC."@pt
+    ] ;
+    sh:property [
+        sh:path prism:hasWeight ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:message "O peso da coocorrencia deve ser >= 1."@pt
+    ] .

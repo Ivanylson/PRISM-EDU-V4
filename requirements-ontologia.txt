@@ -1,0 +1,23 @@
+# Stack ontologica do PRISM-EDU (opcional, mas recomendada para pesquisa)
+# A geracao do .owl usa apenas rdflib. As demais bibliotecas sao adaptadores
+# de interoperabilidade e validacao.
+#
+# Instalacao minima:
+#   python -m pip install rdflib
+#
+# Instalacao completa (pode exigir compilador C e Java):
+#   python -m pip install -r requirements-ontologia.txt
+
+rdflib>=7.0
+
+# Validacao SHACL (roda em Python puro)
+pyshacl>=0.26
+
+# API orientada a objetos + reasoner. Distribuido como sdist; em Python 3.14
+# pode exigir build tools (compilador C). Se falhar, a ontologia continua
+# valida via rdflib.
+owlready2>=0.47; python_version < "3.14"
+
+# OWLAPY e OAK sao pesados e opcionais. Descomente se quiser os adaptadores.
+# owlapy>=0.4
+# oaklib>=0.6

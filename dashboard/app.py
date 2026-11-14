@@ -25,6 +25,8 @@ import atexit
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import (
     RAIZ_PROJETO, PASTA_DADOS_PROCESSADOS, PASTA_DADOS_EXTERNOS,
+    PASTA_RESULTADOS_ENADE, PASTA_RESULTADOS_LICENCIATURAS, PASTA_RESULTADOS_ENAMED,
+    PASTA_SERIE_MICRODADOS,
     PASTA_INTERNACIONAIS, PASTA_MODELOS, CURSOS_MAP, CURSOS_REVERSO,
     CURSOS_MAP_POR_ANO,
     EXAMES_INTERNACIONAIS, MODELOS_OPENCODE, SEPARADOR, ENCODING,
@@ -301,6 +303,17 @@ def _ler(caminho):
     if caminho and caminho.exists():
         return pd.read_csv(caminho, sep=SEPARADOR, encoding=ENCODING, low_memory=False)
     return None
+
+
+def _rotular_codigos(serie, mapa, prefixo):
+    """Mapeia codigos para rotulos legiveis; desconhecidos viram '<prefixo> <codigo>'."""
+    num = pd.to_numeric(serie, errors="coerce")
+    out = num.map(mapa)
+    mask = out.isna() & num.notna()
+    if mask.any():
+        out = out.copy()
+        out.loc[mask] = prefixo + " " + num[mask].astype(int).astype(str)
+    return out
 
 
 def _buscar(prefixo, pasta, chave):
@@ -602,36 +615,58 @@ def carregar_dados_diagnostico(nome_curso, edicao=""):
     return None
 
 
+def _candidatos_lca(nome_arquivo, edicao=""):
+    cands = []
+    if edicao:
+        cands.append(pasta_saida_edicao("lca", edicao) / nome_arquivo)
+    cands.append((PASTA_MOD / "lca") / nome_arquivo)
+    cands.append(PASTA_DADOS_PROCESSADOS / nome_arquivo)
+    cands.append(PASTA_DADOS_PROCESSADOS / "RESULTADOS_LCA" / nome_arquivo)
+    cands.append(PASTA_REF_LCA / nome_arquivo)
+    if (PASTA_MOD / "lca").exists():
+        cands.extend(sorted((PASTA_MOD / "lca").rglob(nome_arquivo)))
+    return cands
+
+
+def _ler_csv_lca(path, **kwargs):
+    for sep, dec in [(";", ","), (",", "."), (";", ".")]:
+        try:
+            return pd.read_csv(path, sep=sep, decimal=dec, low_memory=False, **kwargs)
+        except Exception:
+            continue
+    return pd.read_csv(path, low_memory=False, **kwargs)
+
+
 @st.cache_data(show_spinner=False)
 def carregar_reanalise_resumo(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "reanalise_resumo.csv"
-    if not path.exists():
-        return None
-    return pd.read_csv(path, sep=";", decimal=",", low_memory=False)
+    for path in _candidatos_lca("reanalise_resumo.csv", edicao):
+        if path.exists():
+            return _ler_csv_lca(path)
+    return None
 
 
 @st.cache_data(show_spinner=False)
 def carregar_reanalise_por_ies(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "reanalise_por_ies.csv"
-    if not path.exists():
-        return None
-    return pd.read_csv(path, sep=";", decimal=",", dtype={"ies": str}, low_memory=False)
+    for path in _candidatos_lca("reanalise_por_ies.csv", edicao):
+        if path.exists():
+            return _ler_csv_lca(path, dtype={"ies": str})
+    return None
 
 
 @st.cache_data(show_spinner=False)
 def carregar_robustez_item(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "robustez_brancos_por_item.csv"
-    if not path.exists():
-        return None
-    return pd.read_csv(path, sep=";", decimal=",", low_memory=False)
+    for path in _candidatos_lca("robustez_brancos_por_item.csv", edicao):
+        if path.exists():
+            return _ler_csv_lca(path)
+    return None
 
 
 @st.cache_data(show_spinner=False)
 def carregar_robustez_oc(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "robustez_brancos_por_oc.csv"
-    if not path.exists():
-        return None
-    return pd.read_csv(path, sep=";", decimal=",", low_memory=False)
+    for path in _candidatos_lca("robustez_brancos_por_oc.csv", edicao):
+        if path.exists():
+            return _ler_csv_lca(path)
+    return None
 
 
 def _norm_compacto(texto):
@@ -666,8 +701,28 @@ def _render_diagnostico_aluno(nome_curso, ies_sel):
             f"(esperado em modelos/cdm/enade_2023/diagnostico_cognitivo_<curso>.xlsx)."
         )
         return
-    colunas_disciplinas = df_diag.columns[3:-2].tolist()
-    st.markdown(f"**Raio-X da Turma - {nome_curso}**" + (f" (IES {ies_sel})" if ies_sel else ""))
+    # filtro IES quando houver coluna compatível; caso contrário, nota honesta
+    cols_norm_d = {str(c).strip().upper(): c for c in df_diag.columns}
+    c_ies_d = next((cols_norm_d[k] for k in ["CO_IES", "COD_IES", "IES", "CODIGO_IES", "CO_IES_CURSO"] if k in cols_norm_d), None)
+    if ies_sel and c_ies_d:
+        ies_s = str(ies_sel).strip().replace(".0", "")
+        m = df_diag[c_ies_d].astype(str).str.strip().str.replace(r"\.0$", "", regex=True) == ies_s
+        if m.any():
+            df_diag = df_diag[m].copy()
+        else:
+            st.warning(f"Filtro IES={ies_sel} ativo, mas sem correspondência na coluna `{c_ies_d}` deste diagnóstico; exibindo dados do curso.")
+    elif ies_sel:
+        st.caption(f"Filtro IES={ies_sel} ativo na sidebar: o diagnóstico individual (`diagnostico_cognitivo_*.xlsx`) é agregado por curso e não contém coluna IES; a investigação por aluno abaixo corresponde ao curso selecionado.")
+
+    # colunas de disciplina/OC: entre metadados iniciais e colunas finais de resumo
+    colunas_disciplinas = [c for c in df_diag.columns if c not in {"ALUNO", "CO_GRUPO", "CO_CURSO", "NOME_CURSO", "Conhecimentos Gerais", "MAIOR_DOMINIO_DISCIPLINA", "PIOR_DEFICIENCIA_DISCIPLINA"} and not str(c).upper().startswith("CO_IES")]
+    if len(colunas_disciplinas) < 2 and df_diag.shape[1] >= 6:
+        colunas_disciplinas = df_diag.columns[3:-2].tolist()
+    if not colunas_disciplinas:
+        st.info("Não foi possível identificar colunas de OC/disciplina neste diagnóstico.")
+        return
+
+    st.markdown(f"**Raio-X da Turma - {nome_curso}**" + (f" (IES {ies_sel})" if ies_sel and c_ies_d else " (visão por curso)" if ies_sel else ""))
     c1, c2 = st.columns(2)
     with c1:
         deficiencias = df_diag["PIOR_DEFICIENCIA_DISCIPLINA"].value_counts().reset_index()
@@ -689,6 +744,8 @@ def _render_diagnostico_aluno(nome_curso, ies_sel):
         st.plotly_chart(fig_dom, use_container_width=True)
 
     st.markdown("### Perfil Medio de Dominio do Curso")
+    for c in colunas_disciplinas:
+        df_diag[c] = pd.to_numeric(df_diag[c], errors="coerce")
     medias_turma = df_diag[colunas_disciplinas].mean().reset_index()
     medias_turma.columns = ["Disciplina", "Dominio Medio (%)"]
     fig_radar_turma = go.Figure()
@@ -701,26 +758,30 @@ def _render_diagnostico_aluno(nome_curso, ies_sel):
     st.plotly_chart(fig_radar_turma, use_container_width=True)
 
     st.subheader("Investigacao Individual por Aluno")
-    aluno_sel = st.selectbox(
+    ids = df_diag["ALUNO"].astype(str).unique().tolist() if "ALUNO" in df_diag.columns else []
+    if not ids:
+        st.info("Nenhum identificador de aluno disponível neste diagnóstico.")
+        return
+    aluno_sel_ui = st.selectbox(
         "Selecione o ID do Aluno para ver o perfil psicometrico exato:",
-        df_diag["ALUNO"].unique(), key="mq_aluno")
-    if aluno_sel:
-        dados_aluno = df_diag[df_diag["ALUNO"] == aluno_sel].iloc[0]
+        ids, key=f"mq_aluno_{_norm_compacto(nome_curso)}_{ies_sel or 'all'}")
+    if aluno_sel_ui:
+        dados_aluno = df_diag[df_diag["ALUNO"].astype(str) == str(aluno_sel_ui)].iloc[0]
         ca, cb, cc = st.columns(3)
-        ca.metric("Maior Facilidade", dados_aluno["MAIOR_DOMINIO_DISCIPLINA"])
-        cb.metric("Maior Dificuldade", dados_aluno["PIOR_DEFICIENCIA_DISCIPLINA"])
-        cc.metric("Conhecimentos Gerais", f"{dados_aluno.get('Conhecimentos Gerais', 0)}%")
+        ca.metric("Maior Facilidade", dados_aluno.get("MAIOR_DOMINIO_DISCIPLINA", "-"))
+        cb.metric("Maior Dificuldade", dados_aluno.get("PIOR_DEFICIENCIA_DISCIPLINA", "-"))
+        cc.metric("Conhecimentos Gerais", f"{pd.to_numeric(dados_aluno.get('Conhecimentos Gerais', 0), errors='coerce') or 0:.1f}%")
         fig_radar_aluno = go.Figure()
         fig_radar_aluno.add_trace(go.Scatterpolar(
             r=medias_turma["Dominio Medio (%)"], theta=medias_turma["Disciplina"],
             fill=None, mode="lines", name="Media do Curso",
             line_color="rgba(169,169,169,0.5)"))
         fig_radar_aluno.add_trace(go.Scatterpolar(
-            r=[dados_aluno[c] for c in colunas_disciplinas], theta=colunas_disciplinas,
-            fill="toself", name=f"Aluno: {aluno_sel}", line_color="#8b5cf6"))
+            r=[pd.to_numeric(dados_aluno.get(c), errors="coerce") for c in colunas_disciplinas], theta=colunas_disciplinas,
+            fill="toself", name=f"Aluno: {aluno_sel_ui}", line_color="#8b5cf6"))
         fig_radar_aluno.update_layout(
             polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
-            showlegend=True, title=f"Perfil Psicometrico: {aluno_sel} vs Turma",
+            showlegend=True, title=f"Perfil Psicometrico: {aluno_sel_ui} vs Turma",
             margin=dict(t=40, b=20))
         st.plotly_chart(fig_radar_aluno, use_container_width=True)
 
@@ -2049,6 +2110,10 @@ elif aba == ABAS[5]:
     Selecione um arquivo CSV de resultados para gerar uma **explicacao em linguagem natural**,
     acessivel para nao-especialistas. O dashboard chama o **OpenCode.ai** via API HTTP
     para analisar os dados e produzir um texto explicativo com interpretacoes e recomendacoes.
+
+    **Cobertura de artefatos (auditável, conforme disponibilidade):** ENADE (edições 2004–2023),
+    ENAMED e ENADE Licenciaturas — microdados processados, resultados por motor/edição,
+    análises por IES/questão/OC e relatórios `.md`/explicações correlatas.
     """)
     server_online = servidor_opencode_ativo()
     status_color = "🟢" if server_online else "🔴"
@@ -2069,40 +2134,252 @@ elif aba == ABAS[5]:
                 else:
                     st.error("Falha ao iniciar. Verifique se o OpenCode esta instalado.")
 
-    st.subheader("1. Selecione o CSV para analise")
-    csvs_disponiveis = []
-    for pasta_resultado in [_pasta_motor("clustering"), _pasta_motor("shap"), _pasta_motor("cdm"), _pasta_motor("psicometria"), _pasta_motor("lca"), PASTA_EDA, PASTA_MOD, RAIZ_PROJETO.parent / "modeloprojetoENADE2023" / "arquivosgerados"]:
-        if pasta_resultado.exists():
-            csvs_disponiveis.extend(list(pasta_resultado.rglob("*.csv")))
-    csvs_validos = []
-    for p in csvs_disponiveis:
+    # --- escopo por exame/edição (complementa EDICAO_MOTORES da sidebar) ---
+    def _inferir_escopo_artefato(p):
+        s = str(p).lower()
+        ano_m = re.search(r'(?:enade[_\-]?|relatorio_final_enade[_\-]?)(20\d{2})', s)
+        if 'enamed' in s:
+            return f"ENAMED {ano_m.group(1)}" if ano_m else "ENAMED"
+        if 'licenciatura' in s:
+            return f"Licenciaturas {ano_m.group(1)}" if ano_m else "Licenciaturas"
+        if ano_m:
+            return f"ENADE {ano_m.group(1)}"
+        ed_m = re.search(r'\\enade_(20\d{2})\\|/enade_(20\d{2})/', s)
+        if ed_m:
+            a = ed_m.group(1) or ed_m.group(2)
+            return f"ENADE {a}"
+        return "Geral"
+
+    def _escopo_compativel(escopo_item, escopo_sel):
+        if not escopo_sel or escopo_sel.startswith("(Todos"):
+            return True
+        ei = (escopo_item or "").lower()
+        es = escopo_sel.lower()
+        if es.startswith("enade (2004-2023)") or es == "enade (todas edições)":
+            return "enade" in ei and "enamed" not in ei and "licenciatura" not in ei
+        if es.startswith("enamed"):
+            return "enamed" in ei
+        if es.startswith("licenciatura"):
+            return "licenciatura" in ei
+        # edição específica
+        ano_m = re.search(r'(20\d{2})', escopo_sel)
+        if ano_m:
+            return ano_m.group(1) in ei
+        return True
+
+    eds_disp = []
+    try:
+        eds_disp = listar_edicoes_disponiveis()
+    except Exception:
+        eds_disp = []
+    escopo_opts = ["(Todos os exames e edições — ENADE 2004–2023, ENAMED, Licenciaturas)",
+                   "ENADE (2004–2023 / todas edições)", "ENAMED", "Licenciaturas"]
+    escopo_opts += [e for e in eds_disp if e]
+    escopo_sel = st.selectbox(
+        "Escopo de exame/edição (descoberta de artefatos):", escopo_opts, key="oc_escopo_exame",
+        help="Complementa a edição de motores da sidebar. Use 'Todos' para buscar artefatos de ENADE 2004–2023, ENAMED e Licenciaturas."
+    )
+
+    filtros_ativos = []
+    if 'EDICAO_MOTORES' in globals() and EDICAO_MOTORES:
+        filtros_ativos.append(f"edicao_motores={EDICAO_MOTORES}")
+    if escopo_sel and not escopo_sel.startswith("(Todos"):
+        filtros_ativos.append(f"escopo={escopo_sel}")
+    if 'nome_curso' in locals() and nome_curso:
+        filtros_ativos.append(f"curso={nome_curso}")
+    if 'ies_sel' in locals() and ies_sel:
+        filtros_ativos.append(f"IES={ies_sel}")
+    if filtros_ativos:
+        st.caption("Filtros ativos: " + " | ".join(filtros_ativos) + ". Quando o CSV tiver colunas compatíveis (CO_IES/NO_IES/CO_GRUPO/curso), a prévia e o prompt são filtrados.")
+
+    def _filtrar_csv_por_contexto(df_in):
+        d = df_in.copy()
         try:
-            if p.stat().st_size <= 50 * 1024 * 1024:
-                csvs_validos.append(p)
+            if ies_sel:
+                cols_n = {str(c).strip().upper(): c for c in d.columns}
+                c_ies = next((cols_n[k] for k in ["CO_IES", "COD_IES", "IES", "CODIGO_IES", "CO_IES_CURSO"] if k in cols_n), None)
+                c_noies = next((cols_n[k] for k in ["NO_IES", "NOME_IES"] if k in cols_n), None)
+                if c_ies is not None:
+                    m = d[c_ies].astype(str).str.strip().str.replace(r"\.0$", "", regex=True) == str(ies_sel).strip()
+                    if m.any():
+                        d = d[m]
+                elif c_noies is not None:
+                    m = d[c_noies].astype(str).str.contains(str(ies_sel), case=False, na=False)
+                    if m.any():
+                        d = d[m]
+            if nome_curso:
+                cols_n = {str(c).strip().upper(): c for c in d.columns}
+                c_grp = next((cols_n[k] for k in ["CO_GRUPO", "CODIGO_CURSO", "COD_CURSO"] if k in cols_n), None)
+                c_nocurso = next((cols_n[k] for k in ["NO_CURSO", "NOME_CURSO", "CURSO"] if k in cols_n), None)
+                if c_grp is not None and 'sel_grupo' in locals() and sel_grupo is not None:
+                    try:
+                        m = pd.to_numeric(d[c_grp], errors="coerce") == int(sel_grupo)
+                        if m.any():
+                            d = d[m]
+                    except Exception:
+                        pass
+                elif c_nocurso is not None:
+                    m = d[c_nocurso].astype(str).str.contains(str(nome_curso), case=False, na=False)
+                    if m.any():
+                        d = d[m]
+        except Exception:
+            return df_in
+        return d
+
+    @st.cache_data(show_spinner=False, ttl=120)
+    def _descobrir_csvs_opencode(edicao_motores, escopo):
+        """Descobre CSVs em todas as fontes relevantes (ENADE 2004-2023, ENAMED, Licenciaturas)."""
+        seen, out = set(), []
+        modulos = ["clustering", "shap", "cdm", "psicometria", "lca", "preditivos", "irt", "analises_tese", "drift"]
+        bases = []
+        # 1) motores por edição/escopo
+        eds = []
+        if edicao_motores:
+            eds = [edicao_motores]
+        elif escopo and not str(escopo).startswith("(Todos") and not str(escopo).startswith("ENADE (2004"):
+            if re.match(r'enade_\d{4}|enamed|licenciatura', str(escopo), re.I):
+                eds = [escopo]
+        if not eds:
+            try:
+                eds = listar_edicoes_disponiveis()
+            except Exception:
+                eds = []
+        for ed in eds:
+            for m in modulos:
+                try:
+                    bases.append(pasta_saida_edicao(m, ed))
+                except Exception:
+                    pass
+        for m in modulos:
+            bases.append(PASTA_MOD / m)
+        # 2) dados processados / exames
+        bases += [PASTA_EDA, PASTA_MOD, PASTA_DADOS_PROCESSADOS,
+                  PASTA_DADOS_PROCESSADOS / "enade", PASTA_DADOS_PROCESSADOS / "enamed",
+                  PASTA_DADOS_PROCESSADOS / "enadeLicenciaturas", PASTA_DADOS_PROCESSADOS / "por_ano",
+                  PASTA_RESULTADOS_ENADE, PASTA_RESULTADOS_LICENCIATURAS, PASTA_RESULTADOS_ENAMED]
+        # 3) séries temporais e legados
+        st_roots = [PASTA_SERIE_MICRODADOS / "resultados"]
+        try:
+            st_roots.append(RAIZ_PROJETO.parent / "seriesTemporais_microdados" / "resultados")
         except Exception:
             pass
+        for sr in st_roots:
+            bases += [sr, sr / "enade", sr / "enamed", sr / "enadeLicenciaturas"]
+        bases.append(RAIZ_PROJETO.parent / "modeloprojetoENADE2023" / "arquivosgerados")
+        bases.append(RAIZ_PROJETO / "relatorios")
+        for base in bases:
+            try:
+                if not base or not base.exists():
+                    continue
+                # modelos/ e dados/processados podem ter subpastas por edição; limitar profundidade implícita pelo rglob é ok, mas evitar pastas enormes sem csv
+                it = base.rglob("*.csv") if base in (PASTA_MOD, PASTA_DADOS_PROCESSADOS, RAIZ_PROJETO / "relatorios") or "resultados" in str(base).lower() or "arquivosgerados" in str(base).lower() else base.glob("*.csv")
+                # para bases de exames/motores, rglob captura edições
+                if base not in (PASTA_MOD, PASTA_DADOS_PROCESSADOS) and ("modelos" in str(base).lower() or "enade" in str(base).lower() or "enamed" in str(base).lower() or "licenciatura" in str(base).lower() or "resultados" in str(base).lower() or "arquivosgerados" in str(base).lower()):
+                    it = base.rglob("*.csv")
+                for p in it:
+                    try:
+                        rp = p.resolve()
+                        if rp in seen:
+                            continue
+                        if p.stat().st_size > 50 * 1024 * 1024:
+                            continue
+                        seen.add(rp)
+                        out.append(p)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+        return out
+
+    st.subheader("1. Selecione o CSV para analise")
+    ed_m = EDICAO_MOTORES if 'EDICAO_MOTORES' in globals() else ""
+    with st.spinner("Buscando artefatos CSV (ENADE 2004–2023, ENAMED, Licenciaturas)..."):
+        csvs_validos = _descobrir_csvs_opencode(ed_m, escopo_sel)
+    # filtrar por escopo
+    csvs_validos = [p for p in csvs_validos if _escopo_compativel(_inferir_escopo_artefato(p), escopo_sel)]
+    st.caption(f"CSVs descobertos no escopo: **{len(csvs_validos)}** (limite 50 MB/arquivo; fontes: modelos por edição, dados/processados, seriesTemporais_microdados/resultados, legados/arquivosgerados).")
+
     if not csvs_validos:
-        st.error("Nenhum arquivo CSV encontrado nas pastas de resultados.")
+        st.error("Nenhum arquivo CSV encontrado para o escopo selecionado.")
+        st.info("Verifique se existem artefatos em `modelos/*/<edição>`, `dados/processados/enade|enamed|enadeLicenciaturas`, `seriesTemporais_microdados/resultados/*` ou pastas legadas. Ajuste o escopo ou a edição de motores na sidebar.")
     else:
+        csvs_filtrados = csvs_validos
+        # prioridade por edição de motores / escopo específico no nome/caminho
+        if ed_m:
+            pref_ed = [p for p in csvs_filtrados if ed_m in str(p).lower()]
+            if pref_ed:
+                csvs_filtrados = pref_ed + [p for p in csvs_filtrados if p not in pref_ed]
         if chave_curso:
             curso_lower = chave_curso.lower()
-            csvs_filtrados = [p for p in csvs_validos if curso_lower in p.stem.lower()]
-            if not csvs_filtrados:
-                csvs_filtrados = csvs_validos
-        else:
-            csvs_filtrados = csvs_validos
-        csv_labels = {str(p.relative_to(p.parents[2]) if len(p.parents) > 2 else p.name): p for p in sorted(set(csvs_filtrados))}
-        labels_ordenados = sorted(csv_labels.keys())
+            pref = [p for p in csvs_filtrados if curso_lower in p.stem.lower() or (nome_curso and _norm(nome_curso) in _norm(p.stem))]
+            if pref:
+                csvs_filtrados = pref
+        if ies_sel:
+            ies_s = str(ies_sel).strip()
+            pref_ies = [p for p in csvs_filtrados if ies_s in p.stem or ies_s in str(p.parent)]
+            if pref_ies:
+                csvs_filtrados = pref_ies + [p for p in csvs_filtrados if p not in pref_ies]
+        # labels auditáveis: [escopo] caminho relativo quando possível
+        def _label_csv(p):
+            esc = _inferir_escopo_artefato(p)
+            try:
+                rel = str(p.relative_to(RAIZ_PROJETO.parent))
+            except Exception:
+                try:
+                    rel = str(p.relative_to(RAIZ_PROJETO))
+                except Exception:
+                    rel = p.name
+            return f"[{esc}] {rel}"
+        pares = sorted({(_label_csv(p), p.resolve()): p for p in csvs_filtrados}.values(), key=lambda x: (0 if ed_m and ed_m in str(x).lower() else 1, str(x).lower()))
+        csv_labels = {_label_csv(p): p for p in pares}
+        labels_ordenados = list(csv_labels.keys())
         csv_selecionado = st.selectbox("Arquivo CSV:", labels_ordenados, key="csv_selector")
         caminho_csv = csv_labels[csv_selecionado]
+        st.caption(f"Origem inferida: **{_inferir_escopo_artefato(caminho_csv)}** | `{caminho_csv}`")
+
+        def _ler_csv_robusto(path, nrows=None):
+            """Leitura tolerante a CSVs com aspas/quebras malformadas, encoding/separador variados."""
+            import csv as _csv
+            erros = []
+            tentativas = [
+                dict(sep=SEPARADOR, encoding="utf-8-sig"),
+                dict(sep=SEPARADOR, encoding="utf-8"),
+                dict(sep=SEPARADOR, encoding="latin-1"),
+                dict(sep=None, encoding="utf-8-sig"),
+                dict(sep=None, encoding="latin-1"),
+                dict(sep=",", encoding="utf-8-sig"),
+                dict(sep=",", encoding="latin-1"),
+            ]
+            for kw in tentativas:
+                try:
+                    df_t = pd.read_csv(
+                        path, nrows=nrows, engine="python",
+                        on_bad_lines="skip", quoting=_csv.QUOTE_MINIMAL,
+                        **kw,
+                    )
+                    if df_t is not None and len(df_t.columns) > 0:
+                        modo = f"sep={kw['sep']!r}, encoding={kw['encoding']}, engine=python, on_bad_lines=skip"
+                        return df_t, modo
+                except Exception as ex:
+                    erros.append(f"{kw}: {ex}")
+            # última tentativa C engine padrão com skip
+            try:
+                df_t = pd.read_csv(path, sep=SEPARADOR, encoding="utf-8-sig", nrows=nrows, on_bad_lines="skip", low_memory=False)
+                return df_t, "engine=default, on_bad_lines=skip"
+            except Exception as ex:
+                erros.append(f"default: {ex}")
+            raise ValueError("Falha ao ler CSV após tentativas tolerantes. " + " | ".join(erros[-3:]))
 
         st.subheader("2. Previa dos Dados")
         try:
-            df_csv_preview = pd.read_csv(caminho_csv, sep=SEPARADOR, nrows=10, encoding="utf-8-sig", on_bad_lines="skip")
-            st.dataframe(df_csv_preview, use_container_width=True)
-            n_linhas = sum(1 for _ in open(caminho_csv, "r", encoding="utf-8-sig")) - 1
-            n_cols = len(df_csv_preview.columns)
-            st.caption(f"Mostrando 10 de ~{n_linhas} linhas | {n_cols} colunas | {caminho_csv.name}")
+            df_csv_full_preview, modo_leitura = _ler_csv_robusto(caminho_csv, nrows=5000)
+            df_csv_preview = _filtrar_csv_por_contexto(df_csv_full_preview)
+            st.dataframe(df_csv_preview.head(10), use_container_width=True)
+            n_linhas = len(df_csv_full_preview)
+            n_cols = len(df_csv_full_preview.columns)
+            filtro_msg = f" | apos filtros: {len(df_csv_preview)} linhas" if len(df_csv_preview) != n_linhas else ""
+            st.caption(f"Mostrando 10 de ~{n_linhas} linhas (amostra lida){filtro_msg} | {n_cols} colunas | {caminho_csv.name} | leitura: {modo_leitura}")
+            st.session_state["_oc_modo_leitura_csv"] = modo_leitura
         except Exception as e:
             st.error(f"Erro ao ler CSV: {e}")
             st.stop()
@@ -2114,45 +2391,70 @@ elif aba == ABAS[5]:
                                      format_func=lambda x: MODELOS_OPENCODE[x], index=0, key="modelo_opencode")
         with col_tom:
             tom = st.selectbox("Tom da explicacao:", ["Didatico e acessivel (para leigos)", "Tecnico e detalhado (para coordenadores)", "Resumo executivo (para diretores)", "Critico e propositivo (para melhoria)"], key="tom_ia")
-        foco = st.text_area("Foco adicional (opcional):", placeholder="Ex: 'Destaque as principais deficiencias em Matematica'", key="foco_ia")
+        foco = st.text_area("Foco adicional (opcional):", placeholder="Ex: 'Destaque deficiências por OC/competência' ou 'Compare padrões do ENAMED/Licenciaturas com cautela'", key="foco_ia")
 
         st.subheader("4. Gerar Explicacao")
         gerar = st.button("Gerar Explicacao com OpenCode", type="primary", use_container_width=True, disabled=not server_online)
 
         if gerar:
-            df_full = pd.read_csv(caminho_csv, sep=SEPARADOR, encoding="utf-8-sig", on_bad_lines="skip")
-            resumo = {"arquivo": caminho_csv.name, "linhas": len(df_full), "colunas": list(df_full.columns),
+            try:
+                df_full_raw, modo_leitura_full = _ler_csv_robusto(caminho_csv, nrows=None)
+            except Exception:
+                df_full_raw = pd.read_csv(caminho_csv, sep=SEPARADOR, encoding="utf-8-sig", on_bad_lines="skip", low_memory=False)
+                modo_leitura_full = "default"
+            df_full = _filtrar_csv_por_contexto(df_full_raw) if '_filtrar_csv_por_contexto' in locals() else df_full_raw
+            ctx_filtros = []
+            if 'ies_sel' in locals() and ies_sel:
+                ctx_filtros.append(f"IES={ies_sel}")
+            if 'nome_curso' in locals() and nome_curso:
+                ctx_filtros.append(f"curso={nome_curso}")
+            if ed_m:
+                ctx_filtros.append(f"edicao_motores={ed_m}")
+            if escopo_sel and not escopo_sel.startswith("(Todos"):
+                ctx_filtros.append(f"escopo={escopo_sel}")
+            if len(df_full) != len(df_full_raw):
+                st.info(f"Análise filtrada por contexto: {len(df_full)} de {len(df_full_raw)} linhas ({', '.join(ctx_filtros) or 'filtros'}).")
+            elif ctx_filtros:
+                st.caption(f"Filtros ativos ({', '.join(ctx_filtros)}): CSV sem colunas compatíveis para recorte; análise usa o arquivo completo.")
+            resumo = {"arquivo": caminho_csv.name, "linhas_arquivo": len(df_full_raw), "linhas_analisadas": len(df_full), "colunas": list(df_full.columns),
                       "colunas_numericas": [c for c in df_full.columns if pd.api.types.is_numeric_dtype(df_full[c])],
                       "resumo_estatistico": {}}
             for c in resumo["colunas_numericas"][:10]:
-                resumo["resumo_estatistico"][c] = {"media": round(float(df_full[c].mean()), 2), "min": round(float(df_full[c].min()), 2), "max": round(float(df_full[c].max()), 2)}
+                s = pd.to_numeric(df_full[c], errors="coerce")
+                if s.notna().any():
+                    resumo["resumo_estatistico"][c] = {"media": round(float(s.mean()), 2), "min": round(float(s.min()), 2), "max": round(float(s.max()), 2)}
             amostra = df_full.head(5).to_string()
-            prompt = f"""Analise o seguinte conjunto de dados educacionais do ENADE e gere uma explicacao em linguagem natural.
+            exame_inf = _inferir_escopo_artefato(caminho_csv)
+            contexto_exame = f"{exame_inf}. Cobertura PRISM-EDU: ENADE (edições 2004–2023), ENAMED e ENADE Licenciaturas, conforme artefatos disponíveis."
+            prompt = f"""Analise o seguinte conjunto de dados educacionais ({exame_inf}) e gere uma explicacao em linguagem natural.
 
 ARQUIVO: {caminho_csv.name}
+EXAME/EDIÇÃO (inferido do caminho/nome, auditável): {exame_inf}
+CONTEXTO DO PROJETO: {contexto_exame}
 TOM: {tom}
+FILTROS DE CONTEXTO: {', '.join(ctx_filtros) if ctx_filtros else 'nenhum'}
 {'FOCO ADICIONAL: ' + foco if foco else ''}
 
 RESUMO DOS DADOS:
-- {resumo['linhas']} linhas, {len(resumo['colunas'])} colunas
+- {resumo['linhas_analisadas']} linhas analisadas (de {resumo['linhas_arquivo']} no arquivo), {len(resumo['colunas'])} colunas
 - Colunas: {', '.join(resumo['colunas'][:15])}{'...' if len(resumo['colunas']) > 15 else ''}
 - Colunas numericas: {', '.join(resumo['colunas_numericas'][:8])}
 
 ESTATISTICAS BASICAS:
 {json.dumps(resumo['resumo_estatistico'], indent=2, ensure_ascii=False)}
 
-AMOSTRA (primeiras 5 linhas):
+AMOSTRA (primeiras 5 linhas, apos filtros quando aplicaveis):
 {amostra}
 
 Com base nestes dados, produza uma explicacao que:
-1. Contextualize o que sao estes dados
+1. Contextualize o que sao estes dados (exame/edição, unidade de análise, limitações de comparabilidade quando aplicável)
 2. Destaque os principais achados e padroes
-3. Aponte anomalias
+3. Aponte anomalias ou lacunas (com cautela)
 4. Conclua com recomendacoes praticas
-5. Seja acessivel para publico nao-especialista
+5. Seja acessivel para publico nao-especialista e evite generalizações indevidas entre exames/edições
 """
             prompt_preview = prompt[:75] + "..." if len(prompt) > 75 else prompt
-            st.info(f"Modelo: **{MODELOS_OPENCODE[modelo_id]}** | Prompt: `{prompt_preview}`")
+            st.info(f"Modelo: **{MODELOS_OPENCODE[modelo_id]}** | Exame/edição: **{exame_inf}** | Prompt: `{prompt_preview}`")
             response_container = st.empty()
             timer_container = st.empty()
 
@@ -2185,10 +2487,10 @@ Com base nestes dados, produza uma explicacao que:
                     if resultado["success"]:
                         elapsed = resultado.get("elapsed", timer.elapsed)
                         status.update(label=f"Explicacao gerada em {elapsed}s!", state="complete")
-                        st.markdown(f"### Explicacao Gerada -- {MODELOS_OPENCODE[modelo_id]}")
+                        st.markdown(f"### Explicacao Gerada -- {MODELOS_OPENCODE[modelo_id]} ({exame_inf})")
                         st.markdown("---")
                         st.markdown(resultado["response"])
-                        st.download_button(label="Download da Explicacao (.md)", data=resultado["response"].encode("utf-8"), file_name=f"explicacao_opencode_{caminho_csv.stem}.md", mime="text/markdown", use_container_width=True)
+                        st.download_button(label="Download da Explicacao (.md)", data=resultado["response"].encode("utf-8"), file_name=f"explicacao_opencode_{exame_inf.replace(' ','_')}_{caminho_csv.stem}.md", mime="text/markdown", use_container_width=True)
                     else:
                         error_msg = resultado.get("error", "Erro desconhecido")
                         is_rate_limit = "limite" in error_msg.lower() or "excedido" in error_msg.lower()
@@ -2202,8 +2504,8 @@ Com base nestes dados, produza uma explicacao que:
                             st.warning(f"**Erro OpenCode:** {error_msg}")
                         st.markdown("### Analise Estatistica Automatica (fallback)")
                         st.markdown("---")
-                        st.markdown(f"**Arquivo:** `{caminho_csv.name}`")
-                        st.markdown(f"**Dimensoes:** {resumo['linhas']} linhas x {len(resumo['colunas'])} colunas")
+                        st.markdown(f"**Arquivo:** `{caminho_csv.name}` | **Exame/edição:** {exame_inf}")
+                        st.markdown(f"**Dimensoes:** {resumo.get('linhas_analisadas', resumo.get('linhas','?'))} linhas analisadas x {len(resumo['colunas'])} colunas")
                         st.markdown("---")
                         st.markdown("**Colunas numericas analisadas:**")
                         for col, stats in resumo["resumo_estatistico"].items():
@@ -2214,26 +2516,67 @@ Com base nestes dados, produza uma explicacao que:
                 st.error(f"Erro ao gerar explicacao: {e}")
 
     st.markdown("---")
-    st.subheader("5. Relatorios .md Gerados")
-    pastas_md = [RAIZ_PROJETO / "relatorios", PASTA_DADOS_PROCESSADOS, RAIZ_PROJETO / "EXPLICACOES_OPENCODE", RAIZ_PROJETO / "dados" / "processados" / "EXPLICACOES_OPENCODE", RAIZ_PROJETO.parent / "modeloprojetoENADE2023" / "arquivosgerados" / "EXPLICACOES_OPENCODE"]
-    mds = []
+    st.subheader("5. Relatorios .md / Explicacoes Geradas (todas edições e exames)")
+    pastas_md = [
+        RAIZ_PROJETO / "relatorios",
+        RAIZ_PROJETO / "EXPLICACOES_OPENCODE",
+        PASTA_DADOS_PROCESSADOS,
+        PASTA_DADOS_PROCESSADOS / "EXPLICACOES_OPENCODE",
+        PASTA_DADOS_PROCESSADOS / "enade",
+        PASTA_DADOS_PROCESSADOS / "enamed",
+        PASTA_DADOS_PROCESSADOS / "enadeLicenciaturas",
+        PASTA_MOD,
+        RAIZ_PROJETO.parent / "modeloprojetoENADE2023" / "arquivosgerados",
+        RAIZ_PROJETO.parent / "modeloprojetoENADE2023" / "arquivosgerados" / "EXPLICACOES_OPENCODE",
+        PASTA_SERIE_MICRODADOS / "resultados",
+    ]
+    try:
+        pastas_md.append(RAIZ_PROJETO.parent / "seriesTemporais_microdados" / "resultados")
+    except Exception:
+        pass
+    seen_md, mds = set(), []
     for pasta_md in pastas_md:
-        if pasta_md.exists():
-            mds.extend(pasta_md.rglob("*.md"))
-    mds = sorted(set(mds), key=lambda m: str(m).lower())
+        try:
+            if pasta_md.exists():
+                for m in pasta_md.rglob("*.md"):
+                    try:
+                        rp = m.resolve()
+                        if rp not in seen_md and m.stat().st_size <= 5 * 1024 * 1024:
+                            # priorizar explicações/relatórios relevantes, mas incluir demais .md encontrados nessas raízes
+                            seen_md.add(rp); mds.append(m)
+                    except Exception:
+                        pass
+        except Exception:
+            pass
+    mds = [m for m in mds if _escopo_compativel(_inferir_escopo_artefato(m), escopo_sel)]
+    # priorizar arquivos que parecem explicações/opencode
+    def _prio_md(m):
+        s = m.name.lower() + " " + str(m.parent).lower()
+        pr = 0
+        if "opencode" in s or "explic" in s or "relatorio" in s: pr -= 2
+        if ed_m and ed_m in s: pr -= 1
+        return (pr, str(m).lower())
+    mds = sorted(mds, key=_prio_md)
     if chave_curso:
         mds_curso = [m for m in mds if chave_curso in m.stem or _norm(chave_curso) in _norm(m.stem)]
         if mds_curso:
             mds = mds_curso
+    st.caption(f"Relatórios `.md` no escopo: **{len(mds)}** (raízes: relatorios, EXPLICACOES_OPENCODE, dados/processados, modelos, seriesTemporais_microdados/resultados, legados ENADE 2023).")
     if mds:
         nomes_md = []
         for m in mds:
+            esc = _inferir_escopo_artefato(m)
             try:
-                nomes_md.append(str(m.relative_to(RAIZ_PROJETO)))
-            except ValueError:
-                nomes_md.append(m.name)
+                rel = str(m.relative_to(RAIZ_PROJETO.parent))
+            except Exception:
+                try:
+                    rel = str(m.relative_to(RAIZ_PROJETO))
+                except Exception:
+                    rel = m.name
+            nomes_md.append(f"[{esc}] {rel}")
         md_selecionado = st.selectbox("Selecione um relatorio:", nomes_md, key="md_selector")
         caminho_md = mds[nomes_md.index(md_selecionado)]
+        st.caption(f"Origem inferida: **{_inferir_escopo_artefato(caminho_md)}** | `{caminho_md}`")
         try:
             conteudo_md = caminho_md.read_text(encoding="utf-8")
             st.markdown("---")
@@ -2241,7 +2584,7 @@ Com base nestes dados, produza uma explicacao que:
         except Exception as e:
             st.error(f"Erro ao ler o arquivo .md: {e}")
     else:
-        st.info("Nenhum relatorio .md encontrado. Gere um relatorio na aba OpenCode ou execute o gerador de relatorios do projeto.")
+        st.info("Nenhum relatorio .md encontrado no escopo selecionado. Gere uma explicação (seção 4), ajuste o escopo/exame, ou verifique pastas `relatorios/`, `EXPLICACOES_OPENCODE/`, `modelos/*/<edição>/`, `dados/processados/*` e `seriesTemporais_microdados/resultados/*`.")
 
 
 
@@ -2292,18 +2635,26 @@ elif aba == ABAS[6]:
             for dina_file in dina_files:
                 st.markdown(f"**{dina_file.stem}**")
                 df_dina = _ler(dina_file)
-                if df_dina is not None and "questao" in df_dina.columns and "slip" in df_dina.columns and "guess" in df_dina.columns:
-                    fig_dina = go.Figure()
-                    fig_dina.add_trace(go.Bar(x=df_dina["questao"], y=df_dina["slip"], name="Slip (s)", marker_color="#ef4444"))
-                    fig_dina.add_trace(go.Bar(x=df_dina["questao"], y=df_dina["guess"], name="Guess (g)", marker_color="#3b82f6"))
-                    fig_dina.update_layout(barmode="group", title=f"Parametros DINA -- {dina_file.stem}",
-                                           xaxis_title="Questao", yaxis_title="Probabilidade", height=400)
-                    st.plotly_chart(fig_dina, use_container_width=True)
-                    st.caption("Slip alto indica questao onde alunos dominantes erram (confusa/pé-difícil). "
-                               "Guess alto indica questao onde nao-dominantes acertam por sorte (baixa discriminacao).")
-                    st.dataframe(df_dina, use_container_width=True)
-                else:
-                    st.warning(f"Arquivo {dina_file.name} nao contem colunas questao/slip/guess.")
+                ok = False
+                if df_dina is not None and not df_dina.empty:
+                    cols_norm = {str(c).strip().lower(): c for c in df_dina.columns}
+                    c_q = cols_norm.get("questao") or cols_norm.get("item") or cols_norm.get("q")
+                    c_slip = cols_norm.get("slip_s") or cols_norm.get("slip")
+                    c_guess = cols_norm.get("guess_g") or cols_norm.get("guess")
+                    if c_q and c_slip and c_guess:
+                        fig_dina = go.Figure()
+                        fig_dina.add_trace(go.Bar(x=df_dina[c_q], y=pd.to_numeric(df_dina[c_slip], errors="coerce"), name="Slip (s)", marker_color="#ef4444"))
+                        fig_dina.add_trace(go.Bar(x=df_dina[c_q], y=pd.to_numeric(df_dina[c_guess], errors="coerce"), name="Guess (g)", marker_color="#3b82f6"))
+                        fig_dina.update_layout(barmode="group", title=f"Parametros DINA -- {dina_file.stem}",
+                                               xaxis_title="Questao", yaxis_title="Probabilidade", height=400)
+                        st.plotly_chart(fig_dina, use_container_width=True)
+                        st.caption("Slip alto indica questao onde alunos dominantes erram (confusa/difícil). "
+                                   "Guess alto indica questao onde nao-dominantes acertam por sorte (baixa discriminacao).")
+                        st.dataframe(df_dina, use_container_width=True)
+                        ok = True
+                if not ok:
+                    cols_info = list(df_dina.columns)[:8] if df_dina is not None else []
+                    st.warning(f"Arquivo {dina_file.name} nao contem colunas questao/slip/guess (ou slip_s/guess_g)." + (f" Colunas: {cols_info}" if cols_info else ""))
         else:
             st.info("Nenhum arquivo dina_*.csv encontrado em modelos/cdm/.")
 
@@ -2707,7 +3058,10 @@ elif aba == ABAS[7]:
                 m_du_6.metric("Erro Reconstrucao (Producao)", f"{res_pca['mse_prod']:.4f}")
                 m_du_7.metric("Razao Prod/Base", f"{res_pca['ratio']:.2f}" if res_pca["ratio"] is not None else "-")
                 m_du_8.metric("Variancia Explicada", f"{res_pca['variancia_explicada'] * 100:.1f}%")
-                st.success(res_pca["status"]) if res_pca["status"].startswith("Sem") else st.error(res_pca["status"])
+                if res_pca["status"].startswith("Sem"):
+                    st.success(res_pca["status"])
+                else:
+                    st.error(res_pca["status"])
                 fig_pca = go.Figure(go.Bar(
                     x=["Referencia (baseline CV)", "Producao (curso/IES)"],
                     y=[res_pca["mse_baseline"], res_pca["mse_prod"]],
@@ -2796,16 +3150,29 @@ elif aba == ABAS[7]:
     st.markdown("---")
     st.subheader("ANOVA Regional: A Regiao Explica o Desempenho?")
     st.markdown("""
-    Analise de variancia (ANOVA) testa se ha diferencas estatisticamente significativas no desempenho
+    Analise de variancia (ANOVA/Kruskal-Wallis robusto) testa se ha diferencas estatisticamente significativas no desempenho
     entre as regioes brasileiras. O **Eta²** mede o tamanho do efeito (proporcao da variancia explicada pela regiao).
     """)
-    if df_nacional is not None and "CO_REGIAO_CURSO" in df_nacional.columns and "NT_GER" in df_nacional.columns:
-        rmapANOVA = {1: "Norte", 2: "Nordeste", 3: "Sudeste", 4: "Sul", 5: "Centro-Oeste"}
-        df_anova = df_nacional[["CO_REGIAO_CURSO", "NT_GER"]].dropna().copy()
-        df_anova["Regiao"] = df_anova["CO_REGIAO_CURSO"].map(rmapANOVA)
-        df_anova = df_anova.dropna(subset=["Regiao"])
+    _df_anova_src = df_nacional if df_nacional is not None else (df_curso if 'df_curso' in locals() else None)
+    if _df_anova_src is not None and not _df_anova_src.empty:
+        cols_norm_an = {str(c).strip().upper(): c for c in _df_anova_src.columns}
+        c_reg = next((cols_norm_an[k] for k in ["CO_REGIAO_CURSO", "CO_REGIAO", "REGIAO_CURSO", "COD_REGIAO_CURSO"] if k in cols_norm_an), None)
+        c_nt = next((cols_norm_an[k] for k in ["NT_GER", "NT_OBJ_CE", "NOTA_GERAL", "MEDIA_GLOBAL"] if k in cols_norm_an), None)
+    else:
+        c_reg = c_nt = None
+    if _df_anova_src is not None and c_reg and c_nt:
+        rmapANOVA = {1: "Norte", 2: "Nordeste", 3: "Sudeste", 4: "Sul", 5: "Centro-Oeste",
+                     "1": "Norte", "2": "Nordeste", "3": "Sudeste", "4": "Sul", "5": "Centro-Oeste"}
+        df_anova = _df_anova_src[[c_reg, c_nt]].copy()
+        df_anova[c_nt] = pd.to_numeric(df_anova[c_nt], errors="coerce")
+        reg_raw = df_anova[c_reg]
+        df_anova["Regiao"] = reg_raw.map(rmapANOVA)
+        if df_anova["Regiao"].isna().all():
+            df_anova["Regiao"] = reg_raw.astype(str).str.strip()
+        df_anova = df_anova.dropna(subset=["Regiao", c_nt])
+        df_anova = df_anova[df_anova["Regiao"].astype(str).str.lower() != "nan"]
         if df_anova["Regiao"].nunique() >= 2:
-            grupos = [g["NT_GER"].values for _, g in df_anova.groupby("Regiao") if len(g) >= 2]
+            grupos = [g[c_nt].values for _, g in df_anova.groupby("Regiao") if len(g) >= 2]
             if len(grupos) >= 2:
                 from algoritmos.estatistica.anova_robusta import anova_robusta, formatar_p
                 nomes_regiao = [reg for reg, g in df_anova.groupby("Regiao") if len(g) >= 2]
@@ -2813,13 +3180,11 @@ elif aba == ABAS[7]:
                 f_stat = res_anova["F"]
                 p_val = res_anova["p_anova"]
                 eta2 = res_anova["eta2"]
-                omega2 = res_anova["omega2"]
                 m_a1, m_a2, m_a3, m_a4 = st.columns(4)
                 m_a1.metric("F-Estatistica", f"{f_stat:.2f}")
                 m_a2.metric("p-valor", formatar_p(p_val))
                 m_a3.metric("Eta² (Efeito)", f"{eta2:.4f}")
-                pct_var = eta2 * 100
-                m_a4.metric("Variancia Explicada", f"{pct_var:.2f}%")
+                m_a4.metric("Variancia Explicada", f"{eta2 * 100:.2f}%")
                 if res_anova["escolha"] == "parametrica":
                     st.caption("Pressupostos validados: Shapiro-Wilk OK, Levene OK → ANOVA parametrica.")
                 else:
@@ -2841,24 +3206,26 @@ elif aba == ABAS[7]:
                 else:
                     st.success(f"**Resultado:** Nao ha diferenca significativa entre regioes (p={p_val:.4f}). "
                                "A regiao nao e um fator explicativo relevante para este curso.")
-                media_reg = df_anova.groupby("Regiao")["NT_GER"].agg(["mean", "count", "std"]).reset_index()
-                media_reg.columns = ["Regiao", "Media_NT_GER", "N_Alunos", "Desvio"]
-                media_reg = media_reg.sort_values("Media_NT_GER", ascending=False)
-                fig_anova = px.bar(media_reg, x="Regiao", y="Media_NT_GER", color="Media_NT_GER",
-                                   color_continuous_scale="RdYlGn", text="Media_NT_GER",
-                                   title="Media de Nota Geral por Regiao (ANOVA)")
+                media_reg = df_anova.groupby("Regiao")[c_nt].agg(["mean", "count", "std"]).reset_index()
+                media_reg.columns = ["Regiao", "Media_Nota", "N_Alunos", "Desvio"]
+                media_reg = media_reg.sort_values("Media_Nota", ascending=False)
+                fig_anova = px.bar(media_reg, x="Regiao", y="Media_Nota", color="Media_Nota",
+                                   color_continuous_scale="RdYlGn", text="Media_Nota",
+                                   title=f"Media de {c_nt} por Regiao (ANOVA)")
                 fig_anova.update_traces(texttemplate="%{text:.2f}", textposition="outside")
                 fig_anova.update_layout(height=400)
                 st.plotly_chart(fig_anova, use_container_width=True)
                 st.dataframe(media_reg, use_container_width=True)
-                st.caption("Diagnostico pedagogico: Se a regiao nao explica o desempenho, as intervencoes devem ser "
-                           "focalizadas na qualidade do ensino e nao em ajustes regionais genericos.")
+                st.caption(f"Fonte/colunas usadas: regiao=`{c_reg}`, nota=`{c_nt}`. Diagnostico pedagogico: intervencoes devem considerar "
+                           "qualidade do ensino e contexto socioeconomico, nao apenas recortes regionais genericos.")
             else:
                 st.info("Menos de 2 regioes com dados suficientes para ANOVA.")
         else:
             st.info("Menos de 2 regioes presentes nos dados.")
     else:
-        st.info("Colunas CO_REGIAO_CURSO ou NT_GER nao disponiveis para ANOVA regional.")
+        cols_disp = list(_df_anova_src.columns)[:12] if _df_anova_src is not None else []
+        st.info("Colunas de regiao/nota nao disponiveis para ANOVA regional (buscadas: CO_REGIAO_CURSO/CO_REGIAO e NT_GER/NT_OBJ_CE)."
+                + (f" Colunas detectadas (amostra): {cols_disp}" if cols_disp else ""))
     
 
 
@@ -2904,20 +3271,30 @@ elif aba == ABAS[8]:
             for dina_file in dina_files:
                 st.markdown(f"**{dina_file.stem}**")
                 df_dina = _ler(dina_file)
-                if df_dina is not None and all(c in df_dina.columns for c in ["questao", "slip", "guess"]):
-                    fig_dina = go.Figure()
-                    fig_dina.add_trace(go.Scatter(x=df_dina["slip"], y=df_dina["guess"], mode="markers+text",
-                                                  text=df_dina["questao"], textposition="top center",
-                                                  marker=dict(size=10, color="#8b5cf6")))
-                    fig_dina.add_hline(y=0.3, line_dash="dash", line_color="red", opacity=0.5, annotation_text="Limiar Guess")
-                    fig_dina.add_vline(x=0.3, line_dash="dash", line_color="red", opacity=0.5, annotation_text="Limiar Slip")
-                    fig_dina.update_layout(title=f"Dispersao Slip vs Guess -- {dina_file.stem}",
-                                           xaxis_title="Slip (s)", yaxis_title="Guess (g)", height=450)
-                    st.plotly_chart(fig_dina, use_container_width=True)
-                    st.caption("Itens no canto superior direito (alto slip e guess) sao os mais problematicos e devem ser revisados.")
-                    st.dataframe(df_dina, use_container_width=True)
-                else:
-                    st.warning(f"Arquivo {dina_file.name} nao contem colunas questao/slip/guess.")
+                ok = False
+                if df_dina is not None and not df_dina.empty:
+                    cols_norm = {str(c).strip().lower(): c for c in df_dina.columns}
+                    c_q = cols_norm.get("questao") or cols_norm.get("item") or cols_norm.get("q")
+                    c_slip = cols_norm.get("slip_s") or cols_norm.get("slip")
+                    c_guess = cols_norm.get("guess_g") or cols_norm.get("guess")
+                    if c_q and c_slip and c_guess:
+                        fig_dina = go.Figure()
+                        fig_dina.add_trace(go.Scatter(x=pd.to_numeric(df_dina[c_slip], errors="coerce"),
+                                                      y=pd.to_numeric(df_dina[c_guess], errors="coerce"),
+                                                      mode="markers+text",
+                                                      text=df_dina[c_q], textposition="top center",
+                                                      marker=dict(size=10, color="#8b5cf6")))
+                        fig_dina.add_hline(y=0.3, line_dash="dash", line_color="red", opacity=0.5, annotation_text="Limiar Guess")
+                        fig_dina.add_vline(x=0.3, line_dash="dash", line_color="red", opacity=0.5, annotation_text="Limiar Slip")
+                        fig_dina.update_layout(title=f"Dispersao Slip vs Guess -- {dina_file.stem}",
+                                               xaxis_title="Slip (s)", yaxis_title="Guess (g)", height=450)
+                        st.plotly_chart(fig_dina, use_container_width=True)
+                        st.caption("Itens no canto superior direito (alto slip e guess) sao os mais problematicos e devem ser revisados.")
+                        st.dataframe(df_dina, use_container_width=True)
+                        ok = True
+                if not ok:
+                    cols_info = list(df_dina.columns)[:8] if df_dina is not None else []
+                    st.warning(f"Arquivo {dina_file.name} nao contem colunas questao/slip/guess (ou slip_s/guess_g)." + (f" Colunas: {cols_info}" if cols_info else ""))
         else:
             st.info("Nenhum arquivo dina_*.csv encontrado em modelos/cdm/.")
 
@@ -3221,31 +3598,51 @@ elif aba == ABAS[10]:
     st.header("Simulador Contrafactual Curricular (What-If Analytics)")
     st.markdown("""
     Esta funcionalidade simula **Politicas de Intervencao Pedagogica**.
-    Utiliza um motor de Machine Learning (*XGBoost*) para recalcular as proficiencias de todos os estudantes
-    e prever o impacto de intervencoes em disciplinas isoladas sobre a **Taxa de Excelencia** geral do curso.
-    NOTA: Requer XGBoost. Se nao instalado, sera exibida uma versao simplificada baseada em medias.
+    Usa um modelo monotônico no **escore composto dos itens selecionados** para estimar o impacto
+    de intervenções em itens/disciplinas sobre a **Taxa de Excelência** do curso, calibrado no alvo
+    externo disponível (ex.: `NT_DIS_CE`). A simulação é exploratória e **não estabelece causalidade**.
+    NOTA: itens 0/1 são normalizados para 0-100; o deslocamento no composto é a média dos deltas dos itens selecionados.
     """)
     if df_curso is None or (hasattr(df_curso, 'empty') and df_curso.empty):
         st.warning("Selecione uma IES e Curso no filtro lateral.")
     else:
         cols_ignoradas = ['ALUNO', 'CO_CURSO', 'NOME_CURSO', 'CO_IES', 'CO_GRUPO', 'CO_REGIAO_CURSO',
                           'TP_SEXO', 'NU_IDADE', 'NT_GER', 'NT_CE', 'NT_DIS_CE', 'NT_FG', 'NT_BASE']
-        # Features do simulador: apenas itens (Q*). Nunca notas/componentes (NT_*),
-        # que seriam vazamento do alvo externo.
-        disciplinas = [c for c in df_curso.columns
-                       if c not in cols_ignoradas and not str(c).upper().startswith("NT_")]
-        disciplinas_num = []
-        for d in disciplinas:
-            try:
-                df_curso[d] = pd.to_numeric(df_curso[d], errors='coerce')
-                if df_curso[d].notna().sum() > 10:
-                    disciplinas_num.append(d)
-            except Exception:
-                pass
+        # Itens do exame (Q*). Metadados administrativos NAO entram como "disciplinas".
+        itens_exame = [c for c in df_curso.columns if re.fullmatch(r"Q\d{1,3}", str(c).strip(), re.I)]
+        if len(itens_exame) < 2:
+            itens_exame = [c for c in df_curso.columns if re.search(r"(^|_)(ITEM|QUESTAO)\d*", str(c), re.I)]
+        if len(itens_exame) < 2:
+            meta_prefixos = ("CO_", "NU_", "TP_", "IN_", "PESO", "EXAME", "ALUNO", "NOME_", "NT_", "COD_", "ID_", "ANO")
+            itens_exame = [c for c in df_curso.columns
+                           if c not in cols_ignoradas and not str(c).upper().startswith(meta_prefixos)]
+        itens_num = []
+        for d in itens_exame:
+            s = pd.to_numeric(df_curso[d], errors="coerce")
+            if s.notna().sum() > 10 and s.nunique(dropna=True) >= 2:
+                df_curso[d] = s
+                itens_num.append(d)
 
-        if not disciplinas_num:
-            st.error("Nenhuma disciplina numerica encontrada para simulacao.")
+        if not itens_num:
+            st.error("Nenhum item/disciplina numérica com variabilidade encontrada para simulação. "
+                     "Verifique se o arquivo do exame contém colunas Q* (itens) preenchidas.")
         else:
+            # Escala dos itens: ENADE/ENAMED/Licenciaturas costumam vir 0/1 (acerto).
+            # Converte para 0-100 para que o slider em "pontos" tenha efeito interpretável.
+            df_itens = df_curso[itens_num].apply(pd.to_numeric, errors="coerce").copy()
+            escalas = {}
+            for c in itens_num:
+                mx = df_itens[c].max()
+                if pd.notna(mx) and mx <= 1.5:
+                    df_itens[c] = df_itens[c] * 100.0
+                    escalas[c] = "0-1 -> 0-100"
+                elif pd.notna(mx) and 1.5 < mx <= 10:
+                    df_itens[c] = df_itens[c] / mx * 100.0
+                    escalas[c] = f"0-{mx:g} -> 0-100"
+                else:
+                    df_itens[c] = df_itens[c].clip(0, 100)
+                    escalas[c] = "0-100 (clip)"
+
             # Alvo EXTERNO (nao derivado das features): nota externa disponivel.
             alvo_col = None
             for candidato in ("NT_DIS_CE", "NT_CE_D1", "NT_GER"):
@@ -3265,51 +3662,100 @@ elif aba == ABAS[10]:
                 taxa_atual = float(alvo_bin.dropna().mean() * 100)
             else:
                 alvo_serie = None
-                media_global = df_curso[disciplinas_num[:5]].mean(axis=1)
-                taxa_atual = float((media_global >= 60).mean() * 100)
+                score_base = df_itens[itens_num].mean(axis=1)
+                taxa_atual = float((score_base >= 60).mean() * 100)
 
             st.caption(f"Taxa de Excelência definida pelo alvo externo: "
                        f"**{alvo_col or 'média dos itens (sem alvo externo disponível)'}** ≥ {corte if alvo_col else 60:.0f}.")
 
             st.subheader("Painel de Intervencao Curricular")
-            st.caption("Ajuste o impacto pedagogico estimado para cada disciplina (em pontos).")
-            disciplinas_exibidas = disciplinas_num[:5]
-            alteracoes_simuladas = {}
-            cols_sliders = st.columns(len(disciplinas_exibidas))
-            for i, disc in enumerate(disciplinas_exibidas):
-                with cols_sliders[i]:
-                    delta = st.slider(f"Acao em:\n{_curto(disc, 18)}", min_value=-20, max_value=20, value=0, step=1, key=f"sim_{disc}")
-                    alteracoes_simuladas[disc] = delta
+            st.caption("Selecione os itens/disciplinas e ajuste o impacto pedagógico estimado "
+                       "(em pontos percentuais de domínio do item). Itens são normalizados para 0-100 quando necessário.")
+            # Critério auditável: itens mais críticos = baixa média e alta cobertura.
+            stats_itens = df_itens[itens_num].agg(["mean", "count"]).T
+            max_count = max(float(stats_itens["count"].max()), 1.0)
+            stats_itens["criticidade"] = (100.0 - stats_itens["mean"].clip(0, 100)) * (stats_itens["count"] / max_count)
+            itens_prioritarios = stats_itens.sort_values("criticidade", ascending=False).index.tolist()
+            default_itens = itens_prioritarios[:5]
+            itens_sel = st.multiselect(
+                "Itens/disciplinas para simular (padrão: 5 mais críticos):",
+                itens_prioritarios, default=default_itens, key="sim_itens_sel",
+                help="A lista é ordenada por criticidade = (100 - média) × cobertura. A simulação usa apenas os itens selecionados."
+            )
+            if not itens_sel:
+                st.warning("Selecione ao menos um item/disciplina para simular. Usando os 5 mais críticos como padrão.")
+                itens_sel = default_itens
+            st.caption("Escalas detectadas: " + "; ".join(f"{_curto(k, 18)}: {v}" for k, v in escalas.items() if k in itens_sel))
 
-            df_sim_base = df_curso[disciplinas_num[:5]].copy()
+            alteracoes_simuladas = {}
+            cols_sliders = st.columns(min(len(itens_sel), 5))
+            for i, disc in enumerate(itens_sel):
+                with cols_sliders[i % len(cols_sliders)]:
+                    delta = st.slider(f"Acao em:\n{_curto(disc, 18)}", min_value=-20, max_value=20, value=0, step=1,
+                                      key=f"sim_{_norm_compacto(disc)}_{i}")
+                    alteracoes_simuladas[disc] = int(delta)
+
+            mudancas = {k: v for k, v in alteracoes_simuladas.items() if v != 0}
+            if mudancas:
+                st.caption("Intervenções aplicadas (pontos percentuais): " + ", ".join(f"{_curto(k,24)}={v:+d}" for k, v in mudancas.items()))
+            else:
+                st.caption("Nenhuma intervenção aplicada ainda: mova os cursores para simular.")
+
+            df_sim_base = df_itens[itens_sel].copy()
             cols_sim = list(df_sim_base.columns)
-            uso_xgb = False
+            # imputa para evitar NaN quebrar o simulador
+            for c in cols_sim:
+                med = df_sim_base[c].median()
+                df_sim_base[c] = df_sim_base[c].fillna(med if pd.notna(med) else 0)
+            if alvo_col is None:
+                # sem alvo externo, a linha de base é o próprio composto dos itens selecionados
+                taxa_atual = float((df_sim_base.mean(axis=1) >= 60).mean() * 100)
+
+            # Simulação principal: modelo monotônico no escore composto (S).
+            # Árvores (XGBoost) são insensíveis a pequenos deslocamentos dentro das folhas;
+            # por isso usamos regressão linear com sinal restrito, calibrada no alvo externo.
+            S_base = df_sim_base.mean(axis=1)
+            if alvo_col is not None:
+                y_sim = pd.to_numeric(alvo_bin, errors="coerce")
+                mask_y = y_sim.notna()
+                S_fit = S_base[mask_y]
+                y_fit = y_sim[mask_y].astype(int)
+            else:
+                S_fit = S_base
+                y_fit = (S_base >= 60).astype(int)
             nova_taxa = None
-            try:
-                from xgboost import XGBClassifier
+            metodo = None
+            if len(S_fit) >= 30 and y_fit.nunique() >= 2:
+                try:
+                    from sklearn.linear_model import LinearRegression
+                    modelo_sim = LinearRegression(positive=True)
+                    modelo_sim.fit(S_fit.values.reshape(-1, 1), y_fit.values)
+                    coef = float(np.ravel(modelo_sim.coef_)[0])
+                    intercepto = float(modelo_sim.intercept_)
+                    if coef <= 1e-9:
+                        # relação não positiva/plana: cai no fallback aritmético, que sempre responde ao slider
+                        raise ValueError("coeficiente não positivo")
+                    # deslocamento do escore composto: média dos deltas dos itens selecionados
+                    shift = float(sum(alteracoes_simuladas.get(c, 0) for c in itens_sel) / max(len(itens_sel), 1))
+                    S_sim = S_base + shift
+                    prob_base = np.clip(intercepto + coef * S_base, 0, 1)
+                    prob_sim = np.clip(intercepto + coef * S_sim, 0, 1)
+                    # calibra a linha de base na taxa observada do recorte (delta=0 => taxa_atual)
+                    nova_taxa = float(np.clip(taxa_atual + (prob_sim.mean() - prob_base.mean()) * 100, 0, 100))
+                    metodo = (f"regressão linear monotônica no escore composto dos itens selecionados, "
+                              f"calibrada na taxa observada (coef={coef:.4f}; deslocamento={shift:+.1f} pontos no composto)")
+                except Exception:
+                    nova_taxa = None
+            if nova_taxa is None or (isinstance(nova_taxa, float) and np.isnan(nova_taxa)):
+                # fallback aritmético transparente
+                shift = float(sum(alteracoes_simuladas.get(c, 0) for c in itens_sel) / max(len(itens_sel), 1))
+                S_sim = S_base + shift
                 if alvo_col is not None:
-                    df_treino_sim = df_sim_base.copy()
-                    df_treino_sim["_alvo"] = alvo_bin
-                    df_treino_sim = df_treino_sim.dropna(subset=cols_sim + ["_alvo"])
-                    if len(df_treino_sim) >= 30 and df_treino_sim["_alvo"].nunique() >= 2:
-                        modelo_sim = XGBClassifier(n_estimators=80, max_depth=3, learning_rate=0.1,
-                                                   objective="binary:logistic", random_state=42)
-                        modelo_sim.fit(df_treino_sim[cols_sim], df_treino_sim["_alvo"].astype(int))
-                        df_sim_pred = df_sim_base.copy()
-                        for disc, delta in alteracoes_simuladas.items():
-                            if disc in df_sim_pred.columns:
-                                df_sim_pred[disc] = (df_sim_pred[disc] + delta).clip(0, 100)
-                        nova_taxa = modelo_sim.predict(df_sim_pred[cols_sim]).mean() * 100
-                        uso_xgb = True
-            except Exception:
-                nova_taxa = None
-            if nova_taxa is None:
-                df_simulado = df_sim_base.copy()
-                for disc, delta in alteracoes_simuladas.items():
-                    if disc in df_simulado.columns:
-                        df_simulado[disc] = (df_simulado[disc] + delta).clip(0, 100)
-                nova_taxa = (df_simulado.mean(axis=1) >= 60).mean() * 100
-            diferenca = nova_taxa - taxa_atual
+                    nova_taxa = float(np.clip(taxa_atual + shift, 0, 100))
+                else:
+                    nova_taxa = float((S_sim >= 60).mean() * 100)
+                metodo = "estimativa aritmética transparente (fallback)"
+            diferenca = float(nova_taxa - taxa_atual)
 
             st.markdown("---")
             m1, m2, m3 = st.columns(3)
@@ -3330,8 +3776,170 @@ elif aba == ABAS[10]:
             fig_sim.update_layout(title=f"Simulacao Contrafactual -- {nome_curso}",
                                   yaxis_title="Taxa de Excelencia (%)", yaxis=dict(range=[0, 100]), height=380)
             st.plotly_chart(fig_sim, use_container_width=True)
-            st.caption(f"Grafico comparativo entre cenario real e simulado apos intervencoes curriculares. "
-                       f"{'Previsao via XGBoost com alvo externo (' + str(alvo_col) + '), sem vazamento.' if uso_xgb else 'Estimativa aritmetica (XGBoost indisponivel ou dados/alvo insuficientes).'}")
+            st.caption(f"Grafico comparativo entre cenario real e simulado apos intervencoes curriculares. Método: {metodo}. "
+                       f"Itens usados: {', '.join(itens_sel)}. A simulação é exploratória e não estabelece causalidade.")
+
+            # ==============================================================
+            # Variáveis contextuais (não curriculares)
+            # ==============================================================
+            st.markdown("---")
+            st.subheader("Variáveis Contextuais (não curriculares)")
+            st.markdown(
+                "As variáveis abaixo **não são alavancas curriculares** e **não entram** no escore de intervenção. "
+                "Elas descrevem **associações estruturais** (UF, região, categoria administrativa, organização "
+                "acadêmica, modalidade, sexo e faixa etária) com a taxa de excelência. "
+                "**Associação não implica causalidade.**"
+            )
+
+            # Recorte: mesmo curso em todas as IES (quando disponível), pois dentro de
+            # uma única IES essas variáveis costumam ser constantes.
+            base_ctx = df_curso
+            if sel_grupo is not None and "CO_GRUPO" in df.columns:
+                base_ctx = df[df["CO_GRUPO"] == sel_grupo].copy()
+            if base_ctx is not df_curso and len(base_ctx) > len(df_curso):
+                st.caption(f"Recorte: **nacional do mesmo curso** ({len(base_ctx):,} registros, todas as IES). "
+                           "Esse recorte é necessário porque, dentro de uma única IES, várias dessas variáveis são constantes.")
+            else:
+                st.caption("Recorte: IES/curso selecionados. Dimensões constantes neste recorte não são exibidas.")
+
+            # Alvo contextual (mesma regra do simulador, recalculada no recorte).
+            if alvo_col is not None and alvo_col in base_ctx.columns:
+                s_ctx = pd.to_numeric(base_ctx[alvo_col], errors="coerce")
+                y_ctx = (s_ctx >= corte).astype(float)
+                y_ctx[s_ctx.isna()] = np.nan
+            else:
+                cols_itens_ctx = [c for c in itens_num if c in base_ctx.columns]
+                comp_ctx = base_ctx[cols_itens_ctx].apply(pd.to_numeric, errors="coerce").copy()
+                for c in cols_itens_ctx:
+                    mx = comp_ctx[c].max()
+                    if pd.notna(mx) and mx <= 1.5:
+                        comp_ctx[c] = comp_ctx[c] * 100.0
+                comp_ctx = comp_ctx.mean(axis=1)
+                y_ctx = (comp_ctx >= 60).astype(float)
+                y_ctx[comp_ctx.isna()] = np.nan
+
+            # Dimensões contextuais candidatas (rótulos auditáveis, código entre parênteses quando desconhecido).
+            dims_ctx, rotulos_ctx, ctx_novas = [], {}, {}
+            if "CO_UF_CURSO" in base_ctx.columns:
+                uf_map = {11: "RO", 12: "AC", 13: "AM", 14: "RR", 15: "PA", 16: "AP", 17: "TO",
+                          21: "MA", 22: "PI", 23: "CE", 24: "RN", 25: "PB", 26: "PE", 27: "AL", 28: "SE", 29: "BA",
+                          31: "MG", 32: "ES", 33: "RJ", 35: "SP", 41: "PR", 42: "SC", 43: "RS",
+                          50: "MS", 51: "MT", 52: "GO", 53: "DF"}
+                ctx_novas["_CTX_UF"] = _rotular_codigos(base_ctx["CO_UF_CURSO"], uf_map, "UF")
+                dims_ctx.append("_CTX_UF"); rotulos_ctx["_CTX_UF"] = "UF do curso"
+            if "CO_REGIAO_CURSO" in base_ctx.columns:
+                reg_map = {1: "Norte", 2: "Nordeste", 3: "Sudeste", 4: "Sul", 5: "Centro-Oeste"}
+                ctx_novas["_CTX_REGIAO"] = _rotular_codigos(base_ctx["CO_REGIAO_CURSO"], reg_map, "Região")
+                dims_ctx.append("_CTX_REGIAO"); rotulos_ctx["_CTX_REGIAO"] = "Região do curso"
+            if "CO_CATEGAD" in base_ctx.columns:
+                cat_map = {1: "Pública Federal", 2: "Pública Estadual", 3: "Pública Municipal",
+                           4: "Privada com fins lucrativos", 5: "Privada sem fins lucrativos", 6: "Especial"}
+                ctx_novas["_CTX_CATEG"] = _rotular_codigos(base_ctx["CO_CATEGAD"], cat_map, "Categoria")
+                dims_ctx.append("_CTX_CATEG"); rotulos_ctx["_CTX_CATEG"] = "Categoria administrativa"
+            if "CO_ORGACAD" in base_ctx.columns:
+                org_map = {1: "Universidade", 2: "Centro Universitário", 3: "Faculdade",
+                           4: "Instituto Federal/CEFET"}
+                ctx_novas["_CTX_ORG"] = _rotular_codigos(base_ctx["CO_ORGACAD"], org_map, "Organização")
+                dims_ctx.append("_CTX_ORG"); rotulos_ctx["_CTX_ORG"] = "Organização acadêmica"
+            if "CO_MODALIDADE" in base_ctx.columns:
+                mod_map = {1: "Presencial", 2: "EAD"}
+                ctx_novas["_CTX_MOD"] = _rotular_codigos(base_ctx["CO_MODALIDADE"], mod_map, "Modalidade")
+                dims_ctx.append("_CTX_MOD"); rotulos_ctx["_CTX_MOD"] = "Modalidade de ensino"
+            if "TP_SEXO" in base_ctx.columns:
+                sexo_map = {1: "Masculino", 2: "Feminino", "M": "Masculino", "F": "Feminino",
+                            "m": "Masculino", "f": "Feminino", "1": "Masculino", "2": "Feminino"}
+                ctx_novas["_CTX_SEXO"] = base_ctx["TP_SEXO"].map(sexo_map)
+                dims_ctx.append("_CTX_SEXO"); rotulos_ctx["_CTX_SEXO"] = "Sexo"
+            if "NU_IDADE" in base_ctx.columns:
+                idade = pd.to_numeric(base_ctx["NU_IDADE"], errors="coerce")
+                ctx_novas["_CTX_IDADE"] = pd.cut(
+                    idade, bins=[0, 24, 29, 39, 49, 200],
+                    labels=["Até 24", "25-29", "30-39", "40-49", "50+"])
+                dims_ctx.append("_CTX_IDADE"); rotulos_ctx["_CTX_IDADE"] = "Faixa etária"
+            if ctx_novas:
+                # concatena uma única vez (evita DataFrame fragmentado)
+                base_ctx = pd.concat([base_ctx, pd.DataFrame(ctx_novas, index=base_ctx.index)], axis=1)
+
+            dims_ok = [c for c in dims_ctx
+                       if base_ctx[c].notna().sum() >= 30 and base_ctx[c].nunique(dropna=True) >= 2]
+
+            if not dims_ok:
+                st.info("Nenhuma variável contextual com variabilidade suficiente neste recorte. "
+                        "Isso é esperado quando a análise está restrita a uma única IES/curso.")
+            else:
+                dim_sel = st.selectbox(
+                    "Dimensão contextual:", dims_ok,
+                    format_func=lambda c: rotulos_ctx.get(c, c), key="sim_ctx_dim")
+                col_dim = rotulos_ctx.get(dim_sel, dim_sel)
+
+                sub_ctx = base_ctx[[dim_sel]].copy()
+                sub_ctx["_y"] = y_ctx.values
+                sub_ctx = sub_ctx.dropna(subset=[dim_sel, "_y"])
+                # Só categorias com n >= 30 para evitar taxas instáveis.
+                contagens = sub_ctx[dim_sel].value_counts()
+                validas = contagens[contagens >= 30].index
+                sub_ctx = sub_ctx[sub_ctx[dim_sel].isin(validas)]
+
+                if len(sub_ctx) < 30 or sub_ctx["_y"].nunique() < 2:
+                    st.info("Amostra insuficiente por categoria (mínimo de 30 alunos por categoria) para esta dimensão.")
+                else:
+                    taxa_global_ctx = float(sub_ctx["_y"].mean() * 100)
+                    grp_ctx = sub_ctx.groupby(dim_sel, observed=True)["_y"].agg(n="count", taxa="mean")
+                    grp_ctx["taxa_%"] = grp_ctx["taxa"] * 100.0
+                    grp_ctx["delta_p.p."] = grp_ctx["taxa_%"] - taxa_global_ctx
+                    grp_ctx = grp_ctx.drop(columns=["taxa"]).sort_values("taxa_%", ascending=False)
+                    ref_cat = grp_ctx["n"].idxmax()
+
+                    # Modelo logístico com a dimensão selecionada (g-computation por categoria).
+                    ajustado = {}
+                    try:
+                        from sklearn.linear_model import LogisticRegression
+                        from sklearn.pipeline import Pipeline
+                        from sklearn.preprocessing import OneHotEncoder
+                        pipe_ctx = Pipeline([
+                            ("oh", OneHotEncoder(handle_unknown="ignore", sparse_output=False,
+                                                 drop=[str(ref_cat)])),
+                            ("lr", LogisticRegression(max_iter=5000, C=1e6)),
+                        ])
+                        pipe_ctx.fit(sub_ctx[[dim_sel]].astype(str), sub_ctx["_y"].astype(int))
+                        for cat in grp_ctx.index:
+                            Xc = pd.DataFrame({dim_sel: [str(cat)]})
+                            ajustado[str(cat)] = float(pipe_ctx.predict_proba(Xc)[0, 1] * 100)
+                    except Exception:
+                        ajustado = {}
+
+                    tab_ctx = grp_ctx.reset_index().rename(columns={dim_sel: col_dim})
+                    if ajustado:
+                        tab_ctx["ajustado_%"] = [ajustado.get(str(c), np.nan) for c in grp_ctx.index]
+                        ref_aj = ajustado.get(str(ref_cat), np.nan)
+                        tab_ctx["delta_ajustado_p.p."] = tab_ctx["ajustado_%"] - ref_aj
+                    for c in ["taxa_%", "delta_p.p.", "ajustado_%", "delta_ajustado_p.p."]:
+                        if c in tab_ctx.columns:
+                            tab_ctx[c] = tab_ctx[c].round(1)
+
+                    st.dataframe(tab_ctx, use_container_width=True, hide_index=True)
+
+                    fig_ctx = px.bar(
+                        tab_ctx, x=col_dim, y="taxa_%", text="taxa_%",
+                        color="delta_p.p.", color_continuous_scale="RdYlGn",
+                        title=f"Taxa de excelência por {col_dim.lower()}")
+                    fig_ctx.add_hline(y=taxa_global_ctx, line_dash="dash",
+                                      annotation_text=f"Média do recorte: {taxa_global_ctx:.1f}%")
+                    fig_ctx.update_layout(
+                        yaxis_title="Taxa de excelência (%)", yaxis=dict(range=[0, 100]), height=400,
+                        coloraxis_colorbar=dict(title="Δ p.p."))
+                    st.plotly_chart(fig_ctx, use_container_width=True)
+
+                    if ajustado:
+                        st.caption(
+                            f"Taxa global do recorte: **{taxa_global_ctx:.1f}%**. Categoria de referência do modelo: "
+                            f"**{ref_cat}** (maior n). A coluna 'ajustado' vem de regressão logística saturada nesta "
+                            "dimensão; ela reproduz a taxa observada (com leve suavização) e serve como conferência — "
+                            "leia como descrição, não como efeito causal.")
+                    else:
+                        st.caption(f"Taxa global do recorte: **{taxa_global_ctx:.1f}%**.")
+                    st.info("Estas variáveis **não** são somadas ao escore de intervenção curricular. "
+                            "Elas contextualizam o cenário e ajudam a priorizar políticas de equidade.")
 
 
 
@@ -4313,7 +4921,7 @@ elif aba == ABAS[16]:
 elif aba == ABAS[17]:
     st.header("Analises de Tese (E1-E9)")
     st.markdown("""
-    **Analises de nivel mestrado/doutorado** sobre os microdados reais do ENADE.
+    **Analises adicionais** sobre os microdados reais do ENADE.
     Cada resultado declara honestamente **"Dados insuficientes"** quando a informacao
     nao existe na base, em vez de estimar ou inventar valores. Todos os numeros sao
     rastreaveis ao artefato `modelos/analises_tese/analises_tese_<ano>.json`.
@@ -4404,6 +5012,589 @@ elif aba == ABAS[17]:
                                    f"{res['limiar_excelencia']:.1f}")
                         st.dataframe(pd.DataFrame(res["tabela"]).T, use_container_width=True)
 
+
+
+
+# --- TAB 18: ANALISES GLOBAIS (ENADE 2004-2023, ENAMED, LICENCIATURAS) ---
+elif aba == ABAS[18]:
+    st.header("Análises Globais — ENADE (2004-2023), ENAMED e Licenciaturas")
+    st.markdown("""
+    **Síntese auditável** do que os dados e artefatos do PRISM-EDU permitem afirmar sobre os três exames.
+    A análise é **direta e sem generalização indevida**: toda métrica indica fonte/coluna, cobertura e limitações.
+    Quando a informação não existe no artefato/base carregada, o painel declara **"dado insuficiente"**.
+    """)
+
+    @st.cache_data(show_spinner=False)
+    def _carregar_agg_enade_ano(caminho_str):
+        """Agrega microdado ENADE por CO_GRUPO com colunas mínimas (eficiente)."""
+        path = caminho_str
+        cols_use = ["CO_GRUPO", "CO_IES", "CO_REGIAO_CURSO", "NT_GER", "NT_OBJ_CE", "NT_OBJ_FG"]
+        try:
+            head = pd.read_csv(path, sep=";", encoding="utf-8-sig", nrows=0)
+            cols = [c for c in cols_use if c in head.columns]
+            if "CO_GRUPO" not in cols:
+                return None
+            df = pd.read_csv(path, sep=";", encoding="utf-8-sig", usecols=cols, low_memory=False)
+        except Exception:
+            try:
+                df = pd.read_csv(path, sep=",", encoding="utf-8-sig", low_memory=False)
+            except Exception:
+                return None
+        for c in ["NT_GER", "NT_OBJ_CE", "NT_OBJ_FG"]:
+            if c in df.columns:
+                df[c] = pd.to_numeric(df[c], errors="coerce")
+        if "CO_IES" in df.columns:
+            df["CO_IES"] = pd.to_numeric(df["CO_IES"], errors="coerce")
+        g = df.groupby("CO_GRUPO", dropna=False)
+        out = g.agg(
+            N=("CO_GRUPO", "size"),
+            IES=("CO_IES", "nunique") if "CO_IES" in df.columns else ("CO_GRUPO", "size"),
+            NT_GER_media=("NT_GER", "mean") if "NT_GER" in df.columns else ("CO_GRUPO", "size"),
+            NT_OBJ_CE_media=("NT_OBJ_CE", "mean") if "NT_OBJ_CE" in df.columns else ("CO_GRUPO", "size"),
+        ).reset_index()
+        if "NT_GER" not in df.columns:
+            out["NT_GER_media"] = np.nan
+        if "NT_OBJ_CE" not in df.columns:
+            out["NT_OBJ_CE_media"] = np.nan
+        return out
+
+    def _macro_area_enade(nome_curso, co_grupo=None):
+        n = _norm(nome_curso)
+        saude_bio = ["medicina", "enferm", "odontolog", "farmac", "fisioterap", "nutri", "veterinar", "biomed",
+                     "fonoaudiolog", "terapiaocup", "agronom", "zootec", "biolog", "cienciasbiolog", "educacaofisica"]
+        if any(k in n for k in saude_bio):
+            return "Saúde e Biológicas"
+        if "psicolog" in n:
+            return "Psicologia"
+        if "engenhar" in n:
+            return "Engenharias"
+        ti = ["estatistic", "computac", "cienciadacomput", "sistemasdeinform", "engenhariadecomput", "engenhariadacomput",
+              "analiseedesenvolvimentodesistemas", "redesdecomput", "gestaodatecnologiadainform", "tecnologiadainform"]
+        if any(k in n for k in ti):
+            return "Estatística e TI"
+        return "Outras áreas"
+
+    macro_foco = ["Saúde e Biológicas", "Psicologia", "Engenharias", "Estatística e TI"]
+
+    tab_g1, tab_g2, tab_g3, tab_g4 = st.tabs([
+        "ENADE 2004-2023 (5 áreas)", "ENAMED", "ENADE Licenciaturas", "Análises adicionais"
+    ])
+
+    with tab_g1:
+        st.subheader("ENADE 2004-2023 — 5 macro-áreas prioritárias")
+        st.markdown("""
+        **Áreas foco (definição operacional/auditável por nome do curso/CO_GRUPO no mapeamento):**
+        1) Saúde e Biológicas (inclui Medicina e afins) · 2) Psicologia · 3) Engenharias · 4) Estatística e TI (Computação, SI, CC etc.).
+        Demais cursos aparecem como "Outras áreas" para completude, sem serem o foco comparativo principal.
+        **Limitação:** o ENADE é trienal por área; ausência de 2020 e mudanças de matriz/itens impedem comparação causal simples.
+        """)
+        arquivos_enade = []
+        for base in [PASTA_RESULTADOS_ENADE, PASTA_DADOS_PROCESSADOS, PASTA_DADOS_PROCESSADOS / "enade"]:
+            if base.exists():
+                arquivos_enade.extend(list(base.glob("relatorio_final_enade_*.csv")))
+        try:
+            ext = RAIZ_PROJETO.parent / "seriesTemporais_microdados" / "resultados" / "enade"
+            if ext.exists():
+                arquivos_enade.extend(list(ext.glob("relatorio_final_enade_*.csv")))
+        except Exception:
+            pass
+        seen = set(); uniq = []
+        for f in sorted(arquivos_enade):
+            if str(f) not in seen:
+                seen.add(str(f)); uniq.append(f)
+        if not uniq:
+            st.info("Nenhum microdado consolidado ENADE (`relatorio_final_enade_*.csv`) encontrado nas pastas configuradas. Exiba esta aba após disponibilizar os arquivos em `seriesTemporais_microdados/resultados/enade/` ou `dados/processados/enade/`.")
+        else:
+            anos_disp_g = []
+            for p in uniq:
+                m = re.findall(r"(20\d\d)", p.name)
+                if m:
+                    anos_disp_g.append(int(m[0]))
+            anos_disp_g = sorted(set(anos_disp_g))
+            anos_sel = st.multiselect("Edições ENADE:", anos_disp_g,
+                                      default=anos_disp_g[-6:] if len(anos_disp_g) > 6 else anos_disp_g,
+                                      key="glob_anos")
+            rows = []
+            prog = st.progress(0.0, text="Agregando edições...")
+            use_files = [p for p in uniq if any(str(a) in p.name for a in anos_sel)]
+            for i, fp in enumerate(use_files):
+                m = re.findall(r"(20\d\d)", fp.name); ano = int(m[0]) if m else 0
+                agg = _carregar_agg_enade_ano(str(fp))
+                prog.progress((i+1)/max(1,len(use_files)), text=f"Agregando {fp.name}...")
+                if agg is None or agg.empty:
+                    continue
+                for _, r in agg.iterrows():
+                    cg = r.get("CO_GRUPO")
+                    try:
+                        cg_i = int(float(cg))
+                    except Exception:
+                        cg_i = None
+                    nome = CURSOS_MAP.get(cg_i, f"CO_GRUPO {cg}")
+                    macro = _macro_area_enade(nome, cg_i)
+                    rows.append({"Ano": ano, "CO_GRUPO": cg_i, "Curso": nome, "Macroárea": macro,
+                                 "N": int(r.get("N", 0) or 0), "IES": int(r.get("IES", 0) or 0),
+                                 "NT_GER_media": pd.to_numeric(r.get("NT_GER_media"), errors="coerce"),
+                                 "NT_OBJ_CE_media": pd.to_numeric(r.get("NT_OBJ_CE_media"), errors="coerce")})
+            prog.empty()
+            if not rows:
+                st.info("Não foi possível agregar as edições selecionadas (verifique colunas CO_GRUPO/NT_GER nos CSVs).")
+            else:
+                dfg = pd.DataFrame(rows)
+                foco = dfg[dfg["Macroárea"].isin(macro_foco)].copy()
+                cov = foco.groupby(["Macroárea", "Ano"])["N"].sum().reset_index()
+                fig_cov = px.bar(cov, x="Ano", y="N", color="Macroárea", barmode="group",
+                                 title="Cobertura (N de participantes) — 5 macro-áreas ENADE")
+                st.plotly_chart(fig_cov, use_container_width=True)
+                st.caption("Fonte: microdados consolidados `relatorio_final_enade_*.csv` (agregação por CO_GRUPO/ano). Valores dependem da presença de NT_GER/CO_IES.")
+                if foco["NT_GER_media"].notna().any():
+                    trend = foco.dropna(subset=["NT_GER_media"])
+                    trend = trend.assign(peso=trend["N"].fillna(1))
+                    t = trend.groupby(["Macroárea", "Ano"]).apply(
+                        lambda g: np.average(g["NT_GER_media"], weights=g["peso"]) if g["peso"].sum()>0 else g["NT_GER_media"].mean(),
+                        include_groups=False).reset_index(name="NT_GER_ponderada")
+                    fig_t = px.line(t, x="Ano", y="NT_GER_ponderada", color="Macroárea", markers=True,
+                                    title="Tendência de NT_GER (média ponderada por N) — 5 macro-áreas")
+                    st.plotly_chart(fig_t, use_container_width=True)
+                    st.caption("Leitura cautelosa: oscilações podem refletir mudança de cursos avaliados no ciclo trienal, composição de IES/estudantes e matriz da prova — não interpretar como causalidade.")
+                else:
+                    st.info("NT_GER indisponível nas edições agregadas; exibida apenas cobertura por N/IES.")
+                st.markdown("**Resumo auditável por macro-área (edições selecionadas)**")
+                with st.expander("Como as métricas são calculadas (fórmulas e unidades)", expanded=False):
+                    st.markdown(r"""
+**Fonte (microdado agregado por CO_GRUPO/ano, `relatorio_final_enade_*.csv`):**
+- $N$ = contagem de participantes no grupo (`groupby(CO_GRUPO).size()`).
+- $IES$ = número de IES distintas (`nunique(CO_IES)`).
+- $NT\_GER\_media_{grupo,ano}$ = média simples de `NT_GER` no grupo/ano (quando disponível).
+- $NT\_GER\_ponderada_{macro,ano}$ = $\frac{\sum_g NT\_GER\_media_{g,ano}\cdot N_{g,ano}}{\sum_g N_{g,ano}}$ (ponderação por $N$ dos cursos/grupos na macro-área).
+- No resumo por macro-área: `edicoes`=nunique(Ano), `cursos`=nunique(Curso), `N_total`=soma($N$), `IES_media`=média($IES$ por grupo/ano), `NT_GER_media`=média simples das médias de grupo (descritiva; ver ponderada no gráfico).
+
+**Fonte (itens processados, `analise_por_questao_ies_enade_*.csv`):** cada registro representa tipicamente **IES × curso × questão** (com OCs associados).
+- $TAXA\_DEFICIENCIA\_\%$ (no arquivo) = $\frac{QTD\_ERROS}{QTD\_ACERTOS + QTD\_ERROS}\times 100$ (por registro IES×questão).
+- $Taxa\_ponderada$ (recomendada, quando há contagens) = $\frac{\sum QTD\_ERROS}{\sum (QTD\_ACERTOS+QTD\_ERROS)}\times 100$, somando sobre os registros do recorte (ano/macro-área/OC/questão).
+- $Taxa\_media\_simples$ = média aritmética de `TAXA_DEFICIENCIA_%` nos registros do recorte (cada registro IES×questão pesa igual). **As duas podem diferir** quando o número de respondentes varia entre IES/questões; o painel mostra ambas quando possível.
+- **OC (Objeto de Conhecimento):** `OC1`, `OC2`, `OC3` do arquivo processado; **questão:** `QUESTAO`; contexto adicional: `PERFIL`, `COMPETENCIAS`.
+- **Limitação:** a macro-área é classificação operacional por nome/CO_GRUPO; itens/OCs são comparáveis dentro de edições/condições do exame, respeitando o ciclo trienal.
+                    """)
+                resumo = foco.groupby("Macroárea").agg(
+                    edicoes=("Ano", "nunique"), cursos=("Curso", "nunique"), N_total=("N", "sum"), IES_media=("IES", "mean"),
+                    NT_GER_media=("NT_GER_media", "mean")).reset_index()
+                st.dataframe(resumo.round(2), use_container_width=True)
+                st.caption("Resumo descritivo por macro-área (agregação de grupos CO_GRUPO/ano). Para itens/OCs com problema, use os detalhamentos abaixo.")
+
+                st.markdown("**Itens e Objetos de Conhecimento (OC) com maior deficiência — processados**")
+                qdet_rows = []
+                for a in sorted(set(foco["Ano"].tolist())):
+                    daq = _carregar_analise_ies(a) if '_carregar_analise_ies' in globals() else None
+                    if daq is None or daq.empty or "CO_GRUPO" not in daq.columns:
+                        continue
+                    tmp = daq.copy(); tmp["Ano"] = a
+                    tmp["Macroárea"] = tmp["CO_GRUPO"].map(lambda cg: _macro_area_enade(CURSOS_MAP.get(int(cg), str(cg)) if pd.notna(cg) else "", cg))
+                    tmp = tmp[tmp["Macroárea"].isin(macro_foco)]
+                    if not tmp.empty:
+                        qdet_rows.append(tmp)
+                if not qdet_rows:
+                    st.info("Sem arquivos `analise_por_questao_ies_enade_*.csv` compatíveis para as edições/áreas selecionadas.")
+                else:
+                    qdet = pd.concat(qdet_rows, ignore_index=True)
+                    for c in ["QTD_ACERTOS", "QTD_ERROS", "TAXA_DEFICIENCIA_%", "CO_IES", "CO_GRUPO"]:
+                        if c in qdet.columns:
+                            qdet[c] = pd.to_numeric(qdet[c], errors="coerce")
+                    qdet["TOTAL_RESP"] = qdet.get("QTD_ACERTOS", 0).fillna(0) + qdet.get("QTD_ERROS", 0).fillna(0)
+                    if "CURSO" not in qdet.columns and "NOME_CURSO" in qdet.columns:
+                        qdet["CURSO"] = qdet["NOME_CURSO"]
+                    elif "CURSO" not in qdet.columns:
+                        qdet["CURSO"] = qdet.get("CO_GRUPO", "").astype(str)
+
+                    fc1, fc2 = st.columns(2)
+                    with fc1:
+                        macro_sel_det = st.multiselect("Macro-área (detalhe):", macro_foco, default=macro_foco, key="glob_macro_det")
+                    with fc2:
+                        anos_det = sorted(qdet["Ano"].dropna().unique().tolist()) if "Ano" in qdet.columns else []
+                        ano_sel_det = st.multiselect("Ano (detalhe):", anos_det, default=anos_det, key="glob_ano_det")
+                    qf = qdet[qdet["Macroárea"].isin(macro_sel_det)].copy()
+                    if ano_sel_det:
+                        qf = qf[qf["Ano"].isin(ano_sel_det)]
+
+                    # tendência por macro-área (mostra simples e ponderada)
+                    tr_rows = []
+                    for (mac, ano), g in qf.groupby(["Macroárea", "Ano"]):
+                        tot = g["TOTAL_RESP"].sum()
+                        pond = (g["QTD_ERROS"].sum() / tot * 100) if tot > 0 else np.nan
+                        simp = g["TAXA_DEFICIENCIA_%"].mean() if "TAXA_DEFICIENCIA_%" in g.columns else np.nan
+                        tr_rows.append({"Macroárea": mac, "Ano": ano, "Taxa_ponderada_%": pond, "Taxa_media_simples_%": simp, "Registros_IESxQuestao": len(g), "Total_respostas": tot})
+                    if tr_rows:
+                        dq = pd.DataFrame(tr_rows)
+                        fig_d = px.line(dq, x="Ano", y="Taxa_ponderada_%", color="Macroárea", markers=True,
+                                        title="Taxa de deficiência ponderada por respondentes — 5 macro-áreas (itens processados)")
+                        st.plotly_chart(fig_d, use_container_width=True)
+                        st.caption("`Taxa_ponderada_% = ΣQTD_ERROS / Σ(QTD_ACERTOS+QTD_ERROS) × 100` nos registros filtrados. Fonte: `analise_por_questao_ies_enade_*.csv`.")
+                        st.dataframe(dq.round(2).sort_values(["Macroárea", "Ano"]), use_container_width=True)
+
+                    # OC com problema
+                    st.markdown("**Objetos de Conhecimento (OC1/OC2/OC3) com maior deficiência**")
+                    oc_rows = []
+                    for oc_col in ["OC1", "OC2", "OC3"]:
+                        if oc_col not in qf.columns:
+                            continue
+                        tmp_oc = qf[["Ano","Macroárea","CURSO","QUESTAO","TAXA_DEFICIENCIA_%","QTD_ACERTOS","QTD_ERROS","TOTAL_RESP", oc_col]].copy()
+                        tmp_oc = tmp_oc.rename(columns={oc_col: "OC"})
+                        tmp_oc["Origem_OC"] = oc_col
+                        tmp_oc["OC"] = tmp_oc["OC"].astype(str).str.strip()
+                        tmp_oc = tmp_oc[tmp_oc["OC"].notna() & (tmp_oc["OC"] != "") & (tmp_oc["OC"].str.lower() != "nan")]
+                        oc_rows.append(tmp_oc)
+                    if oc_rows:
+                        ocd = pd.concat(oc_rows, ignore_index=True)
+                        oc_agg = ocd.groupby(["Macroárea", "OC"], dropna=False).agg(
+                            Questoes_distintas=("QUESTAO", "nunique") if "QUESTAO" in ocd.columns else ("OC","size"),
+                            Registros=("OC", "size"),
+                            Total_respostas=("TOTAL_RESP", "sum"),
+                            Soma_erros=("QTD_ERROS", "sum"),
+                            Soma_acertos=("QTD_ACERTOS", "sum"),
+                            Taxa_media_simples_pct=("TAXA_DEFICIENCIA_%", "mean"),
+                        ).reset_index()
+                        oc_agg["Taxa_ponderada_pct"] = np.where(oc_agg["Total_respostas"] > 0,
+                                                                oc_agg["Soma_erros"] / oc_agg["Total_respostas"] * 100, np.nan)
+                        oc_agg = oc_agg.sort_values(["Macroárea", "Taxa_ponderada_pct"], ascending=[True, False])
+                        st.dataframe(oc_agg.round(2), use_container_width=True, height=320)
+                        st.caption("Cada linha é um OC no recorte filtrado. `Taxa_ponderada_pct` usa Σerros/Σrespostas nos registros ligados ao OC (inclui registros onde o OC aparece como OC1/OC2/OC3).")
+                        # top N por macroárea
+                        topn = st.slider("Top OCs por macro-área (gráfico):", 3, 20, 8, key="glob_oc_topn")
+                        oc_top = oc_agg.groupby("Macroárea", group_keys=False).head(topn)
+                        fig_oc = px.bar(oc_top, x="Taxa_ponderada_pct", y="OC", color="Macroárea", orientation="h",
+                                        facet_col="Macroárea", facet_col_wrap=2, height=220*max(1, (len(macro_sel_det)+1)//2),
+                                        title="Top OCs por taxa de deficiência ponderada (recorte filtrado)")
+                        fig_oc.update_yaxes(matches=None, showticklabels=True)
+                        st.plotly_chart(fig_oc, use_container_width=True)
+                    else:
+                        st.info("Colunas OC1/OC2/OC3 não encontradas nos arquivos processados para o recorte.")
+
+                    # Questões com problema
+                    st.markdown("**Questões (itens) com maior deficiência**")
+                    if "QUESTAO" in qf.columns:
+                        q_agg = qf.groupby(["Macroárea", "Ano", "CURSO", "QUESTAO"], dropna=False).agg(
+                            OC1=("OC1", "first") if "OC1" in qf.columns else ("QUESTAO","first"),
+                            OC2=("OC2", "first") if "OC2" in qf.columns else ("QUESTAO","first"),
+                            OC3=("OC3", "first") if "OC3" in qf.columns else ("QUESTAO","first"),
+                            Registros_IES=("QUESTAO", "size"),
+                            Total_respostas=("TOTAL_RESP", "sum"),
+                            Soma_erros=("QTD_ERROS", "sum"),
+                            Taxa_media_simples_pct=("TAXA_DEFICIENCIA_%", "mean"),
+                        ).reset_index()
+                        q_agg["Taxa_ponderada_pct"] = np.where(q_agg["Total_respostas"] > 0,
+                                                               q_agg["Soma_erros"] / q_agg["Total_respostas"] * 100, np.nan)
+                        q_agg = q_agg.sort_values("Taxa_ponderada_pct", ascending=False)
+                        n_show = st.slider("Quantidade de questões a exibir:", 10, 200, 30, key="glob_q_n")
+                        st.dataframe(q_agg.head(n_show).round(2), use_container_width=True, height=360)
+                        st.caption("Questões ordenadas por `Taxa_ponderada_pct` no recorte (agregadas sobre IES; mesma questão pode aparecer em cursos/anos distintos — o ENADE é trienal e itens mudam por edição).")
+                        # detalhe de uma questão
+                        questoes_opts = q_agg["QUESTAO"].astype(str).unique().tolist()[:500]
+                        if questoes_opts:
+                            q_pick = st.selectbox("Inspecionar questão (detalhe por IES/registros):", ["(nenhuma)"] + questoes_opts, key="glob_q_pick")
+                            if q_pick and q_pick != "(nenhuma)":
+                                qd = qf[qf["QUESTAO"].astype(str) == str(q_pick)].copy()
+                                cols_show = [c for c in ["Ano","Macroárea","CURSO","CO_IES","QUESTAO","OC1","OC2","OC3","PERFIL","COMPETENCIAS","QTD_ACERTOS","QTD_ERROS","TAXA_DEFICIENCIA_%","TOTAL_RESP"] if c in qd.columns]
+                                st.dataframe(qd[cols_show].sort_values("TAXA_DEFICIENCIA_%", ascending=False).head(200), use_container_width=True)
+                                if "PERFIL" in qd.columns or "COMPETENCIAS" in qd.columns:
+                                    ex = qd.iloc[0]
+                                    if pd.notna(ex.get("PERFIL")):
+                                        st.markdown(f"**Perfil (exemplo):** {ex.get('PERFIL')}")
+                                    if pd.notna(ex.get("COMPETENCIAS")):
+                                        st.markdown(f"**Competências (exemplo):** {ex.get('COMPETENCIAS')}")
+                    else:
+                        st.info("Coluna `QUESTAO` não encontrada no arquivo processado.")
+
+    with tab_g2:
+        st.subheader("ENAMED — o que é interessante (análise direta)")
+        st.markdown("""
+        **Contexto (auditável no projeto):** ENAMED é tratado como avaliação distinta (instrumento com conjunto próprio de itens; `CO_GRUPO` pode ser nulo e o agrupamento pode derivar de `CO_CURSO`/grupo 0 conforme normalização do pipeline).
+        **Interesse analítico:** foco em Medicina/formação em saúde; potencial para diagnóstico por competências/domínios (LCA/DINA) quando há matriz de itens/OC; comparação com ENADE deve ser condicionada ao desenho.
+        **Limitações:** comparabilidade direta com ENADE clássico é limitada por desenho, população, blueprint e ano.
+        """)
+        cands = [PASTA_DADOS_PROCESSADOS / "analise_por_questao_ies_enamed_2025.csv",
+                 PASTA_DADOS_PROCESSADOS / "enamed" / "analise_por_questao_ies_enamed_2025.csv"]
+        try:
+            extm = RAIZ_PROJETO.parent / "seriesTemporais_microdados" / "resultados" / "enamed"
+            if extm.exists():
+                cands.extend(list(extm.rglob("analise_por_questao_ies*enamed*.csv")))
+                cands.extend(list(extm.rglob("relatorio_final*enamed*.csv")))
+        except Exception:
+            pass
+        found = [p for p in cands if p.exists()]
+        if not found:
+            st.info("Nenhum artefato ENAMED encontrado. Gere/importe os dados para habilitar métricas por item/curso.")
+        else:
+            st.success(f"Artefatos ENAMED detectados: {len(found)} arquivo(s). Exibindo o primeiro compatível.")
+            fp = found[0]
+            try:
+                de = pd.read_csv(fp, sep=";", encoding="utf-8-sig", nrows=50000, low_memory=False)
+            except Exception:
+                de = pd.read_csv(fp, encoding="utf-8-sig", nrows=50000, low_memory=False)
+            st.caption(f"Fonte: `{fp}` (linhas lidas: {len(de)})")
+            st.dataframe(de.head(20), use_container_width=True)
+            for c in ["QTD_ACERTOS","QTD_ERROS","TAXA_DEFICIENCIA_%"]:
+                if c in de.columns: de[c] = pd.to_numeric(de[c], errors="coerce")
+            de["_tot"] = de.get("QTD_ACERTOS", 0).fillna(0) + de.get("QTD_ERROS", 0).fillna(0) if "QTD_ACERTOS" in de.columns else np.nan
+            m1,m2,m3 = st.columns(3)
+            if "TAXA_DEFICIENCIA_%" in de.columns:
+                media_s = pd.to_numeric(de['TAXA_DEFICIENCIA_%'], errors='coerce').mean()
+                pond = (de["QTD_ERROS"].sum()/de["_tot"].sum()*100) if de["_tot"].fillna(0).sum()>0 and "QTD_ERROS" in de.columns else np.nan
+                m1.metric("Taxa média simples (%)", f"{media_s:.2f}%")
+                if pd.notna(pond): m2.metric("Taxa ponderada (%)", f"{pond:.2f}%")
+            if "QUESTAO" in de.columns:
+                m3.metric("Questões distintas", int(de["QUESTAO"].nunique()))
+            with st.expander("Fórmula da taxa de deficiência (ENAMED)", expanded=False):
+                st.markdown(r"- Por registro (IES×questão): $TAXA\_DEFICIENCIA\_\% = \frac{QTD\_ERROS}{QTD\_ACERTOS+QTD\_ERROS}\times 100$.  "
+                            r"- **Média simples**: média aritmética dos registros (cada IES×questão pesa igual).  "
+                            r"- **Ponderada**: $\frac{\sum QTD\_ERROS}{\sum(QTD\_ACERTOS+QTD\_ERROS)}\times 100$ (recomendada quando respondentes variam).")
+            # OC/questões com problema
+            if "QUESTAO" in de.columns:
+                grp_q = ["QUESTAO"] + [c for c in ["OC1","OC2","OC3","NOME_CURSO","CO_GRUPO"] if c in de.columns]
+                qag = de.groupby(grp_q, dropna=False).agg(Registros=("QUESTAO","size"), Soma_erros=("QTD_ERROS","sum"), Total_respostas=("_tot","sum"), Taxa_media_simples_pct=("TAXA_DEFICIENCIA_%","mean")).reset_index()
+                qag["Taxa_ponderada_pct"] = np.where(qag["Total_respostas"]>0, qag["Soma_erros"]/qag["Total_respostas"]*100, np.nan)
+                st.markdown("**Questões/OCs com maior deficiência (ENAMED, amostra carregada)**")
+                st.dataframe(qag.sort_values("Taxa_ponderada_pct", ascending=False).head(40).round(2), use_container_width=True)
+            st.markdown("**Achados potenciais (com artefatos completos):** deficiência por domínio/competência, itens com parâmetros DINA informativos (guess/slip), lacunas prioritárias para currículo/práticas clínicas — com validação por matriz-Q e evidência empírica.")
+
+    with tab_g3:
+        st.subheader("ENADE Licenciaturas — o que é interessante (análise direta)")
+        st.markdown("""
+        **Contexto (auditável no projeto):** Licenciaturas como edição/exame específico (conjunto próprio de itens). 
+        **Interesse analítico:** formação docente; domínios de conhecimento específico/pedagógico (conforme OCs); integração com LCA/CDM/DINA e séries temporais **apenas quando comparabilidade é defensável**.
+        **Limitações:** heterogeneidade entre licenciaturas, mudanças de prova e escala impedem generalização; reportar por curso/área e edição.
+        """)
+        cands = [PASTA_DADOS_PROCESSADOS / "analise_por_questao_ies_licenciaturas_2025.csv",
+                 PASTA_DADOS_PROCESSADOS / "enadeLicenciaturas" / "analise_por_questao_ies_licenciaturas_2025.csv"]
+        try:
+            extl = RAIZ_PROJETO.parent / "seriesTemporais_microdados" / "resultados" / "enadeLicenciaturas"
+            if extl.exists():
+                cands.extend(list(extl.rglob("analise_por_questao_ies*licenciatura*.csv")))
+                cands.extend(list(extl.rglob("relatorio_final*licenciatura*.csv")))
+        except Exception:
+            pass
+        found = [p for p in cands if p.exists()]
+        if not found:
+            st.info("Nenhum artefato de Licenciaturas encontrado. Gere/importe os dados para habilitar métricas.")
+        else:
+            st.success(f"Artefatos Licenciaturas detectados: {len(found)} arquivo(s). Exibindo o primeiro compatível.")
+            fp = found[0]
+            try:
+                dl = pd.read_csv(fp, sep=";", encoding="utf-8-sig", nrows=50000, low_memory=False)
+            except Exception:
+                dl = pd.read_csv(fp, encoding="utf-8-sig", nrows=50000, low_memory=False)
+            st.caption(f"Fonte: `{fp}` (linhas lidas: {len(dl)})")
+            st.dataframe(dl.head(20), use_container_width=True)
+            for c in ["QTD_ACERTOS","QTD_ERROS","TAXA_DEFICIENCIA_%"]:
+                if c in dl.columns: dl[c] = pd.to_numeric(dl[c], errors="coerce")
+            dl["_tot"] = dl.get("QTD_ACERTOS", 0).fillna(0) + dl.get("QTD_ERROS", 0).fillna(0) if "QTD_ACERTOS" in dl.columns else np.nan
+            m1,m2,m3 = st.columns(3)
+            if "TAXA_DEFICIENCIA_%" in dl.columns:
+                media_s = pd.to_numeric(dl['TAXA_DEFICIENCIA_%'], errors='coerce').mean()
+                pond = (dl["QTD_ERROS"].sum()/dl["_tot"].sum()*100) if dl["_tot"].fillna(0).sum()>0 and "QTD_ERROS" in dl.columns else np.nan
+                m1.metric("Taxa média simples (%)", f"{media_s:.2f}%")
+                if pd.notna(pond): m2.metric("Taxa ponderada (%)", f"{pond:.2f}%")
+            if "QUESTAO" in dl.columns:
+                m3.metric("Questões distintas", int(dl["QUESTAO"].nunique()))
+            with st.expander("Fórmula da taxa de deficiência (Licenciaturas)", expanded=False):
+                st.markdown(r"- Por registro (IES×questão): $TAXA\_DEFICIENCIA\_\% = \frac{QTD\_ERROS}{QTD\_ACERTOS+QTD\_ERROS}\times 100$.  "
+                            r"- **Média simples**: média aritmética dos registros.  "
+                            r"- **Ponderada**: $\frac{\sum QTD\_ERROS}{\sum(QTD\_ACERTOS+QTD\_ERROS)}\times 100$ (recomendada quando respondentes variam).")
+            if "QUESTAO" in dl.columns:
+                grp_q = ["QUESTAO"] + [c for c in ["OC1","OC2","OC3","NOME_CURSO","CO_GRUPO"] if c in dl.columns]
+                qag = dl.groupby(grp_q, dropna=False).agg(Registros=("QUESTAO","size"), Soma_erros=("QTD_ERROS","sum"), Total_respostas=("_tot","sum"), Taxa_media_simples_pct=("TAXA_DEFICIENCIA_%","mean")).reset_index()
+                qag["Taxa_ponderada_pct"] = np.where(qag["Total_respostas"]>0, qag["Soma_erros"]/qag["Total_respostas"]*100, np.nan)
+                st.markdown("**Questões/OCs com maior deficiência (Licenciaturas, amostra carregada)**")
+                st.dataframe(qag.sort_values("Taxa_ponderada_pct", ascending=False).head(40).round(2), use_container_width=True)
+            st.markdown("**Achados potenciais (com artefatos completos):** lacunas por área de licenciatura, comparação longitudinal apenas em condições comparáveis, e priorização curricular por OC/itens com evidência — sem inferência causal.")
+
+    with tab_g4:
+        st.subheader("O que há de diferente/novo")
+        st.markdown("""
+        **Contribuições observáveis no PRISM-EDU (ancoradas no que foi implementado/gerado):**
+        - **Auditoria metodológica explícita:** separação entre evidência descritiva (taxa observada por OC), modelos latentes (LCA, DINA/EM com `guess_g/slip_s` e restrições) e camadas preditivas/explicativas (SHAP/XAI), reduzindo *overclaim*.
+        - **Longitudinalidade defensável:** drift/séries por **proficiência em OC + notas**, comparação **trienal dentro do mesmo curso**; **não compara `Q*` cru entre edições**.
+        - **Integração multi-exame com cautela:** ENADE 2004–2023, ENAMED e Licenciaturas tratados como fontes com desenhos distintos; cobertura, limitações e comparabilidade declaradas.
+        - **Rastreabilidade e integridade:** matrizes-Q, dicionários OC, critérios LCA (`03_criterios_de_selecao_k.csv`), artefatos de drift, filtros de IES/curso na análise explicativa quando aplicável, e testes de regressão (83 OK).
+        - **Honestidade operacional:** remoção/ausência de tabelas LCA fabricadas; diagnósticos individuais rotulados como descritivos (não CDM/DINA).
+
+        **Diferencial para pesquisa (sem generalização):**
+        - **1:** protocolo aplicado e replicável para diagnóstico educacional em larga escala com controles de integridade (vazamento, rotulagem honesta, comparabilidade temporal).
+        - **2:** agenda para modelagem longitudinal de domínio (LCA↔DINA↔drift), invariância de construto entre edições, e avaliação de intervenções por OC com desenho quase-experimental quando houver dados adequados.
+
+        **Posicionamento temático — verificação em bases indexadas (nota de honestidade):**
+        A verificação automática na internet **não esteve disponível nesta execução**. Para fundamentação bibliográfica sem fabricar referências, buscar e registrar DOIs/citações em: **SciELO, ERIC, Scopus, Web of Science, Google Scholar**; periódicos/veículos a verificar: *Ensaio: Avaliação e Políticas Públicas em Educação*, *Estudos em Avaliação Educacional*, *RBIE*, *Computers & Education*, *Educational Assessment*, *Journal of Educational Measurement*, *Applied Measurement in Education*, *Psychometrika*, anais **EDM/LAK/AIED**.
+        **Strings de busca sugeridas:** `"ENADE longitudinal learning analytics Brazil"`, `"cognitive diagnostic model DINA higher education large-scale assessment"`, `"latent class analysis item response drift invariance"`, `"ENAMED medical education assessment Brazil"`, `"teacher licensure assessment Enade Licenciaturas Brazil"`.
+        Classificar cada referência como (a) converge, (b) diverge/limita, (c) lacuna abordada pelo PRISM-EDU — com rastreabilidade.
+        """)
+        st.info("Painel deliberadamente direto e auditável: prioriza evidência do pipeline, declara limitações e evita extrapolações causais.")
+
+elif aba == ABAS[19]:
+    st.header("Ontologia Educacional — OWL 2 DL (Protégé-ready)")
+    st.markdown("""
+    **Camada semântica auditável** do PRISM-EDU: ontologia **OWL 2 DL** gerada a partir de dados
+    reais do projeto (TBox formal + ABox do ENADE 2023), serializada em `.owl` (RDF/XML), `.ttl`,
+    `.jsonld` e `.nt`, com formas **SHACL**, consultas **SPARQL** e manifesto com hashes SHA-256.
+    A ontologia descreve *o que os artefatos significam*; as tabelas-fato em CSV continuam sendo a
+    fonte do desempenho item × IES × curso.
+    """)
+
+    pasta_onto = PASTA_MODELOS / "ontologia"
+    caminho_manifesto = pasta_onto / "prism_edu_manifest.json"
+    caminho_owl = pasta_onto / "prism_edu.owl"
+    pasta_queries = pasta_onto / "queries"
+
+    if not caminho_manifesto.exists():
+        st.info("Ontologia ainda não gerada. Rode `python processamento/gerar_ontologia.py` "
+                "(ou menu **IA Avançada → 1**).")
+    else:
+        try:
+            manifesto = json.loads(caminho_manifesto.read_text(encoding="utf-8"))
+        except Exception as exc:
+            manifesto = None
+            st.error(f"Manifesto ilegível: {exc}")
+
+        if manifesto:
+            resumo = manifesto.get("resumo", {})
+            est = resumo.get("estatisticas", {})
+            por_classe = resumo.get("por_classe", {})
+            individuos = sum(v for k, v in por_classe.items() if k != "ContextualDimension")
+            individuos += por_classe.get("ContextualDimension", 0)
+
+            m1, m2, m3, m4, m5 = st.columns(5)
+            m1.metric("Triplas RDF", f"{resumo.get('triplas', 0):,}".replace(",", "."))
+            m2.metric("Classes", est.get("classes", 0))
+            m3.metric(
+                "Propriedades",
+                est.get("object_properties", 0) + est.get("data_properties", 0),
+                help=(f"{est.get('object_properties', 0)} object properties + "
+                      f"{est.get('data_properties', 0)} data properties declaradas. "
+                      "As inversas materializadas elevam o total de owl:ObjectProperty no grafo."),
+            )
+            m4.metric("Itens (ABox)", est.get("itens", 0))
+            m5.metric("Indivíduos", f"{individuos:,}".replace(",", "."))
+            st.caption(f"Versão `{manifesto.get('versao')}` · edições: "
+                       f"{', '.join(manifesto.get('edicoes', []))} · "
+                       f"gerado em {manifesto.get('gerado_em', '?')}")
+
+            tab_o1, tab_o2, tab_o3, tab_o4 = st.tabs(
+                ["Visão geral", "Classes e propriedades", "Consultas SPARQL", "Proveniência e arquivos"])
+
+            with tab_o1:
+                st.subheader("Contagens por classe (ABox real)")
+                if por_classe:
+                    df_classes = pd.DataFrame(
+                        sorted(por_classe.items(), key=lambda kv: -kv[1]),
+                        columns=["Classe", "Indivíduos"])
+                    st.dataframe(df_classes, use_container_width=True, hide_index=True)
+                st.subheader("Como usar")
+                st.markdown("""
+                1. Abra `modelos/ontologia/prism_edu.owl` no **Protégé 5.6+** (`File > Open`).
+                2. Raciocínio: use **HermiT** ou **Pellet** (requer Java). A TBox foi checada como consistente.
+                3. Valide a integridade com `python processamento/validar_ontologia.py`.
+                4. Para consultas programáticas, use `rdflib` (obrigatório) e, opcionalmente,
+                   `owlready2`, `OWLAPY` e `OAK` — a matriz da stack aparece em **Proveniência e arquivos**.
+                """)
+                st.info("**Limite declarado:** a ontologia não substitui a tabela-fato. Ela guarda "
+                        "agregados nacionais por item, por IES e por IES × área — não o cruzamento "
+                        "item × IES × curso, que permanece nos CSV.")
+
+            with tab_o2:
+                st.subheader("TBox — classes, propriedades e restrições")
+                try:
+                    from algoritmos.ontologia.ontologia_owl import (
+                        CLASSES, DATA_PROPERTIES, OBJECT_PROPERTIES, SCHEMES)
+                    df_cls = pd.DataFrame(
+                        [{"Classe": c, "Superclasse": p or "—", "Rótulo": r, "Comentário": d}
+                         for c, p, r, d in CLASSES])
+                    st.dataframe(df_cls, use_container_width=True, hide_index=True)
+                    st.markdown(f"**{len(OBJECT_PROPERTIES)} object properties** e "
+                                f"**{len(DATA_PROPERTIES)} data properties**, além de "
+                                f"**{sum(len(v[1]) for v in SCHEMES.values())} conceitos SKOS** "
+                                f"em {len(SCHEMES)} esquemas contextuais.")
+                    with st.expander("Object properties (domínio → range)"):
+                        st.dataframe(pd.DataFrame(
+                            [{"Propriedade": p, "Domínio": d or "—", "Range": r or "—",
+                              "Inversa": i or "—"} for p, d, r, i, _c, _l in OBJECT_PROPERTIES]),
+                            use_container_width=True, hide_index=True)
+                    with st.expander("Data properties (domínio → range)"):
+                        st.dataframe(pd.DataFrame(
+                            [{"Propriedade": p, "Domínio": d or "—", "Range": str(r).split("#")[-1]}
+                             for p, d, r, _l in DATA_PROPERTIES]),
+                            use_container_width=True, hide_index=True)
+                except Exception as exc:
+                    st.warning(f"Não foi possível ler o módulo da ontologia: {exc}")
+
+            with tab_o3:
+                st.subheader("Consultas SPARQL de exemplo")
+                consultas = sorted(pasta_queries.glob("*.rq")) if pasta_queries.exists() else []
+                if not consultas or not caminho_owl.exists():
+                    st.info("Gere a ontologia para habilitar as consultas.")
+                else:
+                    @st.cache_resource(show_spinner="Carregando grafo OWL (uma vez por sessão)...")
+                    def _grafo_owl(caminho_str, _mtime):
+                        from rdflib import Graph
+                        grafo = Graph()
+                        grafo.parse(caminho_str, format="xml")
+                        return grafo
+
+                    @st.cache_data(show_spinner=False)
+                    def _rodar_consulta(caminho_str, mtime, texto):
+                        from rdflib import Graph
+                        grafo = _grafo_owl(caminho_str, mtime)
+                        resultado = grafo.query(texto)
+                        colunas = [str(v) for v in resultado.vars] if resultado.vars else []
+                        linhas = [[None if v is None else str(v) for v in linha]
+                                  for linha in resultado]
+                        return colunas, linhas
+
+                    nomes = [q.name for q in consultas]
+                    escolha = st.selectbox("Consulta:", nomes, key="onto_query")
+                    arquivo = consultas[nomes.index(escolha)]
+                    texto = arquivo.read_text(encoding="utf-8")
+                    with st.expander("Ver o SPARQL", expanded=False):
+                        st.code(texto, language="sparql")
+                    if st.button("Executar consulta", key="onto_run"):
+                        try:
+                            mtime = caminho_owl.stat().st_mtime
+                            colunas, linhas = _rodar_consulta(str(caminho_owl), mtime, texto)
+                            st.success(f"{len(linhas)} linha(s) · colunas: {', '.join(colunas)}")
+                            st.dataframe(pd.DataFrame(linhas, columns=colunas),
+                                         use_container_width=True, hide_index=True)
+                        except Exception as exc:
+                            st.error(f"Falha na consulta: {type(exc).__name__}: {exc}")
+
+            with tab_o4:
+                st.subheader("Proveniência, integridade e arquivos")
+                st.markdown("**Fontes declaradas no manifesto** (hash SHA-256 de cada uma):")
+                st.dataframe(pd.DataFrame({"Fonte": manifesto.get("fontes", [])}),
+                             use_container_width=True, hide_index=True)
+                st.markdown("**Artefatos gerados:**")
+                arquivos = manifesto.get("arquivos", {})
+                if arquivos:
+                    df_arq = pd.DataFrame([
+                        {"Formato": k, "Arquivo": v.get("nome"), "Bytes": v.get("bytes"),
+                         "SHA-256": (v.get("sha256") or "")[:16] + "…"}
+                        for k, v in arquivos.items()])
+                    st.dataframe(df_arq, use_container_width=True, hide_index=True)
+
+                st.markdown("**Stack ontológica**")
+                @st.cache_data(show_spinner=False, ttl=600)
+                def _stack_onto():
+                    from algoritmos.ontologia.adaptadores import status_stack
+                    return status_stack()
+
+                try:
+                    df_stack = pd.DataFrame([
+                        {"Biblioteca": i["nome"],
+                         "Obrigatória": "sim" if i["obrigatoria"] else "não",
+                         "Disponível": "OK" if i["instalado"] else "ausente",
+                         "Versão": i["versao"] or "—",
+                         "Observação": i["observacao"] or ""}
+                        for i in _stack_onto()])
+                    st.dataframe(df_stack, use_container_width=True, hide_index=True)
+                except Exception as exc:
+                    st.warning(f"Stack não inspecionada: {exc}")
+                st.caption("OAK é opcional e, quando instalado em venv isolado, é detectado via "
+                           "`PRISM_OAK_PYTHON` ou `.venv-oak/`.")
 
 # ===========================================================================
 # RODAPE

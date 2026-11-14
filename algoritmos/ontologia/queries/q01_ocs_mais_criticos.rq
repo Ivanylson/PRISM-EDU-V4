@@ -1,0 +1,16 @@
+# OCs com maior taxa media de deficiencia (minimo de 3 itens).
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?oc ?rotulo (COUNT(DISTINCT ?item) AS ?itens)
+       (ROUND(AVG(?taxa) * 10) / 10 AS ?taxa_media)
+WHERE {
+  ?item prism:assessesObjective ?oc .
+  ?perf prism:aboutItem ?item ;
+        prism:deficiencyRate ?taxa .
+  ?oc rdfs:label ?rotulo .
+}
+GROUP BY ?oc ?rotulo
+HAVING (COUNT(DISTINCT ?item) >= 3)
+ORDER BY DESC(?taxa_media)
+LIMIT 20

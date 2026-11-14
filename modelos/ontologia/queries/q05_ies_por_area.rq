@@ -1,0 +1,18 @@
+# IES com menor taxa de deficiencia por area (ranking descritivo).
+# ATENCAO: agregado descritivo; nao controla composicao discente.
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?ies ?rotuloIes ?area ?rotuloArea ?taxa ?respostas
+WHERE {
+  ?perf a prism:InstitutionAreaPerformance ;
+        prism:aboutInstitution ?ies ;
+        prism:aboutArea ?area ;
+        prism:deficiencyRate ?taxa .
+  OPTIONAL { ?perf prism:hasResponseCount ?respostas }
+  ?ies rdfs:label ?rotuloIes .
+  ?area rdfs:label ?rotuloArea .
+  FILTER (?respostas >= 100)
+}
+ORDER BY ?taxa
+LIMIT 25

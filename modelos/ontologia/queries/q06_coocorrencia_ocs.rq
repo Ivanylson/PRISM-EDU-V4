@@ -1,0 +1,15 @@
+# Pares de OCs que mais coocorrem nos itens.
+PREFIX prism: <https://prism-edu.example/onto#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?rotuloA ?rotuloB ?peso
+WHERE {
+  ?co a prism:ObjectiveCooccurrence ;
+      prism:firstObjective ?a ;
+      prism:secondObjective ?b ;
+      prism:hasWeight ?peso .
+  ?a rdfs:label ?rotuloA .
+  ?b rdfs:label ?rotuloB .
+}
+ORDER BY DESC(?peso)
+LIMIT 25

@@ -1,33 +1,106 @@
 """Utilitario: converte um Markdown simples em .docx (python-docx).
 
-Suporta titulos (#..####), paragrafos, listas (- e 1.) e blocos de codigo (```).
+Suporta titulos (#..####), paragrafos, listas (- e 1.), tabelas (| ... |),
+citacoes (>), enfase inline (**negrito** e `codigo`) e blocos de codigo (```).
 Uso:
     python processamento/md_para_docx.py entrada.md saida.docx
 """
 from pathlib import Path
+import re
 import sys
+
+
+def _runs_inline(paragrafo, texto):
+    """Escreve texto no paragrafo interpretando **negrito** e `codigo`."""
+    for token in re.split(r"(\*\*.+?\*\*|`[^`]+`)", texto):
+        if not token:
+            continue
+        if token.startswith("**") and token.endswith("**") and len(token) > 4:
+            run = paragrafo.add_run(token[2:-2])
+            run.bold = True
+        elif token.startswith("`") and token.endswith("`") and len(token) > 2:
+            run = paragrafo.add_run(token[1:-1])
+            run.font.name = "Consolas"
+        else:
+            paragrafo.add_run(token)
+
+
+def _celulas(linha):
+    return [c.strip() for c in linha.strip().strip("|").split("|")]
+
+
+def _adicionar_tabela(doc, bloco):
+    """Converte linhas '| a | b |' em uma tabela docx (com cabecalho)."""
+    if len(bloco) < 2:
+        doc.add_paragraph(bloco[0])
+        return
+    cabecalho = _celulas(bloco[0])
+    inicio = 1
+    if re.fullmatch(r"[\s|:\-]+", bloco[1]):
+        inicio = 2  # linha separadora |---|---|
+    corpo = [_celulas(linha) for linha in bloco[inicio:]]
+    ncols = len(cabecalho)
+    tabela = doc.add_table(rows=1, cols=ncols)
+    try:
+        tabela.style = "Table Grid"
+    except Exception:
+        pass
+    for j, texto in enumerate(cabecalho):
+        celula = tabela.rows[0].cells[j]
+        celula.text = ""
+        _runs_inline(celula.paragraphs[0], texto)
+        for run in celula.paragraphs[0].runs:
+            run.bold = True
+    for linha in corpo:
+        celulas = tabela.add_row().cells
+        for j in range(ncols):
+            celula = celulas[j]
+            celula.text = ""
+            _runs_inline(celula.paragraphs[0], linha[j] if j < len(linha) else "")
+    doc.add_paragraph("")
 
 
 def markdown_para_docx(md_texto, saida, titulo=None):
     from docx import Document
-    from docx.shared import Pt
 
     doc = Document()
     if titulo:
         doc.add_heading(titulo, level=0)
 
+    linhas = md_texto.splitlines()
     em_codigo = False
-    for linha in md_texto.splitlines():
-        s = linha.rstrip()
+    i = 0
+    while i < len(linhas):
+        s = linhas[i].rstrip()
+        i += 1
+
         if s.strip().startswith("```"):
             em_codigo = not em_codigo
             continue
+
         if em_codigo:
+            if not s.strip():
+                continue
             p = doc.add_paragraph(s)
-            p.runs[0].font.name = "Consolas" if p.runs else None
+            if p.runs:
+                p.runs[0].font.name = "Consolas"
             continue
+
         if not s.strip():
             continue
+
+        # tabela: consome linhas consecutivas que comecam com '|'
+        if s.lstrip().startswith("|"):
+            bloco = [s.strip()]
+            while i < len(linhas) and linhas[i].lstrip().startswith("|"):
+                bloco.append(linhas[i].strip())
+                i += 1
+            _adicionar_tabela(doc, bloco)
+            continue
+
+        if s.strip() in {"---", "***", "___"}:
+            continue
+
         if s.startswith("#### "):
             doc.add_heading(s[5:], level=4)
         elif s.startswith("### "):
@@ -36,12 +109,19 @@ def markdown_para_docx(md_texto, saida, titulo=None):
             doc.add_heading(s[3:], level=2)
         elif s.startswith("# "):
             doc.add_heading(s[2:], level=1)
-        elif s.lstrip().startswith("- "):
-            doc.add_paragraph(s.lstrip()[2:], style="List Bullet")
-        elif s.lstrip()[:2].rstrip().rstrip(".").isdigit() and ". " in s:
-            doc.add_paragraph(s.split(". ", 1)[-1], style="List Number")
+        elif s.lstrip().startswith(">"):
+            texto = s.lstrip().lstrip(">").strip()
+            p = doc.add_paragraph(style="Intense Quote")
+            _runs_inline(p, texto)
+        elif re.match(r"^\s*[-*] ", s):
+            p = doc.add_paragraph(style="List Bullet")
+            _runs_inline(p, re.sub(r"^\s*[-*] ", "", s))
+        elif re.match(r"^\s*\d+\.\s+", s):
+            p = doc.add_paragraph(style="List Number")
+            _runs_inline(p, re.sub(r"^\s*\d+\.\s+", "", s))
         else:
-            doc.add_paragraph(s)
+            p = doc.add_paragraph()
+            _runs_inline(p, s)
 
     Path(saida).parent.mkdir(parents=True, exist_ok=True)
     doc.save(str(saida))

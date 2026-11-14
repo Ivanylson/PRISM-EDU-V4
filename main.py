@@ -75,18 +75,23 @@ def menu_ia_avancada():
         print("\n" + "=" * 60)
         print("  IA AVANCADA (PRISM-EDU)")
         print("=" * 60)
-        print("  1. Ontologia educacional (JSON-LD + Turtle)")
+        print("  1. Ontologia educacional OWL/Protege (+ RDFLib, Owlready2, OWLAPY, OAK)")
         print("  2. RAG local - indexar corpus (TF-IDF)")
         print("  3. RAG local - consultar")
         print("  4. Prompt-tuning + avaliacao de IA (dataset)")
         print("  5. Analises de tese E1-E9 (microdados)")
         print("  6. Validar servidor MCP")
         print("  7. Gerar relatorio de tese (.docx)")
+        print("  8. Validar ontologia (.owl) e stack ontologica")
         print("  0. Voltar")
         print("-" * 60)
         op = input("  Selecione uma opcao: ").strip()
         if op == "1":
-            subprocess.run([sys.executable, str(BASE_DIR / "processamento" / "gerar_ontologia.py")], check=False)
+            edicoes = input("  Edicoes (ENTER=enade_2023 | ex.: enade_2022,enade_2023 | todas): ").strip()
+            comando = [sys.executable, str(BASE_DIR / "processamento" / "gerar_ontologia.py")]
+            if edicoes:
+                comando += ["--edicoes", edicoes]
+            subprocess.run(comando, check=False)
         elif op == "2":
             subprocess.run([sys.executable, str(BASE_DIR / "processamento" / "analise_rag.py"), "indexar"], check=False)
         elif op == "3":
@@ -105,12 +110,15 @@ def menu_ia_avancada():
             subprocess.run([sys.executable, str(BASE_DIR / "processamento" / "md_para_docx.py"),
                             str(BASE_DIR / "documentacao" / "PRISM-EDU_Relatorio_Tese.md"),
                             str(BASE_DIR / "documentacao" / "PRISM-EDU_Relatorio_Tese.docx")], check=False)
+        elif op == "8":
+            subprocess.run([sys.executable, str(BASE_DIR / "processamento" / "validar_ontologia.py")],
+                           check=False)
         elif op == "0":
             break
         else:
             print("  Opcao invalida!")
             input("  ENTER para continuar...")
-        if op in ("1", "2", "4", "5", "6", "7"):
+        if op in ("1", "2", "4", "5", "6", "7", "8"):
             input("  ENTER para continuar...")
 
 
