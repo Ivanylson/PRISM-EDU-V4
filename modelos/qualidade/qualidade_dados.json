@@ -1,0 +1,1271 @@
+{
+  "versao": "1.0.0",
+  "gerado_em": "2026-11-15T11:58:41.552042+00:00",
+  "duracao_seg": 28.67,
+  "edicoes_auditadas": [
+    "enade_2004",
+    "enade_2005",
+    "enade_2006",
+    "enade_2007",
+    "enade_2008",
+    "enade_2009",
+    "enade_2010",
+    "enade_2011",
+    "enade_2012",
+    "enade_2013",
+    "enade_2014",
+    "enade_2015",
+    "enade_2016",
+    "enade_2017",
+    "enade_2018",
+    "enade_2019",
+    "enade_2021",
+    "enade_2022",
+    "enade_2023",
+    "enamed_2025",
+    "licenciaturas_2025"
+  ],
+  "n_edicoes": 21,
+  "status_por_edicao": {
+    "ok": 19,
+    "atencao": 2
+  },
+  "gates": [
+    {
+      "gate": "G1_cobertura_enade",
+      "descricao": "Todas as edicoes ENADE previstas (exceto 2020, declarada sem dados) possuem arquivo.",
+      "status": "ok",
+      "detalhe": "presentes=19; ausentes_nao_declaradas=[]; sem_dados_declaradas=[2020]"
+    },
+    {
+      "gate": "G2_integridade_microdados",
+      "descricao": "Nenhuma edicao com erro de leitura/itens utilizaveis.",
+      "status": "ok",
+      "detalhe": "sem erros"
+    },
+    {
+      "gate": "G3_alertas_de_qualidade",
+      "descricao": "Edicoes sem alertas de nulos, duplicidade ou notas fora da escala.",
+      "status": "atencao",
+      "detalhe": "edicoes com alerta: enamed_2025, licenciaturas_2025"
+    },
+    {
+      "gate": "G4_artefatos_motores",
+      "descricao": "Artefatos essenciais presentes por motor/edicao.",
+      "status": "atencao",
+      "detalhe": "72/215 combinacoes completas; faltando em: analises_tese/enade_2004, analises_tese/enade_2005, analises_tese/enade_2006, analises_tese/enade_2007, analises_tese/enade_2008, analises_tese/enade_2009, analises_tese/enade_2010, analises_tese/enade_2011, analises_tese/enade_2012, analises_tese/enade_2013, analises_tese/enade_2014, analises_tese/enade_2015, analises_tese/enade_2016, analises_tese/enade_2017, analises_tese/enade_2018, analises_tese/enade_2019, analises_tese/enade_2021, analises_tese/enade_2022, analises_tese/enade_2023, analis"
+    },
+    {
+      "gate": "G5_paridade_matriz_dicionario",
+      "descricao": "Toda matriz-Q tem dicionario de OCs correspondente (e vice-versa).",
+      "status": "ok",
+      "detalhe": "matrizes=28, dicionarios=28, so_matriz=[], so_dicionario=[]"
+    },
+    {
+      "gate": "G6_validacao_especialista",
+      "descricao": "Validacao da matriz-Q pelos especialistas registrada.",
+      "status": "atencao",
+      "detalhe": "28 de 28 cursos pendentes"
+    }
+  ],
+  "resumo_gates": {
+    "ok": 3,
+    "atencao": 3,
+    "falha": 0
+  },
+  "motores": {
+    "analises_tese": {
+      "existe": true,
+      "arquivos_raiz": 3,
+      "bytes_raiz": 39481,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2005": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "cdm": {
+      "existe": true,
+      "arquivos_raiz": 96,
+      "bytes_raiz": 151271,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 21,
+          "bytes": 48405,
+          "atualizado_em": "2026-09-16T02:38:49.412949+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 171,
+          "bytes": 140559566,
+          "atualizado_em": "2026-10-24T15:06:12.443507+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "clustering": {
+      "existe": true,
+      "arquivos_raiz": 236,
+      "bytes_raiz": 18008257,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 26,
+          "bytes": 4767134,
+          "atualizado_em": "2026-11-06T22:37:46.540344+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 40,
+          "bytes": 7187226,
+          "atualizado_em": "2026-10-27T22:56:39.992498+00:00"
+        },
+        "enade_2006": {
+          "arquivos": 30,
+          "bytes": 5388947,
+          "atualizado_em": "2026-10-27T22:57:36.001554+00:00"
+        },
+        "enade_2007": {
+          "arquivos": 32,
+          "bytes": 5721768,
+          "atualizado_em": "2026-10-27T22:58:28.168667+00:00"
+        },
+        "enade_2008": {
+          "arquivos": 60,
+          "bytes": 10762778,
+          "atualizado_em": "2026-10-27T23:00:22.241802+00:00"
+        },
+        "enade_2009": {
+          "arquivos": 44,
+          "bytes": 7877996,
+          "atualizado_em": "2026-10-27T23:01:49.963573+00:00"
+        },
+        "enade_2010": {
+          "arquivos": 38,
+          "bytes": 7243425,
+          "atualizado_em": "2026-10-27T23:02:51.550189+00:00"
+        },
+        "enade_2011": {
+          "arquivos": 130,
+          "bytes": 24915275,
+          "atualizado_em": "2026-10-27T23:05:21.999966+00:00"
+        },
+        "enade_2012": {
+          "arquivos": 34,
+          "bytes": 6387473,
+          "atualizado_em": "2026-10-27T23:06:24.993083+00:00"
+        },
+        "enade_2013": {
+          "arquivos": 34,
+          "bytes": 6202915,
+          "atualizado_em": "2026-10-27T23:07:20.450361+00:00"
+        },
+        "enade_2014": {
+          "arquivos": 84,
+          "bytes": 15811139,
+          "atualizado_em": "2026-10-27T23:09:36.969909+00:00"
+        },
+        "enade_2015": {
+          "arquivos": 52,
+          "bytes": 9810005,
+          "atualizado_em": "2026-10-27T23:11:04.279036+00:00"
+        },
+        "enade_2016": {
+          "arquivos": 36,
+          "bytes": 6689897,
+          "atualizado_em": "2026-10-27T23:12:00.598962+00:00"
+        },
+        "enade_2017": {
+          "arquivos": 84,
+          "bytes": 15828845,
+          "atualizado_em": "2026-10-27T23:14:21.337961+00:00"
+        },
+        "enade_2018": {
+          "arquivos": 54,
+          "bytes": 10153813,
+          "atualizado_em": "2026-10-27T23:15:52.201505+00:00"
+        },
+        "enade_2019": {
+          "arquivos": 58,
+          "bytes": 10916823,
+          "atualizado_em": "2026-10-27T23:17:25.763442+00:00"
+        },
+        "enade_2021": {
+          "arquivos": 56,
+          "bytes": 10565067,
+          "atualizado_em": "2026-10-27T23:19:01.560339+00:00"
+        },
+        "enade_2022": {
+          "arquivos": 52,
+          "bytes": 9805636,
+          "atualizado_em": "2026-10-27T23:20:32.684539+00:00"
+        },
+        "enade_2023": {
+          "arquivos": 56,
+          "bytes": 10049027,
+          "atualizado_em": "2026-10-27T23:22:09.136569+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 590,
+          "bytes": 105762058,
+          "atualizado_em": "2026-10-27T23:26:22.125541+00:00"
+        },
+        "licenciaturas_2025": {
+          "arquivos": 30,
+          "bytes": 5633050,
+          "atualizado_em": "2026-10-27T23:27:48.862748+00:00"
+        }
+      },
+      "sha256_resumo": null
+    },
+    "drift": {
+      "existe": true,
+      "arquivos_raiz": 6,
+      "bytes_raiz": 155268,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2005": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 3,
+          "bytes": 42018,
+          "atualizado_em": "2026-10-21T00:18:39.061072+00:00"
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 2,
+          "bytes": 80786,
+          "atualizado_em": "2026-10-23T00:08:11.354609+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "irt": {
+      "existe": true,
+      "arquivos_raiz": 0,
+      "bytes_raiz": 0,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2005": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 142,
+          "bytes": 20788640,
+          "atualizado_em": "2026-11-15T11:53:51.184038+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "lca": {
+      "existe": true,
+      "arquivos_raiz": 3,
+      "bytes_raiz": 3141779,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 3,
+          "bytes": 2875469,
+          "atualizado_em": "2026-10-28T00:59:57.430935+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 3,
+          "bytes": 5078523,
+          "atualizado_em": "2026-10-28T03:51:20.085222+00:00"
+        },
+        "enade_2006": {
+          "arquivos": 3,
+          "bytes": 4916690,
+          "atualizado_em": "2026-10-28T09:00:53.389714+00:00"
+        },
+        "enade_2007": {
+          "arquivos": 3,
+          "bytes": 2600380,
+          "atualizado_em": "2026-10-28T11:09:10.190753+00:00"
+        },
+        "enade_2008": {
+          "arquivos": 3,
+          "bytes": 6042720,
+          "atualizado_em": "2026-10-28T15:19:16.067426+00:00"
+        },
+        "enade_2009": {
+          "arquivos": 3,
+          "bytes": 6667035,
+          "atualizado_em": "2026-10-29T01:37:30.355705+00:00"
+        },
+        "enade_2010": {
+          "arquivos": 3,
+          "bytes": 4041224,
+          "atualizado_em": "2026-10-29T06:39:30.088252+00:00"
+        },
+        "enade_2011": {
+          "arquivos": 3,
+          "bytes": 3029174,
+          "atualizado_em": "2026-10-29T09:34:03.122046+00:00"
+        },
+        "enade_2012": {
+          "arquivos": 3,
+          "bytes": 4483093,
+          "atualizado_em": "2026-10-29T15:39:34.153045+00:00"
+        },
+        "enade_2013": {
+          "arquivos": 3,
+          "bytes": 1812992,
+          "atualizado_em": "2026-10-29T17:43:26.983968+00:00"
+        },
+        "enade_2014": {
+          "arquivos": 3,
+          "bytes": 3725177,
+          "atualizado_em": "2026-10-29T22:36:40.681322+00:00"
+        },
+        "enade_2015": {
+          "arquivos": 3,
+          "bytes": 4290470,
+          "atualizado_em": "2026-10-30T11:13:08.994486+00:00"
+        },
+        "enade_2016": {
+          "arquivos": 3,
+          "bytes": 2232042,
+          "atualizado_em": "2026-10-30T13:26:15.439830+00:00"
+        },
+        "enade_2017": {
+          "arquivos": 3,
+          "bytes": 4342153,
+          "atualizado_em": "2026-10-30T19:32:55.303248+00:00"
+        },
+        "enade_2018": {
+          "arquivos": 3,
+          "bytes": 4233081,
+          "atualizado_em": "2026-10-31T01:26:10.647278+00:00"
+        },
+        "enade_2019": {
+          "arquivos": 3,
+          "bytes": 4689427,
+          "atualizado_em": "2026-10-31T06:09:09.974647+00:00"
+        },
+        "enade_2021": {
+          "arquivos": 3,
+          "bytes": 2348458,
+          "atualizado_em": "2026-10-31T12:21:36.498081+00:00"
+        },
+        "enade_2022": {
+          "arquivos": 3,
+          "bytes": 3221245,
+          "atualizado_em": "2026-10-31T17:12:02.928638+00:00"
+        },
+        "enade_2023": {
+          "arquivos": 3,
+          "bytes": 3617598,
+          "atualizado_em": "2026-10-31T20:42:58.594555+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 3,
+          "bytes": 2206140,
+          "atualizado_em": "2026-10-31T23:27:58.738999+00:00"
+        },
+        "teste": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "nlp": {
+      "existe": true,
+      "arquivos_raiz": 0,
+      "bytes_raiz": 0,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 13,
+          "bytes": 8276,
+          "atualizado_em": "2026-10-27T22:43:02.000969+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 28,
+          "bytes": 17185,
+          "atualizado_em": "2026-10-27T22:43:02.192812+00:00"
+        },
+        "enade_2006": {
+          "arquivos": 15,
+          "bytes": 9703,
+          "atualizado_em": "2026-10-27T22:43:02.296142+00:00"
+        },
+        "enade_2007": {
+          "arquivos": 16,
+          "bytes": 10243,
+          "atualizado_em": "2026-10-27T22:43:02.395085+00:00"
+        },
+        "enade_2008": {
+          "arquivos": 32,
+          "bytes": 19770,
+          "atualizado_em": "2026-10-27T22:43:02.599515+00:00"
+        },
+        "enade_2009": {
+          "arquivos": 28,
+          "bytes": 17201,
+          "atualizado_em": "2026-10-27T22:43:02.728059+00:00"
+        },
+        "enade_2010": {
+          "arquivos": 20,
+          "bytes": 12662,
+          "atualizado_em": "2026-10-27T22:43:02.847968+00:00"
+        },
+        "enade_2011": {
+          "arquivos": 39,
+          "bytes": 24056,
+          "atualizado_em": "2026-10-27T22:43:03.040083+00:00"
+        },
+        "enade_2012": {
+          "arquivos": 24,
+          "bytes": 14979,
+          "atualizado_em": "2026-10-27T22:43:03.187151+00:00"
+        },
+        "enade_2013": {
+          "arquivos": 18,
+          "bytes": 11298,
+          "atualizado_em": "2026-10-27T22:43:03.343471+00:00"
+        },
+        "enade_2014": {
+          "arquivos": 56,
+          "bytes": 34668,
+          "atualizado_em": "2026-10-27T22:43:03.683588+00:00"
+        },
+        "enade_2015": {
+          "arquivos": 27,
+          "bytes": 16590,
+          "atualizado_em": "2026-10-27T22:43:03.833689+00:00"
+        },
+        "enade_2016": {
+          "arquivos": 21,
+          "bytes": 13068,
+          "atualizado_em": "2026-10-27T22:43:03.954523+00:00"
+        },
+        "enade_2017": {
+          "arquivos": 53,
+          "bytes": 31986,
+          "atualizado_em": "2026-10-27T22:43:04.171080+00:00"
+        },
+        "enade_2018": {
+          "arquivos": 29,
+          "bytes": 18040,
+          "atualizado_em": "2026-10-27T22:43:04.325505+00:00"
+        },
+        "enade_2019": {
+          "arquivos": 36,
+          "bytes": 21961,
+          "atualizado_em": "2026-10-27T22:43:04.521637+00:00"
+        },
+        "enade_2021": {
+          "arquivos": 36,
+          "bytes": 22188,
+          "atualizado_em": "2026-10-27T22:43:04.684803+00:00"
+        },
+        "enade_2022": {
+          "arquivos": 28,
+          "bytes": 17461,
+          "atualizado_em": "2026-10-27T22:43:04.798833+00:00"
+        },
+        "enade_2023": {
+          "arquivos": 32,
+          "bytes": 19461,
+          "atualizado_em": "2026-10-27T22:43:04.938453+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 1,
+          "bytes": 431,
+          "atualizado_em": "2026-10-27T22:43:04.949563+00:00"
+        },
+        "licenciaturas_2025": {
+          "arquivos": 18,
+          "bytes": 10919,
+          "atualizado_em": "2026-10-27T22:43:05.053827+00:00"
+        }
+      },
+      "sha256_resumo": null
+    },
+    "preditivos": {
+      "existe": true,
+      "arquivos_raiz": 147,
+      "bytes_raiz": 20664,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 34,
+          "bytes": 16418,
+          "atualizado_em": "2026-09-16T02:34:43.208512+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 46,
+          "bytes": 24334,
+          "atualizado_em": "2026-09-16T05:05:35.842093+00:00"
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 112,
+          "bytes": 129484,
+          "atualizado_em": "2026-10-23T00:18:02.742197+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "psicometria": {
+      "existe": true,
+      "arquivos_raiz": 156,
+      "bytes_raiz": 9416175,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 13,
+          "bytes": 843962,
+          "atualizado_em": "2026-09-16T02:35:42.659942+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2006": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2007": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2008": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2009": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2010": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2011": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2012": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2013": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2014": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2015": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2016": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2017": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2018": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2019": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2021": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2022": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "enade_2023": {
+          "arquivos": 28,
+          "bytes": 1880500,
+          "atualizado_em": "2026-10-23T00:07:34.108506+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        }
+      },
+      "sha256_resumo": null
+    },
+    "shap": {
+      "existe": true,
+      "arquivos_raiz": 498,
+      "bytes_raiz": 2315434,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 52,
+          "bytes": 7401314,
+          "atualizado_em": "2026-10-31T23:28:29.835180+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 68,
+          "bytes": 10019831,
+          "atualizado_em": "2026-10-31T23:28:56.849377+00:00"
+        },
+        "enade_2006": {
+          "arquivos": 60,
+          "bytes": 9180437,
+          "atualizado_em": "2026-10-31T23:29:21.971156+00:00"
+        },
+        "enade_2007": {
+          "arquivos": 64,
+          "bytes": 9494204,
+          "atualizado_em": "2026-10-31T23:29:44.708898+00:00"
+        },
+        "enade_2008": {
+          "arquivos": 120,
+          "bytes": 18053154,
+          "atualizado_em": "2026-10-31T23:30:26.879284+00:00"
+        },
+        "enade_2009": {
+          "arquivos": 88,
+          "bytes": 14710793,
+          "atualizado_em": "2026-10-31T23:31:07.866452+00:00"
+        },
+        "enade_2010": {
+          "arquivos": 76,
+          "bytes": 11804332,
+          "atualizado_em": "2026-10-31T23:31:35.179848+00:00"
+        },
+        "enade_2011": {
+          "arquivos": 232,
+          "bytes": 33776579,
+          "atualizado_em": "2026-10-31T23:32:38.151621+00:00"
+        },
+        "enade_2012": {
+          "arquivos": 68,
+          "bytes": 11896075,
+          "atualizado_em": "2026-10-31T23:33:06.415595+00:00"
+        },
+        "enade_2013": {
+          "arquivos": 68,
+          "bytes": 11154875,
+          "atualizado_em": "2026-10-31T23:33:31.099612+00:00"
+        },
+        "enade_2014": {
+          "arquivos": 168,
+          "bytes": 27598121,
+          "atualizado_em": "2026-10-31T23:34:30.965159+00:00"
+        },
+        "enade_2015": {
+          "arquivos": 104,
+          "bytes": 17195418,
+          "atualizado_em": "2026-10-31T23:35:10.745215+00:00"
+        },
+        "enade_2016": {
+          "arquivos": 72,
+          "bytes": 11396069,
+          "atualizado_em": "2026-10-31T23:35:36.128907+00:00"
+        },
+        "enade_2017": {
+          "arquivos": 168,
+          "bytes": 27522383,
+          "atualizado_em": "2026-10-31T23:36:39.289345+00:00"
+        },
+        "enade_2018": {
+          "arquivos": 108,
+          "bytes": 17676441,
+          "atualizado_em": "2026-10-31T23:37:20.774833+00:00"
+        },
+        "enade_2019": {
+          "arquivos": 116,
+          "bytes": 18976450,
+          "atualizado_em": "2026-10-31T23:38:02.618873+00:00"
+        },
+        "enade_2021": {
+          "arquivos": 112,
+          "bytes": 18879643,
+          "atualizado_em": "2026-10-31T23:38:44.367439+00:00"
+        },
+        "enade_2022": {
+          "arquivos": 104,
+          "bytes": 17281314,
+          "atualizado_em": "2026-10-31T23:39:24.315724+00:00"
+        },
+        "enade_2023": {
+          "arquivos": 112,
+          "bytes": 18248510,
+          "atualizado_em": "2026-10-31T23:40:03.136060+00:00"
+        },
+        "enamed_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "licenciaturas_2025": {
+          "arquivos": 0,
+          "bytes": 0,
+          "atualizado_em": null
+        },
+        "shap_plots": {
+          "arquivos": 294,
+          "bytes": 68810898,
+          "atualizado_em": "2026-09-06T16:31:34.788683+00:00"
+        }
+      },
+      "sha256_resumo": null
+    },
+    "xai": {
+      "existe": true,
+      "arquivos_raiz": 2,
+      "bytes_raiz": 1690,
+      "edicoes": {
+        "enade_2004": {
+          "arquivos": 26,
+          "bytes": 30598,
+          "atualizado_em": "2026-09-16T02:35:31.538471+00:00"
+        },
+        "enade_2005": {
+          "arquivos": 30,
+          "bytes": 34691,
+          "atualizado_em": "2026-09-16T05:06:28.648151+00:00"
+        },
+        "enade_2023": {
+          "arquivos": 56,
+          "bytes": 50974,
+          "atualizado_em": "2026-10-23T00:19:07.259780+00:00"
+        }
+      },
+      "sha256_resumo": null
+    }
+  },
+  "paridade_matriz_dicionario": {
+    "n_matrizes": 28,
+    "n_dicionarios": 28,
+    "somente_matriz": [],
+    "somente_dicionario": []
+  },
+  "validacao_especialista": {
+    "arquivo": "00_resumo_geral.csv",
+    "n_cursos": 28,
+    "pendentes": 28,
+    "contagem": {
+      "PENDENTE_VALIDACAO": 28
+    }
+  },
+  "ambiente": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "plataforma": "Windows-11-10.0.26100-SP0"
+  },
+  "parametros": {
+    "seed": 42,
+    "nrows_amostra": 20000,
+    "hash_habilitado": false
+  },
+  "avisos": [
+    "Metricas de nulos/duplicidade usam a amostra inicial (nrows_amostra), nao a base inteira.",
+    "O inventario mede presenca de arquivos, nao a correcao cientifica do conteudo.",
+    "Arquivos maiores que 200 MB nao sao hasheados por padrao."
+  ]
+}

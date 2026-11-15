@@ -1,7 +1,7 @@
 """
 PRISM-EDU Dashboard v4 -- Painel de IA Educacional
 4 fontes: ENADE (2004-2023), Referencia ENADE 2023, Licenciaturas 2025, ENAMED 2025
-16 abas completas espelhando o modelo de referencia.
+21 abas: 20 historicas + "Qualidade, Proveniencia e Metodos" (governanca do dado).
 """
 import streamlit as st
 import pandas as pd
@@ -96,13 +96,26 @@ def _pasta_cdm_com(padrao, edicao=""):
 EDICAO_MOTORES = ""
 
 
+def _pasta_edicao_leitura(motor, edicao):
+    """Pasta de leitura de um motor, sem criar diretorios.
+
+    Corrige um efeito colateral: ``pasta_saida_edicao`` sempre faz ``mkdir`` e,
+    como o dashboard a chamava durante a navegacao, criava pastas de edicao
+    vazias que depois "sombreavam" a pasta raiz populada.
+    """
+    if edicao:
+        p = PASTA_MOD / motor / edicao
+        try:
+            if p.is_dir() and any(p.iterdir()):
+                return p
+        except OSError:
+            pass
+    return PASTA_MOD / motor
+
+
 def _pasta_motor(motor):
     """Pasta de resultados de um motor de IA, respeitando a edicao selecionada."""
-    if EDICAO_MOTORES:
-        p = pasta_saida_edicao(motor, EDICAO_MOTORES)
-        if p.exists():
-            return p
-    return PASTA_MOD / motor
+    return _pasta_edicao_leitura(motor, EDICAO_MOTORES)
 
 
 # ===========================================================================
@@ -544,7 +557,7 @@ def carregar_dados_resumidos():
 
 @st.cache_data(show_spinner=False)
 def carregar_lca_geral(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "01_relatorio_geral_por_ies.csv"
+    path = _pasta_edicao_leitura("lca", edicao) / "01_relatorio_geral_por_ies.csv"
     if not path.exists():
         return None
     df = pd.read_csv(path, sep=";", decimal=",", dtype={"ies": str}, low_memory=False)
@@ -555,7 +568,7 @@ def carregar_lca_geral(edicao=""):
 
 @st.cache_data(show_spinner=False)
 def carregar_lca_classes(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "02_caracterizacao_das_classes.csv"
+    path = _pasta_edicao_leitura("lca", edicao) / "02_caracterizacao_das_classes.csv"
     if not path.exists():
         return None
     df = pd.read_csv(path, sep=";", decimal=",", dtype={"ies": str}, low_memory=False)
@@ -566,7 +579,7 @@ def carregar_lca_classes(edicao=""):
 
 @st.cache_data(show_spinner=False)
 def carregar_lca_criterios(edicao=""):
-    path = (pasta_saida_edicao("lca", edicao) if edicao else PASTA_MOD / "lca") / "03_criterios_de_selecao_k.csv"
+    path = _pasta_edicao_leitura("lca", edicao) / "03_criterios_de_selecao_k.csv"
     if not path.exists():
         return None
     df = pd.read_csv(path, sep=";", decimal=",", dtype={"ies": str}, low_memory=False)
@@ -618,7 +631,7 @@ def carregar_dados_diagnostico(nome_curso, edicao=""):
 def _candidatos_lca(nome_arquivo, edicao=""):
     cands = []
     if edicao:
-        cands.append(pasta_saida_edicao("lca", edicao) / nome_arquivo)
+        cands.append(_pasta_edicao_leitura("lca", edicao) / nome_arquivo)
     cands.append((PASTA_MOD / "lca") / nome_arquivo)
     cands.append(PASTA_DADOS_PROCESSADOS / nome_arquivo)
     cands.append(PASTA_DADOS_PROCESSADOS / "RESULTADOS_LCA" / nome_arquivo)
@@ -1355,7 +1368,7 @@ st.divider()
 
 
 # ===========================================================================
-# ABAS - 16 TABS
+# ABAS - 21 TABS (20 historicas + Qualidade/Proveniencia/Metodos)
 # ===========================================================================
 ABAS = ABAS_DASHBOARD
 aba = st.radio("Menu:", ABAS, index=0, horizontal=True, label_visibility="collapsed")
@@ -2247,7 +2260,7 @@ elif aba == ABAS[5]:
         for ed in eds:
             for m in modulos:
                 try:
-                    bases.append(pasta_saida_edicao(m, ed))
+                    bases.append(_pasta_edicao_leitura(m, ed))
                 except Exception:
                     pass
         for m in modulos:
@@ -4019,19 +4032,26 @@ elif aba == ABAS[11]:
 
     if df_curso is not None and not df_curso.empty and "NT_GER" in df_curso.columns:
         st.markdown("---")
-        st.subheader("Simulacao de Intervencao (Impacto XGBoost)")
+        st.subheader("Cenario Aritmetico de Intervencao (nao e projecao de modelo)")
         st.markdown("""
-        Ao implementar o diagnostico da Matriz-Q (trilhas cirurgicas por lacuna latente), o modelo projeta
-        uma elevacao na taxa de excelencia do curso. Ajuste o efeito esperado das acoes prescritas:
+        **Correcao metodologica (15/11/2026):** este bloco antes se chamava
+        "Impacto XGBoost" e aplicava um ganho fixo de 16 pontos percentuais, sem
+        modelo que sustentasse esse numero. Nao existe modelo treinado que ligue
+        "fases de Sensemaking" a nota. O que se segue e um **exercicio aritmetico
+        declarado**: o usuario escolhe quantos pontos percentuais deseja supor e o
+        painel apenas soma esse valor a taxa observada.
         """)
         taxa_excelencia_base = round((df_curso["NT_GER"].dropna() >= 60).mean() * 100, 1)
-        melhoria = st.slider("Simular aplicacao das 4 fases do Sensemaking na taxa de sucesso do curso:", 0, 100, 20, format="%d%%", key="slider_sensemaking")
-        ganho_preditivo = (melhoria / 100) * 16.0
-        nova_taxa = min(100.0, taxa_excelencia_base + ganho_preditivo)
+        melhoria = st.slider("Hipotese de ganho na taxa de sucesso do curso (p.p.):", 0, 100, 20, format="%d%%", key="slider_sensemaking")
+        ganho_hipotetico = float(melhoria)
+        nova_taxa = min(100.0, taxa_excelencia_base + ganho_hipotetico)
         m1, m2 = st.columns(2)
-        m1.metric("Taxa Atual de Excelencia", f"{taxa_excelencia_base}%")
-        m2.metric("Projecao Preditiva (Pos-Acao)", f"{nova_taxa:.1f}%", f"+{ganho_preditivo:.1f}% (Efeito Alavanca)")
-        st.caption("Estimativa ilustrativa do efeito-alavanca das intervencoes mapeadas pela Matriz-Q sobre a taxa de excelencia (media >= 60).")
+        m1.metric("Taxa Atual de Excelencia (observada)", f"{taxa_excelencia_base}%")
+        m2.metric("Cenario (taxa observada + hipotese)", f"{nova_taxa:.1f}%",
+                  f"+{ganho_hipotetico:.1f} p.p. (hipotese do usuario)")
+        st.caption("Sem modelo causal ou preditivo: o numero da direita e apenas a taxa observada "
+                   "somada a hipotese declarada no controle acima. Para estimativa real seria "
+                   "necessario desenho quase-experimental com grupo de comparacao.")
 
 
 # --- TAB 12: SUPORTE A DECISAO PEDAGOGICA ---
@@ -4227,27 +4247,15 @@ Responda de forma clara e estruturada."""
         **Atendendo a recomendacao metodologica:** diferenciamos a verdadeira lacuna de aprendizado do
         comportamento de baixo engajamento (ex.: respostas muito rapidas ou padrao de "chute").
         """)
-        col_e1, col_e2 = st.columns([2, 1])
-        with col_e1:
-            np.random.seed(42)
-            df_esforco = pd.DataFrame({
-                "Competencia (escore 0-100)": np.random.normal(50, 15, 100),
-                "Indice de Esforco (Tempo/Padrao)": np.random.normal(5, 2, 100),
-            })
-            fig_esf = px.scatter(
-                df_esforco, x="Indice de Esforco (Tempo/Padrao)", y="Competencia (escore 0-100)",
-                title="Matriz de Esforco vs. Competencia (dados simulados ilustrativos)",
-                labels={"Indice de Esforco (Tempo/Padrao)": "Esforco (0-10)",
-                        "Competencia (escore 0-100)": "Competencia (0-100)"})
-            fig_esf.add_hline(y=50, line_dash="dot", annotation_text="Media de Competencia")
-            fig_esf.add_vline(x=5, line_dash="dot", annotation_text="Media de Esforco")
-            st.plotly_chart(fig_esf, use_container_width=True)
-        with col_e2:
-            st.markdown("""
-            **Interpretacao dos Quadrantes:**
-            * **Alto Esforco / Baixa Competencia:** foco prioritario de tutoria. O aluno tenta, mas possui deficiencias reais.
-            * **Baixo Esforco / Baixa Competencia:** risco de evasao ou desengajamento. A nota baixa nao reflete necessariamente o limite cognitivo.
-            """)
+        # CORRECAO (15/11/2026): esta secao exibia um grafico gerado com np.random
+        # ("dados simulados ilustrativos"). Passou a ler o ajuste IRT real do curso.
+        from dashboard.abas.aba_qualidade import render_irt
+        render_irt(EDICAO_MOTORES, globals().get("chave_curso"))
+        st.markdown("""
+        **Interpretacao dos Quadrantes:**
+        * **Alto Esforco / Baixa Competencia:** foco prioritario de tutoria. O aluno tenta, mas possui deficiencias reais.
+        * **Baixo Esforco / Baixa Competencia:** risco de evasao ou desengajamento. A nota baixa nao reflete necessariamente o limite cognitivo.
+        """)
 
         st.markdown("### 6. Metrica de Lacunas Corrigida (Evitando Efeito Zero-Sum)")
         st.markdown("""
@@ -5188,7 +5196,12 @@ elif aba == ABAS[18]:
                     if daq is None or daq.empty or "CO_GRUPO" not in daq.columns:
                         continue
                     tmp = daq.copy(); tmp["Ano"] = a
-                    tmp["Macroárea"] = tmp["CO_GRUPO"].map(lambda cg: _macro_area_enade(CURSOS_MAP.get(int(cg), str(cg)) if pd.notna(cg) else "", cg))
+                    def _nome_do_codigo(cg):
+                        try:
+                            return CURSOS_MAP.get(int(cg), str(cg))
+                        except (TypeError, ValueError):
+                            return str(cg)
+                    tmp["Macroárea"] = tmp["CO_GRUPO"].map(lambda cg: _macro_area_enade(_nome_do_codigo(cg) if pd.notna(cg) else "", cg))
                     tmp = tmp[tmp["Macroárea"].isin(macro_foco)]
                     if not tmp.empty:
                         qdet_rows.append(tmp)
@@ -5199,7 +5212,8 @@ elif aba == ABAS[18]:
                     for c in ["QTD_ACERTOS", "QTD_ERROS", "TAXA_DEFICIENCIA_%", "CO_IES", "CO_GRUPO"]:
                         if c in qdet.columns:
                             qdet[c] = pd.to_numeric(qdet[c], errors="coerce")
-                    qdet["TOTAL_RESP"] = qdet.get("QTD_ACERTOS", 0).fillna(0) + qdet.get("QTD_ERROS", 0).fillna(0)
+                    qdet["TOTAL_RESP"] = (pd.to_numeric(qdet.get("QTD_ACERTOS"), errors="coerce").fillna(0)
+                                          + pd.to_numeric(qdet.get("QTD_ERROS"), errors="coerce").fillna(0))
                     if "CURSO" not in qdet.columns and "NOME_CURSO" in qdet.columns:
                         qdet["CURSO"] = qdet["NOME_CURSO"]
                     elif "CURSO" not in qdet.columns:
@@ -5530,7 +5544,9 @@ elif aba == ABAS[19]:
                     st.info("Gere a ontologia para habilitar as consultas.")
                 else:
                     @st.cache_resource(show_spinner="Carregando grafo OWL (uma vez por sessão)...")
-                    def _grafo_owl(caminho_str, _mtime):
+                    def _grafo_owl(caminho_str, mtime):
+                        # ``mtime`` sem underscore entra na chave do cache: se o
+                        # .owl for regenerado, o grafo e recarregado.
                         from rdflib import Graph
                         grafo = Graph()
                         grafo.parse(caminho_str, format="xml")
@@ -5595,6 +5611,13 @@ elif aba == ABAS[19]:
                     st.warning(f"Stack não inspecionada: {exc}")
                 st.caption("OAK é opcional e, quando instalado em venv isolado, é detectado via "
                            "`PRISM_OAK_PYTHON` ou `.venv-oak/`.")
+
+elif aba == ABAS[20]:
+    from dashboard.abas import aba_qualidade
+    aba_qualidade.render({
+        "edicao": EDICAO_MOTORES,
+        "chave_curso": globals().get("chave_curso"),
+    })
 
 # ===========================================================================
 # RODAPE

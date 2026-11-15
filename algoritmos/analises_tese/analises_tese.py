@@ -116,16 +116,18 @@ def valor_agregado(df, ano=None):
     d = df.copy()
     d["_nota"] = nota
     Xc = _codificar_controles(d, controles)
-    dados = pd.concat([d["_nota"].reset_index(drop=True), Xc.reset_index(drop=True)], axis=1)
-    dados = dados.dropna()
-    if len(dados) < 100:
-        return _insuficiente("E2_valor_agregado", f"amostra pequena (n={len(dados)})")
+    # Filtra mantendo a indexacao original: resetar o indice aqui desalinhava
+    # previsoes e residuos dos alunos (bug corrigido em 15/11/2026).
+    mascara = Xc.notna().all(axis=1) & d["_nota"].notna()
+    d = d.loc[mascara].copy()
+    Xc = Xc.loc[mascara]
+    if len(d) < 100:
+        return _insuficiente("E2_valor_agregado", f"amostra pequena (n={len(d)})")
 
     from sklearn.linear_model import LinearRegression
-    X = dados[Xc.columns].values
-    y = dados["_nota"].values
+    X = Xc.values
+    y = d["_nota"].values
     modelo = LinearRegression().fit(X, y)
-    d = d.loc[dados.index].copy()
     d["_esperado"] = modelo.predict(X)
     d["_residuo"] = d["_nota"] - d["_esperado"]
 
@@ -137,7 +139,7 @@ def valor_agregado(df, ano=None):
             "controles": controles,
             "top_ies": por_ies.head(10).to_dict("records"),
             "bottom_ies": por_ies.tail(10).to_dict("records"),
-            "n_ies": int(len(por_ies)), "n": int(len(dados))}
+            "n_ies": int(len(por_ies)), "n": int(len(d))}
 
 
 # ------------------------------------------------------------------ E3

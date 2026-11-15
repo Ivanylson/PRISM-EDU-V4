@@ -1,0 +1,216 @@
+﻿motor;edicao;arquivos;bytes;padroes_esperados;padroes_faltando;status
+lca;enade_2004;3;2875469;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2005;3;5078523;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2006;3;4916690;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2007;3;2600380;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2008;3;6042720;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2009;3;6667035;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2010;3;4041224;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2011;3;3029174;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2012;3;4483093;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2013;3;1812992;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2014;3;3725177;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2015;3;4290470;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2016;3;2232042;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2017;3;4342153;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2018;3;4233081;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2019;3;4689427;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2021;3;2348458;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2022;3;3221245;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enade_2023;3;3617598;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;enamed_2025;0;0;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];atencao
+lca;licenciaturas_2025;3;2206140;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];[];ok
+lca;teste;0;0;['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];['01_relatorio_geral_por_ies.csv', '02_caracterizacao_das_classes.csv', '03_criterios_de_selecao_k.csv'];atencao
+cdm;enade_2004;21;48405;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2005;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2006;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2007;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2008;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2009;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2010;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2011;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2012;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2013;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2014;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2015;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2016;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2017;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2018;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2019;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2021;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2022;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;enade_2023;171;140559566;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];[];ok
+cdm;enamed_2025;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+cdm;licenciaturas_2025;0;0;['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];['comparacao_lca_vs_dina.csv', 'diagnostico_cognitivo_*.xlsx'];atencao
+clustering;enade_2004;26;4767134;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2005;40;7187226;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2006;30;5388947;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2007;32;5721768;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2008;60;10762778;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2009;44;7877996;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2010;38;7243425;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2011;130;24915275;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2012;34;6387473;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2013;34;6202915;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2014;84;15811139;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2015;52;9810005;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2016;36;6689897;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2017;84;15828845;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2018;54;10153813;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2019;58;10916823;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2021;56;10565067;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2022;52;9805636;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enade_2023;56;10049027;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;enamed_2025;590;105762058;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+clustering;licenciaturas_2025;30;5633050;['metricas_*.csv', 'validacao_*.csv'];['validacao_*.csv'];atencao
+preditivos;enade_2004;34;16418;['metricas_modelos_*.csv'];[];ok
+preditivos;enade_2005;46;24334;['metricas_modelos_*.csv'];[];ok
+preditivos;enade_2006;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2007;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2008;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2009;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2010;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2011;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2012;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2013;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2014;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2015;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2016;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2017;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2018;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2019;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2021;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2022;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;enade_2023;112;129484;['metricas_modelos_*.csv'];[];ok
+preditivos;enamed_2025;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+preditivos;licenciaturas_2025;0;0;['metricas_modelos_*.csv'];['metricas_modelos_*.csv'];atencao
+shap;enade_2004;52;7401314;['importancia_*.csv'];[];ok
+shap;enade_2005;68;10019831;['importancia_*.csv'];[];ok
+shap;enade_2006;60;9180437;['importancia_*.csv'];[];ok
+shap;enade_2007;64;9494204;['importancia_*.csv'];[];ok
+shap;enade_2008;120;18053154;['importancia_*.csv'];[];ok
+shap;enade_2009;88;14710793;['importancia_*.csv'];[];ok
+shap;enade_2010;76;11804332;['importancia_*.csv'];[];ok
+shap;enade_2011;232;33776579;['importancia_*.csv'];[];ok
+shap;enade_2012;68;11896075;['importancia_*.csv'];[];ok
+shap;enade_2013;68;11154875;['importancia_*.csv'];[];ok
+shap;enade_2014;168;27598121;['importancia_*.csv'];[];ok
+shap;enade_2015;104;17195418;['importancia_*.csv'];[];ok
+shap;enade_2016;72;11396069;['importancia_*.csv'];[];ok
+shap;enade_2017;168;27522383;['importancia_*.csv'];[];ok
+shap;enade_2018;108;17676441;['importancia_*.csv'];[];ok
+shap;enade_2019;116;18976450;['importancia_*.csv'];[];ok
+shap;enade_2021;112;18879643;['importancia_*.csv'];[];ok
+shap;enade_2022;104;17281314;['importancia_*.csv'];[];ok
+shap;enade_2023;112;18248510;['importancia_*.csv'];[];ok
+shap;enamed_2025;0;0;['importancia_*.csv'];['importancia_*.csv'];atencao
+shap;licenciaturas_2025;0;0;['importancia_*.csv'];['importancia_*.csv'];atencao
+shap;shap_plots;294;68810898;['importancia_*.csv'];['importancia_*.csv'];atencao
+xai;enade_2004;26;30598;['atribuicao_*.csv'];[];ok
+xai;enade_2005;30;34691;['atribuicao_*.csv'];[];ok
+xai;enade_2023;56;50974;['atribuicao_*.csv'];[];ok
+psicometria;enade_2004;13;843962;['som_*.png'];[];ok
+psicometria;enade_2005;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2006;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2007;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2008;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2009;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2010;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2011;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2012;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2013;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2014;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2015;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2016;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2017;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2018;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2019;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2021;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2022;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;enade_2023;28;1880500;['som_*.png'];[];ok
+psicometria;enamed_2025;0;0;['som_*.png'];['som_*.png'];atencao
+psicometria;licenciaturas_2025;0;0;['som_*.png'];['som_*.png'];atencao
+nlp;enade_2004;13;8276;['*.csv'];[];ok
+nlp;enade_2005;28;17185;['*.csv'];[];ok
+nlp;enade_2006;15;9703;['*.csv'];[];ok
+nlp;enade_2007;16;10243;['*.csv'];[];ok
+nlp;enade_2008;32;19770;['*.csv'];[];ok
+nlp;enade_2009;28;17201;['*.csv'];[];ok
+nlp;enade_2010;20;12662;['*.csv'];[];ok
+nlp;enade_2011;39;24056;['*.csv'];[];ok
+nlp;enade_2012;24;14979;['*.csv'];[];ok
+nlp;enade_2013;18;11298;['*.csv'];[];ok
+nlp;enade_2014;56;34668;['*.csv'];[];ok
+nlp;enade_2015;27;16590;['*.csv'];[];ok
+nlp;enade_2016;21;13068;['*.csv'];[];ok
+nlp;enade_2017;53;31986;['*.csv'];[];ok
+nlp;enade_2018;29;18040;['*.csv'];[];ok
+nlp;enade_2019;36;21961;['*.csv'];[];ok
+nlp;enade_2021;36;22188;['*.csv'];[];ok
+nlp;enade_2022;28;17461;['*.csv'];[];ok
+nlp;enade_2023;32;19461;['*.csv'];[];ok
+nlp;enamed_2025;1;431;['*.csv'];[];ok
+nlp;licenciaturas_2025;18;10919;['*.csv'];[];ok
+drift;enade_2004;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2005;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2006;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2007;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2008;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2009;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2010;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2011;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2012;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2013;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2014;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2015;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2016;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2017;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2018;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2019;3;42018;['drift_univariado_*.csv'];[];ok
+drift;enade_2021;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2022;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;enade_2023;2;80786;['drift_univariado_*.csv'];[];ok
+drift;enamed_2025;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+drift;licenciaturas_2025;0;0;['drift_univariado_*.csv'];['drift_univariado_*.csv'];atencao
+analises_tese;enade_2004;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2005;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2006;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2007;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2008;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2009;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2010;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2011;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2012;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2013;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2014;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2015;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2016;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2017;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2018;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2019;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2021;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2022;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enade_2023;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;enamed_2025;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+analises_tese;licenciaturas_2025;0;0;['analises_tese_*.json'];['analises_tese_*.json'];atencao
+irt;enade_2004;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2005;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2006;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2007;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2008;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2009;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2010;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2011;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2012;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2013;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2014;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2015;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2016;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2017;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2018;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2019;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2021;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2022;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;enade_2023;142;20788640;['irt_resumo_geral.csv', 'irt_itens_*.csv'];[];ok
+irt;enamed_2025;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao
+irt;licenciaturas_2025;0;0;['irt_resumo_geral.csv', 'irt_itens_*.csv'];['irt_resumo_geral.csv', 'irt_itens_*.csv'];atencao

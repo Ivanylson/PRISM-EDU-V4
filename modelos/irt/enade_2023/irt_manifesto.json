@@ -1,0 +1,55 @@
+{
+  "versao": "1.0.0",
+  "edicao": "enade_2023",
+  "gerado_em": "2026-11-15T11:53:51.173418+00:00",
+  "parametros": {
+    "max_alunos_por_curso": 6000,
+    "max_itens": 60,
+    "nos_quadratura": 21,
+    "seed": 42,
+    "criterio_modelo": "BIC (1PL vs 2PL)",
+    "identificacao": "theta ~ N(0,1)"
+  },
+  "ambiente": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "pandas": "2.3.3"
+  },
+  "n_cursos": 28,
+  "cursos": [
+    "Medicina Veterinaria",
+    "Odontologia",
+    "Medicina",
+    "Agronomia",
+    "Farmacia",
+    "Arquitetura E Urbanismo",
+    "Enfermagem",
+    "Fonoaudiologia",
+    "Nutricao",
+    "Fisioterapia",
+    "Zootecnia",
+    "Biomedicina",
+    "Tecnologia Em Radiologia",
+    "Tecnologia Em Agronegocios",
+    "Tecnologia Em Gestao Hospitalar",
+    "Tecnologia Em Gestao Ambiental",
+    "Tecnologia Em Estetica E Cosmetica",
+    "Engenharia Civil",
+    "Engenharia Eletrica",
+    "Engenharia De Controle E Automacao",
+    "Engenharia Mecanica",
+    "Engenharia De Alimentos",
+    "Engenharia Quimica",
+    "Engenharia De Producao",
+    "Engenharia Ambiental",
+    "Engenharia Florestal",
+    "Tecnologia Em Seguranca No Trabalho",
+    "Engenharia De Computacao I"
+  ],
+  "avisos": [
+    "IRT dicotomico com casos completos; itens sem cobertura minima foram excluidos.",
+    "Erros-padrao de itens sao aproximados (informacao condicional por item).",
+    "DIF por Mantel-Haenszel usa sexo como grupo focal (M) vs referencia (F).",
+    "A escala theta e padronizada por edicao; comparacoes entre edicoes exigem ancora comum."
+  ]
+}

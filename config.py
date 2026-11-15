@@ -245,6 +245,7 @@ ABAS_DASHBOARD = [
     "Analises de Tese (E1-E9)",
     "Analises Globais (ENADE 2004-2023, ENAMED, Licenciaturas)",
     "Ontologia Educacional (OWL 2 DL)",
+    "Qualidade, Proveniencia e Metodos",
 ]
 
 

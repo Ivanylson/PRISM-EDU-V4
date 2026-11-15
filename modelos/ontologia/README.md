@@ -1,7 +1,7 @@
 # Ontologia PRISM-EDU (OWL 2 DL)
 
 Gerada por `processamento/gerar_ontologia.py` a partir de dados reais do projeto.
-Edicoes incluidas: enade_2023.
+Edicoes incluidas: enade_2004, enade_2005, enade_2006, enade_2007, enade_2008, enade_2009, enade_2010, enade_2011, enade_2012, enade_2013, enade_2014, enade_2015, enade_2016, enade_2017, enade_2018, enade_2019, enade_2021, enade_2022, enade_2023, enamed_2025, licenciaturas_2025.
 
 ## Arquivos
 

@@ -14,8 +14,13 @@ pip install -r requirements.txt
 
 ```bash
 python main.py                  # menu: pré-processamento, algoritmos, pipeline, dashboard
-streamlit run dashboard/app.py  # dashboard interativo
+streamlit run dashboard/app.py  # dashboard interativo (21 abas)
 python executar_todos.py        # EDA + preditivos + SHAP (alvo externo NT_DIS_CE)
+
+# governança do dado e do método
+python algoritmos/irt/pipeline_irt.py --edicao enade_2023   # IRT 1PL/2PL (MML) por curso
+python processamento/auditoria_qualidade.py --edicoes all   # catálogo, inventário e gates G1-G6
+python executar_por_edicao.py --edicoes enade_2023 --motores irt
 ```
 
 ## Estrutura
@@ -29,15 +34,29 @@ PRISM-EDU/
 ├── algoritmos/
 │   ├── lca/pipeline_lca.py     # LCA (EM, aBIC, entropia, bootstrap Jaccard, MCA)
 │   ├── cdm/dina_em.py          # DINA via EM com matriz-Q do INEP (não aleatória)
+│   ├── irt/pipeline_irt.py     # IRT 1PL/Rasch e 2PL por MML + TIF, infit/outfit, DIF
 │   ├── clustering/ preditivos/ shap/ xai/ psicometria/ nlp/ opencode/ estatistica/
 ├── dashboard/                  # Streamlit (abelhas, séries temporais, diagnóstico)
-├── modelos/                    # saídas (lca/, cdm/, shap/, ...)
+│   └── abas/aba_qualidade.py   # aba 21: cobertura, dicionário, gates, manifesto, IRT, métodos
+├── modelos/                    # saídas (lca/, cdm/, shap/, irt/, qualidade/, ...)
 └── correcoes/                  # material de revisão + backup pré-correção
 ```
 
+## Governança do dado
+
+A 21ª aba (**Qualidade, Proveniência e Métodos**) lê apenas artefatos gerados:
+
+- `modelos/qualidade/qualidade_por_edicao.csv` — linhas, itens utilizáveis, cursos, IES, nulos, faixa de notas.
+- `modelos/qualidade/catalogo_dados.json` — dicionário por edição (tipo, nulos na amostra, exemplo).
+- `modelos/qualidade/gates.json` — G1 cobertura, G2 integridade, G3 alertas, G4 artefatos, G5 paridade matriz/dicionário, G6 validação especialista.
+- `modelos/qualidade/qualidade_dados.json` — manifesto do run (ambiente, parâmetros, motores, avisos).
+- `modelos/irt/<edicao>/` — ajuste IRT real por curso (`irt_resumo_geral.csv`, itens, TIF, habilidades, DIF).
+
+Se um artefato não existe, a aba mostra o comando que o gera — nunca um número simulado. O relatório desta rodada está em `documentacao/relatorio_ampliacoes_15112026.md`.
+
 ## Dados
 
-- Caminhos centralizados em `config.py`. Os resultads da série temporal ficam em
+- Caminhos centralizados em `config.py`. Os resultados da série temporal ficam em
   `../seriesTemporais_microdados/resultados/` (ENADE por ano, Licenciaturas 2025, ENAMED 2025).
 - O DINA precisa de `mestre_questao_oc.csv` (matriz item–OC do INEP), procurado em
   `../modeloprojetoENADE2023/arquivosgerados/RESULTADOS_LCA/` etc. Sem ele o DINA falha

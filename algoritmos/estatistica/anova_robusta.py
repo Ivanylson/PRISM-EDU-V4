@@ -81,11 +81,13 @@ def _holm_bonferroni(pvalues):
     p = np.asarray(pvalues, dtype=float)
     ordem = np.argsort(p)
     ajustados = np.empty_like(p)
-    acumulado = 1.0
+    acumulado = 0.0
     m = len(p)
+    # Holm: p_ajustado_(i) = max_{j <= i} min(1, p_(j) * (m - j + 1))
     for i, idx in enumerate(ordem):
-        acumulado = min(acumulado, p[idx] * (m - i))
-        ajustados[idx] = min(1.0, acumulado)
+        valor = min(1.0, p[idx] * (m - i))
+        acumulado = max(acumulado, valor)
+        ajustados[idx] = acumulado
     return ajustados
 
 

@@ -15,10 +15,13 @@ def fdr_bh(pvalues):
         return np.array([])
     ordem = np.argsort(p)
     ajustados = np.empty(m)
+    # BH: p_ajustado_(i) = min_{j >= i} p_(j) * m / j (do maior p para o menor)
     acumulado = 1.0
-    for i, idx in enumerate(ordem):
-        acumulado = min(acumulado, p[idx] * m / (i + 1))
-        ajustados[idx] = min(1.0, acumulado)
+    for rank in range(m, 0, -1):
+        idx = ordem[rank - 1]
+        valor = min(1.0, p[idx] * m / rank)
+        acumulado = min(acumulado, valor)
+        ajustados[idx] = acumulado
     return ajustados
 
 
@@ -71,8 +74,9 @@ def _mh_item(respostas_item, grupos, estratos):
         e_a = n1 * m1 / T_s
         var_a = n1 * n0 * m1 * m0 / (T_s ** 2 * (T_s - 1))
         if var_a > 0:
-            soma_cent += (a_s - e_a) / np.sqrt(var_a)
-            soma_var += 1.0
+            # Estatistica de Mantel-Haenszel: (sum a_s - E_s)^2 / sum Var(a_s)
+            soma_cent += a_s - e_a
+            soma_var += var_a
     if b_total == 0:
         return None
     or_mh = a_total / b_total

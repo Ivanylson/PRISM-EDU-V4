@@ -1,0 +1,38 @@
+[
+  {
+    "gate": "G1_cobertura_enade",
+    "descricao": "Todas as edicoes ENADE previstas (exceto 2020, declarada sem dados) possuem arquivo.",
+    "status": "ok",
+    "detalhe": "presentes=19; ausentes_nao_declaradas=[]; sem_dados_declaradas=[2020]"
+  },
+  {
+    "gate": "G2_integridade_microdados",
+    "descricao": "Nenhuma edicao com erro de leitura/itens utilizaveis.",
+    "status": "ok",
+    "detalhe": "sem erros"
+  },
+  {
+    "gate": "G3_alertas_de_qualidade",
+    "descricao": "Edicoes sem alertas de nulos, duplicidade ou notas fora da escala.",
+    "status": "atencao",
+    "detalhe": "edicoes com alerta: enamed_2025, licenciaturas_2025"
+  },
+  {
+    "gate": "G4_artefatos_motores",
+    "descricao": "Artefatos essenciais presentes por motor/edicao.",
+    "status": "atencao",
+    "detalhe": "72/215 combinacoes completas; faltando em: analises_tese/enade_2004, analises_tese/enade_2005, analises_tese/enade_2006, analises_tese/enade_2007, analises_tese/enade_2008, analises_tese/enade_2009, analises_tese/enade_2010, analises_tese/enade_2011, analises_tese/enade_2012, analises_tese/enade_2013, analises_tese/enade_2014, analises_tese/enade_2015, analises_tese/enade_2016, analises_tese/enade_2017, analises_tese/enade_2018, analises_tese/enade_2019, analises_tese/enade_2021, analises_tese/enade_2022, analises_tese/enade_2023, analis"
+  },
+  {
+    "gate": "G5_paridade_matriz_dicionario",
+    "descricao": "Toda matriz-Q tem dicionario de OCs correspondente (e vice-versa).",
+    "status": "ok",
+    "detalhe": "matrizes=28, dicionarios=28, so_matriz=[], so_dicionario=[]"
+  },
+  {
+    "gate": "G6_validacao_especialista",
+    "descricao": "Validacao da matriz-Q pelos especialistas registrada.",
+    "status": "atencao",
+    "detalhe": "28 de 28 cursos pendentes"
+  }
+]

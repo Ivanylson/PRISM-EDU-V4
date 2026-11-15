@@ -47,6 +47,7 @@ MOTORES = {
     "drift": ("algoritmos.drift.pipeline_drift", "executar_drift_edicao"),
     "nlp": ("algoritmos.nlp.tfidf_analise", "executar_nlp"),
     "trienal": ("algoritmos.analises_tese.analises_tese", "executar_trienal_edicao"),
+    "irt": ("algoritmos.irt.pipeline_irt", "executar_irt_edicao"),
 }
 
 # motores que operam sobre o DataFrame de alunos (memoria pesada).
